@@ -1,0 +1,278 @@
+#Whether the mob drops cooked meat
+dropsCookedMeat = true
+
+[chicken_farm]
+	#The time in ticks the chicken farm takes to spawn a chicken
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[cod_farm]
+	#The time in ticks the cod farm takes to spawn a cod
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[cow_farm]
+	#The time in ticks the cow farm takes to spawn a cow
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[glow_squid_farm]
+	#The time in ticks the glow squid farm takes to spawn a glow squid
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[horse_farm]
+	#The time in ticks the horse farm takes to spawn a horse
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[mooshroom_farm]
+	#The time in ticks the mooshroom farm takes to spawn a mooshroom
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[parrot_farm]
+	#The time in ticks the parrot farm takes to spawn a parrot
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[pig_farm]
+	#The time in ticks the pig farm takes to spawn a pig
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[pufferfish_farm]
+	#The time in ticks the pufferfish farm takes to spawn a pufferfish
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[rabbit_farm]
+	#The time in ticks the rabbit farm takes to spawn a rabbit
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[salmon_farm]
+	#The time in ticks the salmon farm takes to spawn a salmon
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[sheep_farm]
+	#The time in ticks the sheep farm takes to spawn a sheep
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[snow_golem_farm]
+	#The time in ticks the snow golem farm takes to spawn a snow golem
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[squid_farm]
+	#The time in ticks the squid farm takes to spawn a squid
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[strider_farm]
+	#The time in ticks the strider farm takes to spawn a strider
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[tropical_fish_farm]
+	#The time in ticks the tropical fish farm takes to spawn a tropical fish
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[turtle_farm]
+	#The time in ticks the turtle farm takes to spawn a turtle
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[enderman_farm]
+	#The time in ticks the enderman farm takes to spawn an enderman
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[goat_farm]
+	#The time in ticks the goat farm takes to spawn a goat
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[iron_golem_farm]
+	#The time in ticks the iron farm takes to spawn an iron golem
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[piglin_farm]
+	#The time in ticks the piglin farm takes to spawn a piglin
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[spider_farm]
+	#The time in ticks the spider farm takes to spawn a spider
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[zombified_piglin_farm]
+	#The time in ticks the zombified piglin farm takes to spawn a zombified piglin
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[blaze_farm]
+	#The time in ticks the blaze farm takes to spawn a blaze
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[creeper_farm]
+	#The time in ticks the creeper farm takes to spawn a creeper
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[drowned_farm]
+	#The time in ticks the drowned farm takes to spawn a drowned
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[elder_guardian_farm]
+	#The time in ticks the elder guardian farm takes to spawn an elder guardian
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[evoker_farm]
+	#The time in ticks the evoker farm takes to spawn an evoker
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[ghast_farm]
+	#The time in ticks the ghast farm takes to spawn a ghast
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[guardian_farm]
+	#The time in ticks the guardian farm takes to spawn a guardian
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[hoglin_farm]
+	#The time in ticks the hoglin farm takes to spawn a hoglin
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[illusioner_farm]
+	#The time in ticks the illusioner farm takes to spawn an illusioner
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[magma_cube_farm]
+	#The time in ticks the magma cube farm takes to spawn a magma cube
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[phantom_farm]
+	#The time in ticks the phantom farm takes to spawn a phantom
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[pillager_farm]
+	#The time in ticks the pillager farm takes to spawn a pillager
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[ravager_farm]
+	#The time in ticks the ravager farm takes to spawn a ravager
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[shulker_farm]
+	#The time in ticks the shulker farm takes to spawn a shulker
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[skeleton_farm]
+	#The time in ticks the skeleton farm takes to spawn a skeleton
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[slime_farm]
+	#The time in ticks the slime farm takes to spawn a slime
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[vex_farm]
+	#The time in ticks the vex farm takes to spawn a vex
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[vindicator_farm]
+	#The time in ticks the vindicator farm takes to spawn a vindicator
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[warden_farm]
+	#The time in ticks the warden farm takes to spawn a warden
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[witch_farm]
+	#The time in ticks the witch farm takes to spawn a witch
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[wither_skeleton_farm]
+	#The time in ticks the wither skeleton farm takes to spawn a wither skeleton
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[zoglin_farm]
+	#The time in ticks the zoglin farm takes to spawn a zoglin
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600
+
+[zombie_farm]
+	#The time in ticks the zombie farm takes to spawn a zombie
+	# Default: 600
+	# Range: 600 ~ 600
+	spawn_time = 600

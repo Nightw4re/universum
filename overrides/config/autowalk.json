@@ -1,0 +1,34 @@
+{
+  "stopAutoWalkOnUIOpen": {
+    "desc:": "Set whether opening an UI should stop auto walking: default:false",
+    "stopAutoWalkOnUIOpen": false
+  },
+  "stopOnEnteringWater": {
+    "desc:": "Set whether entering/leaving water should stop auto walking: default:false",
+    "stopOnEnteringWater": false
+  },
+  "stopOnPickBlock": {
+    "desc:": "Set whether picking a block(like creative mode middle mouse button) does stop auto walking: default:true",
+    "stopOnPickBlock": true
+  },
+  "stopOnInteractWithBlock": {
+    "desc:": "Set whether interacting with a block(like opening a chest) does stop auto walking: default:true",
+    "stopOnInteractWithBlock": true
+  },
+  "stopOnInteractWithEntity": {
+    "desc:": "Set whether interacting with an entity(right clicking a villager, attacking a zombie) does stop auto walking: default:true",
+    "stopOnInteractWithEntity": true
+  },
+  "stopOnUsingItem": {
+    "desc:": "Set whether using an item(eating food, drawing bow etc) does stop auto walking: default:true",
+    "stopOnUsingItem": true
+  },
+  "keepSprintActive": {
+    "desc:": "Set whether using an item(eating food, drawing bow etc) does stop auto walking: default:true",
+    "keepSprintActive": true
+  },
+  "stopAfterInactiveSeconds": {
+    "desc:": "Set after how many seconds of inactivity auto walking gets disabled: default:30 seconds",
+    "stopAfterInactiveSeconds": 30
+  }
+}
