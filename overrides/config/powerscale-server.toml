@@ -1,0 +1,5 @@
+[quick_toggles]
+	#Enables the difficulty system, which makes mobs progressively stronger over time
+	difficulty = true
+	#Enables the scaling attribute system, which allows players and mobs to gain attribute bonuses, such as extra health and attack damage
+	scaling_attributes = true
