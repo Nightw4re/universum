@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Universum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "",
   "files": [
     {
@@ -473,6 +473,11 @@
     {
       "projectID": 388172,
       "fileID": 6304958,
+      "required": true
+    },
+    {
+      "projectID": 620112,
+      "fileID": 5552933,
       "required": true
     },
     {
