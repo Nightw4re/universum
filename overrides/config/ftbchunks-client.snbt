@@ -133,57 +133,57 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:turtle": true
-			"minecraft:ocelot": true
-			"minecraft:salmon": false
 			"productivebees:reed_bee": true
-			"minecraft:skeleton": true
-			"minecraft:frog": true
-			"minecraft:wolf": true
-			"minecraft:sheep": true
-			"minecraft:panda": true
-			"minecraft:chicken": true
-			"minecraft:horse": true
-			"productivebees:blue_banded_bee": true
-			"productivebees:chocolate_mining_bee": true
-			"minecraft:armadillo": true
-			"minecraft:spider": true
-			"productivebees:mason_bee": true
-			"minecraft:bee": true
-			"productivebees:green_carpenter_bee": true
-			"animalplus:red_panda": true
-			"minecraft:squid": true
-			"productivebees:configurable_bee": true
-			"minecraft:cow": true
-			"animalplus:raccoon": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:bat": true
-			"productivebees:bumble_bee": true
-			"minecraft:enderman": true
-			"minecraft:rabbit": true
-			"minecraft:glow_squid": true
-			"minecraft:drowned": true
-			"minecraft:bogged": true
 			"minecraft:pig": true
-			"minecraft:creeper": true
-			"creeperoverhaul:swamp_creeper": true
-			"minecraft:zombie": true
-			"minecraft:donkey": true
-			"creeperoverhaul:cave_creeper": true
-			"artifacts:mimic": true
-			"creeperoverhaul:dripstone_creeper": true
 			"minecraft:parrot": true
 			"minecraft:witch": true
-			"minecraft:axolotl": true
+			"minecraft:donkey": true
+			"productivebees:blue_banded_bee": true
+			"minecraft:creeper": true
 			"minecraft:villager": true
-			"minecraft:husk": true
-			"minecraft:slime": true
-			"minecraft:pillager": true
-			"productivebees:digger_bee": true
 			"minecraft:zombie_villager": true
+			"minecraft:slime": true
+			"minecraft:axolotl": true
+			"artifacts:mimic": true
+			"animalplus:raccoon": true
+			"productivebees:yellow_black_carpenter_bee": true
 			"minecraft:tropical_fish": false
-			"minecraft:pufferfish": false
+			"minecraft:skeleton": true
+			"minecraft:armadillo": true
+			"minecraft:cow": true
+			"animalplus:red_panda": true
+			"creeperoverhaul:swamp_creeper": true
 			"creeperoverhaul:dark_oak_creeper": true
+			"minecraft:enderman": true
+			"minecraft:spider": true
+			"minecraft:salmon": false
+			"minecraft:husk": true
+			"minecraft:horse": true
+			"minecraft:zombie": true
+			"minecraft:drowned": true
+			"minecraft:bee": true
+			"productivebees:configurable_bee": true
+			"minecraft:glow_squid": true
+			"minecraft:turtle": true
+			"productivebees:green_carpenter_bee": true
+			"creeperoverhaul:dripstone_creeper": true
+			"productivebees:chocolate_mining_bee": true
+			"minecraft:sheep": true
+			"minecraft:pufferfish": false
+			"minecraft:bogged": true
+			"minecraft:ocelot": true
+			"productivebees:digger_bee": true
+			"minecraft:rabbit": true
+			"minecraft:frog": true
+			"minecraft:squid": true
+			"minecraft:panda": true
+			"minecraft:pillager": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:bat": true
+			"minecraft:wolf": true
+			"minecraft:chicken": true
+			"productivebees:bumble_bee": true
+			"productivebees:mason_bee": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
