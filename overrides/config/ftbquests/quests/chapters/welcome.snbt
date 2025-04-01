@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "minecraft:jungle_sapling"
+	}
+	id: "6CB1A938135C55CD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C19FDFF0750F2D5"
+			rewards: [{
+				id: "178F8751B75BAA0C"
+				item: {
+					components: {
+						"minecraft:suspicious_stew_effects": [{
+							duration: 80
+							id: "eternal_starlight:crystalline_infection"
+						}]
+					}
+					count: 1
+					id: "minecraft:suspicious_stew"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5855B77C9C8F639B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C19FDFF0750F2D5"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "5844CB69B1BD0C35"
+			rewards: [{
+				count: 4
+				id: "64246CE11360382C"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69848CDB5F702993"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C19FDFF0750F2D5"]
+			hide_until_deps_complete: true
+			id: "3F79D19CD41B9827"
+			rewards: [{
+				count: 4
+				id: "5DF553E148FBBD48"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43E3149C5B980034"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3F79D19CD41B9827"
+				"5844CB69B1BD0C35"
+			]
+			hide_until_deps_complete: true
+			id: "27595D60CB566E43"
+			rewards: [
+				{
+					id: "4437799B6ACB72DF"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "681400EF9461157E"
+					stage: "start"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "459466FBDB5F9ED6"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27595D60CB566E43"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "681BFBC59884DAF3"
+			rewards: [{
+				count: 16
+				id: "1ED1715001CC1C4B"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "041C084B2F12D089"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+}
