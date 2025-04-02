@@ -1,0 +1,41 @@
+name: Upload to CurseForge (Tag Release)
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build_and_upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Build with Gradle
+        run: ./gradlew modpackZip
+
+      - name: Upload to CurseForge
+        uses: wei/curl@v1
+        with:
+          args: >-
+            -X POST
+            -H "X-Api-Token: ${{ secrets.CURSEFORGE_API_TOKEN }}"
+            -H "Content-Type: multipart/form-data"
+            -F "file=@build/distributions/modpack.zip"
+            -F "changelog=$(cat CHANGELOG_LATEST.md)"
+            "https://addons-ecs.forgesvc.net/api/v2/addon/${{ secrets.CURSEFORGE_PROJECT_ID }}/upload"
+
+      - name: Check upload status
+        uses: wei/curl@v1
+        with:
+          args: >-
+            -H "X-Api-Token: ${{ secrets.CURSEFORGE_API_TOKEN }}"
+            "https://addons-ecs.forgesvc.net/api/v2/addon/${{ secrets.CURSEFORGE_PROJECT_ID }}"
