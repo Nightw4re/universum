@@ -1,0 +1,31 @@
+name: "Test Build Release"
+
+on:
+  pull_request:
+    branches:
+      - actions-setup # Nastavte větev, na které chcete testovat
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: "adopt"
+          java-version: "17"
+
+      - name: Build with Gradle
+        run: "chmod +x gradlew && ./gradlew build"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mod-Release
+          path: build/libs/
