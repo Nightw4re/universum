@@ -1,0 +1,32 @@
+{
+  "name": "universum",
+  "version": "0.0.4",
+  "description": "Enter a world of limitless exploration and interdimensional travel with the Stargate-inspired mods! This modpack brings the iconic Stargate technology directly into your Minecraft world, opening doors to new adventures and discoveries.",
+  "main": "build.js",
+  "engines": {
+    "node": "22.14.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nightw4re/universum.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nightw4re/universum/issues"
+  },
+  "homepage": "https://github.com/Nightw4re/universum#readme",
+  "devDependencies": {
+    "@types/archiver": "^6.0.3",
+    "archiver": "^7.0.1",
+    "axios": "^1.8.4",
+    "form-data": "^4.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}
