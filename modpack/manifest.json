@@ -16,11 +16,6 @@
   "author": "",
   "files": [
     {
-      "projectID": 974009,
-      "fileID": 6060348,
-      "required": true
-    },
-    {
       "projectID": 1103259,
       "fileID": 6114411,
       "required": true
@@ -763,11 +758,6 @@
     {
       "projectID": 658587,
       "fileID": 6024462,
-      "required": true
-    },
-    {
-      "projectID": 580555,
-      "fileID": 6361997,
       "required": true
     },
     {
