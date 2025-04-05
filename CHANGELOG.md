@@ -1,3 +1,11 @@
+# v0.0.6
+## Mods 
+
+### added
+- AE2 Crafting Tree
+- AdvancedAE
+- ME Requester
+
 # v0.0.5
 ## Modifications
 - adjust hearts gained from unique food
