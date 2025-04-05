@@ -13,7 +13,6 @@
   "manifestVersion": 1,
   "name": "Universum",
   "version": "",
-  "version": "",
   "author": "",
   "files": [
     {
@@ -149,6 +148,11 @@
     {
       "projectID": 246640,
       "fileID": 6373333,
+      "required": true
+    },
+    {
+      "projectID": 854213,
+      "fileID": 5746319,
       "required": true
     },
     {
@@ -327,6 +331,11 @@
       "required": true
     },
     {
+      "projectID": 688367,
+      "fileID": 5786514,
+      "required": true
+    },
+    {
       "projectID": 1128669,
       "fileID": 6380567,
       "required": true
@@ -369,6 +378,11 @@
     {
       "projectID": 419699,
       "fileID": 5786327,
+      "required": true
+    },
+    {
+      "projectID": 1084104,
+      "fileID": 6225993,
       "required": true
     },
     {
@@ -467,11 +481,6 @@
       "required": true
     },
     {
-      "projectID": 746391,
-      "fileID": 6367235,
-      "required": true
-    },
-    {
       "projectID": 965012,
       "fileID": 6328167,
       "required": true
@@ -497,8 +506,6 @@
       "required": true
     },
     {
-      "projectID": 306770,
-      "fileID": 6164617,
       "projectID": 306770,
       "fileID": 6164617,
       "required": true
@@ -739,8 +746,8 @@
       "required": true
     },
     {
-      "projectID": 404465,
-      "fileID": 6304123,
+      "projectID": 1063926,
+      "fileID": 6084297,
       "required": true
     },
     {
