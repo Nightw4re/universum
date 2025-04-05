@@ -123,7 +123,7 @@
 		
 		# Enable minimap
 		# Default: false
-		enabled: false
+		enabled: true
 		
 		# Show entities on minimap
 		# Default: true
@@ -132,20 +132,41 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:sheep": true
+			"minecraft:cod": false
+			"minecraft:creeper": true
+			"artifacts:mimic": true
+			"productivebees:bumble_bee": true
+			"minecraft:drowned": true
+			"minecraft:enderman": true
+			"creeperoverhaul:cave_creeper": true
+			"productivebees:chocolate_mining_bee": true
+			"minecraft:glow_squid": true
+			"minecraft:spider": true
+			"minecraft:squid": true
+			"minecraft:zombie": true
+			"minecraft:pig": true
+			"minecraft:skeleton": true
+			"minecraft:bat": true
+			"minecraft:chicken": true
+			"minecraft:zombie_villager": true
+			"minecraft:phantom": true
+			"minecraft:salmon": false
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
 		# Range: 0.1 ~ 5.0
-		font_scale: 0.5d
+		font_scale: 1.0d
 		
 		# Info hidden under minimap
 		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_hidden: [
-			"ftbchunks:fps"
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
+			"ftbchunks:biome"
 		]
 		
 		# Info displayed under minimap
@@ -215,7 +236,7 @@
 		# Scale of minimap
 		# Default: 1.0
 		# Range: 0.25 ~ 4.0
-		scale: 1.0d
+		scale: 1.5d
 		
 		# Always show player on minimap, even when rotation not locked
 		# Default: true
