@@ -13,6 +13,7 @@
   "manifestVersion": 1,
   "name": "Universum",
   "version": "",
+  "version": "",
   "author": "",
   "files": [
     {
@@ -498,6 +499,8 @@
     {
       "projectID": 306770,
       "fileID": 6164617,
+      "projectID": 306770,
+      "fileID": 6164617,
       "required": true
     },
     {
@@ -736,8 +739,8 @@
       "required": true
     },
     {
-      "projectID": 1063926,
-      "fileID": 6084297,
+      "projectID": 404465,
+      "fileID": 6304123,
       "required": true
     },
     {
