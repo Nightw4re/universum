@@ -1,0 +1,3 @@
+version:3955
+fullscreen:true
+guiScale:2
