@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "minecraft:jungle_sapling"
+	}
+	id: "6CB1A938135C55CD"
+	images: [
+		{
+			dependency: "41A5121596488212"
+			height: 1.0d
+			image: "productivebees:block/nest/warped_bee_nest_front_honey"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependency: "0DED8F3DFBDDA6C6"
+			height: 1.0d
+			image: "mysticalagriculture:item/seeds/mystical_flower_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependency: "1EBC773ED06E4670"
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/hud/heart/full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependency: "1EBC773ED06E4670"
+			height: 1.0d
+			image: "minecraft:textures/particle/goldheart_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "776448522144B159"
+			height: 1.0d
+			image: "apotheosis:items/gems/endersurge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependency: "6C7FA1194422F63E"
+			height: 1.0d
+			image: "chipped:item/chisel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependency: "4ED4ED6F965C40DE"
+			height: 1.0d
+			image: "minecraft:textures/map/decorations/plains_village.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependency: "34EDE3B256C8DEC1"
+			height: 1.0d
+			image: "valhelsia_structures:item/explorers_tent"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C19FDFF0750F2D5"
+			rewards: [{
+				id: "178F8751B75BAA0C"
+				item: {
+					count: 1
+					id: "minecraft:suspicious_stew"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5855B77C9C8F639B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C19FDFF0750F2D5"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "5844CB69B1BD0C35"
+			rewards: [{
+				count: 4
+				id: "64246CE11360382C"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69848CDB5F702993"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C19FDFF0750F2D5"]
+			hide_until_deps_complete: true
+			id: "3F79D19CD41B9827"
+			rewards: [{
+				count: 4
+				id: "5DF553E148FBBD48"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43E3149C5B980034"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3F79D19CD41B9827"
+				"5844CB69B1BD0C35"
+			]
+			hide_until_deps_complete: true
+			id: "27595D60CB566E43"
+			rewards: [
+				{
+					id: "4437799B6ACB72DF"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "681400EF9461157E"
+					stage: "start"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "459466FBDB5F9ED6"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27595D60CB566E43"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "681BFBC59884DAF3"
+			rewards: [
+				{
+					count: 16
+					id: "1ED1715001CC1C4B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "2B22E423A22379C6"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "041C084B2F12D089"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "minecraft:bee_nest"
+			}
+			id: "41A5121596488212"
+			rewards: [{
+				count: 4
+				id: "463B85DD513B7C7A"
+				item: {
+					count: 1
+					id: "productivebees:sturdy_bee_cage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "524787D451E87674"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:honeycomb)item(minecraft:honey_bottle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			id: "0DED8F3DFBDDA6C6"
+			rewards: [{
+				count: 2
+				id: "58AD70569493BB2E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prosperity_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0188CBB27C11A1B1"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "1EBC773ED06E4670"
+			rewards: [{
+				id: "28F2FE3D235B7F26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79E68AB412247DDD"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:foods))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "apotheosis:gem_dust"
+			}
+			id: "776448522144B159"
+			rewards: [{
+				count: 10
+				id: "7BE03D49289AA857"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "778D901AFE0B1935"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(apotheosis))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "chipped:framed_sea_lantern"
+			}
+			id: "6C7FA1194422F63E"
+			rewards: [{
+				id: "3782C7E79CDA2544"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0FDFEEEA052F965F"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(chipped))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "easy_villagers:iron_farm"
+			}
+			id: "4ED4ED6F965C40DE"
+			rewards: [{
+				count: 2
+				id: "606C2043058A3832"
+				item: {
+					count: 1
+					id: "easy_villagers:trader"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F2AA2C1D5877DD"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(easy_villagers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["681BFBC59884DAF3"]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "34EDE3B256C8DEC1"
+			rewards: [{
+				id: "0AA4A57211F98314"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "59101F7D53A2B65D"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minecolonies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}
