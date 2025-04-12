@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modern_industrialization"
+	group: "244B68E119B27430"
+	icon: {
+		id: "modern_industrialization:singularity"
+	}
+	id: "195703ECD0861D1D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2E8AFC74EDA4AB31"
+			rewards: [{
+				id: "2DAA24480FF024DC"
+				item: {
+					count: 1
+					id: "modern_industrialization:guidebook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41983592FB45FA5B"
+				item: { count: 1, id: "mekanism:ingot_bronze" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E8AFC74EDA4AB31"]
+			id: "3438ADAEBF2164B3"
+			invisible: true
+			tasks: [{
+				id: "4A051ECC96C9628D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+}

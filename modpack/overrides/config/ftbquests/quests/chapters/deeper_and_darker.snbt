@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "minecraft:reinforced_deepslate"
+	}
+	id: "698F9F466AB10C6E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14C03B8DB3D755C6"]
+			hide_until_deps_complete: true
+			id: "2C5DA91BEFD9042C"
+			rewards: [{
+				id: "4576DEEAFDC87664"
+				item: {
+					count: 1
+					id: "deeperdarker:warden_upgrade_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7134D2433C33CDB6"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C5DA91BEFD9042C"]
+			id: "62845D5A6A5DD8D3"
+			invisible: true
+			tasks: [{
+				id: "28E440FE4EC7CE53"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+}

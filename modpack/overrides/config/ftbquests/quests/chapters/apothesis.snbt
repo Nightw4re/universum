@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothesis"
+	group: "22D133045023811C"
+	icon: {
+		id: "minecraft:enchanting_table"
+	}
+	id: "6EAD13485912FAB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["776448522144B159"]
+			hide_until_deps_complete: true
+			id: "0DA586EB9A3C82E4"
+			rewards: [{
+				id: "30ECFA77BA6E5170"
+				item: {
+					components: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3A1DDE1648CD4AB5"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			id: "39317045EFEE9C2F"
+			rewards: [{
+				id: "3EC27B03D5EBE9FF"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:silk_touch": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "428E031C1D9A58FB"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39317045EFEE9C2F"]
+			id: "1D903985069CD9BD"
+			rewards: [{
+				id: "2E32DF170891AD4B"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"apothic_spawners:capturing": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AABBDD729A596E8"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			id: "65DF3DEE8F14CA54"
+			rewards: [{
+				count: 64
+				id: "6F9361E92A8E7C0B"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "764B4DFAB9F7E073"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D903985069CD9BD"]
+			id: "056223F1FCD5247E"
+			tasks: [{
+				id: "316FE9E146E34148"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:comparator)item(minecraft:conduit)item(minecraft:echo_shard)item(minecraft:fermented_spider_eye)item(minecraft:piston)item(minecraft:turtle_egg)item(minecraft:soul_lantern)item(minecraft:prismarine_crystals)item(minecraft:sugar)item(minecraft:ghast_tear)item(minecraft:clock)item(minecraft:pointed_dripstone)item(minecraft:nether_star)item(minecraft:campfire)item(minecraft:white_wool))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D903985069CD9BD"]
+			id: "5FBE5B1B68C6D8AE"
+			tasks: [{
+				id: "2DDB082B25F6F6A9"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["333A4AEB96CD87C6"]
+			id: "4A3F59112EA01B09"
+			rewards: [{
+				count: 2
+				id: "4CFBC8EEA2E86B5F"
+				item: {
+					components: {
+						"apotheosis:gem": "apotheosis:core/ballast"
+						"apotheosis:purity": "cracked"
+					}
+					count: 1
+					id: "apotheosis:gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CE09545273E2E0"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			id: "333A4AEB96CD87C6"
+			rewards: [{
+				count: 5
+				id: "7BFE732729C07B5B"
+				item: {
+					count: 1
+					id: "apotheosis:uncommon_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C20E1E07D95A6C7"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A3F59112EA01B09"]
+			id: "2BCD50E31293E149"
+			rewards: [{
+				id: "3E14CEC627DB26C3"
+				item: {
+					components: {
+						"apotheosis:gem": "apotheosis:core/ballast"
+						"apotheosis:purity": "chipped"
+					}
+					count: 1
+					id: "apotheosis:gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F49AF7AD9F01217"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			id: "1168E7B9558D4E8A"
+			rewards: [{
+				count: 2
+				id: "648DDF9F467E8103"
+				item: {
+					count: 1
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB414402B09B045"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1168E7B9558D4E8A"]
+			id: "03A2A443E738065F"
+			rewards: [{
+				count: 8
+				id: "192B2CB07E748BCA"
+				item: {
+					count: 1
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D13B75C5B8D6B35"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			id: "27B8C86C8EFD36BF"
+			rewards: [{
+				id: "76F68BA92F5CE26F"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_socketing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E3B52104E129135"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65DF3DEE8F14CA54"]
+			id: "282DA60064A73D74"
+			rewards: [{
+				id: "1A878889D9907EE3"
+				item: {
+					count: 1
+					id: "apothic_enchanting:hellshelf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "606AFA92F2308726"
+				item: { count: 1, id: "minecraft:bookshelf" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["282DA60064A73D74"]
+			id: "1A9711B129426433"
+			rewards: [{
+				count: 3
+				id: "74474451C31848B6"
+				item: {
+					count: 1
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2D43720DC5D64D3D"
+				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65DF3DEE8F14CA54"]
+			id: "03C7C361F2A8FC5C"
+			rewards: [
+				{
+					id: "04AADC2F075690BD"
+					item: {
+						count: 1
+						id: "apothic_enchanting:chestplate_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "6E911C2DFBF6D4B7"
+					item: {
+						count: 1
+						id: "apothic_enchanting:prismatic_web"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07966F40956E16AE"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["65DF3DEE8F14CA54"]
+			id: "3D0BF571379C4765"
+			rewards: [{
+				count: 3
+				id: "2F0D41F9113BBD2D"
+				item: {
+					count: 1
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6C68949318CD048A"
+					item: { count: 1, id: "apothic_enchanting:library" }
+					type: "item"
+				}
+				{
+					id: "5F324FC3B3795446"
+					item: { count: 1, id: "apothic_enchanting:ender_library" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0DA586EB9A3C82E4"]
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:fire_resistance"
+					}
+				}
+				id: "apotheosis:potion_charm"
+			}
+			id: "7A54FB158E3A91F9"
+			rewards: [{
+				count: 3
+				id: "4206EB95CA304AD4"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "0FB0CB179FF38CC6"
+				item: { count: 6, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+}
