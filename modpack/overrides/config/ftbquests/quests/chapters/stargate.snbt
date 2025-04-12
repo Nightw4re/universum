@@ -1,0 +1,354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stargate"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "sgjourney:universe_stargate_chevron"
+	}
+	id: "14C03B8DB3D755C6"
+	images: [
+		{
+			height: 2.0d
+			image: "explorerscompass:item/explorerscompass_16"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependency: "36E1BF25F676FC79"
+			height: 2.0d
+			image: "sgjourney:item/milky_way_stargate"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: -5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			hide_until_deps_complete: true
+			id: "51DED8F7D84CD235"
+			rewards: [{
+				count: 16
+				id: "28710313F6D8D67C"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3F5B0F1E9644800C"
+				item: { count: 1, id: "sgjourney:golden_idol" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["51DED8F7D84CD235"]
+			hide_until_deps_complete: true
+			id: "32C5CD8426D8B39C"
+			rewards: [{
+				id: "1E5FF3D31B840DA1"
+				item: {
+					count: 1
+					id: "artifacts:villager_hat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C891EC6CBE30F1"
+				item: { count: 1, id: "sgjourney:archeology_table" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32C5CD8426D8B39C"]
+			hide_until_deps_complete: true
+			id: "36E1BF25F676FC79"
+			rewards: [{
+				id: "65382A5766CA718D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "7054DFE56D6D74AF"
+					item: { count: 1, id: "sgjourney:milky_way_stargate" }
+					type: "item"
+				}
+				{
+					id: "6443FFBCA066263F"
+					item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Slot: 0, count: 1, id: "sgjourney:large_control_crystal" }, { Slot: 1, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 2, count: 1, id: "sgjourney:communication_crystal" }, { Slot: 3, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 5, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 7, count: 1, id: "sgjourney:transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Slot: 0, count: 1, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:milky_way_dhd" } }, count: 1, id: "sgjourney:milky_way_dhd" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36E1BF25F676FC79"]
+			hide_until_deps_complete: true
+			id: "42930133E46A0A7A"
+			rewards: [{
+				id: "2C9088C08A34A96D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				biome: "sgjourney:abydos_desert"
+				icon: {
+					id: "sgjourney:sandstone_cartouche"
+				}
+				id: "3440A83D20BF104A"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"364A1799C5F9A25C"
+				"04009475BA6BC159"
+			]
+			dependency_requirement: "one_completed"
+			id: "184787879E793720"
+			rewards: [{
+				id: "498F0597ECA27E7C"
+				item: {
+					count: 1
+					id: "sgjourney:refined_naquadah"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "074F1EEF530D34C2"
+				item: { count: 1, id: "sgjourney:raw_naquadah" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["184787879E793720"]
+			id: "5DCCB55C5BE6CC4C"
+			rewards: [{
+				id: "5D732D1F403F0B16"
+				item: {
+					count: 1
+					id: "sgjourney:liquid_naquadah_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "053BD8CDCC30F3F8"
+				item: { count: 1, id: "sgjourney:naquadah_liquidizer" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DCCB55C5BE6CC4C"]
+			id: "579A9C086CDF34DE"
+			rewards: [{
+				count: 16
+				id: "10DB5741663E0266"
+				item: {
+					count: 1
+					id: "modern_industrialization:fluid_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D5110B122115909"
+				item: { count: 1, id: "sgjourney:crystallizer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42930133E46A0A7A"]
+			hide_until_deps_complete: true
+			id: "364A1799C5F9A25C"
+			rewards: [{
+				count: 4
+				id: "09C2036E91B87E2B"
+				item: {
+					count: 1
+					id: "sgjourney:unity_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				icon: {
+					id: "sgjourney:unity_cluster"
+				}
+				id: "70DD22545A1E9795"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42930133E46A0A7A"]
+			hide_until_deps_complete: true
+			id: "04009475BA6BC159"
+			rewards: [{
+				count: 16
+				id: "3B9F7A8D5488B1D9"
+				item: {
+					count: 1
+					id: "modern_industrialization:item_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "sgjourney:abydos_spires"
+					id: "08906D32D1B1E12D"
+					type: "biome"
+				}
+				{
+					dimension: "sgjourney:rima"
+					id: "268620D5DA559624"
+					type: "dimension"
+				}
+			]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["184787879E793720"]
+			id: "3560DF7703EDA4B1"
+			rewards: [{
+				id: "092B687F4202BC08"
+				item: {
+					count: 1
+					id: "sgjourney:pure_naquadah"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FECBA13E08CC7AB"
+				item: { count: 1, id: "sgjourney:pure_naquadah" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["184787879E793720"]
+			id: "5E64EF691EC1BFD5"
+			rewards: [{
+				count: 8
+				id: "4B717F7E504A4F8F"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33A0023CE5DECBF6"
+					item: { count: 1, id: "sgjourney:gdo" }
+					type: "item"
+				}
+				{
+					id: "555A13179623352E"
+					item: { count: 1, id: "sgjourney:transceiver" }
+					type: "item"
+				}
+				{
+					id: "79B38825A4281478"
+					item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:copper_iris)item(sgjourney:iron_iris)item(sgjourney:golden_iris)item(sgjourney:diamond_iris)item(sgjourney:netherite_iris)item(sgjourney:naquadah_alloy_iris)item(sgjourney:bronze_iris)item(sgjourney:steel_iris))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["579A9C086CDF34DE"]
+			id: "0A3FAAEB1285FA7A"
+			rewards: [{
+				id: "6E254F31A9EA4F88"
+				item: {
+					count: 1
+					id: "sgjourney:pure_naquadah_block"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "066049E9B70B299D"
+					item: { count: 1, id: "sgjourney:classic_stargate_base_block" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3A1A0CC1EBDF58ED"
+					item: { count: 9, id: "sgjourney:classic_stargate_chevron_block" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "55644AFB2320716F"
+					item: { count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A3FAAEB1285FA7A"]
+			id: "63FA3769E13D14CA"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "62C5BC5BDD749E58"
+					item: { count: 1, id: "sgjourney:zpm_hub" }
+					type: "item"
+				}
+				{
+					id: "3B9E9B7EDC57DA1E"
+					item: { count: 1, id: "sgjourney:ancient_gene_detector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42930133E46A0A7A"]
+			hide_until_deps_complete: true
+			id: "58DA170D896B0C5C"
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				icon: {
+					id: "sgjourney:jackal_helmet"
+				}
+				id: "3EF245DFE9950C78"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+	]
+}
