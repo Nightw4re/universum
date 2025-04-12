@@ -1,14 +1,132 @@
 {
 	chapter.103D7B1CF7E44EAD.title: "Create"
+	chapter.14C03B8DB3D755C6.title: "Chapter Two: Stargate"
+	chapter.1539A9ED6569386C.title: "Applied Energetics 2"
+	chapter.195703ECD0861D1D.title: "Modern Industrialization"
+	chapter.2145A9FDB3DC298F.title: "Hostile Neural Network"
+	chapter.3737375FFDCE697B.title: "Mystical Agriculture"
+	chapter.3F91472CA2C9CFDD.title: "Ad Astra"
+	chapter.4F80AA2EB0DCC10C.title: "Adventurer"
+	chapter.54C0A639E1E7B6AC.title: "Stellaris"
+	chapter.569A9E3D42C3AC8F.title: "Mekanism"
+	chapter.5A9050C2AE0EB473.title: "Productive Bee"
+	chapter.5D25557A809CB5D3.title: "Agriculture"
 	chapter.68753D672BE6FD31.title: "PneumatiCraft"
-	chapter.6CB1A938135C55CD.title: "Welcome"
+	chapter.698F9F466AB10C6E.title: "Chapter Three: The Dark"
+	chapter.6CB1A938135C55CD.title: "Chapter One: Minecraft+"
+	chapter.6EAD13485912FAB2.title: "Apothesis"
+	chapter.6F7E5116D54A355D.title: "Powah"
+	chapter.75597CB63032E4B4.title: "Chapter Four: The Endgame"
 	chapter_group.02D94E7EA029CF01.title: "Mechanical Age"
+	chapter_group.22D133045023811C.title: "Minecraft+"
+	chapter_group.244B68E119B27430.title: "Electric Age"
+	chapter_group.29D1B61E7DF0149F.title: "Resources"
+	chapter_group.78F3519E8A49FAB8.title: "Journey"
+	quest.03A2A443E738065F.quest_desc: ["For better items you will need this better reforging table."]
+	quest.03AA5258043E86C1.quest_desc: ["[ \"You can buy resources from villagers. Just use \", { \"text\": \"Charger\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"432B6750035E63F3\" } }, \" as his working station.\" ]"]
+	quest.03C7C361F2A8FC5C.quest_desc: ["You can modify items on anvil. Prismarine cobweb will remove all curses from an item. Various Tomes are working as an item symbolizing them, but the final result will be a book, and this is usable on an enchanting table as well."]
+	quest.04009475BA6BC159.quest_desc: ["Gain Rima address, by some scrolls you found it seems there are lot of naquadah."]
+	quest.04009475BA6BC159.title: "Source of Naquadah"
+	quest.056223F1FCD5247E.quest_desc: ["There are modifiers to enhance spawners, just have any modifier in hand and right click on it. The list of those modifiers can be found in JEI or mod book."]
+	quest.056223F1FCD5247E.title: "Spawner Modifiers"
+	quest.0665112D8E104BBB.quest_subtitle: "Make your favorite wine of choice a decor."
+	quest.08F9B4F3EAB3658D.quest_subtitle: "Extract the Grapejuice from the Pot."
+	quest.08F9B4F3EAB3658D.title: "Grapejuices"
+	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the blocks in the quest, when you done right click on base block with an empty hand."]
+	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
+	quest.0DA586EB9A3C82E4.quest_desc: ["Welcome to enhanced Minecraft."]
+	quest.0DA586EB9A3C82E4.title: "Apothesis"
+	quest.0DED6D5C8A4C96B9.quest_desc: [
+		"After gathering all the requisite materials, you're finally ready to go into space!"
+		""
+		"Simply make a 3x3 square out of the launch pads and right click with your rocket to place it."
+		""
+		"Shift right click the rocket to open its GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
+	]
+	quest.0DED6D5C8A4C96B9.quest_subtitle: "You're finally ready to go to space! "
+	quest.0DED6D5C8A4C96B9.title: "To the Moon!"
 	quest.0DED8F3DFBDDA6C6.quest_desc: [
 		"Mystical Agriculture is a way how you can farm various items (ores, loots, etc.) from your own garden!"
 		""
 		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
 	]
 	quest.0DED8F3DFBDDA6C6.title: "Mystical Agriculture"
+	quest.0E2C89F641504A33.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.112810B97BA58A9C.quest_desc: [
+		"The phrase \"Ad Astra\" means \"To The Stars\" in ye old Latin. And while you cannot physically land on a star in this mod, you *can* explore the planets and moons amongst the stars that revolves around Earth."
+		""
+		"The guidebook in Ad Astra has helpful information on the various mobs, resources, and structures you can find on the different planets."
+	]
+	quest.112810B97BA58A9C.quest_subtitle: "To the Stars!"
+	quest.112810B97BA58A9C.title: "&9Ad Astra"
+	quest.112C0C7C49867DE2.quest_desc: ["Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space."]
+	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
+	quest.112C0C7C49867DE2.title: "&8Earth Metal"
+	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step to enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it adds special abilities as well."]
+	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
+	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
+	quest.1384C1D8BD79C6D0.title: "Desh Draining"
+	quest.14D42EDBFFCED86E.quest_subtitle: "Increases crop output."
+	quest.14DE762F4663D1C9.quest_subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+	quest.14DE762F4663D1C9.title: "&4Find a Graveyard"
+	quest.16FED75C44853ECA.quest_subtitle: "Collects eggs laid by chickens."
+	quest.172968A234803DC0.quest_subtitle: "Made from Apple Mash."
+	quest.1941554F8883F5BE.quest_desc: [
+		"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
+		""
+		"&6Overworld (Global)&r:"
+		"- &bWooden Crate"
+		"- &bIron Crate"
+		"- &bGolden Crate"
+		"- &bDiamond Crate"
+		""
+		"&6During a full moon&r:"
+		"- &bLunarfish"
+		"- &bGalaxy Starfish"
+		"- &bStarry Salmon"
+		"- &bNebula Swordfish"
+		"- &bAstral Crate"
+		""
+		"&6The Nether (Global)&r:"
+		"- &bSmokey Salmon"
+		"- &bMagma Cod"
+		"- &bBonefish"
+		"- &bObsidian Halibut"
+		"- &bBasalt Bass"
+		"- &bSpikerfish"
+		"- &bFiery Crate"
+		""
+		"&6Basalt Deltas:"
+		"- &bGilded Blackstone Carp"
+		"- &bGilded Blackstone Crate"
+		"- &bBlackstone Trout"
+		""
+		"&6Soul Sand Valley:"
+		"- &bSoul Salmon"
+		"- &bSoul Crate"
+		""
+		"&6The End:"
+		"- &bBaked Endfish"
+	]
+	quest.1941554F8883F5BE.quest_subtitle: "Fishing should be fun."
+	quest.1941554F8883F5BE.title: "&bFishes and Crates!"
+	quest.1A1F70A9F47461C6.quest_subtitle: "Everybody loves ice cream... everybody."
+	quest.1A9711B129426433.quest_desc: ["The Last tier of shelves."]
+	quest.1C111C9EF632F7DC.quest_desc: ["Most advanced automatization unit, for details mouse hover on item in JEI and hold [G] key."]
+	quest.1C2AAE8F4E119084.quest_desc: [
+		"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
+		""
+		"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
+	]
+	quest.1C2AAE8F4E119084.quest_subtitle: "So *this* is what Walt Disney used.."
+	quest.1C711856985D4A81.quest_desc: [
+		"Once you've gathered plenty of desh, you can craft a tier 2 rocket in much the same fashion that you made the tier 1 rocket."
+		""
+		"Virtually everything is the same about how to prepare for this flight to Mars vs the Moon, except the rocket uses Desh parts instead of steel."
+	]
+	quest.1C711856985D4A81.quest_subtitle: "Beat Elon to it!"
+	quest.1C711856985D4A81.title: "To Mars!"
+	quest.1D903985069CD9BD.quest_desc: ["Enchant a weapon with Capturing to have a chance  to gain his spawning egg drop. You can use any spawn egg on spawner to have those mobs spawning from the spawner."]
 	quest.1EBC773ED06E4670.quest_desc: [
 		"Eating various food you will gain  an extra hearts (health points), but for &lunique food&r."
 		""
@@ -17,52 +135,29 @@
 		"{image:solcarrot:item/food_book width:20 height:20 align:center}"
 	]
 	quest.1EBC773ED06E4670.title: "SoL: Carrot Edition"
-	quest.34EDE3B256C8DEC1.quest_desc: ["With MineColonies you will change a game onto a strategy, create a colony, supply it, make a work for them!"]
-	quest.34EDE3B256C8DEC1.title: "MineColonies"
-	quest.41A5121596488212.quest_desc: [
-		"You can see some weird colored bees flying around, they are from &6Productive Bees&r."
+	quest.1F0EB09B3C1F1249.title: "White Wine"
+	quest.1F68089CE40CABC9.quest_desc: [
+		"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
 		""
-		"If you need to farm some ores, blocks or loots they are here to help you!"
+		"It allows you to build &bRockets &rcapable of &bSpace Travel&r. Yes, even mineable &eCheese."
 		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+		"&6You can explore &rmultiple planets throughout the &bSolar System&r, build &boxygenated &rspace stations and &bbases &rsurvivable in space."
+		""
+		"Had dreams about being an astronaut? This is it!"
+		""
+		"&6Complete this quest &rby crafting the &bAstrodux&r."
 	]
-	quest.41A5121596488212.title: "Productive Bees"
-	quest.4A5F87ABD1486BF9.quest_desc: [
-		"Create is tech mod based on a kinetic eneregy."
-		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
-	]
-	quest.4A5F87ABD1486BF9.title: "Create"
-	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
-	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
-	quest.4ED4ED6F965C40DE.quest_desc: [
-		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods how to organize entities and simply work with them."
-		""
-		""
-		"&o&lTIP: Have an  empty hand and hold shift + right click on a villager will make an item from entity for easy trasnport.&r&r "
-		""
-		"{image:artifacts:item/villager_hat width:50 height:50 align:center}"
-	]
-	quest.4ED4ED6F965C40DE.title: "Easy Villagers"
-	quest.6C7FA1194422F63E.quest_desc: [
-		"Chipped is a mod with beutiful decorative blocks."
-		""
-		""
-		" &6This will be enhanced by own quest chapter in the future, stay tuned!&r"
-	]
-	quest.6C7FA1194422F63E.title: "Chipped"
-	quest.776448522144B159.quest_desc: [
-		"Enjoy Apotheosis, improved enchanting, enhanced armor and tools and its jeweler system."
-		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
-	]
-	quest.776448522144B159.title: "Apotheosis"
-	quest.7AA41E5027A82A90.quest_desc: [
-		"Mekanism is High-Tech mod that will bring you to new era!"
-		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
-	]
-	quest.7AA41E5027A82A90.title: "Mekanism"
+	quest.1F68089CE40CABC9.quest_subtitle: "To the moon!"
+	quest.1F68089CE40CABC9.title: "&9Space Travels"
+	quest.20B7DEE9C12B2707.quest_subtitle: "Complete all quests to obtain the trophy!"
+	quest.20B7DEE9C12B2707.title: "&cAd Astra 100%"
+	quest.2223D0AFDF5C10FB.quest_desc: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
+	quest.2223D0AFDF5C10FB.quest_subtitle: "Guess we'll never find the hydrogen"
+	quest.23C3589FAFB40AD5.quest_desc: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
+	quest.23C3589FAFB40AD5.quest_subtitle: "Discover your first Waystone, can be found in villages."
+	quest.23C3589FAFB40AD5.title: "&3Waystones"
+	quest.251028DFC955D65F.quest_desc: ["Well.. does this make you a blockhead?"]
+	quest.2607DEA382FF044E.quest_subtitle: "Auto-feeds nearby animals."
 	quest.27595D60CB566E43.quest_desc: [
 		"Now is the time to make it all mobile!"
 		""
@@ -73,15 +168,242 @@
 		"TIP: Remember you can hold more than one backpack."
 	]
 	quest.27595D60CB566E43.title: "Call me a traveler"
-	task.041C084B2F12D089.title: "Time to explore"
-	quest.6C19FDFF0750F2D5.title: "Say Hello"
-	quest.6C19FDFF0750F2D5.quest_desc: [
-		"We are proud to  welcome you on your journey to the stars!"
+	quest.27B8C86C8EFD36BF.quest_desc: ["You can further modify items via Augments."]
+	quest.282DA60064A73D74.quest_desc: ["Upgrading bookshelves will enhance its stats. The first tier is from ingredients from the Nether, the second from seas, the third from Ancient City, and the last from the End."]
+	quest.295F800520044C23.quest_subtitle: "Pies, creates, cider and - of course - apple wine!"
+	quest.295F800520044C23.title: "Apples"
+	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
+	quest.2BCD50E31293E149.quest_desc: ["You can socketing gems into items on smithing table."]
+	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.2CDAB93BD674197F.quest_desc: [
+		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
 		""
-		"REMEMBER! as much unique foods you will eat as much you will be more powerful."
+		"It requires fuel to run, and can accept 2 passengers; a driver and a passenger."
 	]
+	quest.2CDAB93BD674197F.quest_subtitle: "Mark Rober Minecraft Mod when?"
+	quest.2CDAB93BD674197F.title: "Space Rover"
+	quest.2D36A0323AAF2D5C.quest_desc: [
+		"Filled &bWinebottles&r can be &6refined&r in a &bBarrel&r by using extra ingredients such as &bSweetberries&r, &bHoney&r and so on."
+		""
+		"Different sort of &bGrapejuice&r and ingredients result in different kinds of &bWines&r."
+	]
+	quest.2D36A0323AAF2D5C.quest_subtitle: "Used to age Grapejuice into Wine or Aples into Cider."
+	quest.2D58EECF6EB9B619.title: "Certus Quartz"
+	quest.2DD1E268E40C2508.quest_desc: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
+	quest.2DD1E268E40C2508.quest_subtitle: "Its not hard, just rocket science!"
+	quest.2DEACB9493C491BB.quest_subtitle: "Tastes like everything.. or does everything taste like it?"
+	quest.2E8AFC74EDA4AB31.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.30F1C5601C3ECEF1.quest_desc: [
+		"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
+		""
+		"Each bucket of water creates 50 mb of oxygen, so you'll need alot of water to make sufficient oxygen to survive on other planets"
+	]
+	quest.30F1C5601C3ECEF1.quest_subtitle: "Where'd the Hydrogen go???"
+	quest.30F1C5601C3ECEF1.title: "Oxygen Generation"
+	quest.3178EF6B62E2D458.quest_desc: [
+		"Ad Astra adds 2 variants of an energy transfering cable and a fluid transfering pipe. The steel variant of the energy cable transfers 64 ⚡/t, which is more than enough to get started."
+		""
+		"The cables and pipes in Ad Astra are really neat. Not because I wrote the functionality, definitely not because of that. They're just cool okay. >:("
+		""
+		"- CodexAdrian"
+	]
+	quest.3178EF6B62E2D458.quest_subtitle: "Zip Zap Steel"
+	quest.3178EF6B62E2D458.title: "Surging Steel"
+	quest.32910C1041DE2764.quest_desc: [
+		"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
+		""
+		"All &bArtifacts &ronly have a few &bChests &rin which they can be found, so go out and explore!"
+		""
+		"Additionally, a new &bUnderground Campsite &rstructure has been added. &bMimics &roccasionally &6spawn in these &bCampsites &rinstead of a &bChests&r, which are dangerous &benemies &rthat &6attack &rplayers that get too close. &bMimics &ralways drop a random artifact when killed."
+	]
+	quest.32910C1041DE2764.quest_subtitle: "Magical items with great power."
+	quest.32910C1041DE2764.title: "&6Artifacts"
+	quest.32C5CD8426D8B39C.quest_desc: ["Buy a map from Archeologist and find something ... mysterious."]
+	quest.333A4AEB96CD87C6.quest_desc: ["Whenever you will find out any enhanced item in chests or loot from monsters you can  destroy it to gain reforging materials."]
+	quest.34216A1573B90BBB.quest_desc: [
+		"What does this mean?"
+		""
+		"When you &6open a loot chest &r(distinctly textured from &bVanilla chests&r), what items you get are unique to you (as though you had opened an &bEnder Chest&r)."
+	]
+	quest.34216A1573B90BBB.quest_subtitle: "Unique instanced loot for every player!"
+	quest.34216A1573B90BBB.title: "&6Lootr"
+	quest.34EDE3B256C8DEC1.quest_desc: ["With MineColonies you will change a game onto a strategy, create a colony, supply it, make a work for them!"]
+	quest.34EDE3B256C8DEC1.title: "MineColonies"
+	quest.3560DF7703EDA4B1.quest_desc: ["More than naquadah."]
+	quest.364A1799C5F9A25C.title: "A blue crystals"
+	quest.36D37A1AFFC1B369.quest_desc: [
+		"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
+		""
+		"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
+	]
+	quest.36D37A1AFFC1B369.quest_subtitle: "Step into the Twilight Realm!"
+	quest.36D37A1AFFC1B369.title: "&5The Twilight Forest"
+	quest.36E1BF25F676FC79.quest_desc: [
+		"The colossal ring stood silent, a relic of a forgotten age humming with latent power. Its purpose, however, remained a mystery, the gateway dormant. Whispers etched into the chamber walls spoke of a Cartouche, a tablet bearing the celestial address needed to awaken the stargate. This sequence of glyphs, a cosmic key, was said to be hidden within these ancient halls, perhaps in a chamber veiled by time and guarded by an unseen presence. The Cartouche, marked by an unusual constellation, is the only means to unlock the path to worlds beyond."
+		""
+		"The air hung heavy with the dust of millennia as I sought the Cartouche. Legends hinted at its location: a place where the echoes of forgotten travelers still lingered. This tablet, bearing the key to traverse the stars, was not merely a guide but a necessary component, a lock waiting for its intricate tumblers to align. The silent ring before me held the promise of unimaginable journeys, but only the discovery of the Cartouche, with its cryptic address, would set those distant worlds within reach."
+	]
+	quest.39317045EFEE9C2F.quest_desc: ["Obtain any pickaxe. The pickaxe combined with silk touch enchant can be used on any spawner."]
+	quest.39317045EFEE9C2F.title: "Pickaxe"
+	quest.39553F6B02384BFB.quest_desc: [
+		"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
+		""
+		"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
+	]
+	quest.39553F6B02384BFB.quest_subtitle: "Don't tell California"
+	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.3D0BF571379C4765.quest_desc: ["Libraries are powerful tool. Insert an enchanted book, even with more enchants and this will be added into libraries. You can simply pick up single enchants on one or more books."]
+	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
+	quest.3F79D19CD41B9827.title: "Craft a chest"
+	quest.40CB98FD334EB3CE.quest_desc: [
+		"The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight."
+		""
+		"The Jet Suit must be charged in order to propell you into the air, and can be easily charged in the Energizer."
+	]
+	quest.40CB98FD334EB3CE.quest_subtitle: "Star command, do you read me??"
+	quest.40CB98FD334EB3CE.title: "Jet Suit"
+	quest.410FB4729B618584.quest_subtitle: "Create your very own wine and cider at home."
+	quest.41A5121596488212.quest_desc: [
+		"You can see some weird colored bees flying around, they are from &6Productive Bees&r."
+		""
+		"If you need to farm some ores, blocks or loots they are here to help you!"
+		""
+		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+	]
+	quest.41A5121596488212.title: "Productive Bees"
+	quest.4288B73FA65D8229.quest_desc: [
+		"Once you have access to Desh, you're able to auotmate a few processes that make your life easier. One of those being energy generation."
+		""
+		"The Solar Panel generates energy when in sunlight. The amount it generates varies depending on the planet/moon's distance from the sun and how much fog covers that celestial body."
+	]
+	quest.4288B73FA65D8229.quest_subtitle: "Photosynthe!... wait thats not right..."
+	quest.42930133E46A0A7A.quest_desc: [
+		"Abydos was considered one of the first worlds the Goa'uld brought humans to."
+		""
+		"When this desert world was under the domain of Ra, he forced the human inhabitants to mine naquadah for him up until his eventual defeat and death."
+	]
+	quest.42930133E46A0A7A.title: "Abydos"
+	quest.42AAD9EE7BC90E8E.quest_desc: ["A quartz fiber transfer an energy only for devices or cables. Devices or networks connected by fiber can't communicate together."]
+	quest.432B6750035E63F3.quest_desc: ["Charge time! Once powered by any FE you can insert Certus Quartz Crystal and charge it!"]
+	quest.438319FC721F0274.quest_desc: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
+	quest.438319FC721F0274.quest_subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
+	quest.438319FC721F0274.title: "&eThe Bumblezone"
+	quest.44D61369427B7CBF.title: "Chocolates"
+	quest.44FD73D3FCC38DBD.title: "Red Wine"
+	quest.462400176C496619.title: "Caramel Chocolates"
+	quest.46C75937AC35A417.quest_desc: ["Feed it with anything. Any item inserted into the condenser will be destroyed and the matter will be accumulated. If you increase capacity you can  reach a singularity!"]
+	quest.479D2D1966C75C85.quest_subtitle: "Storage for Wine Bottles."
+	quest.479D2D1966C75C85.title: "Wine Bottle Storage"
+	quest.47A3FB7F90B01FAA.quest_desc: [
+		"If you cant find any a &6Wandering Winemaker&r will make visit from time to time maybe offering some seeds."
+		""
+		"&bSeeds&r can also rarely be found by cutting grass or in villages."
+	]
+	quest.47A3FB7F90B01FAA.quest_subtitle: "Gather your first grapes and grape seeds."
+	quest.47A3FB7F90B01FAA.title: "Grapes"
+	quest.47D456E43D42EBC9.quest_desc: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
+	quest.47D456E43D42EBC9.quest_subtitle: "Dish, Desh, Dash"
+	quest.47D456E43D42EBC9.title: "Desh Distribution"
+	quest.48C157CC1998157A.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
+	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems on the higher level."]
+	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
+	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
+	quest.4CAC010FC6A3A2ED.quest_desc: ["Science evolution will lead you to quantum physic."]
+	quest.4D52E1F83E0D482A.quest_desc: [
+		"Glass cable is basic item for your network."
+		""
+		"&n&lATTENTION&r&r"
+		""
+		"We turned off a channel limit in this modpack. If you are new you don't need to fight with advanced topic of p2p."
+		""
+		"Channel limit is &oInfinite&r."
+	]
+	quest.4D5DE6CE8BC8A185.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
+	quest.4ED4ED6F965C40DE.quest_desc: [
+		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods how to organize entities and simply work with them."
+		""
+		""
+		"&o&lTIP: Have an  empty hand and hold shift + right click on a villager will make an item from entity for easy trasnport.&r&r "
+		""
+		"{image:artifacts:item/villager_hat width:50 height:50 align:center}"
+	]
+	quest.4ED4ED6F965C40DE.title: "Easy Villagers"
+	quest.4F0886FF37E1101A.quest_desc: [
+		"Once you're on the Moon, there's plenty to do. One of the most important resources to gather while you're here is Desh."
+		""
+		"Desh is a key resource in the next phase of technology in Ad Astra, and an aquiring a large amount of Desh will be necessary to getting to the next planet; Mars."
+		""
+		"Please note! The outer quests in this phase are not required to unlock the rocket quest, but are highly encouraged to explore all the possible uses of Desh while on the moon!"
+	]
+	quest.4F0886FF37E1101A.quest_subtitle: "Dish, Desh, Ding"
+	quest.4F0886FF37E1101A.title: "&6Moon Metal"
+	quest.4F297154AC9975DE.quest_subtitle: "Complete Kitchen Basics to unlock."
+	quest.4F5F490A5E0B0342.quest_subtitle: "Some would say nutella is better than gold."
+	quest.4FA3DEADAEC0DD0A.quest_desc: ["Place for your storage cell."]
+	quest.4FD91B87D0A73D36.quest_desc: ["After harvesting your first &bGrapes&r can either just eat them or put them into a &bPot &rand crush them by &6jumping and walking&r around in it."]
+	quest.4FD91B87D0A73D36.quest_subtitle: "May the crushin begin!"
+	quest.51DED8F7D84CD235.quest_desc: [
+		"Start your journey with finding Goauld Temple structure. It looks like a zigurat/pyramid and you can find it in a jungle or desert."
+		""
+		"If you have a troubles to find it you can use Explorer's compass."
+	]
+	quest.529FA5C3502DBF4D.quest_subtitle: "Your market of choice for seeds and crops."
+	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of the ancient technology."]
+	quest.58132755E921E778.quest_desc: [
+		"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
+		""
+		"When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!)."
+	]
+	quest.58132755E921E778.quest_subtitle: "Seriously though, where's the Hydrogen???"
 	quest.5844CB69B1BD0C35.quest_subtitle: "As a proper minecraft player you should start with an crafting table."
-	quest.681BFBC59884DAF3.title: "Time to explorer"
+	quest.5A2581CBAB21D071.quest_desc: [
+		"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
+		""
+		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
+	]
+	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
+	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is the basic material to craft weapons, but maybe even advanced technology."]
+	quest.5DDFDC4C2426CF6F.quest_desc: [
+		"&bThe Archeology System &6introduces the following&r:"
+		""
+		"&bThe Copper Brush &ris a new tool used for &6excavating special blocks &rfor getting loot."
+		""
+		"&bBrushing Excavation Blocks: "
+		""
+		"Currently, there are two excavation blocks in the mod: &bExcavation Dirt &rand &bGravel&r."
+		""
+		"When fully brushed off, the block drops random loot based on where you found it and how oxidated it is."
+		""
+		"While &6brushing&r, you should &6move your cursor &rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
+	]
+	quest.5DDFDC4C2426CF6F.quest_subtitle: "Know your prehistory."
+	quest.5DDFDC4C2426CF6F.title: "&dArcheology"
+	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect your-self with  a doors against unwanted  income wormholes. But applying is optional."]
+	quest.5E64EF691EC1BFD5.title: "Iris?"
+	quest.5F9620B9B3C0CCC2.quest_subtitle: "Good for when it's cold.. or anytime."
+	quest.5FBE5B1B68C6D8AE.quest_desc: ["Having Nether Quartz in off hand and modifier item in main hand will do the opposite effect, eg. reducing instead of increasing spawn range, etc."]
+	quest.5FBE5B1B68C6D8AE.title: "Decrese"
+	quest.5FF4202C776DC212.quest_desc: ["Smart cable is the same as covered / glass cable, but it shows you a network information when you look on it."]
+	quest.6114CC6BE5D2627F.quest_desc: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
+	quest.6114CC6BE5D2627F.quest_subtitle: "Pretty red ingot go brrr"
+	quest.6114CC6BE5D2627F.title: "&cMercury Metal"
+	quest.63FA3769E13D14CA.quest_desc: ["Our journey through  the stars is not ended yet, but can't continue at the moment.  Have a look what will be coming soon..."]
+	quest.63FA3769E13D14CA.title: "Is this end?"
+	quest.6491E686F47C9A2B.quest_subtitle: "Goes good anytime."
+	quest.6582513D8887DF04.quest_desc: [
+		"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
+		""
+		"Queso es un material comestible que no tiene mucho uso dentro de \"Ad Astra\", pero es sabroso y el alimento más fácil de encontrar en la Luna."
+		""
+		"TL;DR cheese good. eat some."
+	]
+	quest.6582513D8887DF04.quest_subtitle: "¡Queso Delicioso!"
+	quest.6582513D8887DF04.title: "Mucho Queso"
+	quest.65DF3DEE8F14CA54.quest_desc: ["Enchanting table was a mystery, but now you can see how it is affected, there are stats as Arcana, Quantana, Eterna and Rectification, those will affect your enchants."]
+	quest.678797941B517892.quest_desc: ["Time to build your storage up. Firstly we have to see something so build a terminal ."]
 	quest.681BFBC59884DAF3.quest_desc: [
 		"You did it!"
 		""
@@ -92,6 +414,113 @@
 		"* &l/sethome&r for your "
 		"* &l/home&r to teleport there when it is needed."
 	]
-	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
-	quest.3F79D19CD41B9827.title: "Craft a chest"
+	quest.68213B32C7BFE139.quest_desc: ["Complete your kitchen to expand your culinary skills"]
+	quest.68213B32C7BFE139.quest_subtitle: "Complete your kitchen. Feed the world."
+	quest.68213B32C7BFE139.title: "Kitchen Basics"
+	quest.6A298F887D96C0E8.quest_desc: [
+		"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
+		""
+		"While normal rocket fuel requires 3 buckets in order to successfully make it to your destination, you only need a 1 bucket of cryo fuel to make a successful space flight. Make sure you take 2, one for the trip and one for the way back!"
+	]
+	quest.6A298F887D96C0E8.quest_subtitle: "Freezing Good Fuel"
+	quest.6A298F887D96C0E8.title: "Cryo Fuel"
+	quest.6AA43062AC98B59B.quest_subtitle: "Prevents trampling."
+	quest.6AA8C1349BCC891D.quest_desc: [
+		"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r. The &bportal&r will &6activate&r for you automatically if you've already acquired diamonds in the world."
+		""
+		"&bMine Cells &rfeatures new &bMonsters &rwhich attempt to faithfully recreate the look and feel of the original game."
+		""
+		"&bMine Cells &6introduces one new boss&r - &bThe Conjunctivius&r."
+		""
+		"You can find her lair in the &bPrison structure &r/ &bdimension&r."
+	]
+	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
+	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
+	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.6C19FDFF0750F2D5.quest_desc: [
+		"We are proud to  welcome you on your journey to the stars!"
+		""
+		"REMEMBER! as much unique foods you will eat as much you will be more powerful."
+	]
+	quest.6C7FA1194422F63E.quest_desc: [
+		"Chipped is a mod with beutiful decorative blocks."
+		""
+		""
+		" &6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+	]
+	quest.6C7FA1194422F63E.title: "Chipped"
+	quest.6D01C247A8864071.quest_desc: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
+	quest.6D01C247A8864071.quest_subtitle: "Overclocked Ostrum"
+	quest.6DABB3DDA44D6377.quest_desc: [
+		"Unlike our lovely planet Earth, the Moon (just like most of the other planets) does not have a breathable atmosphere. You'll need a space suit of some kind in order to be able to breathe."
+		""
+		"In order to add oxygen to your suit, you'll need to use an Oxygen Loader."
+	]
+	quest.6DABB3DDA44D6377.quest_subtitle: "Buzz Lightyear to Star Command"
+	quest.6DABB3DDA44D6377.title: "Space Suit"
+	quest.6E4D99BBFFDFB961.quest_desc: [
+		"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
+		""
+		"Please note! Travel to the hotter planets requires a netherite space suit or fire resistance or you will burn up and die."
+	]
+	quest.6E4D99BBFFDFB961.quest_subtitle: "Sizzling Space"
+	quest.6E4D99BBFFDFB961.title: "To the Hotter Planets!"
+	quest.6E695CDB88595C14.title: "Praline Chocolates"
+	quest.6E8BF9F8A67D1B66.quest_desc: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
+	quest.6E8BF9F8A67D1B66.quest_subtitle: "Beyond the Milky Way"
+	quest.6E8BF9F8A67D1B66.title: "To ... Beyond?"
+	quest.6E9A973B387987F7.quest_desc: [
+		"In order to propell your rocket into the air, it needs a base to launch from. You're able to place your rocket in the center and shift right click it to fill it with fuel"
+		""
+		"Please note! Your launch pad does not come with you, so bring extra launch pads!"
+	]
+	quest.6E9A973B387987F7.quest_subtitle: "Getting Ready for Launch!"
+	quest.6E9A973B387987F7.title: "Launch Pad Setup"
+	quest.6EC4700B21DB617B.quest_subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
+	quest.6EC4700B21DB617B.title: "Adventures and Mysteries"
+	quest.6F8596EF4151F76D.quest_desc: ["Quantum physic is now opened for new era of computer science."]
+	quest.7270165EFFE25593.quest_subtitle: "{count:1,id:\"ae2:16k_crafting_storage\"}"
+	quest.7311ED0FFC4444EB.quest_desc: [
+		"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
+		""
+		"The Netherite Space Suit is the best way to survive on the hotter planets, but you can also avoid heat damage by drinking a fire resistance potion."
+	]
+	quest.7311ED0FFC4444EB.quest_subtitle: "Come in star command"
+	quest.7311ED0FFC4444EB.title: "Netherite Space Suit"
+	quest.75A6E279852D6BE1.quest_subtitle: "The other white meat"
+	quest.760572711CF727BB.quest_desc: ["A new material exclusive to Mars that you'll need to progress from here is Ostrum. Gather plenty of it, you'll need it for your rocket and to upgrade much of your current machinery"]
+	quest.760572711CF727BB.quest_subtitle: "On goes Ostrum"
+	quest.760572711CF727BB.title: "Mars Metal"
+	quest.776448522144B159.quest_desc: [
+		"Enjoy Apotheosis, improved enchanting, enhanced armor and tools and its jeweler system."
+		""
+		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+	]
+	quest.776448522144B159.title: "Apotheosis"
+	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions, you can wear it and it will be periodically activated with some cooldown."]
+	quest.7A54FB158E3A91F9.title: "Charms"
+	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.7AA41E5027A82A90.title: "Mekanism"
+	reward_table.58F41B9373F40386.title: "pickaxe"
+	task.041C084B2F12D089.title: "Time to explore"
+	task.04801BAC52C4D589.title: "Chocolatier"
+	task.0E4BF8959E4A3E10.title: "Cookies and Cream Chocolates"
+	task.0E4E1FFFBA0C8A4D.title: "TODO"
+	task.0E94C45C84C6B669.title: "Mixed Nuts Chocolates"
+	task.148B208FE981E8FD.title: "Chocolate covered Apples"
+	task.184E3808D9E7B770.title: "Vinery"
+	task.1DA420CAA8F79C66.title: "Sweet Tooth"
+	task.29764768B3A9EEF6.title: "Kitchen basics"
+	task.29D26752DC1137E6.title: "Complete Ad Astra"
+	task.340196D650A615A8.title: "Storage"
+	task.41951260044C57ED.title: "One of the following praline chocolates please."
+	task.447C4FDE941FC01C.title: "Soups"
+	task.4864F7EAE005ED98.title: "Peanutbutter Chocolates"
+	task.4877A20E85423EB9.title: "Strawberry Cream Chocolates"
+	task.5855B77C9C8F639B.title: "Say Hello"
+	task.622FFD90716D2A45.title: "Grains"
+	task.6BD84ECACCA0532F.title: "Make one of the following chocolates"
+	task.718A6342D32D08B3.title: "Make one of the following caramel chocolates."
+	task.76E7E15CC252A02B.title: "Blockhead"
+	task.7AB2C45EA0AEEC7D.title: "Coconut Chocolates"
 }

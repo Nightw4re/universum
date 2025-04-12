@@ -4,7 +4,7 @@
 	filename: "welcome"
 	group: "78F3519E8A49FAB8"
 	icon: {
-		id: "minecraft:jungle_sapling"
+		id: "minecraft:grass_block"
 	}
 	id: "6CB1A938135C55CD"
 	images: [
@@ -151,22 +151,14 @@
 			]
 			hide_until_deps_complete: true
 			id: "27595D60CB566E43"
-			rewards: [
-				{
-					id: "4437799B6ACB72DF"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:crafting_upgrade"
-					}
-					type: "item"
+			rewards: [{
+				id: "4437799B6ACB72DF"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:crafting_upgrade"
 				}
-				{
-					auto: "invisible"
-					id: "681400EF9461157E"
-					stage: "start"
-					type: "gamestage"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "459466FBDB5F9ED6"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
@@ -257,11 +249,21 @@
 				id: "minecraft:carrot"
 			}
 			id: "1EBC773ED06E4670"
-			rewards: [{
-				id: "28F2FE3D235B7F26"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "28F2FE3D235B7F26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51ED030A29CFD6A2"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79E68AB412247DDD"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:foods))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

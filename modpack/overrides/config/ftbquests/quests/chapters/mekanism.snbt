@@ -3,24 +3,44 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: "78F3519E8A49FAB8"
+	group: "244B68E119B27430"
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mekanism:pellet_polonium"
+	}
 	id: "569A9E3D42C3AC8F"
 	order_index: 1
 	progression_mode: "linear"
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["27595D60CB566E43"]
-		hide_dependency_lines: true
-		id: "3E6CDE7EE7FE7C6B"
-		progression_mode: "linear"
-		tasks: [{
-			id: "7AFD80A9778369B1"
-			item: { count: 1, id: "mekanism:raw_osmium" }
-			type: "item"
-		}]
-		x: -1.0d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			id: "7AA41E5027A82A90"
+			rewards: [{
+				id: "562B4EB188A9A22C"
+				item: {
+					count: 1
+					id: "mekanism:block_raw_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4590F11C8D6E3E5F"
+				item: { count: 1, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7AA41E5027A82A90"]
+			id: "3FE47027B229DF50"
+			tasks: [{
+				id: "54E94F90716E031C"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+	]
 }

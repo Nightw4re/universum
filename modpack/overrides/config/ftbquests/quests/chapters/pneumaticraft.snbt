@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticraft"
+	group: "02D94E7EA029CF01"
+	icon: {
+		id: "pneumaticcraft:reinforced_pressure_tube"
+	}
+	id: "68753D672BE6FD31"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D5DE6CE8BC8A185"
+			rewards: [{
+				id: "0FCFB754A6E30CC0"
+				item: {
+					count: 1
+					id: "pneumaticcraft:compressed_iron_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DEA46C7C6D8FF58"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D5DE6CE8BC8A185"]
+			id: "332BF8E1B860D79D"
+			invisible: true
+			tasks: [{
+				id: "6DC8F401EA3870CD"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+}

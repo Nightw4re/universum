@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "02D94E7EA029CF01"
+	icon: {
+		id: "create:large_cogwheel"
+	}
+	id: "103D7B1CF7E44EAD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49C19563C09343E5"
+			rewards: [{
+				count: 4
+				id: "7AC7776830236BE7"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CDB233AB1B089B2"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C19563C09343E5"]
+			id: "4984BE686AA18964"
+			invisible: true
+			tasks: [{
+				id: "6750BC61FF329A5E"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+}

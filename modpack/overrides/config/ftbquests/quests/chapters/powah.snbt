@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "244B68E119B27430"
+	icon: {
+		id: "powah:reactor_spirited"
+	}
+	id: "6F7E5116D54A355D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BF628828AD764EF"
+			rewards: [{
+				id: "450C0DEC415D761C"
+				item: {
+					count: 1
+					id: "powah:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D37733CB2539BA5"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BF628828AD764EF"]
+			id: "040E9F2C1B481C0D"
+			invisible: true
+			tasks: [{
+				id: "1371A2DA5797C24E"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+}

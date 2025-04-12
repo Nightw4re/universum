@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_network"
+	group: "29D1B61E7DF0149F"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "2145A9FDB3DC298F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "38AC75D170D5C67F"
+			rewards: [{
+				count: 8
+				id: "145E1A4C783772D2"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F3B5EA7F850B47"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38AC75D170D5C67F"]
+			id: "3C2D9D1D46FB3B49"
+			rewards: [{
+				count: 16
+				id: "5C100C2B2438AEA4"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "305837293CB09ED5"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C2D9D1D46FB3B49"]
+			id: "5254327FFDC7A43A"
+			rewards: [
+				{
+					count: 4
+					id: "1858FA04BCEC3DCB"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1ABBAEA674A4FFDD"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "400A377CDAAD44AF"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3C2D9D1D46FB3B49"
+				"5254327FFDC7A43A"
+			]
+			id: "2BE7BD3015B463EA"
+			rewards: [{
+				count: 8
+				id: "00DBE7FD847EE3F4"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4887C7DBFE0437BC"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BE7BD3015B463EA"]
+			id: "37D0F8D8DBD624BC"
+			rewards: [{
+				count: 64
+				id: "6F738F47734CF6CB"
+				item: {
+					count: 1
+					id: "hostilenetworks:prediction_matrix"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "29AE4F6CDCA26ADE"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+	]
+}
