@@ -10,7 +10,7 @@
 		id: "mekanism:pellet_polonium"
 	}
 	id: "569A9E3D42C3AC8F"
-	order_index: 1
+	order_index: 2
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
