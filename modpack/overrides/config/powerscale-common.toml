@@ -178,19 +178,19 @@ detailed_logging = false
 
 		[scaling_attributes.arrow_damage.mob_scaling]
 			#(EvalEx) Scaling expression for hostile mobs
-			hostile = "0.1 * (level - 1)"
+			hostile = "0.05 * (level - 1)"
 			#(EvalEx) Scaling expression for peaceful mobs
 			peaceful = "0.0"
 			#(EvalEx) Scaling expression for boss mobs
-			boss = "0.1 * (level - 1)"
+			boss = "0.05 * (level - 1)"
 
 		[scaling_attributes.arrow_damage.blight_scaling]
 			#(EvalEx) Scaling expression for hostile blight mobs
-			hostile = "0.15 * (level - 1)"
+			hostile = "0.07 * (level - 1)"
 			#(EvalEx) Scaling expression for peaceful blight mobs
 			peaceful = "0.0"
 			#(EvalEx) Scaling expression for boss blight mobs
-			boss = "0.15 * (level - 1)"
+			boss = "0.07 * (level - 1)"
 
 		[scaling_attributes.arrow_damage.mutator]
 			#(EvalEx) Player bonus change when a mob is killed
@@ -204,19 +204,19 @@ detailed_logging = false
 
 		[scaling_attributes.attack_damage.mob_scaling]
 			#(EvalEx) Scaling expression for hostile mobs
-			hostile = "0.1 * (level - 1)"
+			hostile = "0.05 * (level - 1)"
 			#(EvalEx) Scaling expression for peaceful mobs
 			peaceful = "0.0"
 			#(EvalEx) Scaling expression for boss mobs
-			boss = "0.1 * (level - 1)"
+			boss = "0.05 * (level - 1)"
 
 		[scaling_attributes.attack_damage.blight_scaling]
 			#(EvalEx) Scaling expression for hostile blight mobs
-			hostile = "0.17 * (level - 1)"
+			hostile = "0.08 * (level - 1)"
 			#(EvalEx) Scaling expression for peaceful blight mobs
 			peaceful = "0.0"
 			#(EvalEx) Scaling expression for boss blight mobs
-			boss = "0.17 * (level - 1)"
+			boss = "0.08 * (level - 1)"
 
 		[scaling_attributes.attack_damage.mutator]
 			#(EvalEx) Player bonus change when a mob is killed
@@ -230,19 +230,19 @@ detailed_logging = false
 
 		[scaling_attributes.max_health.mob_scaling]
 			#(EvalEx) Scaling expression for hostile mobs
-			hostile = "REDUCED_SCALING(0.375 * (level - 1), 0.5, 20)"
+			hostile = "REDUCED_SCALING(0.150 * (level - 1), 0.5, 20)"
 			#(EvalEx) Scaling expression for peaceful mobs
-			peaceful = "REDUCED_SCALING(0.125 * (level - 1), 0.5, 20)"
+			peaceful = "REDUCED_SCALING(0.06 * (level - 1), 0.5, 20)"
 			#(EvalEx) Scaling expression for boss mobs
-			boss = "REDUCED_SCALING(0.375 * (level - 1), 0.5, 20)"
+			boss = "REDUCED_SCALING(0.150 * (level - 1), 0.5, 20)"
 
 		[scaling_attributes.max_health.blight_scaling]
 			#(EvalEx) Scaling expression for hostile blight mobs
-			hostile = "REDUCED_SCALING(0.625 * (level - 1), 0.5, 20)"
+			hostile = "REDUCED_SCALING(0.3 * (level - 1), 0.5, 20)"
 			#(EvalEx) Scaling expression for peaceful blight mobs
-			peaceful = "REDUCED_SCALING(0.175 * (level - 1), 0.5, 20)"
+			peaceful = "REDUCED_SCALING(0.08 * (level - 1), 0.5, 20)"
 			#(EvalEx) Scaling expression for boss blight mobs
-			boss = "REDUCED_SCALING(0.625 * (level - 1), 0.5, 20)"
+			boss = "REDUCED_SCALING(0.3 * (level - 1), 0.5, 20)"
 
 		[scaling_attributes.max_health.mutator]
 			#(EvalEx) Player bonus change when a mob is killed
@@ -256,7 +256,7 @@ detailed_logging = false
 
 		[scaling_attributes.movement_speed.mob_scaling]
 			#(EvalEx) Scaling expression for hostile mobs
-			hostile = "base_value * 0.05 * FLOOR((level - 51) / 50)"
+			hostile = "base_value * 0.03 * FLOOR((level - 51) / 50)"
 			#(EvalEx) Scaling expression for peaceful mobs
 			peaceful = "0.0"
 			#(EvalEx) Scaling expression for boss mobs
@@ -264,9 +264,9 @@ detailed_logging = false
 
 		[scaling_attributes.movement_speed.blight_scaling]
 			#(EvalEx) Scaling expression for hostile blight mobs
-			hostile = "base_value * 1.2"
+			hostile = "base_value * 0.6"
 			#(EvalEx) Scaling expression for peaceful blight mobs
-			peaceful = "base_value * 0.08"
+			peaceful = "base_value * 0.04"
 			#(EvalEx) Scaling expression for boss blight mobs
 			boss = "0.0"
 
