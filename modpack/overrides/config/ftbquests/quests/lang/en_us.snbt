@@ -34,6 +34,12 @@
 	quest.08F9B4F3EAB3658D.title: "Grapejuices"
 	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the blocks in the quest, when you done right click on base block with an empty hand."]
 	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
+	quest.0BD8CB14D765EE43.quest_desc: [
+		"Have you enough uraninite to generate FIssion energy, you can enhance it with burning material, Redstone, and Dry Ice to get even more energy."
+		""
+		"&lDon't forget to insert water, one bucket is enough.&r"
+	]
+	quest.0BD8CB14D765EE43.title: "Reactors"
 	quest.0DA586EB9A3C82E4.quest_desc: ["Welcome to enhanced Minecraft."]
 	quest.0DA586EB9A3C82E4.title: "Apothesis"
 	quest.0DED6D5C8A4C96B9.quest_desc: [
@@ -52,6 +58,16 @@
 	]
 	quest.0DED8F3DFBDDA6C6.title: "Mystical Agriculture"
 	quest.0E2C89F641504A33.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.10E8A956CA36E9BC.quest_desc: [
+		"&lFurnator&r - Very good for raw begging, but if you have something to be burned."
+		""
+		"&lMagmator&r - Eat the Lava, you can pump the Lava into it and convert it into energy."
+		""
+		"&lThermo Generator &r- Put some source of heat under it and pump water inside to generate energy, more heat more energy."
+		""
+		"&lSolar Generators&r - Keep in mind it is powerful but works only when the sun is shining."
+	]
+	quest.10E8A956CA36E9BC.title: "Generators"
 	quest.112810B97BA58A9C.quest_desc: [
 		"The phrase \"Ad Astra\" means \"To The Stars\" in ye old Latin. And while you cannot physically land on a star in this mod, you *can* explore the planets and moons amongst the stars that revolves around Earth."
 		""
@@ -253,6 +269,8 @@
 	quest.39553F6B02384BFB.quest_subtitle: "Don't tell California"
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.3D0BF571379C4765.quest_desc: ["Libraries are powerful tool. Insert an enchanted book, even with more enchants and this will be added into libraries. You can simply pick up single enchants on one or more books."]
+	quest.3F3595C5252F467F.quest_desc: ["Craft a cable, Ender gate, Ender cell to connect machines a far away."]
+	quest.3F3595C5252F467F.title: "Transfer energy"
 	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
 	quest.3F79D19CD41B9827.title: "Craft a chest"
 	quest.40CB98FD334EB3CE.quest_desc: [
@@ -322,6 +340,12 @@
 	]
 	quest.4D5DE6CE8BC8A185.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
+	quest.4DA255280F7E1DC4.quest_desc: [
+		"You can craft enhanced material with energizing. "
+		""
+		"Recipes can be found in JEI. When you power up the Energize Rod and insert the proper items to the Energizing Orb it will start energizing by a beam."
+	]
+	quest.4DA255280F7E1DC4.title: "Energizing"
 	quest.4ED4ED6F965C40DE.quest_desc: [
 		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods how to organize entities and simply work with them."
 		""
@@ -383,6 +407,8 @@
 	quest.5DDFDC4C2426CF6F.title: "&dArcheology"
 	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect your-self with  a doors against unwanted  income wormholes. But applying is optional."]
 	quest.5E64EF691EC1BFD5.title: "Iris?"
+	quest.5F278DBB09E8420E.quest_desc: ["Even if every generator has some storage, you can need some extra universal storage. Build Energy cell as a block with capacity."]
+	quest.5F278DBB09E8420E.title: "Store energy"
 	quest.5F9620B9B3C0CCC2.quest_subtitle: "Good for when it's cold.. or anytime."
 	quest.5FBE5B1B68C6D8AE.quest_desc: ["Having Nether Quartz in off hand and modifier item in main hand will do the opposite effect, eg. reducing instead of increasing spawn range, etc."]
 	quest.5FBE5B1B68C6D8AE.title: "Decrese"
@@ -436,12 +462,18 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
-	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.6BF628828AD764EF.quest_desc: ["Combine the clay with coal and a high-burning material to create a paste as a core for your machines."]
 	quest.6C19FDFF0750F2D5.quest_desc: [
 		"We are proud to  welcome you on your journey to the stars!"
 		""
 		"REMEMBER! as much unique foods you will eat as much you will be more powerful."
 	]
+	quest.6C566BDD515C2575.quest_desc: [
+		"You can transfer energy to all items you have with yourself wirelessly. "
+		""
+		"Build up a Player Transmitter and Binding card (or dimensional as well)."
+	]
+	quest.6C566BDD515C2575.title: "Remote Personal Energy"
 	quest.6C7FA1194422F63E.quest_desc: [
 		"Chipped is a mod with beutiful decorative blocks."
 		""
@@ -479,6 +511,12 @@
 	quest.6EC4700B21DB617B.quest_subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
 	quest.6EC4700B21DB617B.title: "Adventures and Mysteries"
 	quest.6F8596EF4151F76D.quest_desc: ["Quantum physic is now opened for new era of computer science."]
+	quest.70E2ADBEFB1511FC.quest_desc: [
+		"Build a battery for personal energy, held in hand, and shift-click to space to toggle it. "
+		""
+		"You can craft an Energy hopper connected to the chest and insert the battery or any electric device to charge it."
+	]
+	quest.70E2ADBEFB1511FC.title: "Personal Energy"
 	quest.7270165EFFE25593.quest_subtitle: "{count:1,id:\"ae2:16k_crafting_storage\"}"
 	quest.7311ED0FFC4444EB.quest_desc: [
 		"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
@@ -501,6 +539,7 @@
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.7AA41E5027A82A90.title: "Mekanism"
+	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.58F41B9373F40386.title: "pickaxe"
 	task.041C084B2F12D089.title: "Time to explore"
 	task.04801BAC52C4D589.title: "Chocolatier"
