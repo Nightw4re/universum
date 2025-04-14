@@ -1,0 +1,55 @@
+{
+	id: "1A5CF82F1A6DD170"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "4485F33DA1140E89"
+			item: {
+				count: 1
+				id: "powah:thermoelectric_plate"
+			}
+		}
+		{
+			count: 2
+			id: "3C20D7690E01534E"
+			item: {
+				count: 1
+				id: "powah:photoelectric_pane"
+			}
+		}
+		{
+			count: 2
+			id: "21270454FE56CE74"
+			item: {
+				count: 1
+				id: "powah:dielectric_casing"
+			}
+		}
+		{
+			count: 2
+			id: "59611B521480AAFD"
+			item: {
+				count: 1
+				id: "powah:capacitor_basic_large"
+			}
+		}
+		{
+			count: 32
+			id: "65D236BD3409FCFF"
+			item: {
+				count: 1
+				id: "powah:dielectric_paste"
+			}
+		}
+		{
+			count: 8
+			id: "2A72AAE3B1F62B3A"
+			item: {
+				count: 1
+				id: "powah:dry_ice"
+			}
+		}
+	]
+}

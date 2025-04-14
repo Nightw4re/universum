@@ -10,7 +10,7 @@
 		id: "mekanism:pellet_polonium"
 	}
 	id: "569A9E3D42C3AC8F"
-	order_index: 1
+	order_index: 2
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
@@ -35,6 +35,7 @@
 		{
 			dependencies: ["7AA41E5027A82A90"]
 			id: "3FE47027B229DF50"
+			invisible: true
 			tasks: [{
 				id: "54E94F90716E031C"
 				type: "checkmark"
