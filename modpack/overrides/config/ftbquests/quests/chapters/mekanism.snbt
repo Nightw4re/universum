@@ -35,6 +35,7 @@
 		{
 			dependencies: ["7AA41E5027A82A90"]
 			id: "3FE47027B229DF50"
+			invisible: true
 			tasks: [{
 				id: "54E94F90716E031C"
 				type: "checkmark"
