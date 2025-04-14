@@ -34,6 +34,12 @@
 	quest.08F9B4F3EAB3658D.title: "Grapejuices"
 	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the blocks in the quest, when you done right click on base block with an empty hand."]
 	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
+	quest.0BD8CB14D765EE43.quest_desc: [
+		"Have you enough uraninite to generate FIssion energy, you can enhance it with burning material, Redstone, and Dry Ice to get even more energy."
+		""
+		"&lDon't forget to insert water, one bucket is enough.&r"
+	]
+	quest.0BD8CB14D765EE43.title: "Reactors"
 	quest.0DA586EB9A3C82E4.quest_desc: ["Welcome to enhanced Minecraft."]
 	quest.0DA586EB9A3C82E4.title: "Apothesis"
 	quest.0DED6D5C8A4C96B9.quest_desc: [
@@ -52,6 +58,16 @@
 	]
 	quest.0DED8F3DFBDDA6C6.title: "Mystical Agriculture"
 	quest.0E2C89F641504A33.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.10E8A956CA36E9BC.quest_desc: [
+		"&lFurnator&r - Very good for raw begging, but if you have something to be burned."
+		""
+		"&lMagmator&r - Eat the Lava, you can pump the Lava into it and convert it into energy."
+		""
+		"&lThermo Generator &r- Put some source of heat under it and pump water inside to generate energy, more heat more energy."
+		""
+		"&lSolar Generators&r - Keep in mind it is powerful but works only when the sun is shining."
+	]
+	quest.10E8A956CA36E9BC.title: "Generators"
 	quest.112810B97BA58A9C.quest_desc: [
 		"The phrase \"Ad Astra\" means \"To The Stars\" in ye old Latin. And while you cannot physically land on a star in this mod, you *can* explore the planets and moons amongst the stars that revolves around Earth."
 		""
@@ -182,6 +198,8 @@
 	]
 	quest.2CDAB93BD674197F.quest_subtitle: "Mark Rober Minecraft Mod when?"
 	quest.2CDAB93BD674197F.title: "Space Rover"
+	quest.2CE3871D50730614.quest_desc: ["Higher speeds, more combs, chance on babies, collect comb blocks instead of combs. Some upgrades can be used in machines such as centrifuges."]
+	quest.2CE3871D50730614.title: "Upgrades"
 	quest.2D36A0323AAF2D5C.quest_desc: [
 		"Filled &bWinebottles&r can be &6refined&r in a &bBarrel&r by using extra ingredients such as &bSweetberries&r, &bHoney&r and so on."
 		""
@@ -251,8 +269,14 @@
 		"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
 	]
 	quest.39553F6B02384BFB.quest_subtitle: "Don't tell California"
+	quest.3AADB6E423767219.quest_desc: ["This bee can be found in the End, but keep in mind to use Anti-teleport upgrade in its hive, because it can randomly teleport for short-range distances like Endermen like do."]
+	quest.3AADB6E423767219.title: "Ender Bee"
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.3C550F45E278EEB7.quest_desc: ["You can convert special combs into items(or chance for more rare items)."]
+	quest.3C550F45E278EEB7.title: "Centrifuges"
 	quest.3D0BF571379C4765.quest_desc: ["Libraries are powerful tool. Insert an enchanted book, even with more enchants and this will be added into libraries. You can simply pick up single enchants on one or more books."]
+	quest.3F3595C5252F467F.quest_desc: ["Craft a cable, Ender gate, Ender cell to connect machines a far away."]
+	quest.3F3595C5252F467F.title: "Transfer energy"
 	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
 	quest.3F79D19CD41B9827.title: "Craft a chest"
 	quest.40CB98FD334EB3CE.quest_desc: [
@@ -305,6 +329,20 @@
 	quest.47D456E43D42EBC9.quest_subtitle: "Dish, Desh, Dash"
 	quest.47D456E43D42EBC9.title: "Desh Distribution"
 	quest.48C157CC1998157A.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.48FFEB9924643C86.quest_desc: [
+		"&lBees in Nests&r - Those bees will live only in nests, so you can't use them for honey, but breed them with various bees to get new species."
+		""
+		"&lLure bees to Nests&r - Some bees can work in hives but to get them you have to lure them by finding or creating special Nests and inserting their favorite breed. Or put Hives into darkness and wait a night to capture ZomBee or Skeletal Bee."
+		""
+		"&lCombining Bees&r - Breed some various Bees to get new species."
+		""
+		"&lConverting Bees&r - Feed a vanilla Bee with TNT to convert it to CreeBee, etc."
+		""
+		"&lQuarry Bee&r and &lWoodcutter Bee&r can collect various rocks or woods."
+		""
+		"&lFarmer Bee&r - just flying around and breaking harvestable items, and &lCollector Bee&r is collecting  them."
+	]
+	quest.48FFEB9924643C86.title: "Getting Bees"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
 	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems on the higher level."]
@@ -322,6 +360,12 @@
 	]
 	quest.4D5DE6CE8BC8A185.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
+	quest.4DA255280F7E1DC4.quest_desc: [
+		"You can craft enhanced material with energizing. "
+		""
+		"Recipes can be found in JEI. When you power up the Energize Rod and insert the proper items to the Energizing Orb it will start energizing by a beam."
+	]
+	quest.4DA255280F7E1DC4.title: "Energizing"
 	quest.4ED4ED6F965C40DE.quest_desc: [
 		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods how to organize entities and simply work with them."
 		""
@@ -343,6 +387,8 @@
 	quest.4F297154AC9975DE.quest_subtitle: "Complete Kitchen Basics to unlock."
 	quest.4F5F490A5E0B0342.quest_subtitle: "Some would say nutella is better than gold."
 	quest.4FA3DEADAEC0DD0A.quest_desc: ["Place for your storage cell."]
+	quest.4FB11CFF9FCF300D.quest_desc: ["As you can observe campfire in the recipe you don't need to put it under again to safely get honey or combs, with an expansion part you can have 5 bees inside, and use upgrades."]
+	quest.4FB11CFF9FCF300D.title: "Advanced Beehive with an expansion"
 	quest.4FD91B87D0A73D36.quest_desc: ["After harvesting your first &bGrapes&r can either just eat them or put them into a &bPot &rand crush them by &6jumping and walking&r around in it."]
 	quest.4FD91B87D0A73D36.quest_subtitle: "May the crushin begin!"
 	quest.51DED8F7D84CD235.quest_desc: [
@@ -350,6 +396,12 @@
 		""
 		"If you have a troubles to find it you can use Explorer's compass."
 	]
+	quest.528AC9572695085A.quest_desc: [
+		"Inferium, Prudentium, Tertium, etc. "
+		""
+		"You can have bees collecting those items for you, but all of them need the same base."
+	]
+	quest.528AC9572695085A.title: "Mystical Bees"
 	quest.529FA5C3502DBF4D.quest_subtitle: "Your market of choice for seeds and crops."
 	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of the ancient technology."]
 	quest.58132755E921E778.quest_desc: [
@@ -359,12 +411,20 @@
 	]
 	quest.58132755E921E778.quest_subtitle: "Seriously though, where's the Hydrogen???"
 	quest.5844CB69B1BD0C35.quest_subtitle: "As a proper minecraft player you should start with an crafting table."
+	quest.58EC854151BDEA8C.quest_desc: ["You can build a simple cage to move bees in inventory, but once you release a bee, a cage is destroyed."]
+	quest.5A020CAB439C824C.quest_desc: [
+		"You can see attributes in bees, that can be enhanced by breeding or gene mutations to work during rain, and night, collect more, have more health, or even be passive so will attack nobody even if attacked."
+		""
+		"&lWater Bee&r, &lObsidian&r, and &lKamikazBee&r - have interesting an attribute, check it out."
+	]
 	quest.5A2581CBAB21D071.quest_desc: [
 		"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
 		""
 		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 	]
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
+	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
+	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
 	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is the basic material to craft weapons, but maybe even advanced technology."]
 	quest.5DDFDC4C2426CF6F.quest_desc: [
 		"&bThe Archeology System &6introduces the following&r:"
@@ -383,6 +443,8 @@
 	quest.5DDFDC4C2426CF6F.title: "&dArcheology"
 	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect your-self with  a doors against unwanted  income wormholes. But applying is optional."]
 	quest.5E64EF691EC1BFD5.title: "Iris?"
+	quest.5F278DBB09E8420E.quest_desc: ["Even if every generator has some storage, you can need some extra universal storage. Build Energy cell as a block with capacity."]
+	quest.5F278DBB09E8420E.title: "Store energy"
 	quest.5F9620B9B3C0CCC2.quest_subtitle: "Good for when it's cold.. or anytime."
 	quest.5FBE5B1B68C6D8AE.quest_desc: ["Having Nether Quartz in off hand and modifier item in main hand will do the opposite effect, eg. reducing instead of increasing spawn range, etc."]
 	quest.5FBE5B1B68C6D8AE.title: "Decrese"
@@ -436,12 +498,18 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
-	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.6BF628828AD764EF.quest_desc: ["Combine the clay with coal and a high-burning material to create a paste as a core for your machines."]
 	quest.6C19FDFF0750F2D5.quest_desc: [
 		"We are proud to  welcome you on your journey to the stars!"
 		""
 		"REMEMBER! as much unique foods you will eat as much you will be more powerful."
 	]
+	quest.6C566BDD515C2575.quest_desc: [
+		"You can transfer energy to all items you have with yourself wirelessly. "
+		""
+		"Build up a Player Transmitter and Binding card (or dimensional as well)."
+	]
+	quest.6C566BDD515C2575.title: "Remote Personal Energy"
 	quest.6C7FA1194422F63E.quest_desc: [
 		"Chipped is a mod with beutiful decorative blocks."
 		""
@@ -478,7 +546,15 @@
 	quest.6E9A973B387987F7.title: "Launch Pad Setup"
 	quest.6EC4700B21DB617B.quest_subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
 	quest.6EC4700B21DB617B.title: "Adventures and Mysteries"
+	quest.6F1C2DFEB4998541.quest_desc: ["Bottler with empty bottles, push piston against from top of Bottler and have a bee between those. You will kill it, but gain a gene bottle, so you can create an awesome bee."]
+	quest.6F1C2DFEB4998541.title: "Genes"
 	quest.6F8596EF4151F76D.quest_desc: ["Quantum physic is now opened for new era of computer science."]
+	quest.70E2ADBEFB1511FC.quest_desc: [
+		"Build a battery for personal energy, held in hand, and shift-click to space to toggle it. "
+		""
+		"You can craft an Energy hopper connected to the chest and insert the battery or any electric device to charge it."
+	]
+	quest.70E2ADBEFB1511FC.title: "Personal Energy"
 	quest.7270165EFFE25593.quest_subtitle: "{count:1,id:\"ae2:16k_crafting_storage\"}"
 	quest.7311ED0FFC4444EB.quest_desc: [
 		"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
@@ -501,6 +577,10 @@
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.7AA41E5027A82A90.title: "Mekanism"
+	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
+	quest.7FA54F2D5D3E5D7D.title: "Villager"
+	reward_table.14861C0A762B296A.title: "Bee"
+	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.58F41B9373F40386.title: "pickaxe"
 	task.041C084B2F12D089.title: "Time to explore"
 	task.04801BAC52C4D589.title: "Chocolatier"
@@ -514,6 +594,7 @@
 	task.29D26752DC1137E6.title: "Complete Ad Astra"
 	task.340196D650A615A8.title: "Storage"
 	task.41951260044C57ED.title: "One of the following praline chocolates please."
+	task.419703F1942A8AEE.title: "Attributes"
 	task.447C4FDE941FC01C.title: "Soups"
 	task.4864F7EAE005ED98.title: "Peanutbutter Chocolates"
 	task.4877A20E85423EB9.title: "Strawberry Cream Chocolates"
