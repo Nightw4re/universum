@@ -1,0 +1,133 @@
+{
+	id: "14861C0A762B296A"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "420D6FE295C6AAE7"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "productivity"
+						purity: 100
+						value: "productivity.very_high"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "331BB977D8110325"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "temper"
+						purity: 100
+						value: "temper.passive"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "092E09C1501635AB"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "weather_tolerance"
+						purity: 100
+						value: "weather_tolerance.any"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "667AB5F1F4F0D799"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "behavior"
+						purity: 100
+						value: "behavior.metaturnal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5242A2DC9A7342C8"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:draconic"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "1A0B078D4B95D5B9"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:ender"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 16
+			id: "4025255A8596FBDF"
+			item: {
+				count: 1
+				id: "productivebees:bee_cage"
+			}
+		}
+		{
+			count: 4
+			id: "0D2F25CFD593EF9E"
+			item: {
+				count: 1
+				id: "productivebees:sturdy_bee_cage"
+			}
+		}
+		{
+			id: "49D670A0334DD2D7"
+			item: {
+				count: 1
+				id: "productivebees:bee_nest_diamond_helmet"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "5BA77967309A2066"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:inferium"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 0.2f
+		}
+	]
+}
