@@ -11,10 +11,10 @@ detailed_logging = false
 	[item.crystal_drops]
 		#Allow blights to drop crystals.
 		#If you want to customize drops beyond simply turning them off, you must use a data pack to override the blight drops loot table.
-		blights_drop_crystals = true
+		blights_drop_crystals = false
 		#Allow bosses to drop crystals.
 		#If you want to customize drops beyond simply turning them off, you must use a data pack to override the boss drops loot table.
-		bosses_drop_crystals = true
+		bosses_drop_crystals = false
 		#The amount of time (in minutes) after getting a random crystal drop before another can be found.
 		#This does not affect guaranteed crystal drops, like those from blights and bosses.
 		# Default: 10.0
@@ -26,12 +26,12 @@ detailed_logging = false
 			#If you want to customize drops beyond this, you must use a data pack to override the loot tables!
 			# Default: 0.06
 			# Range: 0.0 ~ 1.0
-			base = 0.06
+			base = 0.0
 			#The bonus per level of looting that the base chance is increased for crystal drops.
 			#If you want to customize drops beyond this, you must use a data pack to override the loot tables!
 			# Default: 0.005
 			# Range: 0.0 ~ 1.0
-			looting_bonus = 0.005
+			looting_bonus = 0.0
 
 	[item.difficulty_meter]
 		#If set to true, the difficulty meter will display the exact difficulty value instead of a loose percentage
@@ -159,7 +159,7 @@ detailed_logging = false
 		# Range: > 0
 		time_until_idle = 120
 		#Notify a player when they become idle
-		send_idle_notification = true
+		send_idle_notification = false
 
 	[notifications.attribute_changes]
 		#Send a message to players if their attributes change after dying
@@ -276,6 +276,6 @@ detailed_logging = false
 			#(EvalEx) Player bonus change when a boss is killed
 			player_kills_boss = "value"
 			#(EvalEx) Player bonus change when the player dies
-			player_dies = "value - MAX(0.1, value / 4)"
+			player_dies = "value"
 			#(EvalEx) Player bonus change when the player sleeps
 			player_sleeps = "value"
