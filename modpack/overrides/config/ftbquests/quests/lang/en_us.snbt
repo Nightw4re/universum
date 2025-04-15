@@ -85,8 +85,10 @@
 	quest.14D42EDBFFCED86E.quest_subtitle: "Increases crop output."
 	quest.14DE762F4663D1C9.quest_subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 	quest.14DE762F4663D1C9.title: "&4Find a Graveyard"
+	quest.14EC4CDD6F712BF1.title: "Apple"
 	quest.16FED75C44853ECA.quest_subtitle: "Collects eggs laid by chickens."
 	quest.172968A234803DC0.quest_subtitle: "Made from Apple Mash."
+	quest.17E9FFDB849B49EA.title: "Automation machines"
 	quest.1941554F8883F5BE.quest_desc: [
 		"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
 		""
@@ -186,6 +188,7 @@
 	quest.282DA60064A73D74.quest_desc: ["Upgrading bookshelves will enhance their stats. The first tier uses ingredients from the Nether, the second from the sea, the third from Ancient Cities, and the last from the End."]
 	quest.295F800520044C23.quest_subtitle: "Pies, creates, cider and - of course - apple wine!"
 	quest.295F800520044C23.title: "Apples"
+	quest.29F51CC2D16D55AB.title: "Awakened!"
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
 	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
@@ -270,6 +273,7 @@
 	quest.3AADB6E423767219.quest_desc: ["This bee can be found in the End, but keep in mind to use Anti-teleport upgrade in its hive, because it can randomly teleport for short-range distances like Endermen like do."]
 	quest.3AADB6E423767219.title: "Ender Bee"
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.3C1680DC5599405E.title: "Jar and Dagger"
 	quest.3C550F45E278EEB7.quest_desc: ["You can convert special combs into items(or chance for more rare items)."]
 	quest.3C550F45E278EEB7.title: "Centrifuges"
 	quest.3D0BF571379C4765.quest_desc: ["Libraries are a powerful tool. They allow you to store enchanted books. Once you have them stored, you can pull them out at the highest level you added, but only if there are enough stored levels."]
@@ -326,7 +330,7 @@
 	quest.47D456E43D42EBC9.quest_desc: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
 	quest.47D456E43D42EBC9.quest_subtitle: "Dish, Desh, Dash"
 	quest.47D456E43D42EBC9.title: "Desh Distribution"
-	quest.48C157CC1998157A.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.48C157CC1998157A.quest_desc: [""]
 	quest.48FFEB9924643C86.quest_desc: [
 		"&lBees in Nests&r - Those bees will live only in nests, so you can't use them for honey, but breed them with various bees to get new species."
 		""
@@ -346,6 +350,7 @@
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
 	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
+	quest.4B73D484AE1011A4.title: "Upgrades"
 	quest.4CAC010FC6A3A2ED.quest_desc: ["Science evolution has lead you to quantum physics."]
 	quest.4D52E1F83E0D482A.quest_desc: [
 		"Glass cable is a basic item for your network."
@@ -364,6 +369,7 @@
 		"Recipes can be found in JEI. When you power up the Energize Rod and insert the proper items to the Energizing Orb it will start energizing by a beam."
 	]
 	quest.4DA255280F7E1DC4.title: "Energizing"
+	quest.4E085EE3E8A8BDF5.title: "Tier 2 - 5"
 	quest.4ED4ED6F965C40DE.quest_desc: [
 		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods that allow you to manage and trade with your villagers and piglins easier."
 		""
@@ -576,6 +582,7 @@
 	quest.7AA41E5027A82A90.title: "Mekanism"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
 	quest.7FA54F2D5D3E5D7D.title: "Villager"
+	reward_table.0BE11E9721134A37.title: "Mystical"
 	reward_table.14861C0A762B296A.title: "Bee"
 	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.58F41B9373F40386.title: "pickaxe"
