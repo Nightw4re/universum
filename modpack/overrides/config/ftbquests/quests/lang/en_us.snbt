@@ -22,17 +22,17 @@
 	chapter_group.244B68E119B27430.title: "Electric Age"
 	chapter_group.29D1B61E7DF0149F.title: "Resources"
 	chapter_group.78F3519E8A49FAB8.title: "Journey"
-	quest.03A2A443E738065F.quest_desc: ["For better items you will need this better reforging table."]
-	quest.03AA5258043E86C1.quest_desc: ["[ \"You can buy resources from villagers. Just use \", { \"text\": \"Charger\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"432B6750035E63F3\" } }, \" as his working station.\" ]"]
-	quest.03C7C361F2A8FC5C.quest_desc: ["You can modify items on anvil. Prismarine cobweb will remove all curses from an item. Various Tomes are working as an item symbolizing them, but the final result will be a book, and this is usable on an enchanting table as well."]
+	quest.03A2A443E738065F.quest_desc: ["For better items you will need this upgraded table."]
+	quest.03AA5258043E86C1.quest_desc: ["[ \"You can buy resources from villagers. Just use a\", { \"text\": \"Charger\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"432B6750035E63F3\" } }, \" as their working station.\" ]"]
+	quest.03C7C361F2A8FC5C.quest_desc: ["You can modify items on an anvil. Prismarine cobweb will remove all curses from an item. Various Tomes are working as an item symbolizing them, but the final result will be a book, and this is usable on an enchanting table as well."]
 	quest.04009475BA6BC159.quest_desc: ["Gain Rima address, by some scrolls you found it seems there are lot of naquadah."]
 	quest.04009475BA6BC159.title: "Source of Naquadah"
-	quest.056223F1FCD5247E.quest_desc: ["There are modifiers to enhance spawners, just have any modifier in hand and right click on it. The list of those modifiers can be found in JEI or mod book."]
+	quest.056223F1FCD5247E.quest_desc: ["There are modifiers used to enhance spawners, just hold any modifier in your main hand and right click on it. The list of modifiers can be found in JEI or the mod's book."]
 	quest.056223F1FCD5247E.title: "Spawner Modifiers"
 	quest.0665112D8E104BBB.quest_subtitle: "Make your favorite wine of choice a decor."
 	quest.08F9B4F3EAB3658D.quest_subtitle: "Extract the Grapejuice from the Pot."
 	quest.08F9B4F3EAB3658D.title: "Grapejuices"
-	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the blocks in the quest, when you done right click on base block with an empty hand."]
+	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the required blocks in the quest, when you're done, right click on the base block with an empty hand."]
 	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
 	quest.0BD8CB14D765EE43.quest_desc: [
 		"Have you enough uraninite to generate FIssion energy, you can enhance it with burning material, Redstone, and Dry Ice to get even more energy."
@@ -52,7 +52,7 @@
 	quest.0DED6D5C8A4C96B9.quest_subtitle: "You're finally ready to go to space! "
 	quest.0DED6D5C8A4C96B9.title: "To the Moon!"
 	quest.0DED8F3DFBDDA6C6.quest_desc: [
-		"Mystical Agriculture is a way how you can farm various items (ores, loots, etc.) from your own garden!"
+		"Mystical Agriculture allows you to farm various items (ores, loot, etc.) from your own garden!"
 		""
 		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
 	]
@@ -78,7 +78,7 @@
 	quest.112C0C7C49867DE2.quest_desc: ["Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space."]
 	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
 	quest.112C0C7C49867DE2.title: "&8Earth Metal"
-	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step to enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it adds special abilities as well."]
+	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step in enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it also adds special abilities."]
 	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
 	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
 	quest.1384C1D8BD79C6D0.title: "Desh Draining"
@@ -128,7 +128,7 @@
 	quest.1941554F8883F5BE.title: "&bFishes and Crates!"
 	quest.1A1F70A9F47461C6.quest_subtitle: "Everybody loves ice cream... everybody."
 	quest.1A9711B129426433.quest_desc: ["The Last tier of shelves."]
-	quest.1C111C9EF632F7DC.quest_desc: ["Most advanced automatization unit, for details mouse hover on item in JEI and hold [G] key."]
+	quest.1C111C9EF632F7DC.quest_desc: ["The most advanced automatization unit, for more details hover over the item in JEI and hold the [G] key."]
 	quest.1C2AAE8F4E119084.quest_desc: [
 		"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
 		""
@@ -142,12 +142,12 @@
 	]
 	quest.1C711856985D4A81.quest_subtitle: "Beat Elon to it!"
 	quest.1C711856985D4A81.title: "To Mars!"
-	quest.1D903985069CD9BD.quest_desc: ["Enchant a weapon with Capturing to have a chance  to gain his spawning egg drop. You can use any spawn egg on spawner to have those mobs spawning from the spawner."]
+	quest.1D903985069CD9BD.quest_desc: ["Enchant a weapon with Capturing to have a chance of obtaining a mob's spawn egg. You can use any spawn egg on a spawner to get those mobs to spawn from the spawner."]
 	quest.1EBC773ED06E4670.quest_desc: [
-		"Eating various food you will gain  an extra hearts (health points), but for &lunique food&r."
+		"Eating various food will grant you extra hearts (health points), but only for &lunique food&r."
 		""
 		""
-		"To have an overview craft a book: "
+		"To get an overview craft: "
 		"{image:solcarrot:item/food_book width:20 height:20 align:center}"
 	]
 	quest.1EBC773ED06E4670.title: "SoL: Carrot Edition"
@@ -177,19 +177,17 @@
 	quest.27595D60CB566E43.quest_desc: [
 		"Now is the time to make it all mobile!"
 		""
-		"So from previous  quest rewards and crafted materials, you will be able to expand your inventory!"
-		""
-		"Craft the Backpack!"
+		"You should now be able to craft a backpack from the materials gained by completing the previous quests. "
 		""
 		"TIP: Remember you can hold more than one backpack."
 	]
 	quest.27595D60CB566E43.title: "Call me a traveler"
 	quest.27B8C86C8EFD36BF.quest_desc: ["You can further modify items via Augments."]
-	quest.282DA60064A73D74.quest_desc: ["Upgrading bookshelves will enhance its stats. The first tier is from ingredients from the Nether, the second from seas, the third from Ancient City, and the last from the End."]
+	quest.282DA60064A73D74.quest_desc: ["Upgrading bookshelves will enhance their stats. The first tier uses ingredients from the Nether, the second from the sea, the third from Ancient Cities, and the last from the End."]
 	quest.295F800520044C23.quest_subtitle: "Pies, creates, cider and - of course - apple wine!"
 	quest.295F800520044C23.title: "Apples"
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
-	quest.2BCD50E31293E149.quest_desc: ["You can socketing gems into items on smithing table."]
+	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
 	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.2CDAB93BD674197F.quest_desc: [
 		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
@@ -236,8 +234,8 @@
 	]
 	quest.32910C1041DE2764.quest_subtitle: "Magical items with great power."
 	quest.32910C1041DE2764.title: "&6Artifacts"
-	quest.32C5CD8426D8B39C.quest_desc: ["Buy a map from Archeologist and find something ... mysterious."]
-	quest.333A4AEB96CD87C6.quest_desc: ["Whenever you will find out any enhanced item in chests or loot from monsters you can  destroy it to gain reforging materials."]
+	quest.32C5CD8426D8B39C.quest_desc: ["Buy a map from an Archeologist and find something ... mysterious."]
+	quest.333A4AEB96CD87C6.quest_desc: ["Whenever you find any enhanced item in chests or from loot from monsters you can destroy it to gain reforging materials."]
 	quest.34216A1573B90BBB.quest_desc: [
 		"What does this mean?"
 		""
@@ -245,7 +243,7 @@
 	]
 	quest.34216A1573B90BBB.quest_subtitle: "Unique instanced loot for every player!"
 	quest.34216A1573B90BBB.title: "&6Lootr"
-	quest.34EDE3B256C8DEC1.quest_desc: ["With MineColonies you will change a game onto a strategy, create a colony, supply it, make a work for them!"]
+	quest.34EDE3B256C8DEC1.quest_desc: ["With MineColonies, you can turn the game into a city-building experience - establish your colony, manage its resources, and provide jobs for its citizens!"]
 	quest.34EDE3B256C8DEC1.title: "MineColonies"
 	quest.3560DF7703EDA4B1.quest_desc: ["More than naquadah."]
 	quest.364A1799C5F9A25C.title: "A blue crystals"
@@ -261,7 +259,7 @@
 		""
 		"The air hung heavy with the dust of millennia as I sought the Cartouche. Legends hinted at its location: a place where the echoes of forgotten travelers still lingered. This tablet, bearing the key to traverse the stars, was not merely a guide but a necessary component, a lock waiting for its intricate tumblers to align. The silent ring before me held the promise of unimaginable journeys, but only the discovery of the Cartouche, with its cryptic address, would set those distant worlds within reach."
 	]
-	quest.39317045EFEE9C2F.quest_desc: ["Obtain any pickaxe. The pickaxe combined with silk touch enchant can be used on any spawner."]
+	quest.39317045EFEE9C2F.quest_desc: ["Obtain any pickaxe. If you combine the pickaxe with the silk touch enchant you can use it to obtain any spawner."]
 	quest.39317045EFEE9C2F.title: "Pickaxe"
 	quest.39553F6B02384BFB.quest_desc: [
 		"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
@@ -274,7 +272,7 @@
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.3C550F45E278EEB7.quest_desc: ["You can convert special combs into items(or chance for more rare items)."]
 	quest.3C550F45E278EEB7.title: "Centrifuges"
-	quest.3D0BF571379C4765.quest_desc: ["Libraries are powerful tool. Insert an enchanted book, even with more enchants and this will be added into libraries. You can simply pick up single enchants on one or more books."]
+	quest.3D0BF571379C4765.quest_desc: ["Libraries are a powerful tool. They allow you to store enchanted books. Once you have them stored, you can pull them out at the highest level you added, but only if there are enough stored levels."]
 	quest.3F3595C5252F467F.quest_desc: ["Craft a cable, Ender gate, Ender cell to connect machines a far away."]
 	quest.3F3595C5252F467F.title: "Transfer energy"
 	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
@@ -288,11 +286,11 @@
 	quest.40CB98FD334EB3CE.title: "Jet Suit"
 	quest.410FB4729B618584.quest_subtitle: "Create your very own wine and cider at home."
 	quest.41A5121596488212.quest_desc: [
-		"You can see some weird colored bees flying around, they are from &6Productive Bees&r."
+		"You might have seen some weirdly colored bees flying around, they come from the mod &6Productive Bees&r."
 		""
-		"If you need to farm some ores, blocks or loots they are here to help you!"
+		"If you need to farm some ores, blocks or loot they are here to help you!"
 		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+		"&6This will be enhanced by its own quest chapter in the future, stay tuned!&r"
 	]
 	quest.41A5121596488212.title: "Productive Bees"
 	quest.4288B73FA65D8229.quest_desc: [
@@ -307,15 +305,15 @@
 		"When this desert world was under the domain of Ra, he forced the human inhabitants to mine naquadah for him up until his eventual defeat and death."
 	]
 	quest.42930133E46A0A7A.title: "Abydos"
-	quest.42AAD9EE7BC90E8E.quest_desc: ["A quartz fiber transfer an energy only for devices or cables. Devices or networks connected by fiber can't communicate together."]
-	quest.432B6750035E63F3.quest_desc: ["Charge time! Once powered by any FE you can insert Certus Quartz Crystal and charge it!"]
+	quest.42AAD9EE7BC90E8E.quest_desc: ["Quartz fiber only supports energy transfer. Devices or networks connected by fiber can't communicate with each other."]
+	quest.432B6750035E63F3.quest_desc: ["Charging time! Once powered by FE you can insert a Certus Quartz Crystal and charge it!"]
 	quest.438319FC721F0274.quest_desc: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
 	quest.438319FC721F0274.quest_subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
 	quest.438319FC721F0274.title: "&eThe Bumblezone"
 	quest.44D61369427B7CBF.title: "Chocolates"
 	quest.44FD73D3FCC38DBD.title: "Red Wine"
 	quest.462400176C496619.title: "Caramel Chocolates"
-	quest.46C75937AC35A417.quest_desc: ["Feed it with anything. Any item inserted into the condenser will be destroyed and the matter will be accumulated. If you increase capacity you can  reach a singularity!"]
+	quest.46C75937AC35A417.quest_desc: ["Feed it with anything. Any item inserted into the condenser will be destroyed and matter will be accumulated. If you increase the capacity you can create a singularity!"]
 	quest.479D2D1966C75C85.quest_subtitle: "Storage for Wine Bottles."
 	quest.479D2D1966C75C85.title: "Wine Bottle Storage"
 	quest.47A3FB7F90B01FAA.quest_desc: [
@@ -345,16 +343,16 @@
 	quest.48FFEB9924643C86.title: "Getting Bees"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
 	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
-	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems on the higher level."]
+	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
 	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
-	quest.4CAC010FC6A3A2ED.quest_desc: ["Science evolution will lead you to quantum physic."]
+	quest.4CAC010FC6A3A2ED.quest_desc: ["Science evolution has lead you to quantum physics."]
 	quest.4D52E1F83E0D482A.quest_desc: [
-		"Glass cable is basic item for your network."
+		"Glass cable is a basic item for your network."
 		""
 		"&n&lATTENTION&r&r"
 		""
-		"We turned off a channel limit in this modpack. If you are new you don't need to fight with advanced topic of p2p."
+		"We turned the channel limit off in this modpack. If you are new you don't need to fight with advanced features like P2P."
 		""
 		"Channel limit is &oInfinite&r."
 	]
@@ -367,10 +365,9 @@
 	]
 	quest.4DA255280F7E1DC4.title: "Energizing"
 	quest.4ED4ED6F965C40DE.quest_desc: [
-		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods how to organize entities and simply work with them."
+		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods that allow you to manage and trade with your villagers and piglins easier."
 		""
-		""
-		"&o&lTIP: Have an  empty hand and hold shift + right click on a villager will make an item from entity for easy trasnport.&r&r "
+		"&o&lTIP: Hold shift + right click with an empty hand on a villager to pick it up into your inventory for easy transport.&r&r "
 		""
 		"{image:artifacts:item/villager_hat width:50 height:50 align:center}"
 	]
@@ -392,9 +389,9 @@
 	quest.4FD91B87D0A73D36.quest_desc: ["After harvesting your first &bGrapes&r can either just eat them or put them into a &bPot &rand crush them by &6jumping and walking&r around in it."]
 	quest.4FD91B87D0A73D36.quest_subtitle: "May the crushin begin!"
 	quest.51DED8F7D84CD235.quest_desc: [
-		"Start your journey with finding Goauld Temple structure. It looks like a zigurat/pyramid and you can find it in a jungle or desert."
+		"Start your journey by finding a Goauld Temple structure. It looks like a zigurat/pyramid and you can find it in jungles or deserts."
 		""
-		"If you have a troubles to find it you can use Explorer's compass."
+		"If you are having trouble finding it, you can use Explorer's compass."
 	]
 	quest.528AC9572695085A.quest_desc: [
 		"Inferium, Prudentium, Tertium, etc. "
@@ -403,7 +400,7 @@
 	]
 	quest.528AC9572695085A.title: "Mystical Bees"
 	quest.529FA5C3502DBF4D.quest_subtitle: "Your market of choice for seeds and crops."
-	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of the ancient technology."]
+	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of ancient technology."]
 	quest.58132755E921E778.quest_desc: [
 		"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
 		""
@@ -425,7 +422,7 @@
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
 	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
 	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
-	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is the basic material to craft weapons, but maybe even advanced technology."]
+	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is a basic material used to craft weapons, but possibly also used to create advanced technology."]
 	quest.5DDFDC4C2426CF6F.quest_desc: [
 		"&bThe Archeology System &6introduces the following&r:"
 		""
@@ -441,18 +438,18 @@
 	]
 	quest.5DDFDC4C2426CF6F.quest_subtitle: "Know your prehistory."
 	quest.5DDFDC4C2426CF6F.title: "&dArcheology"
-	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect your-self with  a doors against unwanted  income wormholes. But applying is optional."]
+	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect yourself with doors against unwanted incoming wormholes. But using them is optional."]
 	quest.5E64EF691EC1BFD5.title: "Iris?"
 	quest.5F278DBB09E8420E.quest_desc: ["Even if every generator has some storage, you can need some extra universal storage. Build Energy cell as a block with capacity."]
 	quest.5F278DBB09E8420E.title: "Store energy"
 	quest.5F9620B9B3C0CCC2.quest_subtitle: "Good for when it's cold.. or anytime."
-	quest.5FBE5B1B68C6D8AE.quest_desc: ["Having Nether Quartz in off hand and modifier item in main hand will do the opposite effect, eg. reducing instead of increasing spawn range, etc."]
-	quest.5FBE5B1B68C6D8AE.title: "Decrese"
-	quest.5FF4202C776DC212.quest_desc: ["Smart cable is the same as covered / glass cable, but it shows you a network information when you look on it."]
+	quest.5FBE5B1B68C6D8AE.quest_desc: ["Holding Nether Quartz in your off hand and the modifier item in your main hand will cause the opposite to happen, eg. reducing instead of increasing spawn range, etc."]
+	quest.5FBE5B1B68C6D8AE.title: "Decrease"
+	quest.5FF4202C776DC212.quest_desc: ["The smart cable works similarly to the covered/glass cable, but it also shows you network information when looked at."]
 	quest.6114CC6BE5D2627F.quest_desc: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
 	quest.6114CC6BE5D2627F.quest_subtitle: "Pretty red ingot go brrr"
 	quest.6114CC6BE5D2627F.title: "&cMercury Metal"
-	quest.63FA3769E13D14CA.quest_desc: ["Our journey through  the stars is not ended yet, but can't continue at the moment.  Have a look what will be coming soon..."]
+	quest.63FA3769E13D14CA.quest_desc: ["Our journey through the stars has not ended yet, but we can't continue at the moment.  Have a look at what will be coming soon..."]
 	quest.63FA3769E13D14CA.title: "Is this end?"
 	quest.6491E686F47C9A2B.quest_subtitle: "Goes good anytime."
 	quest.6582513D8887DF04.quest_desc: [
@@ -464,17 +461,17 @@
 	]
 	quest.6582513D8887DF04.quest_subtitle: "¡Queso Delicioso!"
 	quest.6582513D8887DF04.title: "Mucho Queso"
-	quest.65DF3DEE8F14CA54.quest_desc: ["Enchanting table was a mystery, but now you can see how it is affected, there are stats as Arcana, Quantana, Eterna and Rectification, those will affect your enchants."]
+	quest.65DF3DEE8F14CA54.quest_desc: ["The enchanting table used to be a mystery, but now you can see it's inner workings. There are stats that change the outcome - Arcana, Quantana, Eterna and Rectification. These will affect your enchants."]
 	quest.678797941B517892.quest_desc: ["Time to build your storage up. Firstly we have to see something so build a terminal ."]
 	quest.681BFBC59884DAF3.quest_desc: [
 		"You did it!"
 		""
 		"Now take a break and explore the world."
 		""
-		"When you find a nice place which you can call a home, you can use command "
+		"When you find a nice place that you can call home, you can use the following commands:"
 		""
-		"* &l/sethome&r for your "
-		"* &l/home&r to teleport there when it is needed."
+		"* &l/sethome&r to set the location you'll teleport to"
+		"* &l/home&r to teleport to that location when it is needed."
 	]
 	quest.68213B32C7BFE139.quest_desc: ["Complete your kitchen to expand your culinary skills"]
 	quest.68213B32C7BFE139.quest_subtitle: "Complete your kitchen. Feed the world."
@@ -498,11 +495,11 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
-	quest.6BF628828AD764EF.quest_desc: ["Combine the clay with coal and a high-burning material to create a paste as a core for your machines."]
+	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.6C19FDFF0750F2D5.quest_desc: [
-		"We are proud to  welcome you on your journey to the stars!"
+		"We proudly welcome you on your journey to the stars!"
 		""
-		"REMEMBER! as much unique foods you will eat as much you will be more powerful."
+		"REMEMBER! Eat as many unique foods as possible, it will empower you."
 	]
 	quest.6C566BDD515C2575.quest_desc: [
 		"You can transfer energy to all items you have with yourself wirelessly. "
@@ -511,10 +508,10 @@
 	]
 	quest.6C566BDD515C2575.title: "Remote Personal Energy"
 	quest.6C7FA1194422F63E.quest_desc: [
-		"Chipped is a mod with beutiful decorative blocks."
+		"Chipped is a mod with beautiful decorative blocks."
 		""
 		""
-		" &6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+		" &6This will be enhanced by it's quest chapter in the future, stay tuned!&r"
 	]
 	quest.6C7FA1194422F63E.title: "Chipped"
 	quest.6D01C247A8864071.quest_desc: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
@@ -548,7 +545,7 @@
 	quest.6EC4700B21DB617B.title: "Adventures and Mysteries"
 	quest.6F1C2DFEB4998541.quest_desc: ["Bottler with empty bottles, push piston against from top of Bottler and have a bee between those. You will kill it, but gain a gene bottle, so you can create an awesome bee."]
 	quest.6F1C2DFEB4998541.title: "Genes"
-	quest.6F8596EF4151F76D.quest_desc: ["Quantum physic is now opened for new era of computer science."]
+	quest.6F8596EF4151F76D.quest_desc: ["Quantum physics are now opened for a new era of computer science."]
 	quest.70E2ADBEFB1511FC.quest_desc: [
 		"Build a battery for personal energy, held in hand, and shift-click to space to toggle it. "
 		""
@@ -568,12 +565,12 @@
 	quest.760572711CF727BB.quest_subtitle: "On goes Ostrum"
 	quest.760572711CF727BB.title: "Mars Metal"
 	quest.776448522144B159.quest_desc: [
-		"Enjoy Apotheosis, improved enchanting, enhanced armor and tools and its jeweler system."
+		"Enjoy Apotheosis, improved enchanting, enhanced armor and tools and its jewelry system."
 		""
-		"&6This will be enhanced by own quest chapter in the future, stay tuned!&r"
+		"&6This will be enhanced by its own quest chapter in the future, stay tuned!&r"
 	]
 	quest.776448522144B159.title: "Apotheosis"
-	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions, you can wear it and it will be periodically activated with some cooldown."]
+	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions and when worn grant you the corresponding effect of the potions used to create them. Over time their durability will go down."]
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.7AA41E5027A82A90.title: "Mekanism"
