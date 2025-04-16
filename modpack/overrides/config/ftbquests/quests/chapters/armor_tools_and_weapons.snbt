@@ -1,0 +1,476 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_tools_and_weapons"
+	group: "22D133045023811C"
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "741946F0622C49E7"
+	images: [
+		{
+			height: 1.0d
+			image: "buildinggadgets2:item/gadget_building"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "stellarity:item/shulker_hoe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -10.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FED7A81DF6D6175"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EC5A3F0F67E617F"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7F352D9D5DCFEACF"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_axe)item(minecraft:iron_chestplate)item(minecraft:iron_helmet)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0666F7F2F5B26F41"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:diamond_sword)item(minecraft:diamond_axe)item(minecraft:diamond_pickaxe)item(minecraft:diamond_shovel)item(minecraft:diamond_hoe)item(minecraft:diamond_chestplate)item(minecraft:diamond_leggings)item(minecraft:diamond_boots)item(minecraft:diamond_helmet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			id: "2BDED85C43B4C112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E9E4D18BB2BA8C"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74E837FE8A4DDD1C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_chestplate)item(advanced_ae:quantum_helmet)item(advanced_ae:quantum_leggings)item(advanced_ae:quantum_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "63A9AB111C9E3C3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "640867FAA46C33F8"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A51669775DCB034"
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.5d
+		}
+		{
+			id: "68B54598DA159A36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41C350B82D2C9F15"
+				table_id: 3495175666515583115L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "360C57ED193DC697"
+					item: { count: 1, id: "modern_industrialization:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4C0D701B7D8C739A"
+					item: { count: 1, id: "modern_industrialization:quantum_boots" }
+					type: "item"
+				}
+				{
+					id: "23D77194C5DD7470"
+					item: { count: 1, id: "modern_industrialization:quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "64EB3961FCF0299D"
+					item: { count: 1, id: "modern_industrialization:quantum_leggings" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "7AE1A1D81FF1A4BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "457A100969EFA67C"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B06BC108424E9D8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(deeperdarker:warden_helmet)item(deeperdarker:warden_chestplate)item(deeperdarker:warden_leggings)item(deeperdarker:warden_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "5C6510707A87A630"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E01E0B20570BCBD"
+				table_id: 3495175666515583115L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5DF9CB182C4139B7"
+				item: { count: 1, id: "modern_industrialization:quantum_sword" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -15.0d
+		}
+		{
+			id: "3B1CD1D4F7864008"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AC41A3094C00A5"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B7389EF2A969BBC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "2A7A5C864644153A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "756C5248CDFA808A"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F934093D9DE2641"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(artifacts:slot/hands))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			id: "27BBBC04480FF3BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08B401DB24C3B740"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CBC9B161821D20A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(pneumaticcraft:armors/pneumatic)item_tag(pneumaticcraft:armors/compressed_iron))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "15D0FE5A9A36C6DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B6C225EF5040C9"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C3453F69B33326F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:armors))mod(mysticalagriculture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "6C8EA28B5D20EE64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B77D762716BBA4"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "096C2F2C8D95C3BB"
+					item: { count: 1, id: "pneumaticcraft:sentry_turret" }
+					type: "item"
+				}
+				{
+					id: "1149622C8A4F8BDD"
+					item: { count: 1, id: "mekanism_turrets:basic_laser_turret" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			id: "6E6A1D7F20AAA171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522429F6850A1786"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12AFE4A1329F3529"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:armors))mod(stellaris)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "61DDF151DFBE8531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22FB47F680601B34"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64879C797BAB2847"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_helmet)item(sgjourney:naquadah_chestplate)item(sgjourney:naquadah_leggings)item(sgjourney:naquadah_boots)item(sgjourney:system_lord_chestplate)item(sgjourney:system_lord_helmet)item(sgjourney:system_lord_leggings)item(sgjourney:system_lord_boots)item(sgjourney:jaffa_helmet)item(sgjourney:jaffa_chestplate)item(sgjourney:jaffa_leggings)item(sgjourney:jaffa_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "63DBF243412836AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3144D9FF6D6DC6A8"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F3EE791800F4663"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:matok)item(sgjourney:kara_kesh)item(sgjourney:naquadah_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.5d
+		}
+		{
+			id: "13FDA0B1966670D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CB29DB5E350CA73"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4591D10982A25E50"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_pickaxe)item(sgjourney:naquadah_axe)item(sgjourney:naquadah_shovel)item(sgjourney:naquadah_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			id: "3BCD03ECF406C421"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FD571EC76F3A35D"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D43BBC9D2FF2F20"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(pipez))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			id: "4DAE652A12B2D381"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F67E108905DA63C"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05B2D47EAEA06C1C"
+				item: { components: { "ftbfiltersystem:filter": "mod(mysticalagriculture)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			id: "2D44D161C058551F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4C3210AF4E5212"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4ADCF154B23C4559"
+				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			id: "7104726E1451CEF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "686BCE15B80D6B6F"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FB9E9C48B207830"
+				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			id: "070CE1A6DE294175"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D513E140D2213E1"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "559FF0C650569170"
+				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			id: "458D310B4C65BBB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A3A19A0A448B65C"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74318B96AB3D678D"
+				item: { components: { "ftbfiltersystem:filter": "mod(mysticalagriculture)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "07C6DFC0381025FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E277191BA6F7BF"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BE45E474FD5A5BC"
+				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			id: "568F7A21DA848894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61F0EF00938AF49D"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49178F3280C28D75"
+				item: { components: { "ftbfiltersystem:filter": "mod(mekanismtools)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			id: "7B28275FF4E3D4DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B96BD852E028BE"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3A22BEB9E7526853"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/melee_weapons)item_tag(c:tools/ranged_weapon)item_tag(c:tools/melee_weapon))mod(mekanism)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "16270C077EAFC29E"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(mekaweapons))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			id: "133D266FCD3ABEF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA69935BFA29D09"
+				table_id: 3495175666515583115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "149D6C6D77158769"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.5d
+		}
+	]
+}
