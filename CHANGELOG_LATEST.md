@@ -1,3 +1,8 @@
+# v0.5.1
+
+## Modifications
+- Return Curios mod back
+
 # v0.5.0
 
 ## Modifications
