@@ -1,0 +1,143 @@
+{
+	id: "30815BC01E40208B"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 3
+			id: "5599E0AAEDBAB552"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 1.5f
+		}
+		{ id: "1152B010CC3291DF", item: { count: 1, id: "minecraft:diamond_block" } }
+		{
+			id: "1A50919075568C2F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_block"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "3220C9E88B1B05CC"
+			item: {
+				count: 1
+				id: "mysticalagriculture:imperium_block"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "4AC5BFA22652C4DF"
+			item: {
+				count: 1
+				id: "mysticalagriculture:tertium_block"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "7607F9AAA0F90E54"
+			item: {
+				count: 1
+				id: "mysticalagriculture:supremium_block"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "07E3032B73BA427F"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "2539755C30A20E0D"
+			item: {
+				count: 1
+				id: "minecraft:redstone_block"
+			}
+			weight: 1.4f
+		}
+		{
+			count: 4
+			id: "7B8EF9E39949B277"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "345F272FAF54D09F"
+			item: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:strong_regeneration"
+					}
+				}
+				count: 1
+				id: "minecraft:potion"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 2
+			id: "32C88A27220C7AF7"
+			item: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:long_night_vision"
+					}
+				}
+				count: 1
+				id: "minecraft:potion"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 2
+			id: "15F1EBE5B57AB803"
+			item: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:long_fire_resistance"
+					}
+				}
+				count: 1
+				id: "minecraft:potion"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 64
+			id: "0C48E5A484C63047"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+			weight: 2.0f
+		}
+		{ id: "503CAF44C8D49B9C", item: { count: 1, id: "productivebees:bee_nest_diamond_helmet" } }
+		{
+			count: 7
+			id: "0CC08D160CD73BFF"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 1.1f
+		}
+		{
+			count: 8
+			id: "72D2DBBC46AA101D"
+			item: {
+				count: 1
+				id: "minecraft:lapis_block"
+			}
+		}
+	]
+}

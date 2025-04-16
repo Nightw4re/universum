@@ -16,6 +16,7 @@
 	chapter.6CB1A938135C55CD.title: "Chapter One: Minecraft+"
 	chapter.6EAD13485912FAB2.title: "Apothesis"
 	chapter.6F7E5116D54A355D.title: "Powah"
+	chapter.741946F0622C49E7.title: "Armor, Tools, and Weapons"
 	chapter.75597CB63032E4B4.title: "Chapter Four: The Endgame"
 	chapter_group.02D94E7EA029CF01.title: "Mechanical Age"
 	chapter_group.22D133045023811C.title: "Minecraft+"
@@ -30,6 +31,8 @@
 	quest.056223F1FCD5247E.quest_desc: ["There are modifiers used to enhance spawners, just hold any modifier in your main hand and right click on it. The list of modifiers can be found in JEI or the mod's book."]
 	quest.056223F1FCD5247E.title: "Spawner Modifiers"
 	quest.0665112D8E104BBB.quest_subtitle: "Make your favorite wine of choice a decor."
+	quest.070CE1A6DE294175.title: "Certus Tools"
+	quest.07C6DFC0381025FF.title: "Warden Tools"
 	quest.08F9B4F3EAB3658D.quest_subtitle: "Extract the Grapejuice from the Pot."
 	quest.08F9B4F3EAB3658D.title: "Grapejuices"
 	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the required blocks in the quest, when you're done, right click on the base block with an empty hand."]
@@ -79,13 +82,16 @@
 	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
 	quest.112C0C7C49867DE2.title: "&8Earth Metal"
 	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step in enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it also adds special abilities."]
+	quest.133D266FCD3ABEF2.title: "Jetpacks"
 	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
 	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
 	quest.1384C1D8BD79C6D0.title: "Desh Draining"
+	quest.13FDA0B1966670D9.title: "Naquadah Tools"
 	quest.14D42EDBFFCED86E.quest_subtitle: "Increases crop output."
 	quest.14DE762F4663D1C9.quest_subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 	quest.14DE762F4663D1C9.title: "&4Find a Graveyard"
 	quest.14EC4CDD6F712BF1.title: "Apple"
+	quest.15D0FE5A9A36C6DB.title: "Mystical Armor"
 	quest.16FED75C44853ECA.quest_subtitle: "Collects eggs laid by chickens."
 	quest.172968A234803DC0.quest_subtitle: "Made from Apple Mash."
 	quest.17E9FFDB849B49EA.title: "Automation machines"
@@ -185,12 +191,15 @@
 	]
 	quest.27595D60CB566E43.title: "Call me a traveler"
 	quest.27B8C86C8EFD36BF.quest_desc: ["You can further modify items via Augments."]
+	quest.27BBBC04480FF3BB.title: "Pneumatic Armor"
 	quest.282DA60064A73D74.quest_desc: ["Upgrading bookshelves will enhance their stats. The first tier uses ingredients from the Nether, the second from the sea, the third from Ancient Cities, and the last from the End."]
 	quest.295F800520044C23.quest_subtitle: "Pies, creates, cider and - of course - apple wine!"
 	quest.295F800520044C23.title: "Apples"
 	quest.29F51CC2D16D55AB.title: "Awakened!"
+	quest.2A7A5C864644153A.title: "Artifacts"
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
+	quest.2BDED85C43B4C112.title: "Advanced AE"
 	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.2CDAB93BD674197F.quest_desc: [
 		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
@@ -207,11 +216,13 @@
 		"Different sort of &bGrapejuice&r and ingredients result in different kinds of &bWines&r."
 	]
 	quest.2D36A0323AAF2D5C.quest_subtitle: "Used to age Grapejuice into Wine or Aples into Cider."
+	quest.2D44D161C058551F.title: "Warden Weapons"
 	quest.2D58EECF6EB9B619.title: "Certus Quartz"
 	quest.2DD1E268E40C2508.quest_desc: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
 	quest.2DD1E268E40C2508.quest_subtitle: "Its not hard, just rocket science!"
 	quest.2DEACB9493C491BB.quest_subtitle: "Tastes like everything.. or does everything taste like it?"
 	quest.2E8AFC74EDA4AB31.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.2FED7A81DF6D6175.title: "Minecraft Tier"
 	quest.30F1C5601C3ECEF1.quest_desc: [
 		"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
 		""
@@ -273,6 +284,8 @@
 	quest.3AADB6E423767219.quest_desc: ["This bee can be found in the End, but keep in mind to use Anti-teleport upgrade in its hive, because it can randomly teleport for short-range distances like Endermen like do."]
 	quest.3AADB6E423767219.title: "Ender Bee"
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.3B1CD1D4F7864008.title: "MekaSuit"
+	quest.3BCD03ECF406C421.title: "Pipez"
 	quest.3C1680DC5599405E.title: "Jar and Dagger"
 	quest.3C550F45E278EEB7.quest_desc: ["You can convert special combs into items(or chance for more rare items)."]
 	quest.3C550F45E278EEB7.title: "Centrifuges"
@@ -316,6 +329,7 @@
 	quest.438319FC721F0274.title: "&eThe Bumblezone"
 	quest.44D61369427B7CBF.title: "Chocolates"
 	quest.44FD73D3FCC38DBD.title: "Red Wine"
+	quest.458D310B4C65BBB3.title: "Mystical Tools"
 	quest.462400176C496619.title: "Caramel Chocolates"
 	quest.46C75937AC35A417.quest_desc: ["Feed it with anything. Any item inserted into the condenser will be destroyed and matter will be accumulated. If you increase the capacity you can create a singularity!"]
 	quest.479D2D1966C75C85.quest_subtitle: "Storage for Wine Bottles."
@@ -369,6 +383,7 @@
 		"Recipes can be found in JEI. When you power up the Energize Rod and insert the proper items to the Energizing Orb it will start energizing by a beam."
 	]
 	quest.4DA255280F7E1DC4.title: "Energizing"
+	quest.4DAE652A12B2D381.title: "Mystical Weapons"
 	quest.4E085EE3E8A8BDF5.title: "Tier 2 - 5"
 	quest.4ED4ED6F965C40DE.quest_desc: [
 		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods that allow you to manage and trade with your villagers and piglins easier."
@@ -406,6 +421,7 @@
 	]
 	quest.528AC9572695085A.title: "Mystical Bees"
 	quest.529FA5C3502DBF4D.quest_subtitle: "Your market of choice for seeds and crops."
+	quest.568F7A21DA848894.title: "Meka Tools"
 	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of ancient technology."]
 	quest.58132755E921E778.quest_desc: [
 		"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
@@ -455,6 +471,9 @@
 	quest.6114CC6BE5D2627F.quest_desc: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
 	quest.6114CC6BE5D2627F.quest_subtitle: "Pretty red ingot go brrr"
 	quest.6114CC6BE5D2627F.title: "&cMercury Metal"
+	quest.61DDF151DFBE8531.title: "Jaffa"
+	quest.63A9AB111C9E3C3D.title: "Building Gadgets"
+	quest.63DBF243412836AD.title: "Stargate Weapons"
 	quest.63FA3769E13D14CA.quest_desc: ["Our journey through the stars has not ended yet, but we can't continue at the moment.  Have a look at what will be coming soon..."]
 	quest.63FA3769E13D14CA.title: "Is this end?"
 	quest.6491E686F47C9A2B.quest_subtitle: "Goes good anytime."
@@ -520,6 +539,7 @@
 		" &6This will be enhanced by it's quest chapter in the future, stay tuned!&r"
 	]
 	quest.6C7FA1194422F63E.title: "Chipped"
+	quest.6C8EA28B5D20EE64.title: "Turrets"
 	quest.6D01C247A8864071.quest_desc: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
 	quest.6D01C247A8864071.quest_subtitle: "Overclocked Ostrum"
 	quest.6DABB3DDA44D6377.quest_desc: [
@@ -537,6 +557,7 @@
 	quest.6E4D99BBFFDFB961.quest_subtitle: "Sizzling Space"
 	quest.6E4D99BBFFDFB961.title: "To the Hotter Planets!"
 	quest.6E695CDB88595C14.title: "Praline Chocolates"
+	quest.6E6A1D7F20AAA171.title: "Space Suits"
 	quest.6E8BF9F8A67D1B66.quest_desc: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
 	quest.6E8BF9F8A67D1B66.quest_subtitle: "Beyond the Milky Way"
 	quest.6E8BF9F8A67D1B66.title: "To ... Beyond?"
@@ -558,6 +579,7 @@
 		"You can craft an Energy hopper connected to the chest and insert the battery or any electric device to charge it."
 	]
 	quest.70E2ADBEFB1511FC.title: "Personal Energy"
+	quest.7104726E1451CEF6.title: "Certus Weapons"
 	quest.7270165EFFE25593.quest_subtitle: "{count:1,id:\"ae2:16k_crafting_storage\"}"
 	quest.7311ED0FFC4444EB.quest_desc: [
 		"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
@@ -580,11 +602,14 @@
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.7AA41E5027A82A90.title: "Mekanism"
+	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
+	quest.7B28275FF4E3D4DA.title: "Meka Weapons"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
 	quest.7FA54F2D5D3E5D7D.title: "Villager"
 	reward_table.0BE11E9721134A37.title: "Mystical"
 	reward_table.14861C0A762B296A.title: "Bee"
 	reward_table.1A5CF82F1A6DD170.title: "powah"
+	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.58F41B9373F40386.title: "pickaxe"
 	task.041C084B2F12D089.title: "Time to explore"
 	task.04801BAC52C4D589.title: "Chocolatier"
