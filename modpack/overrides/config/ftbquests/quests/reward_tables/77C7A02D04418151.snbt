@@ -1,0 +1,6 @@
+{
+	id: "77C7A02D04418151"
+	loot_size: 1
+	order_index: 6
+	rewards: [{ id: "474153588FB21C27", item: { count: 1, id: "modern_industrialization:basic_machine_hull" } }]
+}
