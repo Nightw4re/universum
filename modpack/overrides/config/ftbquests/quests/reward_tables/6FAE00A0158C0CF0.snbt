@@ -1,0 +1,76 @@
+{
+	id: "6FAE00A0158C0CF0"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 32
+			id: "1019007AEBEF08DB"
+			item: {
+				count: 1
+				id: "modern_industrialization:item_pipe"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "33997A03B9E5DB17"
+			item: {
+				count: 1
+				id: "modern_industrialization:fluid_pipe"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "5792104190789614"
+			item: {
+				count: 1
+				id: "mekanism:ingot_bronze"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "214E87828EB35AED"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_tank"
+			}
+		}
+		{
+			count: 2
+			id: "56F4A5FE7E46F06D"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+		}
+		{
+			count: 64
+			id: "3419F2ED39E79665"
+			item: {
+				count: 1
+				id: "modern_industrialization:rubber_sheet"
+			}
+		}
+		{
+			count: 32
+			id: "1EC49EEB335703DA"
+			item: {
+				count: 1
+				id: "mekanism:ingot_steel"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "2260E62A9D6AA4E8"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			weight: 0.5f
+		}
+	]
+}
