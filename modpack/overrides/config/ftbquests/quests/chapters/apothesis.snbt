@@ -109,6 +109,15 @@
 		{
 			dependencies: ["1D903985069CD9BD"]
 			id: "056223F1FCD5247E"
+			rewards: [{
+				count: 5
+				id: "797B08759A58A8F3"
+				item: {
+					count: 1
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "316FE9E146E34148"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:comparator)item(minecraft:conduit)item(minecraft:echo_shard)item(minecraft:fermented_spider_eye)item(minecraft:piston)item(minecraft:turtle_egg)item(minecraft:soul_lantern)item(minecraft:prismarine_crystals)item(minecraft:sugar)item(minecraft:ghast_tear)item(minecraft:clock)item(minecraft:pointed_dripstone)item(minecraft:nether_star)item(minecraft:campfire)item(minecraft:white_wool))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -120,6 +129,14 @@
 		{
 			dependencies: ["1D903985069CD9BD"]
 			id: "5FBE5B1B68C6D8AE"
+			rewards: [{
+				id: "108B453FD02FB0F8"
+				item: {
+					count: 1
+					id: "apothic_enchanting:ender_lead"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DDB082B25F6F6A9"
 				item: { count: 1, id: "minecraft:quartz" }

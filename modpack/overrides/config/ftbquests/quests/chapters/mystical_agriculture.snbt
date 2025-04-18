@@ -226,6 +226,12 @@
 		{
 			dependencies: ["48C157CC1998157A"]
 			id: "42F1E79705E6B37D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E3B547158C14C7"
+				table_id: 855999038620912183L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 8L
