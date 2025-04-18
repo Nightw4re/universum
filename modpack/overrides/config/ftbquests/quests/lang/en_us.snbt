@@ -23,6 +23,7 @@
 	chapter_group.244B68E119B27430.title: "Electric Age"
 	chapter_group.29D1B61E7DF0149F.title: "Resources"
 	chapter_group.78F3519E8A49FAB8.title: "Journey"
+	quest.0373A1579EFDB00B.title: "Basic Machines"
 	quest.03A2A443E738065F.quest_desc: ["For better items you will need this upgraded table."]
 	quest.03AA5258043E86C1.quest_desc: ["[ \"You can buy resources from villagers. Just use a\", { \"text\": \"Charger\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"432B6750035E63F3\" } }, \" as their working station.\" ]"]
 	quest.03C7C361F2A8FC5C.quest_desc: ["You can modify items on an anvil. Prismarine cobweb will remove all curses from an item. Various Tomes are working as an item symbolizing them, but the final result will be a book, and this is usable on an enchanting table as well."]
@@ -151,6 +152,7 @@
 	quest.1C711856985D4A81.quest_subtitle: "Beat Elon to it!"
 	quest.1C711856985D4A81.title: "To Mars!"
 	quest.1D903985069CD9BD.quest_desc: ["Enchant a weapon with Capturing to have a chance of obtaining a mob's spawn egg. You can use any spawn egg on a spawner to get those mobs to spawn from the spawner."]
+	quest.1E7492EFCF1404CA.quest_desc: ["Continue in you journey!"]
 	quest.1EBC773ED06E4670.quest_desc: [
 		"Eating various food will grant you extra hearts (health points), but only for &lunique food&r."
 		""
@@ -197,6 +199,7 @@
 	quest.295F800520044C23.title: "Apples"
 	quest.29F51CC2D16D55AB.title: "Awakened!"
 	quest.2A7A5C864644153A.title: "Artifacts"
+	quest.2AA8EC70DC03E4EE.title: "Multi-block Machines"
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
 	quest.2BDED85C43B4C112.title: "Advanced AE"
@@ -239,6 +242,7 @@
 	]
 	quest.3178EF6B62E2D458.quest_subtitle: "Zip Zap Steel"
 	quest.3178EF6B62E2D458.title: "Surging Steel"
+	quest.31E04791F797FE20.title: "Pump Water"
 	quest.32910C1041DE2764.quest_desc: [
 		"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
 		""
@@ -257,6 +261,7 @@
 	]
 	quest.34216A1573B90BBB.quest_subtitle: "Unique instanced loot for every player!"
 	quest.34216A1573B90BBB.title: "&6Lootr"
+	quest.34A9AA11322D8734.title: "New Electric Machines"
 	quest.34EDE3B256C8DEC1.quest_desc: ["With MineColonies, you can turn the game into a city-building experience - establish your colony, manage its resources, and provide jobs for its citizens!"]
 	quest.34EDE3B256C8DEC1.title: "MineColonies"
 	quest.3560DF7703EDA4B1.quest_desc: ["More than naquadah."]
@@ -361,6 +366,7 @@
 	quest.48FFEB9924643C86.title: "Getting Bees"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
 	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.49E2F0E372659287.title: "Electric Enhanced Machines"
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
 	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
@@ -501,6 +507,7 @@
 	quest.68213B32C7BFE139.quest_desc: ["Complete your kitchen to expand your culinary skills"]
 	quest.68213B32C7BFE139.quest_subtitle: "Complete your kitchen. Feed the world."
 	quest.68213B32C7BFE139.title: "Kitchen Basics"
+	quest.687EF4F01CE2AD4C.title: "Fluid Pipes"
 	quest.6A298F887D96C0E8.quest_desc: [
 		"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
 		""
@@ -604,6 +611,7 @@
 	quest.7AA41E5027A82A90.title: "Mekanism"
 	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
 	quest.7B28275FF4E3D4DA.title: "Meka Weapons"
+	quest.7D7BB64C4F4BA260.title: "LV transfer"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
 	quest.7FA54F2D5D3E5D7D.title: "Villager"
 	reward_table.0BE11E9721134A37.title: "Mystical"
@@ -611,6 +619,8 @@
 	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.58F41B9373F40386.title: "pickaxe"
+	reward_table.6FAE00A0158C0CF0.title: "MI Bronze"
+	reward_table.77C7A02D04418151.title: "MI Electric"
 	task.041C084B2F12D089.title: "Time to explore"
 	task.04801BAC52C4D589.title: "Chocolatier"
 	task.0E4BF8959E4A3E10.title: "Cookies and Cream Chocolates"
@@ -632,5 +642,6 @@
 	task.6BD84ECACCA0532F.title: "Make one of the following chocolates"
 	task.718A6342D32D08B3.title: "Make one of the following caramel chocolates."
 	task.76E7E15CC252A02B.title: "Blockhead"
+	task.7893703F54500D63.title: "TODO"
 	task.7AB2C45EA0AEEC7D.title: "Coconut Chocolates"
 }
