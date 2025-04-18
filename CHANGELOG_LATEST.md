@@ -1,3 +1,8 @@
+# v0.6.2
+
+## Modifications
+- Remove Hang Glider
+
 # v0.6.1
 
 ## Modifications
