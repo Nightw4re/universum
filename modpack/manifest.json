@@ -3,7 +3,7 @@
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.141",
+        "id": "neoforge-21.1.151",
         "primary": true
       }
     ],
@@ -97,7 +97,7 @@
     },
     {
       "projectID": 898963,
-      "fileID": 6302334,
+      "fileID": 6430300,
       "required": true
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 6371007,
+      "fileID": 6429142,
       "required": true
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 6367086,
+      "fileID": 6429221,
       "required": true
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "projectID": 619320,
-      "fileID": 6423917,
+      "fileID": 6433615,
       "required": true
     },
     {
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 1063926,
-      "fileID": 6084297,
+      "fileID": 6430297,
       "required": true
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 6391012,
+      "fileID": 6433551,
       "required": true
     },
     {
@@ -382,7 +382,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 6425436,
+      "fileID": 6430338,
       "required": true
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "projectID": 552574,
-      "fileID": 6078022,
+      "fileID": 6430289,
       "required": true
     },
     {
@@ -682,7 +682,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 6425408,
+      "fileID": 6428560,
       "required": true
     },
     {
@@ -732,7 +732,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 6425163,
+      "fileID": 6433568,
       "required": true
     },
     {
@@ -792,12 +792,12 @@
     },
     {
       "projectID": 313970,
-      "fileID": 6302343,
+      "fileID": 6430354,
       "required": true
     },
     {
       "projectID": 986583,
-      "fileID": 6148923,
+      "fileID": 6430294,
       "required": true
     },
     {
@@ -867,7 +867,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 6337156,
+      "fileID": 6430287,
       "required": true
     },
     {
@@ -892,7 +892,7 @@
     },
     {
       "projectID": 1036270,
-      "fileID": 6387710,
+      "fileID": 6432611,
       "required": true
     },
     {
