@@ -2,5 +2,4 @@ version:3955
 fullscreen:true
 guiScale:2
 narratorHotkey:false
-resourcePacks:["vanilla","mod_resources","mod/towntalk:respack","moonlight:mods_dynamic_assets","file/SGJourney Refreshed.zip","mod/megacells:optional_cell_colours","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Stellarity-RP-3-0-3.zip"]
-incompatibleResourcePacks:["file/SGJourney Refreshed.zip"]
+resourcePacks:["vanilla","mod_resources","mod/towntalk:respack","moonlight:mods_dynamic_assets","mod/megacells:optional_cell_colours","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Stellarity-RP-3-0-3.zip"]

@@ -1,3 +1,8 @@
+# v0.6.1
+
+## Modifications
+- Remove SGJourney Refreshed ResourcePack
+
 # v0.6.0
 
 ## Modifications
