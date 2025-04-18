@@ -6,16 +6,40 @@
 	id: "75597CB63032E4B4"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["698F9F466AB10C6E"]
-		hide_until_deps_complete: true
-		id: "48F8B17F8F1B0226"
-		tasks: [{
-			id: "77BAAB926253388D"
-			item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
-			type: "item"
-		}]
-		x: -0.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["698F9F466AB10C6E"]
+			hide_until_deps_complete: true
+			id: "48F8B17F8F1B0226"
+			tasks: [{
+				id: "77BAAB926253388D"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E7492EFCF1404CA"]
+			hide_until_deps_complete: true
+			id: "4F5FCCDCD699C728"
+			tasks: [{
+				id: "2D58404E83218E02"
+				item: { count: 1, id: "modern_industrialization:nuke" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "057456AAA1FC0FA8"
+			invisible: true
+			tasks: [{
+				id: "7893703F54500D63"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+	]
 }
