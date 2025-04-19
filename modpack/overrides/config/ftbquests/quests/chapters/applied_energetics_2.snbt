@@ -779,6 +779,14 @@
 		}
 		{
 			id: "4CAC010FC6A3A2ED"
+			rewards: [{
+				id: "7F98EE3D5025B794"
+				item: {
+					count: 1
+					id: "ae2:cell_component_64k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "08314D25EC77B64F"
 				item: { count: 1, id: "ae2:cell_component_64k" }

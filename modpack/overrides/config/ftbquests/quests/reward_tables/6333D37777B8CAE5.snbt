@@ -1,0 +1,66 @@
+{
+	id: "6333D37777B8CAE5"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 4
+			id: "763799F33E92B494"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_upgrade"
+			}
+		}
+		{
+			count: 4
+			id: "0AD3B40315610E81"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_upgrade"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "69639A8411C5A596"
+			item: {
+				count: 1
+				id: "modern_industrialization:kanthal_cable"
+			}
+		}
+		{
+			count: 4
+			id: "106E070E03033840"
+			item: {
+				count: 1
+				id: "modern_industrialization:aluminum_drill"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "5F5804D0014920B9"
+			item: {
+				count: 1
+				id: "modern_industrialization:turbo_machine_hull"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "70F8D8E945051AD5"
+			item: {
+				count: 1
+				id: "modern_industrialization:turbo_machine_casing"
+			}
+		}
+		{
+			count: 4
+			id: "0CAB9B365A6CA90D"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_machine_casing"
+			}
+		}
+	]
+}
