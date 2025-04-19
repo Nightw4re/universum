@@ -2,5 +2,63 @@
 	id: "77C7A02D04418151"
 	loot_size: 1
 	order_index: 6
-	rewards: [{ id: "474153588FB21C27", item: { count: 1, id: "modern_industrialization:basic_machine_hull" } }]
+	rewards: [
+		{
+			count: 2
+			id: "474153588FB21C27"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_machine_hull"
+			}
+		}
+		{ id: "14ADC552401723D6", item: { count: 1, id: "modern_industrialization:steel_tank" } }
+		{
+			id: "61DCCA7A0E534A6A"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "30DD6737BC47DE68"
+			item: {
+				count: 1
+				id: "modern_industrialization:motor"
+			}
+		}
+		{
+			count: 4
+			id: "340B434907DDA778"
+			item: {
+				count: 1
+				id: "modern_industrialization:analog_circuit"
+			}
+		}
+		{
+			count: 2
+			id: "7326E2740529CA05"
+			item: {
+				count: 1
+				id: "modern_industrialization:lubricant_bucket"
+			}
+		}
+		{
+			count: 4
+			id: "4992EAE365157526"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_upgrade"
+			}
+		}
+		{
+			count: 16
+			id: "2C7CCCCB83B28880"
+			item: {
+				count: 1
+				id: "modern_industrialization:tin_cable"
+			}
+		}
+	]
 }

@@ -1,0 +1,107 @@
+{
+	id: "0173934A540D9076"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "12008D4A2BBD27A6", item: { count: 1, id: "mekanismgenerators:wind_generator" } }
+		{ id: "3B7D66DD901CAA84", item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" } }
+		{
+			count: 4
+			id: "0BB377AC01E68649"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "671447B5EAFC5BB6"
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 4
+			id: "7C8D8C609C8F2F4C"
+			item: {
+				count: 1
+				id: "mekanism:elite_control_circuit"
+			}
+		}
+		{
+			count: 32
+			id: "2F0AB6C5B3515924"
+			item: {
+				count: 1
+				id: "mekanism:enriched_diamond"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "2CA5AEBD08B0DDD2"
+			item: {
+				count: 1
+				id: "mekanism:enriched_refined_obsidian"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "3CB5C6BA11519001"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			weight: 1.5f
+		}
+		{ id: "796FA5F17199C9C4", item: { count: 1, id: "mekanism:quantum_entangloporter" } }
+		{
+			count: 2
+			id: "367690E8F7AA5E77"
+			item: {
+				count: 1
+				id: "mekanism:block_osmium"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "24561CA55DE88839"
+			item: {
+				count: 1
+				id: "mekanism:elite_universal_cable"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			id: "1AA8F8BD6989418C"
+			item: {
+				count: 1
+				id: "mekanism:advanced_universal_cable"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 16
+			id: "3E60E21F25C5C802"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+		}
+		{
+			count: 4
+			id: "2D121FE5BF2116B4"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			weight: 1.5f
+		}
+	]
+}
