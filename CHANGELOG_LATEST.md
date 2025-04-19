@@ -1,3 +1,7 @@
+# v0.7.1
+- Downgrade Stellaris to 1.3.8
+- Removed Star Wars Planets
+
 # v0.7.0
 
 ## Modifications
