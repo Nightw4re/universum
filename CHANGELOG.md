@@ -1,3 +1,24 @@
+
+# v0.7.3
+
+## Mods
+
+### Removed
+- Removed ExDeorum
+
+# v0.7.2
+
+## Mods 
+
+### Added
+- Add TrashCans
+- Add FramedBlocks
+- Add More Music Discs
+- Add JEI Mekanism Multiblocks
+- Add Open Elevator
+- Add Create Crafts & Additions
+- Add Connected Glass
+
 # v0.7.1
 - Downgrade Stellaris to 1.3.8
 - Removed Star Wars Planets

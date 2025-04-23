@@ -1,21 +1,16 @@
-# v0.7.3
-
-## Mods
-
-### Removed
-- Removed ExDeorum
-
-# v0.7.2
+# v0.7.4
 
 ## Modifications
 
-## Mods 
+- Mekaweapons nerf
+- Add new powah energizing recipes
+- Set Nitro block as heatsource for Themral generator
+- Disable Exchange Gadget
+
+### Removed
+
+- ToLaserBlade (temporary)
 
 ### Added
-- Add TrashCans
-- Add FramedBlocks
-- Add More Music Discs
-- Add JEI Mekanism Multiblocks
-- Add Open Elevator
-- Add Create Crafts & Additions
-- Add Connected Glass
+
+- Add Extreme sound muffler
