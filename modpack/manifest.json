@@ -313,7 +313,7 @@
     {
       "projectID": 412082,
       "fileID": 6428560,
-      "required": false
+      "required": true
     },
     {
       "projectID": 574300,
@@ -953,7 +953,7 @@
     {
       "projectID": 1030522,
       "fileID": 6393447,
-      "required": false
+      "required": true
     },
     {
       "projectID": 386134,
