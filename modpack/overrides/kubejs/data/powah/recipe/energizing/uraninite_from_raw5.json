@@ -1,0 +1,25 @@
+{
+  "type": "powah:energizing",
+  "energy": 15500,
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/uraninite"
+    },
+    {
+      "tag": "c:raw_materials/uraninite"
+    },
+    {
+      "tag": "c:raw_materials/uraninite"
+    },
+    {
+      "tag": "c:raw_materials/uraninite"
+    },
+    {
+      "tag": "c:raw_materials/uraninite"
+    }
+  ],
+  "result": {
+    "count": 10,
+    "id": "powah:uraninite"
+  }
+}
