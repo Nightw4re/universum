@@ -1,0 +1,70 @@
+{
+	id: "42BC718072493370"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ id: "6650A3642AB87B18", item: { count: 1, id: "create:mechanical_mixer" } }
+		{
+			count: 16
+			id: "28CC80ECB919738E"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+		}
+		{
+			count: 16
+			id: "201ECCA25A73E5BF"
+			item: {
+				count: 1
+				id: "cookingforblockheads:white_kitchen_floor"
+			}
+		}
+		{
+			count: 32
+			id: "7FB87E93330F6406"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+		}
+		{ id: "510C289B89735CB0", item: { count: 1, id: "create:basin" } }
+		{
+			count: 32
+			id: "13E7072568FA2545"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{ id: "321E8E2201BB807F", item: { count: 1, id: "farmersdelight:tomato_crate" } }
+		{ id: "4AC6848F10F7E360", item: { count: 1, id: "culturaldelights:pickle_crate" } }
+		{ id: "012D21FE9E95DFA7", item: { count: 1, id: "culturaldelights:cucumber_crate" } }
+		{ id: "603D737C21AF144E", item: { count: 1, id: "farmersdelight:onion_crate" } }
+		{ id: "7F151850D02A53C5", item: { count: 1, id: "farmersdelight:cabbage_crate" } }
+		{
+			count: 32
+			id: "4247CBE3C2BA761E"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+		{
+			count: 8
+			id: "0B3B9DA411335BB8"
+			item: {
+				count: 1
+				id: "mysticalagriculture:mystical_fertilizer"
+			}
+		}
+		{
+			count: 16
+			id: "23F89364BD51421F"
+			item: {
+				count: 1
+				id: "farmingforblockheads:red_fertilizer"
+			}
+		}
+	]
+}
