@@ -13,7 +13,7 @@
 	chapter.5A9050C2AE0EB473.title: "Productive Bee"
 	chapter.5D25557A809CB5D3.title: "Agriculture"
 	chapter.68753D672BE6FD31.title: "PneumatiCraft"
-	chapter.698F9F466AB10C6E.title: "Chapter Three: The Dark"
+	chapter.698F9F466AB10C6E.title: "Chapter Three: The Darkness"
 	chapter.6CB1A938135C55CD.title: "Chapter One: Minecraft+"
 	chapter.6EAD13485912FAB2.title: "Apothesis"
 	chapter.6F7E5116D54A355D.title: "Powah"
@@ -205,7 +205,6 @@
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
 	quest.2BDED85C43B4C112.title: "Advanced AE"
-	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.2CDAB93BD674197F.quest_desc: [
 		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
 		""
@@ -626,6 +625,7 @@
 	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
+	reward_table.5E23E46C064856EF.title: "Bosses"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
 	reward_table.699CF211D7DD74EE.title: "Create"
 	reward_table.6A792C622F69C5B9.title: "Pneumatic"
