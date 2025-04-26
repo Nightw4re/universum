@@ -1,0 +1,91 @@
+{
+	id: "6A792C622F69C5B9"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 8
+			id: "1CFA059238A1E457"
+			item: {
+				count: 1
+				id: "pneumaticcraft:pressure_tube"
+			}
+		}
+		{
+			count: 8
+			id: "78CF7EC96D5D3DF5"
+			item: {
+				count: 1
+				id: "pneumaticcraft:reinforced_pressure_tube"
+			}
+			weight: 0.75f
+		}
+		{
+			count: 8
+			id: "4640AD60A6142178"
+			item: {
+				count: 1
+				id: "pneumaticcraft:advanced_pressure_tube"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "424B2D4F97E3A497"
+			item: {
+				count: 1
+				id: "pneumaticcraft:compressed_iron_block"
+			}
+		}
+		{
+			count: 2
+			id: "5C378ECA5F998C3A"
+			item: {
+				count: 1
+				id: "pneumaticcraft:oil_bucket"
+			}
+		}
+		{
+			count: 8
+			id: "75994B908261A5C9"
+			item: {
+				count: 1
+				id: "pneumaticcraft:pneumatic_cylinder"
+			}
+		}
+		{
+			count: 4
+			id: "4DCBBA7B57F98366"
+			item: {
+				count: 1
+				id: "pneumaticcraft:micromissiles"
+			}
+		}
+		{ id: "0470F50048D95CC1", item: { count: 1, id: "pneumaticcraft:small_tank" } }
+		{ id: "13F0CBA35B4C8250", item: { count: 1, id: "pneumaticcraft:gun_ammo" } }
+		{
+			count: 4
+			id: "5C6AB5E6B55D2D5F"
+			item: {
+				count: 1
+				id: "pneumaticcraft:capacitor"
+			}
+		}
+		{
+			count: 2
+			id: "560FFDAF70AE2B48"
+			item: {
+				count: 1
+				id: "pneumaticcraft:logistics_core"
+			}
+		}
+		{
+			count: 4
+			id: "1F64D322A5B41208"
+			item: {
+				count: 1
+				id: "pneumaticcraft:compressed_iron_gear"
+			}
+		}
+	]
+}
