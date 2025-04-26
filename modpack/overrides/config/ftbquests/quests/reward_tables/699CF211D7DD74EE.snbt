@@ -1,0 +1,84 @@
+{
+	id: "699CF211D7DD74EE"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "4041ADE923BA0315", item: { count: 1, id: "create:clutch" } }
+		{ id: "73280DF6904EFEF8", item: { count: 1, id: "create:gearshift" } }
+		{
+			count: 2
+			id: "223577D1C85D5A02"
+			item: {
+				count: 1
+				id: "create:empty_blaze_burner"
+			}
+		}
+		{
+			count: 32
+			id: "08D382F0AEB815B2"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 32
+			id: "669B7A1D21B3504C"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 32
+			id: "746D23F3F6935C1B"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 4
+			id: "2215F8583706E38A"
+			item: {
+				count: 1
+				id: "createaddition:capacitor"
+			}
+		}
+		{ id: "7062FBB098BADD1F", item: { count: 1, id: "create:elevator_pulley" } }
+		{
+			count: 8
+			id: "77096315F0D58BA7"
+			item: {
+				count: 1
+				id: "create:chute"
+			}
+		}
+		{ id: "2DCCCD480305E4C2", item: { count: 1, id: "create:encased_fan" } }
+		{
+			count: 2
+			id: "64BD06CC80C798EC"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+		{
+			count: 32
+			id: "1DC80792860D004D"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 16
+			id: "6030306B8D182F9E"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 0.5f
+		}
+	]
+}
