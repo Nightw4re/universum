@@ -3,6 +3,7 @@
 	chapter.14C03B8DB3D755C6.title: "Chapter Two: Stargate"
 	chapter.1539A9ED6569386C.title: "Applied Energetics 2"
 	chapter.195703ECD0861D1D.title: "Modern Industrialization"
+	chapter.1CAE135FFFE06CB5.title: "Cooking"
 	chapter.2145A9FDB3DC298F.title: "Hostile Neural Network"
 	chapter.3737375FFDCE697B.title: "Mystical Agriculture"
 	chapter.3F91472CA2C9CFDD.title: "Ad Astra"
@@ -12,7 +13,7 @@
 	chapter.5A9050C2AE0EB473.title: "Productive Bee"
 	chapter.5D25557A809CB5D3.title: "Agriculture"
 	chapter.68753D672BE6FD31.title: "PneumatiCraft"
-	chapter.698F9F466AB10C6E.title: "Chapter Three: The Dark"
+	chapter.698F9F466AB10C6E.title: "Chapter Three: The Darkness"
 	chapter.6CB1A938135C55CD.title: "Chapter One: Minecraft+"
 	chapter.6EAD13485912FAB2.title: "Apothesis"
 	chapter.6F7E5116D54A355D.title: "Powah"
@@ -83,6 +84,7 @@
 	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
 	quest.112C0C7C49867DE2.title: "&8Earth Metal"
 	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step in enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it also adds special abilities."]
+	quest.11DA91DFD5909DAD.title: "Horst Fuchs recommends"
 	quest.133D266FCD3ABEF2.title: "Jetpacks"
 	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
 	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
@@ -203,7 +205,6 @@
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
 	quest.2BDED85C43B4C112.title: "Advanced AE"
-	quest.2C5DA91BEFD9042C.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.2CDAB93BD674197F.quest_desc: [
 		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
 		""
@@ -224,7 +225,7 @@
 	quest.2DD1E268E40C2508.quest_desc: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
 	quest.2DD1E268E40C2508.quest_subtitle: "Its not hard, just rocket science!"
 	quest.2DEACB9493C491BB.quest_subtitle: "Tastes like everything.. or does everything taste like it?"
-	quest.2E8AFC74EDA4AB31.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.2E8AFC74EDA4AB31.quest_desc: [""]
 	quest.2FED7A81DF6D6175.title: "Minecraft Tier"
 	quest.30F1C5601C3ECEF1.quest_desc: [
 		"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
@@ -365,7 +366,7 @@
 	]
 	quest.48FFEB9924643C86.title: "Getting Bees"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
-	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.49C19563C09343E5.quest_desc: [""]
 	quest.49E2F0E372659287.title: "Electric Enhanced Machines"
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
@@ -381,7 +382,7 @@
 		""
 		"Channel limit is &oInfinite&r."
 	]
-	quest.4D5DE6CE8BC8A185.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.4D5DE6CE8BC8A185.quest_desc: [""]
 	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
 	quest.4DA255280F7E1DC4.quest_desc: [
 		"You can craft enhanced material with energizing. "
@@ -420,6 +421,7 @@
 		""
 		"If you are having trouble finding it, you can use Explorer's compass."
 	]
+	quest.52011D43895D0620.title: "Cabinet"
 	quest.528AC9572695085A.quest_desc: [
 		"Inferium, Prudentium, Tertium, etc. "
 		""
@@ -527,7 +529,7 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
-	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.6BF628828AD764EF.quest_desc: [""]
 	quest.6C19FDFF0750F2D5.quest_desc: [
 		"We proudly welcome you on your journey to the stars!"
 		""
@@ -605,11 +607,13 @@
 		"&6This will be enhanced by its own quest chapter in the future, stay tuned!&r"
 	]
 	quest.776448522144B159.title: "Apotheosis"
+	quest.794781ABF3E3A4CC.title: "Sink"
 	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions and when worn grant you the corresponding effect of the potions used to create them. Over time their durability will go down."]
 	quest.7A54FB158E3A91F9.title: "Charms"
-	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.7AA41E5027A82A90.quest_desc: [""]
 	quest.7AA41E5027A82A90.title: "Mekanism"
 	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
+	quest.7AFA855108C8EDB8.title: "Fridge"
 	quest.7B28275FF4E3D4DA.title: "Meka Weapons"
 	quest.7D7BB64C4F4BA260.title: "LV transfer"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
@@ -619,9 +623,12 @@
 	reward_table.14861C0A762B296A.title: "Bee"
 	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.30815BC01E40208B.title: "Armors"
+	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
-	reward_table.58F41B9373F40386.title: "pickaxe"
+	reward_table.5E23E46C064856EF.title: "Bosses"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
+	reward_table.699CF211D7DD74EE.title: "Create"
+	reward_table.6A792C622F69C5B9.title: "Pneumatic"
 	reward_table.6FAE00A0158C0CF0.title: "MI Bronze"
 	reward_table.77C7A02D04418151.title: "MI Electric"
 	task.041C084B2F12D089.title: "Time to explore"

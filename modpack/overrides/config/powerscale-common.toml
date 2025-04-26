@@ -65,7 +65,7 @@ detailed_logging = false
 		#The highest value that a player's difficulty can reach
 		# Default: 250.0
 		# Range: -999999.0 ~ 999999.0
-		max = 250.0
+		max = 400.0
 		#The lowest value that a player's difficulty can reach
 		# Default: 0.0
 		# Range: -999999.0 ~ 999999.0
@@ -82,7 +82,7 @@ detailed_logging = false
 		#The highest value that a boss mob's difficulty can reach
 		# Default: 250.0
 		# Range: -999999.0 ~ 999999.0
-		max = 250.0
+		max = 400.0
 		#The lowest value that a boss mob's difficulty can reach
 		# Default: 0.0
 		# Range: -999999.0 ~ 999999.0
@@ -92,7 +92,7 @@ detailed_logging = false
 		#The highest value that a hostile mob's difficulty can reach
 		# Default: 250.0
 		# Range: -999999.0 ~ 999999.0
-		max = 250.0
+		max = 400.0
 		#The lowest value that a hostile mob's difficulty can reach
 		# Default: 0.0
 		# Range: -999999.0 ~ 999999.0
@@ -102,7 +102,7 @@ detailed_logging = false
 		#The highest value that a peaceful mob's difficulty can reach
 		# Default: 250.0
 		# Range: -999999.0 ~ 999999.0
-		max = 250.0
+		max = 400.0
 		#The lowest value that a peaceful mob's difficulty can reach
 		# Default: 0.0
 		# Range: -999999.0 ~ 999999.0
@@ -112,7 +112,7 @@ detailed_logging = false
 		#The highest difficulty that can be computed and applied to a mob
 		# Default: 250.0
 		# Range: -999999.0 ~ 999999.0
-		max = 250.0
+		max = 400.0
 		#The lowest difficulty that can be computed and applied to a mob
 		# Default: 0.0
 		# Range: -999999.0 ~ 999999.0
