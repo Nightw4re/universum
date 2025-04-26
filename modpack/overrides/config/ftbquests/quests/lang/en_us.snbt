@@ -3,6 +3,7 @@
 	chapter.14C03B8DB3D755C6.title: "Chapter Two: Stargate"
 	chapter.1539A9ED6569386C.title: "Applied Energetics 2"
 	chapter.195703ECD0861D1D.title: "Modern Industrialization"
+	chapter.1CAE135FFFE06CB5.title: "Cooking"
 	chapter.2145A9FDB3DC298F.title: "Hostile Neural Network"
 	chapter.3737375FFDCE697B.title: "Mystical Agriculture"
 	chapter.3F91472CA2C9CFDD.title: "Ad Astra"
@@ -83,6 +84,7 @@
 	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
 	quest.112C0C7C49867DE2.title: "&8Earth Metal"
 	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step in enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it also adds special abilities."]
+	quest.11DA91DFD5909DAD.title: "Horst Fuchs recommends"
 	quest.133D266FCD3ABEF2.title: "Jetpacks"
 	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
 	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
@@ -420,6 +422,7 @@
 		""
 		"If you are having trouble finding it, you can use Explorer's compass."
 	]
+	quest.52011D43895D0620.title: "Cabinet"
 	quest.528AC9572695085A.quest_desc: [
 		"Inferium, Prudentium, Tertium, etc. "
 		""
@@ -605,11 +608,13 @@
 		"&6This will be enhanced by its own quest chapter in the future, stay tuned!&r"
 	]
 	quest.776448522144B159.title: "Apotheosis"
+	quest.794781ABF3E3A4CC.title: "Sink"
 	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions and when worn grant you the corresponding effect of the potions used to create them. Over time their durability will go down."]
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
 	quest.7AA41E5027A82A90.title: "Mekanism"
 	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
+	quest.7AFA855108C8EDB8.title: "Fridge"
 	quest.7B28275FF4E3D4DA.title: "Meka Weapons"
 	quest.7D7BB64C4F4BA260.title: "LV transfer"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
@@ -619,6 +624,7 @@
 	reward_table.14861C0A762B296A.title: "Bee"
 	reward_table.1A5CF82F1A6DD170.title: "powah"
 	reward_table.30815BC01E40208B.title: "Armors"
+	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
 	reward_table.58F41B9373F40386.title: "pickaxe"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
