@@ -226,7 +226,7 @@
 	quest.2DD1E268E40C2508.quest_desc: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
 	quest.2DD1E268E40C2508.quest_subtitle: "Its not hard, just rocket science!"
 	quest.2DEACB9493C491BB.quest_subtitle: "Tastes like everything.. or does everything taste like it?"
-	quest.2E8AFC74EDA4AB31.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.2E8AFC74EDA4AB31.quest_desc: [""]
 	quest.2FED7A81DF6D6175.title: "Minecraft Tier"
 	quest.30F1C5601C3ECEF1.quest_desc: [
 		"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
@@ -367,7 +367,7 @@
 	]
 	quest.48FFEB9924643C86.title: "Getting Bees"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
-	quest.49C19563C09343E5.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.49C19563C09343E5.quest_desc: [""]
 	quest.49E2F0E372659287.title: "Electric Enhanced Machines"
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
@@ -383,7 +383,7 @@
 		""
 		"Channel limit is &oInfinite&r."
 	]
-	quest.4D5DE6CE8BC8A185.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.4D5DE6CE8BC8A185.quest_desc: [""]
 	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
 	quest.4DA255280F7E1DC4.quest_desc: [
 		"You can craft enhanced material with energizing. "
@@ -530,7 +530,7 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
-	quest.6BF628828AD764EF.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.6BF628828AD764EF.quest_desc: [""]
 	quest.6C19FDFF0750F2D5.quest_desc: [
 		"We proudly welcome you on your journey to the stars!"
 		""
@@ -611,7 +611,7 @@
 	quest.794781ABF3E3A4CC.title: "Sink"
 	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions and when worn grant you the corresponding effect of the potions used to create them. Over time their durability will go down."]
 	quest.7A54FB158E3A91F9.title: "Charms"
-	quest.7AA41E5027A82A90.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.7AA41E5027A82A90.quest_desc: [""]
 	quest.7AA41E5027A82A90.title: "Mekanism"
 	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
 	quest.7AFA855108C8EDB8.title: "Fridge"
@@ -626,8 +626,8 @@
 	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
-	reward_table.58F41B9373F40386.title: "pickaxe"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
+	reward_table.699CF211D7DD74EE.title: "Create"
 	reward_table.6A792C622F69C5B9.title: "Pneumatic"
 	reward_table.6FAE00A0158C0CF0.title: "MI Bronze"
 	reward_table.77C7A02D04418151.title: "MI Electric"
