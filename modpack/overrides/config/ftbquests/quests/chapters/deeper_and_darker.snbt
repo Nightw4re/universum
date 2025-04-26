@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	filename: "deeper_and_darker"
 	group: "78F3519E8A49FAB8"
 	icon: {
@@ -11,35 +11,386 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["14C03B8DB3D755C6"]
+			dependencies: ["6CB1A938135C55CD"]
 			hide_until_deps_complete: true
-			id: "2C5DA91BEFD9042C"
+			id: "689225F696EE4683"
 			rewards: [{
-				id: "4576DEEAFDC87664"
-				item: {
-					count: 1
-					id: "deeperdarker:warden_upgrade_smithing_template"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0765F19F6664C40F"
+				table_id: 6783516616363103983L
+				type: "random"
 			}]
+			size: 2.0d
 			tasks: [{
-				id: "7134D2433C33CDB6"
-				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
-				type: "item"
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "2CBD8E96B17695F9"
+				type: "kill"
+				value: 1L
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
-			dependencies: ["2C5DA91BEFD9042C"]
-			id: "62845D5A6A5DD8D3"
-			invisible: true
-			tasks: [{
-				id: "28E440FE4EC7CE53"
-				type: "checkmark"
+			dependencies: ["689225F696EE4683"]
+			id: "4412AC098D69D7F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05FBB3A443861815"
+				table_id: 6783516616363103983L
+				type: "random"
 			}]
-			x: -1.0d
-			y: 0.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					id: "minecraft:crying_obsidian"
+				}
+				id: "5FC098F7EA4270B9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "3BBB9F4988E74D19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B3793A210D948CD"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					id: "artifacts:fire_gauntlet"
+				}
+				id: "7072C001744035DF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "2C913635E400E915"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E731034D9D8E7F"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					id: "bosses_of_mass_destruction:soul_star"
+				}
+				id: "4949EEBF21DB89F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "15B0E988D9E63F51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23CF8446FC6EEB79"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					id: "minecraft:spore_blossom"
+				}
+				id: "3F0E637D167958E9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "103305DA0E236100"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29280E9A9B2C1445"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					id: "cataclysm:void_crystal"
+				}
+				id: "3A75F1BCC55A7CE6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "7292E4FE5EFA8CFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B453C221F476D14"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mechanical_fusion_anvil"
+				}
+				id: "6BEC086E53B08DD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "1E7E8E692E765240"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C01EEBAD30B67F"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyssal_sacrifice"
+				}
+				id: "2B1A4ECB74DB5B2B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			icon_scale: 2.0d
+			id: "54C617A39639DACC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "673CDF2619251DC9"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					components: {
+						"minecraft:rarity": "rare"
+						"obtrophies:trophy_info": {
+							entity: "cataclysm:maledictus"
+						}
+					}
+					id: "obtrophies:trophy"
+				}
+				id: "34D08FE30E8B99BB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "2EE1A515FE555D8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D22809BD4176FD5"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:remnant_skull"
+				}
+				id: "398467E7F360AEB9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			hide_until_deps_complete: true
+			id: "21B72AD62301113A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "467335E1EAE6E928"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: {
+					id: "cataclysm:blessed_amethyst_crab_meat"
+				}
+				id: "0E35DCB08391BDFC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "79655D9514F0F307"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613248A28A6C1610"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:ignitium_ingot"
+				}
+				id: "5D2554B63882B057"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21B72AD62301113A"]
+			id: "4824A4A691A1D394"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15C3600A38FBD919"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					id: "cataclysm:infernal_forge"
+				}
+				id: "12C15DA9507B7AAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			icon_scale: 2.0d
+			id: "2479447E7F09A555"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6965DF5EFBB9C6DC"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				icon: {
+					components: {
+						"minecraft:rarity": "rare"
+						"obtrophies:trophy_info": {
+							entity: "eternal_starlight:lunar_monstrosity"
+						}
+					}
+					id: "obtrophies:trophy"
+				}
+				id: "2A728D0514A131E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			icon_scale: 2.0d
+			id: "1F73960A6F9AA0CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4316256049DC7C54"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				icon: {
+					components: {
+						"minecraft:rarity": "rare"
+						"obtrophies:trophy_info": {
+							entity: "eternal_starlight:starlight_golem"
+						}
+					}
+					id: "obtrophies:trophy"
+				}
+				id: "168C2077D9B0D5B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "15B6D69DC41FEB29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "135E69C997BD4B31"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:wither_rose"
+				}
+				id: "55C3B8ADF2C0BC2F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "6D3DDA3D870C9348"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B77B28D96F6052B"
+				table_id: 6783516616363103983L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					id: "deeperdarker:heart_of_the_deep"
+				}
+				id: "71C47848D01C8AB5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -8.5d
 		}
 	]
 }
