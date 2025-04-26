@@ -1,0 +1,108 @@
+{
+	id: "5E23E46C064856EF"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 8
+			id: "13A4F9FCC248B941"
+			item: {
+				count: 1
+				id: "minecraft:reinforced_deepslate"
+			}
+		}
+		{ id: "17C5E4C466839399", item: { count: 1, id: "betterarcheology:growth_totem" } }
+		{ id: "7BC93A1D4908AC29", item: { count: 1, id: "betterarcheology:soul_totem" } }
+		{ id: "71FECCDF09295EE2", item: { count: 1, id: "betterarcheology:radiance_totem" } }
+		{ id: "5E86EF9ED0076B51", item: { count: 1, id: "betterarcheology:torrent_totem" } }
+		{
+			count: 4
+			id: "4BC4780FBC606382"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "3FFFA159A3D0C94C"
+			item: {
+				count: 1
+				id: "artifacts:chorus_totem"
+			}
+		}
+		{
+			count: 2
+			id: "267B0C10FCCAD0C2"
+			item: {
+				count: 1
+				id: "voidtotem:totem_of_void_undying"
+			}
+		}
+		{
+			id: "5C5080A281DBC0BE"
+			item: {
+				count: 1
+				id: "animalplus:raccoon_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "6CF19F18EE2CC9E0"
+			item: {
+				count: 1
+				id: "animalplus:red_panda_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "286916D5D7C43A73"
+			item: {
+				count: 1
+				id: "minecraft:panda_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "411A8018FB765E6F"
+			item: {
+				count: 1
+				id: "minecraft:dolphin_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "6AD4EBD17105212D"
+			item: {
+				count: 1
+				id: "cataclysm:the_baby_leviathan_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "054839E8955017AE"
+			item: {
+				count: 1
+				id: "artifacts:mimic_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "20FF7A7F78B55E38"
+			item: {
+				count: 1
+				id: "minecraft:zombie_horse_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "38F6256ABAF77A8F"
+			item: {
+				count: 1
+				id: "minecraft:skeleton_horse_spawn_egg"
+			}
+			weight: 2.0f
+		}
+	]
+}
