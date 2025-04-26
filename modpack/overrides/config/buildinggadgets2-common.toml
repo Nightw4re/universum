@@ -35,7 +35,7 @@
 		#Maximum power for the Cut and Paste Gadget
 		# Default: 5000000
 		# Range: > 0
-		maxPower = 5000000
+		maxPower = 0
 		#Base cost per block - Checked during CUT, Charged during PASTE
 		# Default: 50
 		# Range: > 0
@@ -46,7 +46,7 @@
 		#Maximum power for the Copy and Paste Gadget
 		# Default: 1000000
 		# Range: > 0
-		maxPower = 1000000
+		maxPower = 0
 		#Base cost per block Paste (Copy is Free)
 		# Default: 50
 		# Range: > 0
