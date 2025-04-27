@@ -33,18 +33,18 @@
                     "attribute": "apothic_attributes:prot_shred",
                     "operation": "add_value",
                     "values": {
-                        "normal": 0.3,
-                        "flawless": 0.55,
-                        "perfect": 0.75
+                        "normal": 0.15,
+                        "flawless": 0.25,
+                        "perfect": 0.35
                     }
                 },
                 {
                     "attribute": "apothic_attributes:armor_shred",
                     "operation": "add_multiplied_base",
                     "values": {
-                        "normal": -0.2,
-                        "flawless": -0.35,
-                        "perfect": -0.55
+                        "normal": -0.1,
+                        "flawless": -0.15,
+                        "perfect": -0.30
                     }
                 }
             ]
@@ -53,9 +53,9 @@
             "type": "apotheosis:mageslayer",
             "gem_class": "apotheosis:helmet",
             "values": {
-                "normal": 0.15,
-                "flawless": 0.225,
-                "perfect": 0.35
+                "normal": 0.07,
+                "flawless": 0.11,
+                "perfect": 0.17
             }
         },
         {

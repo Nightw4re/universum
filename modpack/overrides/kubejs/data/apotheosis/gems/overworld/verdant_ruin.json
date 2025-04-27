@@ -42,20 +42,20 @@
                     "attribute": "apothic_attributes:armor_shred",
                     "operation": "add_value",
                     "values": {
-                        "flawed": 0.075,
-                        "normal": 0.15,
-                        "flawless": 0.25,
-                        "perfect": 0.4
+                        "flawed": 0.035,
+                        "normal": 0.7,
+                        "flawless": 0.12,
+                        "perfect": 0.2
                     }
                 },
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.025,
-                        "normal": -0.05,
-                        "flawless": -0.075,
-                        "perfect": -0.1
+                        "flawed": -0.0125,
+                        "normal": -0.025,
+                        "flawless": -0.0375,
+                        "perfect": -0.05
                     }
                 }
             ]
@@ -65,10 +65,10 @@
             "damage_type": "magic",
             "gem_class": "apotheosis:chestplate",
             "values": {
-                "flawed": 0.125,
-                "normal": 0.15,
-                "flawless": 0.175,
-                "perfect": 0.2
+                "flawed": 0.07,
+                "normal": 0.08,
+                "flawless": 0.09,
+                "perfect": 0.1
             }
         },
         {
@@ -80,20 +80,20 @@
                     "attribute": "minecraft:generic.knockback_resistance",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": 0.05,
-                        "normal": 0.1,
-                        "flawless": 0.15,
-                        "perfect": 0.2
+                        "flawed": 0.025,
+                        "normal": 0.05,
+                        "flawless": 0.075,
+                        "perfect": 0.1
                     }
                 },
                 {
                     "attribute": "minecraft:generic.attack_knockback",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.075,
-                        "normal": -0.1,
-                        "flawless": -0.125,
-                        "perfect": -0.15
+                        "flawed": -0.04,
+                        "normal": -0.05,
+                        "flawless": -0.06,
+                        "perfect": -0.07
                     }
                 }
             ]

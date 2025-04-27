@@ -18,12 +18,12 @@
             },
             "operation": "add_value",
             "values": {
-                "cracked": 0.5,
-                "chipped": 1.0,
-                "flawed": 1.5,
-                "normal": 2.0,
-                "flawless": 3.0,
-                "perfect": 3.5
+                "cracked": 0.3,
+                "chipped": 0.6,
+                "flawed": 1.0,
+                "normal": 1.3,
+                "flawless": 1.6,
+                "perfect": 2
             }
         },
         {
@@ -38,12 +38,12 @@
             },
             "operation": "add_value",
             "values": {
-                "cracked": 0.5,
-                "chipped": 1.0,
-                "flawed": 2.0,
-                "normal": 3.0,
-                "flawless": 4.0,
-                "perfect": 6.0
+                "cracked": 0.25,
+                "chipped": 0.5,
+                "flawed": 1.0,
+                "normal": 1.5,
+                "flawless": 2.0,
+                "perfect": 3.0
             }
         },
         {
@@ -52,12 +52,12 @@
             "gem_class": "apotheosis:shield",
             "operation": "add_multiplied_base",
             "values": {
-                "cracked": 0.05,
-                "chipped": 0.15,
-                "flawed": 0.225,
-                "normal": 0.3,
-                "flawless": 0.375,
-                "perfect": 0.5
+                "cracked": 0.025,
+                "chipped": 0.075,
+                "flawed": 0.112,
+                "normal": 0.15,
+                "flawless": 0.19,
+                "perfect": 0.25
             }
         },
         {
@@ -69,24 +69,24 @@
                     "attribute": "minecraft:generic.max_health",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "cracked": 0.05,
-                        "chipped": 0.075,
-                        "flawed": 0.125,
-                        "normal": 0.175,
-                        "flawless": 0.225,
-                        "perfect": 0.4
+                        "cracked": 0.025,
+                        "chipped": 0.04,
+                        "flawed": 0.06,
+                        "normal": 0.09,
+                        "flawless": 0.115,
+                        "perfect": 0.2
                     }
                 },
                 {
                     "attribute": "apothic_attributes:life_steal",
                     "operation": "add_value",
                     "values": {
-                        "cracked": -0.025,
-                        "chipped": -0.05,
-                        "flawed": -0.075,
-                        "normal": -0.1,
-                        "flawless": -0.125,
-                        "perfect": -0.2
+                        "cracked": -0.012,
+                        "chipped": -0.025,
+                        "flawed": -0.04,
+                        "normal": -0.05,
+                        "flawless": -0.6,
+                        "perfect": -0.1
                     }
                 }
             ]

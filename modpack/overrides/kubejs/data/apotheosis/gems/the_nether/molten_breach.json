@@ -34,10 +34,10 @@
             },
             "operation": "add_value",
             "values": {
-                "flawed": 5.5,
-                "normal": 8.0,
-                "flawless": 9.5,
-                "perfect": 12.0
+                "flawed": 2.75,
+                "normal": 4.0,
+                "flawless": 4.5,
+                "perfect": 6.0
             }
         },
         {
@@ -46,10 +46,10 @@
             "gem_class": "apotheosis:bow",
             "operation": "add_value",
             "values": {
-                "flawed": 4.0,
-                "normal": 5.5,
-                "flawless": 8.0,
-                "perfect": 10.0
+                "flawed": 2.0,
+                "normal": 2.75,
+                "flawless": 4.0,
+                "perfect": 5.0
             }
         },
         {
@@ -58,10 +58,10 @@
             "gem_class": "apotheosis:shield",
             "operation": "add_value",
             "values": {
-                "flawed": 0.5,
-                "normal": 0.75,
-                "flawless": 1.25,
-                "perfect": 1.75
+                "flawed": 0.25,
+                "normal": 0.375,
+                "flawless": 0.6,
+                "perfect": 0.9
             }
         },
         {
@@ -73,20 +73,20 @@
                     "attribute": "minecraft:generic.attack_damage",
                     "operation": "add_multiplied_base",
                     "values": {
-                        "flawed": 0.05,
-                        "normal": 0.1,
-                        "flawless": 0.125,
-                        "perfect": 0.175
+                        "flawed": 0.025,
+                        "normal": 0.05,
+                        "flawless": 0.07,
+                        "perfect": 0.09
                     }
                 },
                 {
                     "attribute": "apothic_attributes:healing_received",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.05,
-                        "normal": -0.15,
-                        "flawless": -0.25,
-                        "perfect": -0.35
+                        "flawed": -0.025,
+                        "normal": -0.07,
+                        "flawless": -0.12,
+                        "perfect": -0.17
                     }
                 }
             ]
@@ -97,10 +97,10 @@
             "gem_class": "apotheosis:leggings",
             "operation": "add_value",
             "values": {
-                "flawed": 0.075,
-                "normal": 0.125,
-                "flawless": 0.15,
-                "perfect": 0.25
+                "flawed": 0.03,
+                "normal": 0.06,
+                "flawless": 0.08,
+                "perfect": 0.12
             }
         },
         {

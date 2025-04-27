@@ -64,10 +64,10 @@
             "gem_class": "apotheosis:helmet",
             "operation": "add_multiplied_total",
             "values": {
-                "flawed": 0.05,
-                "normal": 0.075,
-                "flawless": 0.1,
-                "perfect": 0.15
+                "flawed": 0.025,
+                "normal": 0.035,
+                "flawless": 0.05,
+                "perfect": 0.7
             }
         },
         {
@@ -88,10 +88,10 @@
                 "id": "minecraft:raw_gold"
             },
             "values": {
-                "flawed": 0.15,
-                "normal": 0.2,
-                "flawless": 0.25,
-                "perfect": 0.4
+                "flawed": 0.07,
+                "normal": 0.1,
+                "flawless": 0.13,
+                "perfect": 0.2
             }
         },
         {
@@ -103,20 +103,20 @@
                     "attribute": "apothic_attributes:prot_shred",
                     "operation": "add_value",
                     "values": {
-                        "flawed": 0.25,
-                        "normal": 0.3,
-                        "flawless": 0.35,
-                        "perfect": 0.4
+                        "flawed": 0.125,
+                        "normal": 0.15,
+                        "flawless": 0.175,
+                        "perfect": 0.2
                     }
                 },
                 {
                     "attribute": "apothic_attributes:draw_speed",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.35,
-                        "normal": -0.45,
-                        "flawless": -0.55,
-                        "perfect": -0.65
+                        "flawed": -0.17,
+                        "normal": -0.22,
+                        "flawless": -0.29,
+                        "perfect": -0.35
                     }
                 }
             ]
@@ -130,30 +130,30 @@
                     "attribute": "minecraft:generic.armor",
                     "operation": "add_multiplied_base",
                     "values": {
-                        "flawed": 0.15,
-                        "normal": 0.25,
-                        "flawless": 0.35,
-                        "perfect": 0.5
+                        "flawed": 0.07,
+                        "normal": 0.125,
+                        "flawless": 0.17,
+                        "perfect": 0.25
                     }
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
                     "operation": "add_multiplied_base",
                     "values": {
-                        "flawed": 0.075,
-                        "normal": 0.125,
-                        "flawless": 0.225,
-                        "perfect": 0.3
+                        "flawed": 0.03,
+                        "normal": 0.06,
+                        "flawless": 0.11,
+                        "perfect": 0.15
                     }
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.25,
-                        "normal": -0.3,
-                        "flawless": -0.35,
-                        "perfect": -0.4
+                        "flawed": -0.125,
+                        "normal": -0.15,
+                        "flawless": -0.175,
+                        "perfect": -0.2
                     }
                 }
             ]

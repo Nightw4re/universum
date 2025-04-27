@@ -74,10 +74,10 @@
             "gem_class": "apotheosis:helmet",
             "operation": "add_multiplied_total",
             "values": {
-                "flawed": 0.5,
-                "normal": 0.625,
-                "flawless": 0.75,
-                "perfect": 0.9
+                "flawed": 0.25,
+                "normal": 0.30,
+                "flawless": 0.35,
+                "perfect": 0.4
             }
         }
     ]
