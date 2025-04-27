@@ -38,10 +38,10 @@
             },
             "mode": "existing",
             "values": {
-                "flawed": 1,
-                "normal": 2,
-                "flawless": 3,
-                "perfect": 4
+                "flawed": 0.5,
+                "normal": 1.0,
+                "flawless": 1.5,
+                "perfect": 2.0
             }
         },
         {
@@ -56,10 +56,10 @@
             },
             "mode": "existing",
             "values": {
-                "flawed": 1,
-                "normal": 2,
-                "flawless": 3,
-                "perfect": 4
+                "flawed": 0.5,
+                "normal": 1.0,
+                "flawless": 1.5,
+                "perfect": 2.0
             }
         },
         {
@@ -68,10 +68,10 @@
             "gem_class": "apotheosis:breaker",
             "mode": "existing",
             "values": {
-                "flawed": 1,
-                "normal": 2,
-                "flawless": 3,
-                "perfect": 4
+                "flawed": 0.5,
+                "normal": 1.0,
+                "flawless": 1.5,
+                "perfect": 2.0
             }
         }
     ]

@@ -37,20 +37,20 @@
                     "attribute": "apothic_attributes:life_steal",
                     "operation": "add_value",
                     "values": {
-                        "flawed": 0.1,
-                        "normal": 0.125,
-                        "flawless": 0.15,
-                        "perfect": 0.15
+                        "flawed": 0.05,
+                        "normal": 0.06,
+                        "flawless": 0.07,
+                        "perfect": 0.08
                     }
                 },
                 {
                     "attribute": "apothic_attributes:life_steal",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": 0.05,
-                        "normal": 0.1,
-                        "flawless": 0.2,
-                        "perfect": 0.3
+                        "flawed": 0.025,
+                        "normal": 0.05,
+                        "flawless": 0.1,
+                        "perfect": 0.15
                     }
                 }
             ]
@@ -64,20 +64,20 @@
                     "attribute": "minecraft:generic.attack_damage",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": 0.25,
-                        "normal": 0.35,
-                        "flawless": 0.45,
-                        "perfect": 0.6
+                        "flawed": 0.125,
+                        "normal": 0.175,
+                        "flawless": 0.225,
+                        "perfect": 0.3
                     }
                 },
                 {
                     "attribute": "minecraft:generic.max_health",
                     "operation": "add_multiplied_total",
                     "values": {
-                        "flawed": -0.3,
-                        "normal": -0.4,
-                        "flawless": -0.5,
-                        "perfect": -0.65
+                        "flawed": -0.15,
+                        "normal": -0.2,
+                        "flawless": -0.25,
+                        "perfect": -0.33
                     }
                 }
             ]
@@ -88,10 +88,10 @@
             "gem_class": "apotheosis:chestplate",
             "operation": "add_multiplied_base",
             "values": {
-                "flawed": 0.2,
-                "normal": 0.3,
-                "flawless": 0.4,
-                "perfect": 0.5
+                "flawed": 0.1,
+                "normal": 0.15,
+                "flawless": 0.2,
+                "perfect": 0.25
             }
         },
         {

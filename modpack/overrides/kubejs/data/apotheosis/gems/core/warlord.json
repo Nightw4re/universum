@@ -17,12 +17,12 @@
             },
             "operation": "add_multiplied_base",
             "values": {
-                "cracked": 0.1,
-                "chipped": 0.2,
-                "flawed": 0.35,
-                "normal": 0.45,
-                "flawless": 0.55,
-                "perfect": 0.7
+                "cracked": 0.05,
+                "chipped": 0.1,
+                "flawed": 0.175,
+                "normal": 0.225,
+                "flawless": 0.275,
+                "perfect": 0.35
             }
         },
         {
@@ -31,12 +31,12 @@
             "gem_class": "apotheosis:chestplate",
             "operation": "add_multiplied_base",
             "values": {
-                "cracked": 0.05,
-                "chipped": 0.1,
-                "flawed": 0.15,
-                "normal": 0.2,
-                "flawless": 0.25,
-                "perfect": 0.35
+                "cracked": 0.025,
+                "chipped": 0.05,
+                "flawed": 0.075,
+                "normal": 0.1,
+                "flawless": 0.125,
+                "perfect": 0.175
             }
         },
         {
@@ -45,12 +45,12 @@
             "gem_class": "apotheosis:helmet",
             "operation": "add_multiplied_total",
             "values": {
-                "cracked": 0.05,
-                "chipped": 0.1,
-                "flawed": 0.125,
-                "normal": 0.15,
-                "flawless": 0.175,
-                "perfect": 0.225
+                "cracked": 0.025,
+                "chipped": 0.05,
+                "flawed": 0.0625,
+                "normal": 0.075,
+                "flawless": 0.0875,
+                "perfect": 0.1125
             }
         },
         {

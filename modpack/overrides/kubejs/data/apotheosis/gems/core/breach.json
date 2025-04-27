@@ -18,12 +18,12 @@
             },
             "operation": "add_value",
             "values": {
-                "cracked": 2.0,
-                "chipped": 3.0,
-                "flawed": 5.0,
-                "normal": 7.0,
-                "flawless": 9.0,
-                "perfect": 12.0
+                "cracked": 1.0,
+                "chipped": 1.5,
+                "flawed": 2.5,
+                "normal": 3.5,
+                "flawless": 4.5,
+                "perfect": 6.0
             }
         },
         {
@@ -32,12 +32,12 @@
             "gem_class": "apotheosis:breaker",
             "operation": "add_value",
             "values": {
-                "cracked": 0.5,
-                "chipped": 1.0,
-                "flawed": 1.5,
-                "normal": 2.0,
-                "flawless": 2.5,
-                "perfect": 3.0
+                "cracked": 0.25,
+                "chipped": 0.5,
+                "flawed": 0.75,
+                "normal": 1.0,
+                "flawless": 1.25,
+                "perfect": 1.5
             }
         },
         {
@@ -46,12 +46,12 @@
             "gem_class": "apotheosis:bow",
             "operation": "add_value",
             "values": {
-                "cracked": 4.0,
-                "chipped": 5.0,
-                "flawed": 7.0,
-                "normal": 8.0,
-                "flawless": 10.0,
-                "perfect": 15.0
+                "cracked": 2.0,
+                "chipped": 2.5,
+                "flawed": 3.5,
+                "normal": 4.0,
+                "flawless": 5.0,
+                "perfect": 7.5
             }
         }
     ]

@@ -17,12 +17,12 @@
             },
             "operation": "add_multiplied_base",
             "values": {
-                "cracked": 0.1,
-                "chipped": 0.15,
-                "flawed": 0.2,
-                "normal": 0.3,
-                "flawless": 0.35,
-                "perfect": 0.5
+                "cracked": 0.05,
+                "chipped": 0.075,
+                "flawed": 0.1,
+                "normal": 0.15,
+                "flawless": 0.175,
+                "perfect": 0.25
             }
         },
         {
@@ -37,12 +37,12 @@
             },
             "operation": "add_value",
             "values": {
-                "cracked": 1.0,
-                "chipped": 2.0,
-                "flawed": 4.0,
-                "normal": 6.0,
-                "flawless": 8.0,
-                "perfect": 12.0
+                "cracked": 0.5,
+                "chipped": 1.0,
+                "flawed": 2.0,
+                "normal": 3.0,
+                "flawless": 4.0,
+                "perfect": 6.0
             }
         },
         {
@@ -51,12 +51,12 @@
             "gem_class": "apotheosis:shield",
             "operation": "add_multiplied_total",
             "values": {
-                "cracked": 0.05,
-                "chipped": 0.1,
-                "flawed": 0.15,
-                "normal": 0.2,
-                "flawless": 0.25,
-                "perfect": 0.3
+                "cracked": 0.025,
+                "chipped": 0.05,
+                "flawed": 0.075,
+                "normal": 0.1,
+                "flawless": 0.125,
+                "perfect": 0.15
             }
         }
     ]
