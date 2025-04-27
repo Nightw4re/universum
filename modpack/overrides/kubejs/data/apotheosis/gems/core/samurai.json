@@ -1,0 +1,96 @@
+{
+    "type": "apotheosis:gem",
+    "unique": true,
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:crit_chance",
+            "gem_class": {
+                "key": "weapons",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident",
+                    "apotheosis:bow"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.025,
+                "chipped": 0.075,
+                "flawed": 0.125,
+                "normal": 0.175,
+                "flawless": 0.2,
+                "perfect": 0.25
+            }
+        },
+        {
+            "type": "apotheosis:multi_attribute",
+            "desc": "bonus.apotheosis:multi_attr.desc.and",
+            "gem_class": {
+                "key": "lower_armor",
+                "types": [
+                    "apotheosis:leggings",
+                    "apotheosis:boots"
+                ]
+            },
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_multiplied_total",
+                    "values": {
+                        "cracked": 0.05,
+                        "chipped": 0.07,
+                        "flawed": 0.09,
+                        "normal": 0.11,
+                        "flawless": 0.14,
+                        "perfect": 0.17
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_total",
+                    "values": {
+                        "cracked": -0.006,
+                        "chipped": -0.012,
+                        "flawed": -0.018,
+                        "normal": -0.25,
+                        "flawless": -0.30,
+                        "perfect": -0.33
+                    }
+                }
+            ]
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:arrow_velocity",
+            "gem_class": "apotheosis:helmet",
+            "operation": "add_multiplied_total",
+            "values": {
+                "cracked": 0.04,
+                "chipped": 0.08,
+                "flawed": 0.12,
+                "normal": 0.18,
+                "flawless": 0.21,
+                "perfect": 0.25
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:dodge_chance",
+            "gem_class": "apotheosis:shield",
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.005,
+                "chipped": 0.01,
+                "flawed": 0.02,
+                "normal": 0.03,
+                "flawless": 0.04,
+                "perfect": 0.05
+            }
+        }
+    ]
+}

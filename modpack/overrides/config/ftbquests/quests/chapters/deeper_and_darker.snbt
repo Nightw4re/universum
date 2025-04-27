@@ -118,7 +118,7 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "103305DA0E236100"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -135,11 +135,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: -12.0d
+			x: 1.0d
+			y: -13.5d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "7292E4FE5EFA8CFE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -156,11 +156,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: -10.5d
+			x: -7.0d
+			y: -13.0d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "1E7E8E692E765240"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -177,11 +177,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -12.0d
+			x: -3.0d
+			y: -14.5d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			icon_scale: 2.0d
 			id: "54C617A39639DACC"
 			rewards: [{
@@ -205,11 +205,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.5d
-			y: -10.5d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "2EE1A515FE555D8A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -226,34 +226,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: -8.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["6CB1A938135C55CD"]
-			hide_until_deps_complete: true
-			id: "21B72AD62301113A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "467335E1EAE6E928"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:amethyst_crab"
-				icon: {
-					id: "cataclysm:blessed_amethyst_crab_meat"
-				}
-				id: "0E35DCB08391BDFC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "79655D9514F0F307"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -270,11 +247,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: -6.5d
+			x: -8.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["21B72AD62301113A"]
+			dependencies: ["689225F696EE4683"]
 			id: "4824A4A691A1D394"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -291,8 +268,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.5d
-			y: -8.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["689225F696EE4683"]

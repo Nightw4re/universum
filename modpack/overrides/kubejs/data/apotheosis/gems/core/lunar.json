@@ -1,0 +1,63 @@
+{
+    "type": "apotheosis:gem",
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:cold_damage",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.5,
+                "chipped": 0.75,
+                "flawed": 1.25,
+                "normal": 2.0,
+                "flawless": 3.0,
+                "perfect": 4.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.gravity",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings"
+                ]
+            },
+            "operation": "add_multiplied_total",
+            "values": {
+                "cracked": -0.05,
+                "chipped": -0.125,
+                "flawed": -0.225,
+                "normal": -0.325,
+                "flawless": -0.425,
+                "perfect": -0.52
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "neoforge:swim_speed",
+            "gem_class": "apotheosis:boots",
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.05,
+                "chipped": 0.1,
+                "flawed": 0.15,
+                "normal": 0.225,
+                "flawless": 0.3,
+                "perfect": 0.4
+            }
+        }
+    ]
+}
