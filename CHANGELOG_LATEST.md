@@ -1,3 +1,8 @@
+# v0.8.2
+
+## Modifications
+- Return Earth Gem
+
 # v0.8.1
 
 ## Modifications
