@@ -1,3 +1,15 @@
+# v0.8.3
+
+## Modifications
+- Naquadah to Pure
+- Oxidized golem steel ingot craftable
+- Redstone block recipe
+- Polonium pellet to Polonium
+
+### Removed
+- Pickable pets
+- Homebound
+
 # v0.8.2
 
 ## Modifications

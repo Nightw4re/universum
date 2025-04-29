@@ -1,0 +1,1 @@
+{"type":"mekanism:purifying","chemical_input":{"amount":2,"chemical":"mekanism:oxygen"},"item_input":{"count":1,"item":"sgjourney:refined_naquadah"},"output":{"count":1,"id":"sgjourney:pure_naquadah"},"per_tick_usage":true}
