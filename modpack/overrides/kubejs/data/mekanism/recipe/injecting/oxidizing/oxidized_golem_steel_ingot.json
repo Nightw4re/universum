@@ -1,0 +1,1 @@
+{"type":"mekanism:injecting","chemical_input":{"amount":1,"chemical":"mekanism:oxygen"},"item_input":{"count":1,"item":"mekanism:block_steel"},"output":{"count":1,"id":"eternal_starlight:oxidized_golem_steel_block"},"per_tick_usage":true}
