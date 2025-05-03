@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Universum",
-  "version": "",
+  "version": "0.8.4",
   "author": "",
   "files": [
     {
@@ -456,6 +456,11 @@
       "required": true
     },
     {
+      "projectID": 1256857,
+      "fileID": 6487200,
+      "required": true
+    },
+    {
       "projectID": 367706,
       "fileID": 6408877,
       "required": true
@@ -468,6 +473,11 @@
     {
       "projectID": 71738,
       "fileID": 6098525,
+      "required": true
+    },
+    {
+      "projectID": 1147362,
+      "fileID": 5935810,
       "required": true
     },
     {
@@ -1148,6 +1158,11 @@
     {
       "projectID": 1030522,
       "fileID": 6393447,
+      "required": true
+    },
+    {
+      "projectID": 1092843,
+      "fileID": 5696851,
       "required": true
     },
     {
