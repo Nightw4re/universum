@@ -1,7 +1,7 @@
 {
 	id: "58F41B9373F40386"
 	loot_size: 1
-	order_index: 0
+	order_index: 1
 	rewards: [
 		{ id: "6418CA7E0C0078FC", item: { count: 1, id: "minecraft:wooden_pickaxe" } }
 		{ id: "10ED187523D327EB", item: { count: 1, id: "minecraft:iron_pickaxe" } }
