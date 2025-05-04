@@ -250,8 +250,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "4FF8FE7F54F1B24D"
-				item: { count: 1, id: "industrialforegoing:plastic" }
+				id: "2710FE9563283CF4"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
 			x: -5.5d
