@@ -1,0 +1,16 @@
+{
+	id: "57FBA7EE2BA0DE68"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "3747D5CC87BE881D", item: { count: 1, id: "sgjourney:classic_stargate" } }
+		{ id: "05DB51EA28522789", item: { count: 1, id: "minecraft:zombie_horse_spawn_egg" } }
+		{ id: "1AEC7032D678CD06", item: { count: 1, id: "sgjourney:zero_point_module" } }
+		{ id: "50DD995C2F76EE10", item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" } }
+		{ id: "5D8E994CA9E27214", item: { components: { "minecraft:ominous_bottle_amplifier": 4 }, count: 1, id: "minecraft:ominous_bottle" } }
+		{ id: "6DDA71CF62B91733", item: { count: 1, id: "minecraft:mace" } }
+		{ id: "579717BB11F2C98E", item: { count: 1, id: "cataclysm:amethyst_crab_spawn_egg" } }
+		{ id: "43930105EF225654", item: { components: { "minecraft:rarity": "uncommon", "obtrophies:trophy_info": { entity: "minecraft:snow_golem", variant: { Pumpkin: 1b } } }, count: 1, id: "obtrophies:trophy" } }
+		{ id: "7B01106B34BCCEAD", item: { components: { "minecraft:rarity": "uncommon", "obtrophies:trophy_info": { entity: "minecraft:zombie_villager", variant: { profession: "betterarcheology:archeologist" } } }, count: 1, id: "obtrophies:trophy" } }
+	]
+}

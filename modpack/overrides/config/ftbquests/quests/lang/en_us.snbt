@@ -449,6 +449,7 @@
 		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 	]
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
+	quest.5C7E5C089069DDAC.title: "SPS"
 	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
 	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
 	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is a basic material used to craft weapons, but possibly also used to create advanced technology."]
@@ -622,6 +623,7 @@
 	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
+	reward_table.57FBA7EE2BA0DE68.title: "Endgame"
 	reward_table.5E23E46C064856EF.title: "Bosses"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
 	reward_table.699CF211D7DD74EE.title: "Create"
