@@ -122,7 +122,7 @@
 		compass: true
 		
 		# Enable minimap
-		# Default: false
+		# Default: true
 		enabled: true
 		
 		# Show entities on minimap
@@ -133,26 +133,37 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:sheep": true
-			"minecraft:cod": false
-			"minecraft:creeper": true
-			"artifacts:mimic": true
-			"productivebees:bumble_bee": true
-			"minecraft:drowned": true
 			"minecraft:enderman": true
+			"productivebees:bumble_bee": true
 			"creeperoverhaul:cave_creeper": true
+			"minecraft:zombie": true
+			"minecraft:cow": true
+			"minecraft:bat": true
+			"minecraft:salmon": false
+			"minecraft:wandering_trader": true
+			"minecraft:villager": true
+			"minecraft:squid": true
+			"minecraft:drowned": true
+			"minecraft:horse": true
+			"minecraft:zombie_villager": true
+			"minecraft:cod": false
+			"minecraft:iron_golem": true
 			"productivebees:chocolate_mining_bee": true
 			"minecraft:glow_squid": true
-			"minecraft:spider": true
-			"minecraft:squid": true
-			"minecraft:zombie": true
+			"cataclysm:deepling": true
+			"minecraft:cat": true
+			"minecraft:trader_llama": true
 			"minecraft:pig": true
+			"minecraft:creeper": true
 			"minecraft:skeleton": true
-			"minecraft:bat": true
+			"minecraft:sheep": true
+			"minecraft:turtle": true
+			"artifacts:mimic": true
 			"minecraft:chicken": true
-			"minecraft:zombie_villager": true
+			"minecraft:spider": true
 			"minecraft:phantom": true
-			"minecraft:salmon": false
+			"minecraft:witch": true
+			"animalplus:raccoon": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
