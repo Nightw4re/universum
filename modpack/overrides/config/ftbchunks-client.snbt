@@ -133,38 +133,38 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:wandering_trader": true
-			"artifacts:mimic": true
+			"minecraft:zombie_villager": true
+			"productivebees:chocolate_mining_bee": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:iron_golem": true
+			"minecraft:villager": true
+			"minecraft:chicken": true
+			"cataclysm:deepling": true
+			"minecraft:cat": true
+			"productivebees:green_carpenter_bee": true
 			"minecraft:sheep": true
+			"artifacts:mimic": true
+			"minecraft:drowned": true
+			"minecraft:cow": true
+			"minecraft:spider": true
+			"minecraft:squid": true
+			"minecraft:pig": true
+			"minecraft:phantom": true
+			"animalplus:raccoon": true
+			"minecraft:enderman": true
+			"minecraft:horse": true
+			"minecraft:wandering_trader": true
+			"productivebees:bumble_bee": true
+			"minecraft:witch": true
+			"minecraft:turtle": true
 			"minecraft:cod": false
 			"minecraft:creeper": true
-			"minecraft:cow": true
-			"minecraft:pig": true
-			"minecraft:trader_llama": true
-			"minecraft:iron_golem": true
-			"productivebees:bumble_bee": true
-			"minecraft:squid": true
-			"minecraft:phantom": true
-			"minecraft:zombie_villager": true
-			"minecraft:salmon": false
-			"minecraft:turtle": true
-			"creeperoverhaul:cave_creeper": true
-			"productivebees:chocolate_mining_bee": true
-			"minecraft:drowned": true
-			"animalplus:raccoon": true
-			"cataclysm:deepling": true
-			"minecraft:spider": true
-			"minecraft:skeleton": true
-			"minecraft:witch": true
-			"minecraft:chicken": true
-			"minecraft:horse": true
-			"minecraft:villager": true
-			"minecraft:bat": true
-			"productivebees:green_carpenter_bee": true
 			"minecraft:zombie": true
+			"minecraft:salmon": false
+			"minecraft:trader_llama": true
+			"minecraft:bat": true
 			"minecraft:glow_squid": true
-			"minecraft:cat": true
-			"minecraft:enderman": true
+			"minecraft:skeleton": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
