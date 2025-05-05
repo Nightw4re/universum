@@ -133,66 +133,67 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"aquaculture:gar": false
-			"aquaculture:jellyfish": false
-			"minecraft:cod": false
-			"minecraft:turtle": true
-			"productivebees:green_carpenter_bee": true
-			"minecraft:cow": true
-			"aquaculture:pacific_halibut": false
-			"aquaculture:carp": false
-			"aquaculture:rainbow_trout": false
-			"minecraft:sheep": true
-			"cataclysm:deepling": true
-			"cataclysm:deepling_priest": true
-			"artifacts:mimic": true
-			"aquaculture:red_grouper": false
-			"minecraft:creeper": true
-			"aquaculture:tuna": false
-			"aquaculture:atlantic_halibut": false
-			"aquaculture:atlantic_cod": false
+			"cataclysm:deepling_warlock": true
+			"minecraft:trader_llama": true
+			"minecraft:enderman": true
+			"aquaculture:catfish": false
+			"minecraft:witch": true
+			"minecraft:zombie_villager": true
 			"minecraft:skeleton": true
-			"cataclysm:deepling_angler": true
-			"minecraft:horse": true
-			"minecraft:chicken": true
-			"aquaculture:pink_salmon": false
-			"animalplus:raccoon": true
-			"minecraft:zombified_piglin": true
-			"minecraft:salmon": false
-			"productivebees:yellow_black_carpenter_bee": true
-			"aquaculture:atlantic_herring": false
-			"minecraft:villager": true
-			"creeperoverhaul:cave_creeper": true
-			"aquaculture:brown_trout": false
-			"minecraft:drowned": true
-			"minecraft:pillager": true
-			"minecraft:cat": true
+			"minecraft:cow": true
 			"minecraft:slime": true
 			"minecraft:spider": true
-			"productivebees:chocolate_mining_bee": true
-			"aquaculture:bluegill": false
-			"minecraft:squid": true
-			"minecraft:zombie": true
-			"minecraft:bat": true
-			"aquaculture:muskellunge": false
-			"minecraft:zombie_villager": true
-			"cataclysm:lionfish": true
-			"minecraft:phantom": true
-			"minecraft:trader_llama": true
-			"minecraft:pig": true
-			"aquaculture:minnow": false
-			"aquaculture:blackfish": false
-			"minecraft:witch": true
-			"aquaculture:catfish": false
 			"minecraft:iron_golem": true
-			"aquaculture:perch": false
-			"aquaculture:pollock": false
-			"minecraft:fox": true
-			"minecraft:enderman": true
-			"productivebees:bumble_bee": true
+			"minecraft:turtle": true
+			"cataclysm:deepling": true
+			"minecraft:horse": true
+			"minecraft:zombie": true
+			"animalplus:raccoon": true
 			"minecraft:wandering_trader": true
+			"productivebees:chocolate_mining_bee": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"minecraft:zombified_piglin": true
+			"aquaculture:atlantic_cod": false
+			"minecraft:pig": true
+			"minecraft:villager": true
+			"minecraft:chicken": true
+			"aquaculture:blackfish": false
+			"minecraft:creeper": true
+			"aquaculture:pollock": false
+			"creeperoverhaul:cave_creeper": true
 			"minecraft:glow_squid": true
+			"aquaculture:tuna": false
+			"aquaculture:minnow": false
+			"aquaculture:atlantic_halibut": false
 			"aquaculture:smallmouth_bass": false
+			"minecraft:drowned": true
+			"artifacts:mimic": true
+			"aquaculture:red_grouper": false
+			"cataclysm:lionfish": true
+			"minecraft:cat": true
+			"aquaculture:rainbow_trout": false
+			"minecraft:squid": true
+			"minecraft:bat": true
+			"aquaculture:pacific_halibut": false
+			"minecraft:pillager": true
+			"minecraft:phantom": true
+			"aquaculture:bluegill": false
+			"minecraft:cod": false
+			"aquaculture:carp": false
+			"aquaculture:jellyfish": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:fox": true
+			"aquaculture:pink_salmon": false
+			"aquaculture:brown_trout": false
+			"aquaculture:perch": false
+			"productivebees:green_carpenter_bee": true
+			"minecraft:salmon": false
+			"cataclysm:deepling_angler": true
+			"minecraft:sheep": true
+			"cataclysm:deepling_priest": true
+			"productivebees:bumble_bee": true
+			"aquaculture:gar": false
+			"aquaculture:muskellunge": false
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
