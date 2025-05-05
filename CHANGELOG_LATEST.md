@@ -1,3 +1,6 @@
+# v0.9.1
+- Laser blade craft fix
+
 # v0.9.0
 - Quests fixes
 - Quests for Final Chapter
