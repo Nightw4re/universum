@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "universum:component_can"
+    },
+    "d": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "i": {
+      "item": "universum:cleared_sculk_lens"
+    }
+  },
+  "pattern": [
+    "#",
+    "d",
+    "i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tolaserblade:lb_emitter"
+  }
+}
