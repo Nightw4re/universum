@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tolaserblade:lb_blueprint"
+    },
+    {
+      "item": "universum:component_can"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "minecraft:buttons"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tolaserblade:lb_casing"
+  }
+}

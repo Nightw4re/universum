@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "pressure": 4,
+  "results": [
+    {
+      "count": 1,
+      "id": "universum:sculk_dust"
+    }
+  ]
+}

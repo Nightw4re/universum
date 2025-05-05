@@ -81,13 +81,13 @@
 			}]
 			tasks: [
 				{
-					id: "5FEAAEB0455C4228"
-					item: { components: { "ftbfiltersystem:filter": "item_tag(cookingforblockheads:counters)item_tag(cookingforblockheads:dyed_counters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "7C838CDED52DFEB2"
+					item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:counter)item_tag(cookingforblockheads:dyed_counters))", "minecraft:custom_name": "\"Counters\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "654E1F2C7A5F7C50"
-					item: { components: { "ftbfiltersystem:filter": "item_tag(cookingforblockheads:dyed_cabinets)item_tag(cookingforblockheads:cabinets)", "minecraft:custom_name": "\"Cabinet\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "0FD8C75E47B62B60"
+					item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:cabinet)item_tag(cookingforblockheads:dyed_cabinets))", "minecraft:custom_name": "\"Cabinets\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -125,8 +125,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "18FC80543FA9B471"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(cookingforblockheads:ovens)item_tag(cookingforblockheads:dyed_ovens)", "minecraft:custom_name": "\"Ovens\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "0A0FE90208615932"
+				item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:white_oven)item_tag(cookingforblockheads:dyed_ovens))", "minecraft:custom_name": "\"Ovens\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -238,8 +238,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "4F95568EC58D04D4"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(cookingforblockheads:cooking_tables)item_tag(cookingforblockheads:dyed_cooking_tables)", "minecraft:custom_name": "\"Cooking Tables\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "7046510F531568D0"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:cooking_tables)item(cookingforblockheads:cooking_table))", "minecraft:custom_name": "\"Cooking Table\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d

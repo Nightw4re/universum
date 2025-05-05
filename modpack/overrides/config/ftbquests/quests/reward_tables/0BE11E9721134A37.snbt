@@ -1,7 +1,7 @@
 {
 	id: "0BE11E9721134A37"
 	loot_size: 1
-	order_index: 2
+	order_index: 3
 	rewards: [
 		{ id: "0D01A3B2B807DC4C", item: { count: 1, id: "mysticalagriculture:fire_seeds" } }
 		{ id: "3B8462BB655541F0", item: { count: 1, id: "mysticalagriculture:water_seeds" } }

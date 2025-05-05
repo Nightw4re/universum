@@ -8,7 +8,6 @@
 	chapter.3737375FFDCE697B.title: "Mystical Agriculture"
 	chapter.3F91472CA2C9CFDD.title: "Ad Astra"
 	chapter.4F80AA2EB0DCC10C.title: "Adventurer"
-	chapter.54C0A639E1E7B6AC.title: "Stellaris"
 	chapter.569A9E3D42C3AC8F.title: "Mekanism"
 	chapter.5A9050C2AE0EB473.title: "Productive Bee"
 	chapter.5D25557A809CB5D3.title: "Agriculture"
@@ -450,6 +449,7 @@
 		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 	]
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
+	quest.5C7E5C089069DDAC.title: "SPS"
 	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
 	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
 	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is a basic material used to craft weapons, but possibly also used to create advanced technology."]
@@ -482,8 +482,6 @@
 	quest.61DDF151DFBE8531.title: "Jaffa"
 	quest.63A9AB111C9E3C3D.title: "Building Gadgets"
 	quest.63DBF243412836AD.title: "Stargate Weapons"
-	quest.63FA3769E13D14CA.quest_desc: ["Our journey through the stars has not ended yet, but we can't continue at the moment.  Have a look at what will be coming soon..."]
-	quest.63FA3769E13D14CA.title: "Is this end?"
 	quest.6491E686F47C9A2B.quest_subtitle: "Goes good anytime."
 	quest.6582513D8887DF04.quest_desc: [
 		"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
@@ -625,6 +623,7 @@
 	reward_table.30815BC01E40208B.title: "Armors"
 	reward_table.42BC718072493370.title: "Cooking"
 	reward_table.471CDD39E9A41ACD.title: "MI High"
+	reward_table.57FBA7EE2BA0DE68.title: "Endgame"
 	reward_table.5E23E46C064856EF.title: "Bosses"
 	reward_table.6333D37777B8CAE5.title: "MI Turbo"
 	reward_table.699CF211D7DD74EE.title: "Create"
