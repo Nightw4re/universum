@@ -1,6 +1,6 @@
 {
   "name": "universum",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Enter a world of limitless exploration and interdimensional travel with the Stargate-inspired mods! This modpack brings the iconic Stargate technology directly into your Minecraft world, opening doors to new adventures and discoveries.",
   "main": "build.js",
   "engines": {
