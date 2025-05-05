@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "tolaserblade:lb_blueprint"
+    },
+    {
+      "item": "tolaserblade:lb_battery"
+    },
+    {
+      "item": "tolaserblade:lb_medium"
+    },
+    {
+      "item": "tolaserblade:lb_emitter"
+    },
+    {
+      "item": "tolaserblade:lb_casing"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tolaserblade:lb_brand_new_1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "universum:enriched_echo_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "universum:cleared_sculk_lens"
+    }
+  ]
+}
