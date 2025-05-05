@@ -1,0 +1,19 @@
+{
+  "type": "powah:energizing",
+  "energy": 30000000,
+  "ingredients": [
+    {
+      "item": "universum:component_can"
+    },
+    {
+      "tag": "c:dusts/glowstone"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tolaserblade:lb_medium"
+  }
+}

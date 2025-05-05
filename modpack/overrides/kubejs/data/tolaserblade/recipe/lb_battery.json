@@ -1,0 +1,10 @@
+{
+	"type": "sgjourney:advanced_crystallizing",
+	"crystal_base": {"ingredient": {"item": "'powah:crystal_nitro'"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "universum:component_can"}, "amount": 1, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "ae2:charged_certus_quartz_crystal"}, "amount": 1, "deplete": true},
+	"output":
+	{
+		"id": "tolaserblade:lb_battery"
+	}
+}

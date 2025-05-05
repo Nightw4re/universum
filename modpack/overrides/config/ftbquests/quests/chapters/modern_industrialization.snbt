@@ -96,11 +96,6 @@
 					item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
 					type: "item"
 				}
-				{
-					id: "06319117324662C4"
-					item: { count: 1, id: "extended_industrialization:steam_farmer" }
-					type: "item"
-				}
 			]
 			x: -5.0d
 			y: 0.5d
@@ -261,6 +256,12 @@
 		{
 			dependencies: ["14311DFCDC5DB422"]
 			id: "3B3194C11D4698A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FC23DA7C98E129B"
+				table_id: 7148289543630277349L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6C8A9E30F91DABE8"
@@ -449,13 +450,13 @@
 					type: "item"
 				}
 				{
-					id: "60762F1D7BD37665"
-					item: { count: 1, id: "extended_industrialization:electric_farmer" }
+					id: "38EFAC6F124772A6"
+					item: { count: 1, id: "modern_industrialization:centrifuge" }
 					type: "item"
 				}
 				{
-					id: "38EFAC6F124772A6"
-					item: { count: 1, id: "modern_industrialization:centrifuge" }
+					id: "5073C3EC71C9B8EB"
+					item: { count: 1, id: "modern_industrialization:polarizer" }
 					type: "item"
 				}
 			]
@@ -535,14 +536,14 @@
 					type: "item"
 				}
 				{
-					id: "6C87FD03D302304D"
-					item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
-					type: "item"
-				}
-				{
 					count: 7L
 					id: "1898A9CFDE9D67F0"
 					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "48D1284B5664067B"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 			]
@@ -601,9 +602,9 @@
 					type: "item"
 				}
 				{
-					count: 16L
-					id: "4E5C7C447A1D65FD"
-					item: { count: 16, id: "modern_industrialization:fire_clay_bricks" }
+					count: 14L
+					id: "7EC399CBC1AA2E5C"
+					item: { count: 14, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -745,6 +746,12 @@
 		{
 			dependencies: ["3B0FFC8B206DD59D"]
 			id: "08DC40EA59FF8F06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C95C5ABFC40B12"
+				table_id: 7148289543630277349L
+				type: "random"
+			}]
 			tasks: [{
 				id: "781717A5E7AA9641"
 				item: { count: 1, id: "modern_industrialization:turbo_upgrade" }

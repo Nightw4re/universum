@@ -1,0 +1,11 @@
+{
+    "type":"mekanism:enriching",
+    "input": {
+        "count": 4,
+        "item":"universum:sculk_dust"
+    },
+    "output": {
+        "count": 1,
+        "id":"universum:enriched_echo_crystal"
+    }
+}
