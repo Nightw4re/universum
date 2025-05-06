@@ -1,1 +1,11 @@
-{"type":"mekanism:oxidizing","input":{"count":1,"item":"mekanism:pellet_polonium"},"output":{"amount":950,"id":"mekanism:polonium"}}
+{
+    "type":"mekanism:oxidizing",
+    "input": {
+        "count": 1,
+        "item": "mekanism:pellet_polonium"
+    },
+    "output": {
+        "amount": 1000,
+        "id": "mekanism:polonium"
+    }
+}
