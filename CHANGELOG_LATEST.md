@@ -1,3 +1,14 @@
+# v0.9.2
+- Laser emitter recipe fix
+- add quantum items into replicator blacklist
+- new replicator recipe
+- pellet to polonium is now 1:1
+
+## Mods
+
+### Removed
+- AttributeFix
+
 # v0.9.1
 - Laser blade craft fix
 
