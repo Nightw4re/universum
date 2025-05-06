@@ -133,67 +133,70 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"cataclysm:deepling_warlock": true
-			"minecraft:trader_llama": true
-			"minecraft:enderman": true
-			"aquaculture:catfish": false
-			"minecraft:witch": true
-			"minecraft:zombie_villager": true
-			"minecraft:skeleton": true
-			"minecraft:cow": true
-			"minecraft:slime": true
-			"minecraft:spider": true
-			"minecraft:iron_golem": true
-			"minecraft:turtle": true
-			"cataclysm:deepling": true
-			"minecraft:horse": true
-			"minecraft:zombie": true
-			"animalplus:raccoon": true
-			"minecraft:wandering_trader": true
-			"productivebees:chocolate_mining_bee": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:zombified_piglin": true
-			"aquaculture:atlantic_cod": false
-			"minecraft:pig": true
-			"minecraft:villager": true
-			"minecraft:chicken": true
-			"aquaculture:blackfish": false
-			"minecraft:creeper": true
-			"aquaculture:pollock": false
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:glow_squid": true
-			"aquaculture:tuna": false
-			"aquaculture:minnow": false
-			"aquaculture:atlantic_halibut": false
-			"aquaculture:smallmouth_bass": false
-			"minecraft:drowned": true
-			"artifacts:mimic": true
-			"aquaculture:red_grouper": false
-			"cataclysm:lionfish": true
-			"minecraft:cat": true
-			"aquaculture:rainbow_trout": false
-			"minecraft:squid": true
-			"minecraft:bat": true
-			"aquaculture:pacific_halibut": false
-			"minecraft:pillager": true
-			"minecraft:phantom": true
-			"aquaculture:bluegill": false
-			"minecraft:cod": false
-			"aquaculture:carp": false
-			"aquaculture:jellyfish": false
-			"aquaculture:atlantic_herring": false
-			"minecraft:fox": true
-			"aquaculture:pink_salmon": false
+			"cataclysm:coral_golem": true
 			"aquaculture:brown_trout": false
-			"aquaculture:perch": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:bat": true
+			"minecraft:zombified_piglin": true
+			"aquaculture:bluegill": false
+			"minecraft:creeper": true
+			"aquaculture:jellyfish": false
+			"minecraft:skeleton": true
+			"aquaculture:gar": false
+			"productivebees:chocolate_mining_bee": true
+			"cataclysm:deepling_warlock": true
+			"minecraft:witch": true
+			"minecraft:pillager": true
 			"productivebees:green_carpenter_bee": true
-			"minecraft:salmon": false
-			"cataclysm:deepling_angler": true
-			"minecraft:sheep": true
+			"minecraft:horse": true
+			"aquaculture:blackfish": false
+			"minecraft:wandering_trader": true
+			"artifacts:mimic": true
+			"aquaculture:smallmouth_bass": false
+			"minecraft:chicken": true
+			"minecraft:villager": true
 			"cataclysm:deepling_priest": true
 			"productivebees:bumble_bee": true
-			"aquaculture:gar": false
+			"aquaculture:catfish": false
+			"minecraft:trader_llama": true
+			"aquaculture:rainbow_trout": false
+			"aquaculture:pacific_halibut": false
 			"aquaculture:muskellunge": false
+			"animalplus:raccoon": true
+			"productivebees:resin_bee": true
+			"minecraft:slime": true
+			"minecraft:phantom": true
+			"aquaculture:red_grouper": false
+			"minecraft:cat": true
+			"aquaculture:atlantic_halibut": false
+			"aquaculture:carp": false
+			"aquaculture:minnow": false
+			"cataclysm:lionfish": true
+			"minecraft:turtle": true
+			"minecraft:pig": true
+			"minecraft:salmon": false
+			"minecraft:cow": true
+			"aquaculture:pollock": false
+			"minecraft:wolf": true
+			"cataclysm:deepling_angler": true
+			"aquaculture:perch": false
+			"cataclysm:deepling": true
+			"minecraft:enderman": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"minecraft:fox": true
+			"minecraft:drowned": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:zombie_villager": true
+			"aquaculture:atlantic_cod": false
+			"aquaculture:pink_salmon": false
+			"minecraft:spider": true
+			"aquaculture:tuna": false
+			"minecraft:cod": false
+			"minecraft:sheep": true
+			"minecraft:squid": true
+			"minecraft:iron_golem": true
+			"minecraft:glow_squid": true
+			"minecraft:zombie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -207,14 +210,14 @@
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
-			"ftbchunks:biome"
+			"ftbchunks:zone"
 		]
 		
 		# Info displayed under minimap
 		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_order: [
-			"ftbchunks:player_pos"
 			"ftbchunks:biome"
+			"ftbchunks:player_pos"
 			"ftbchunks:zone"
 			"ftbchunks:fps"
 			"ftbchunks:game_time"
@@ -238,12 +241,12 @@
 		# Mode for the pointer icon to render on full screen minimap
 		# Default: "both"
 		# Valid values: "face", "pointer", "both"
-		pointer_icon_mode: "both"
+		pointer_icon_mode: "pointer"
 		
 		# Mode for the pointer icon to render on minimap
 		# Default: "both"
 		# Valid values: "face", "pointer", "both"
-		pointer_icon_mode_minimap: "both"
+		pointer_icon_mode_minimap: "pointer"
 		
 		# Enables minimap to show up in corner
 		# Default: "top_right"
