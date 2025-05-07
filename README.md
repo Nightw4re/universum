@@ -1,5 +1,3 @@
-_The modpack is currently under testing and rebalancing._
-
 [![Discord](https://img.shields.io/discord/1221428346118733864?style=for-the-badge&logo=discord&label=Discord)](https://discord.gg/exV9JXJdEn) [![GitHub Tag](https://img.shields.io/github/v/tag/Nightw4re/universum?style=for-the-badge&logo=curseforge&label=Version)](https://www.curseforge.com/minecraft/modpacks/universum)
 
 [![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3ANightw4re%2Funiversum%20state%3Aopen%20-label%3Aidle%20label%3Abug&style=for-the-badge&label=Bugs&color=orange)](https://github.com/Nightw4re/universum/issues)
