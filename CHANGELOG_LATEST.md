@@ -1,3 +1,22 @@
+# v0.9.3
+- Removed stellaris quest chapter
+- Nano quantum gear recipe improved
+
+## Mods
+
+### Removed
+- Jobs+ [1.5.4-1.21.1] 
+
+### Added
+- EntityCulling [1.7.4] 
+
+### Updated
+- AlmostUnified [1.21.1-1.2.6] 
+- L_Ender's Cataclysm [2.66-1.21.1] 
+- Mystical Agradditions [8.0.7] 
+- SmithingTemplateViewer [1.0.3] 
+- Tesseract API [1.8.8-1.21.1] 
+
 # v0.9.2
 - Laser emitter recipe fix
 - add quantum items into replicator blacklist
