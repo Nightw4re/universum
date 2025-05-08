@@ -1,3 +1,18 @@
+# v0.9.4
+- NeoForge core update to 21.1.169
+
+## Mods
+
+### Removed
+- Additional Lanterns [1.1.1] 
+- SmithingTemplateViewer [1.0.3] 
+
+### Updated
+- Cooking for Blockheads [21.1.15] 
+- ExtendedAE [1.21-2.2.11-neoforge] 
+- FTB Chunks [2101.1.9] 
+- Tesseract API [1.8.8-1.21.1] 
+
 # v0.9.3
 - Removed stellaris quest chapter
 - Nano quantum gear recipe improved
