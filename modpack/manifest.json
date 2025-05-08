@@ -3,7 +3,7 @@
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.151",
+        "id": "neoforge-21.1.169",
         "primary": true
       }
     ],
@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Universum",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "author": "Nightw4re",
   "overrides": "overrides",
   "files": [
@@ -48,7 +48,7 @@
     },
     {
       "projectID": 231484,
-      "fileID": 6459070,
+      "fileID": 6507724,
       "required": true
     },
     {
@@ -258,7 +258,7 @@
     },
     {
       "projectID": 314906,
-      "fileID": 6295696,
+      "fileID": 6504893,
       "required": true
     },
     {
@@ -542,11 +542,6 @@
       "required": true
     },
     {
-      "projectID": 501590,
-      "fileID": 5634997,
-      "required": true
-    },
-    {
       "projectID": 511319,
       "fileID": 6091021,
       "required": true
@@ -823,7 +818,7 @@
     },
     {
       "projectID": 892005,
-      "fileID": 6465537,
+      "fileID": 6505209,
       "required": true
     },
     {
@@ -1069,11 +1064,6 @@
     {
       "projectID": 1131041,
       "fileID": 6238034,
-      "required": true
-    },
-    {
-      "projectID": 1133580,
-      "fileID": 6502654,
       "required": true
     },
     {
