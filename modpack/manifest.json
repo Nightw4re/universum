@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Universum",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "author": "Nightw4re",
   "overrides": "overrides",
   "files": [
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 245755,
-      "fileID": 6447115,
+      "fileID": 6519206,
       "required": true
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "projectID": 254241,
-      "fileID": 6022733,
+      "fileID": 6516546,
       "required": true
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 6410119,
+      "fileID": 6525609,
       "required": true
     },
     {
@@ -159,11 +159,6 @@
     {
       "projectID": 261924,
       "fileID": 6409932,
-      "required": true
-    },
-    {
-      "projectID": 266515,
-      "fileID": 6473752,
       "required": true
     },
     {
@@ -223,7 +218,7 @@
     },
     {
       "projectID": 298744,
-      "fileID": 6488875,
+      "fileID": 6515153,
       "required": true
     },
     {
@@ -233,7 +228,7 @@
     },
     {
       "projectID": 303278,
-      "fileID": 5783614,
+      "fileID": 6515286,
       "required": true
     },
     {
@@ -248,12 +243,12 @@
     },
     {
       "projectID": 312353,
-      "fileID": 6457195,
+      "fileID": 6516852,
       "required": true
     },
     {
       "projectID": 313970,
-      "fileID": 6461817,
+      "fileID": 6514626,
       "required": true
     },
     {
@@ -448,7 +443,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 6479794,
+      "fileID": 6520349,
       "required": true
     },
     {
@@ -583,7 +578,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 6447094,
+      "fileID": 6520602,
       "required": true
     },
     {
@@ -638,17 +633,17 @@
     },
     {
       "projectID": 618298,
-      "fileID": 6495958,
+      "fileID": 6523730,
       "required": true
     },
     {
       "projectID": 619320,
-      "fileID": 6479634,
+      "fileID": 6525822,
       "required": true
     },
     {
       "projectID": 622112,
-      "fileID": 6480642,
+      "fileID": 6517566,
       "required": true
     },
     {
@@ -838,7 +833,7 @@
     },
     {
       "projectID": 898963,
-      "fileID": 6430300,
+      "fileID": 6514649,
       "required": true
     },
     {
@@ -988,7 +983,7 @@
     },
     {
       "projectID": 1063926,
-      "fileID": 6430297,
+      "fileID": 6514634,
       "required": true
     },
     {
@@ -1017,11 +1012,6 @@
       "required": true
     },
     {
-      "projectID": 1086142,
-      "fileID": 6288756,
-      "required": true
-    },
-    {
       "projectID": 1086241,
       "fileID": 6318809,
       "required": true
@@ -1033,7 +1023,7 @@
     },
     {
       "projectID": 1102591,
-      "fileID": 6498240,
+      "fileID": 6516617,
       "required": true
     },
     {
@@ -1133,7 +1123,7 @@
     },
     {
       "projectID": 1206582,
-      "fileID": 6300145,
+      "fileID": 6518858,
       "required": true
     },
     {
