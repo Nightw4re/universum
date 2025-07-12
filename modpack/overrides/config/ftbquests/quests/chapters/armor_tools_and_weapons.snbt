@@ -30,12 +30,23 @@
 	quests: [
 		{
 			id: "2FED7A81DF6D6175"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2EC5A3F0F67E617F"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EC5A3F0F67E617F"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "04765E69E7336A0F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [
@@ -55,12 +66,23 @@
 		}
 		{
 			id: "2BDED85C43B4C112"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77E9E4D18BB2BA8C"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77E9E4D18BB2BA8C"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2365812709C0887F"
+					item: {
+						count: 30
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "74E837FE8A4DDD1C"
 				item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_chestplate)item(advanced_ae:quantum_helmet)item(advanced_ae:quantum_leggings)item(advanced_ae:quantum_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -71,12 +93,23 @@
 		}
 		{
 			id: "63A9AB111C9E3C3D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "640867FAA46C33F8"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "640867FAA46C33F8"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "101E35A53486B968"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A51669775DCB034"
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -87,12 +120,23 @@
 		}
 		{
 			id: "68B54598DA159A36"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "41C350B82D2C9F15"
-				table_id: 3495175666515583115L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41C350B82D2C9F15"
+					table_id: 3495175666515583115L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6BC5D78F19678462"
+					item: {
+						count: 50
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [
@@ -122,12 +166,23 @@
 		}
 		{
 			id: "7AE1A1D81FF1A4BE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "457A100969EFA67C"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "457A100969EFA67C"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "53F800416F204DC0"
+					item: {
+						count: 30
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B06BC108424E9D8"
 				item: { components: { "ftbfiltersystem:filter": "or(item(deeperdarker:warden_helmet)item(deeperdarker:warden_chestplate)item(deeperdarker:warden_leggings)item(deeperdarker:warden_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -156,28 +211,50 @@
 		}
 		{
 			id: "3B1CD1D4F7864008"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "75AC41A3094C00A5"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75AC41A3094C00A5"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "3D03CDC10FEF1844"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2B7389EF2A969BBC"
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -0.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			id: "2A7A5C864644153A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "756C5248CDFA808A"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "756C5248CDFA808A"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "46B7C7706F4D3F6E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6F934093D9DE2641"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(artifacts:slot/hands))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -188,44 +265,50 @@
 		}
 		{
 			id: "27BBBC04480FF3BB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08B401DB24C3B740"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08B401DB24C3B740"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "274A50D8CB2C9C10"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5CBC9B161821D20A"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(pneumaticcraft:armors/pneumatic)item_tag(pneumaticcraft:armors/compressed_iron))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			id: "15D0FE5A9A36C6DB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10B6C225EF5040C9"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5C3453F69B33326F"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:armors))mod(mysticalagriculture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			id: "6C8EA28B5D20EE64"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "52B77D762716BBA4"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52B77D762716BBA4"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "012DB7218E33505B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "096C2F2C8D95C3BB"
@@ -242,77 +325,105 @@
 			y: -10.0d
 		}
 		{
-			id: "6E6A1D7F20AAA171"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "522429F6850A1786"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
-			tasks: [{
-				id: "12AFE4A1329F3529"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:armors))mod(stellaris)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.5d
-		}
-		{
 			id: "61DDF151DFBE8531"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22FB47F680601B34"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22FB47F680601B34"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4BE6CAB9F1485E9B"
+					item: {
+						count: 20
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "64879C797BAB2847"
 				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_helmet)item(sgjourney:naquadah_chestplate)item(sgjourney:naquadah_leggings)item(sgjourney:naquadah_boots)item(sgjourney:system_lord_chestplate)item(sgjourney:system_lord_helmet)item(sgjourney:system_lord_leggings)item(sgjourney:system_lord_boots)item(sgjourney:jaffa_helmet)item(sgjourney:jaffa_chestplate)item(sgjourney:jaffa_leggings)item(sgjourney:jaffa_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: -6.5d
+			y: -5.0d
 		}
 		{
 			id: "63DBF243412836AD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3144D9FF6D6DC6A8"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3144D9FF6D6DC6A8"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "41D109B2F5B17956"
+					item: {
+						count: 20
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F3EE791800F4663"
 				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:matok)item(sgjourney:kara_kesh)item(sgjourney:naquadah_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -15.5d
+			x: -6.5d
+			y: -13.0d
 		}
 		{
 			id: "13FDA0B1966670D9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CB29DB5E350CA73"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CB29DB5E350CA73"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "1B015D68F93BFB49"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4591D10982A25E50"
 				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_pickaxe)item(sgjourney:naquadah_axe)item(sgjourney:naquadah_shovel)item(sgjourney:naquadah_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.5d
+			x: 5.0d
+			y: -11.0d
 		}
 		{
 			id: "3BCD03ECF406C421"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3FD571EC76F3A35D"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FD571EC76F3A35D"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "15D63AB33B16B9D5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D43BBC9D2FF2F20"
 				item: { components: { "ftbfiltersystem:filter": "or(mod(pipez))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -322,29 +433,24 @@
 			y: -11.5d
 		}
 		{
-			id: "4DAE652A12B2D381"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F67E108905DA63C"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
-			tasks: [{
-				id: "05B2D47EAEA06C1C"
-				item: { components: { "ftbfiltersystem:filter": "mod(mysticalagriculture)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -13.0d
-		}
-		{
 			id: "2D44D161C058551F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E4C3210AF4E5212"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E4C3210AF4E5212"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "51A36853D34E1097"
+					item: {
+						count: 30
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4ADCF154B23C4559"
 				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -355,115 +461,129 @@
 		}
 		{
 			id: "7104726E1451CEF6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "686BCE15B80D6B6F"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "686BCE15B80D6B6F"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "68A7B98370DE400B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FB9E9C48B207830"
 				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -13.0d
 		}
 		{
 			id: "070CE1A6DE294175"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D513E140D2213E1"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D513E140D2213E1"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					id: "5C2B170500AF9BFC"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "559FF0C650569170"
 				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.5d
-		}
-		{
-			id: "458D310B4C65BBB3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A3A19A0A448B65C"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
-			tasks: [{
-				id: "74318B96AB3D678D"
-				item: { components: { "ftbfiltersystem:filter": "mod(mysticalagriculture)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.5d
+			x: 2.0d
 			y: -8.5d
 		}
 		{
 			id: "07C6DFC0381025FF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17E277191BA6F7BF"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17E277191BA6F7BF"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6280F038E45937FC"
+					item: {
+						count: 30
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6BE45E474FD5A5BC"
 				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -12.0d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			id: "568F7A21DA848894"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "61F0EF00938AF49D"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61F0EF00938AF49D"
+					table_id: 3495175666515583115L
+					type: "random"
+				}
+				{
+					id: "6E2BEF89DB737BFC"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "49178F3280C28D75"
 				item: { components: { "ftbfiltersystem:filter": "mod(mekanismtools)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -8.5d
 		}
 		{
-			id: "7B28275FF4E3D4DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58B96BD852E028BE"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
-			tasks: [
+			id: "133D266FCD3ABEF2"
+			rewards: [
 				{
-					id: "3A22BEB9E7526853"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/melee_weapons)item_tag(c:tools/ranged_weapon)item_tag(c:tools/melee_weapon))mod(mekanism)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4DA69935BFA29D09"
+					table_id: 3495175666515583115L
+					type: "random"
 				}
 				{
-					id: "16270C077EAFC29E"
-					item: { components: { "ftbfiltersystem:filter": "or(mod(mekaweapons))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					count: 4
+					id: "18F1D7ECB7942CD8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -15.5d
-		}
-		{
-			id: "133D266FCD3ABEF2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DA69935BFA29D09"
-				table_id: 3495175666515583115L
-				type: "random"
-			}]
 			tasks: [{
 				id: "149D6C6D77158769"
 				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

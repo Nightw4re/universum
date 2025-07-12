@@ -32,6 +32,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "305990366E2AA60F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d
@@ -46,12 +54,22 @@
 		{
 			dependencies: ["4D5DE6CE8BC8A185"]
 			id: "0D877EB14A8C2ACF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B6A1CBC15317F6A"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B6A1CBC15317F6A"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "216EF144C0BAFDFD"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0DFE5E4FC9F04681"
 				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
@@ -66,12 +84,22 @@
 				"0D877EB14A8C2ACF"
 			]
 			id: "7B3084A368F3FE4C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58041F2A52222E7F"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58041F2A52222E7F"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "1F8DA047FAE7BE66"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "125176EBF0680882"
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
@@ -87,12 +115,22 @@
 				"79C3B07014D61FF9"
 			]
 			id: "2B67108509EE1D8E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C0E9A12656E50BF"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C0E9A12656E50BF"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "747ED9EE62E34A94"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "72E9A54431C7942B"
 				item: { count: 1, id: "pneumaticcraft:minigun" }
@@ -104,12 +142,22 @@
 		{
 			dependencies: ["2B67108509EE1D8E"]
 			id: "3DEED28FC4B64CDB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CD202EC6768468A"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CD202EC6768468A"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "68CFA97DDA824C54"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7870BC50636D5D32"
 				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
@@ -121,12 +169,22 @@
 		{
 			dependencies: ["0D877EB14A8C2ACF"]
 			id: "2B124175285814E6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "627F3398C4D9F828"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "627F3398C4D9F828"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "0BAD84BAD9EA648F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A59D2681CA64BEE"
 				item: { count: 1, id: "pneumaticcraft:charging_station" }
@@ -138,12 +196,22 @@
 		{
 			dependencies: ["7B3084A368F3FE4C"]
 			id: "1DA5413BBCA56F70"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A2F3D189AFBF07D"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2F3D189AFBF07D"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "50188F6AA5380006"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0A8E7905B199F367"
@@ -173,12 +241,22 @@
 		{
 			dependencies: ["1DA5413BBCA56F70"]
 			id: "4E95B65763D110C3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6860DD8F1CB2EC61"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6860DD8F1CB2EC61"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "731B3910117511C4"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6D3DBE4D3E3B0400"
@@ -196,12 +274,22 @@
 		}
 		{
 			id: "464AE82748790FB4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16376AF280982C91"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16376AF280982C91"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "621FB586AA7B0E77"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -218,12 +306,23 @@
 				"464AE82748790FB4"
 			]
 			id: "14C543E7205E5B11"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3BEB37F8591D9E1E"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEB37F8591D9E1E"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "367093133DAB8C35"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "42B0C28758D8F192"
@@ -243,12 +342,22 @@
 		{
 			dependencies: ["14C543E7205E5B11"]
 			id: "5ABE6AFDCE068945"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "14A00638231975E6"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14A00638231975E6"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "1AC164D302F2AF45"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2710FE9563283CF4"
 				item: { count: 1, id: "pneumaticcraft:plastic" }
@@ -260,12 +369,22 @@
 		{
 			dependencies: ["0D877EB14A8C2ACF"]
 			id: "79C3B07014D61FF9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7B70A845177DC863"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B70A845177DC863"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "24E860EFF71B7A53"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5C60C90D48295ACD"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(pneumaticcraft:minigun_ammo)", "minecraft:custom_name": "\"Ammo\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -277,12 +396,22 @@
 		{
 			dependencies: ["11BF4AE24F535C36"]
 			id: "55324630A66127C0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "474B6CD1C5E6F651"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "474B6CD1C5E6F651"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "30B3A49509C279EA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "691834614E20AA63"
 				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
@@ -297,12 +426,22 @@
 				"55324630A66127C0"
 			]
 			id: "06BAE37962B95F7B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A3E268530FE093B"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A3E268530FE093B"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "1B79687C4F3822C8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "39B184D2C8567941"
@@ -315,12 +454,22 @@
 		{
 			dependencies: ["5ABE6AFDCE068945"]
 			id: "11BF4AE24F535C36"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35FB47A87986712D"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35FB47A87986712D"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					id: "2F9B74E686028D64"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "41F190CCA72AECD3"
 				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
@@ -332,12 +481,23 @@
 		{
 			dependencies: ["06BAE37962B95F7B"]
 			id: "5A523065F15A2A03"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77DC7D6FB6B61597"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77DC7D6FB6B61597"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "62619F77895DFF57"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "74E5F7B0886A16A7"
@@ -376,12 +536,23 @@
 		{
 			dependencies: ["06BAE37962B95F7B"]
 			id: "24AD0DFAA0D73A9A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2340845255F3058E"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2340845255F3058E"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "6FB45B3FD53F89C6"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "72B2CC61DDF1AE76"
 				item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:assembly_program_drill_laser)item(pneumaticcraft:assembly_program_drill)item(pneumaticcraft:assembly_program_laser))", "minecraft:custom_name": "\"Assembly Programmer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -396,12 +567,23 @@
 				"24AD0DFAA0D73A9A"
 			]
 			id: "479C28F5778541E9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "34ED0795516A2C45"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34ED0795516A2C45"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "6C8E12B050CAE330"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "03B682C865547FF6"
 				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
@@ -413,12 +595,23 @@
 		{
 			dependencies: ["479C28F5778541E9"]
 			id: "1268B6C008B70141"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A2C194616CC1290"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A2C194616CC1290"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "14423CBA34A3226B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "455B2733238D7C61"
 				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
@@ -430,12 +623,23 @@
 		{
 			dependencies: ["479C28F5778541E9"]
 			id: "42B0D5EA23C5AEA1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17A1781DD8501AF5"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17A1781DD8501AF5"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "686D386B2C9BCB7F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A829AB8C8A3364D"
 				item: { count: 1, id: "pneumaticcraft:pneumatic_dynamo" }
@@ -447,12 +651,23 @@
 		{
 			dependencies: ["479C28F5778541E9"]
 			id: "5401075BE169216B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "129C9CCB62EF16D1"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "129C9CCB62EF16D1"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "1FE0D9D3D15D0C0A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "513C270BF2ED5694"
 				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
@@ -464,12 +679,23 @@
 		{
 			dependencies: ["479C28F5778541E9"]
 			id: "4E923D0043AF9B1B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "270E54B914A30B67"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "270E54B914A30B67"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "180D118649FA8036"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0DA6044F42157F9A"
@@ -488,12 +714,23 @@
 		{
 			dependencies: ["479C28F5778541E9"]
 			id: "7424AE023F9E8E0E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "459A3CE3E904A714"
-				table_id: 7672212240416228793L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "459A3CE3E904A714"
+					table_id: 7672212240416228793L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "17A4BD15E85DCC44"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{

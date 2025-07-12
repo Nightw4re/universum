@@ -12,14 +12,24 @@
 	quests: [
 		{
 			id: "11DA91DFD5909DAD"
-			rewards: [{
-				id: "25D21501E95F3521"
-				item: {
-					count: 1
-					id: "cookingforblockheads:recipe_book"
+			rewards: [
+				{
+					id: "25D21501E95F3521"
+					item: {
+						count: 1
+						id: "cookingforblockheads:recipe_book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "74F6E53A6CE24BDD"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4EF81C2351DEAC34"
@@ -38,12 +48,23 @@
 		{
 			dependencies: ["39F6C544C0EEA3E0"]
 			id: "794781ABF3E3A4CC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "342C0E4D77A56A6B"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "342C0E4D77A56A6B"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "482F8FD80C16F0C5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "66DD5FC1FE11F7B0"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:sinks)item_tag(cookingforblockheads:dyed_sinks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -55,12 +76,23 @@
 		{
 			dependencies: ["39F6C544C0EEA3E0"]
 			id: "7AFA855108C8EDB8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "029078341A56DCA6"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "029078341A56DCA6"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6D3DF97CB85D169E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "595DC04B205E64FD"
@@ -73,12 +105,23 @@
 		{
 			dependencies: ["39F6C544C0EEA3E0"]
 			id: "52011D43895D0620"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "36A281BCC0D2680C"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36A281BCC0D2680C"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5F5EB8734F4740E8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7C838CDED52DFEB2"
@@ -101,12 +144,22 @@
 				"52011D43895D0620"
 			]
 			id: "35362A559D68A27A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1124D126D4FDBE56"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1124D126D4FDBE56"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					id: "0F6E4B1217642734"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "09C1C5C716E8381E"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(cookingforblockheads:foods)", "minecraft:custom_name": "\"New Food\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -118,12 +171,23 @@
 		{
 			dependencies: ["39F6C544C0EEA3E0"]
 			id: "02585EAC437560C1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "726046896C656687"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "726046896C656687"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "7D0E4473BE6668E4"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A0FE90208615932"
 				item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:white_oven)item_tag(cookingforblockheads:dyed_ovens))", "minecraft:custom_name": "\"Ovens\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -135,12 +199,22 @@
 		{
 			dependencies: ["11DA91DFD5909DAD"]
 			id: "191BA13C17A2D25A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08BB75A46C74D9E5"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08BB75A46C74D9E5"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					id: "1C5DEB6F67349FAD"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5D150844B77C5861"
 				item: { count: 1, id: "cookingforblockheads:white_kitchen_floor" }
@@ -152,12 +226,23 @@
 		{
 			dependencies: ["35362A559D68A27A"]
 			id: "42418D1DA69BD96D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5EE7B34A7EEEF299"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EE7B34A7EEEF299"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "4DDD82C62D7D5293"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "0AA519A25B32D640"
@@ -170,12 +255,23 @@
 		{
 			dependencies: ["52011D43895D0620"]
 			id: "026E2AD2001A9A7B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6C1ED1EF4227E4E9"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C1ED1EF4227E4E9"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "0232BE8A7E069F6F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34704CA5D5684959"
 				item: { count: 1, id: "cookingforblockheads:fruit_basket" }
@@ -187,12 +283,23 @@
 		{
 			dependencies: ["52011D43895D0620"]
 			id: "2D9BF11F455FA513"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "036AA0B8D7656440"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "036AA0B8D7656440"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "29DBF64A0E99662A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0261DD4AB18DE9EC"
 				item: { count: 1, id: "cookingforblockheads:toaster" }
@@ -207,12 +314,22 @@
 				"02585EAC437560C1"
 			]
 			id: "7E0449D236C35FDB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "437B34D4150C91CB"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "437B34D4150C91CB"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					id: "0529CD73ECF4AE5D"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "449F8EA144916EF5"
@@ -231,12 +348,23 @@
 		{
 			dependencies: ["191BA13C17A2D25A"]
 			id: "39F6C544C0EEA3E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4EF4C2AED88D29CC"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EF4C2AED88D29CC"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "071D4FAAB1AD81CA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7046510F531568D0"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:cooking_tables)item(cookingforblockheads:cooking_table))", "minecraft:custom_name": "\"Cooking Table\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -248,12 +376,23 @@
 		{
 			dependencies: ["11DA91DFD5909DAD"]
 			id: "0C6B5CB3FAC02B7B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "627A90ED428DB6B5"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "627A90ED428DB6B5"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "165DC6B8FFFA1320"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "595B26836801A20A"
@@ -272,12 +411,23 @@
 		{
 			dependencies: ["0C6B5CB3FAC02B7B"]
 			id: "618C44C1682A6A16"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0936C1F00A1EEACA"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0936C1F00A1EEACA"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "020A11A1DD1D1854"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2E31B5DDF0CFAE33"
@@ -301,12 +451,22 @@
 		{
 			dependencies: ["11DA91DFD5909DAD"]
 			id: "65B2BD1AD4AC2279"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "044A01677EB90CCD"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "044A01677EB90CCD"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					id: "109F9BDA8E73B822"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "31D1F11C671D5B8D"
 				item: { count: 1, id: "farmingforblockheads:market" }
@@ -318,12 +478,23 @@
 		{
 			dependencies: ["0C6B5CB3FAC02B7B"]
 			id: "0C5E22C42D58DDAD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1A127C4EFA951DCC"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A127C4EFA951DCC"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4FF853218A69DFF0"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "73BED2FEE9CBB016"
@@ -342,12 +513,23 @@
 		{
 			dependencies: ["11DA91DFD5909DAD"]
 			id: "63EC940952BBE61A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "798F050AAEC1B5E7"
-				table_id: 4808843298611999600L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "798F050AAEC1B5E7"
+					table_id: 4808843298611999600L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "56C82D1F769A2AAA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24D5536C1FB762C2"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(supplementaries:cookies)", "minecraft:custom_name": "\"Cookies\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }

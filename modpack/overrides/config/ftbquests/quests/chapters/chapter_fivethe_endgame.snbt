@@ -11,12 +11,23 @@
 			dependencies: ["569A9E3D42C3AC8F"]
 			hide_until_deps_complete: true
 			id: "5C7E5C089069DDAC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35800683C9F2F8E5"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35800683C9F2F8E5"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 120
+					id: "6B5A5ED4D2CD8801"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -41,12 +52,23 @@
 		{
 			dependencies: ["5C7E5C089069DDAC"]
 			id: "7AAD764B9E42F3D9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42E06AAEA929E206"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42E06AAEA929E206"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "5B28F0089AE41B40"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4230AFA166024BA2"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
@@ -58,12 +80,23 @@
 		{
 			dependencies: ["7AAD764B9E42F3D9"]
 			id: "2719A4BA9EFB5F32"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67B080C9C57BD52F"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67B080C9C57BD52F"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 150
+					id: "01B352A0E346984E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -78,12 +111,23 @@
 			dependencies: ["195703ECD0861D1D"]
 			hide_until_deps_complete: true
 			id: "25B165150F68AF97"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "584C9FD4255BC404"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "584C9FD4255BC404"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 70
+					id: "07529E6D9F7A993D"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "45E7BF44722F30F2"
@@ -96,12 +140,23 @@
 		{
 			dependencies: ["25B165150F68AF97"]
 			id: "789E33366CD8BE6E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A2FFAA8AA828590"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A2FFAA8AA828590"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "00E436F8432D4C32"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "63BEF93BAE0F0AEF"
 				item: { count: 1, id: "modern_industrialization:superconductor_ingot" }
@@ -113,12 +168,23 @@
 		{
 			dependencies: ["789E33366CD8BE6E"]
 			id: "150292D1A53A7050"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4699B781E7FE3A24"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4699B781E7FE3A24"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "40842A8B7E90F330"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4770084B2D954F5A"
@@ -137,12 +203,23 @@
 		{
 			dependencies: ["150292D1A53A7050"]
 			id: "19BF1902E86D5F15"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "72850177A04DDB6D"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72850177A04DDB6D"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "6C619408D853D77E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -168,12 +245,23 @@
 		{
 			dependencies: ["2E0AB59ED013A176"]
 			id: "03C326546C6F331A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "751D4A6AC38FE129"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "751D4A6AC38FE129"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 200
+					id: "7CE64474DFB68886"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -187,12 +275,23 @@
 		{
 			dependencies: ["25B165150F68AF97"]
 			id: "2E0AB59ED013A176"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "298455279E1596B3"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "298455279E1596B3"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 150
+					id: "13609EFABC606B1F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3948CD78AFADA1F4"
 				item: { count: 1, id: "modern_industrialization:singularity" }
@@ -204,12 +303,23 @@
 		{
 			dependencies: ["2E0AB59ED013A176"]
 			id: "4A0A82626CA4C6F2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "013165DE15AE9A7C"
-				table_id: 6339845541830123112L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "013165DE15AE9A7C"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3DFD2B739BF8F5A0"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "56F5C921FE22D4BD"
 				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }

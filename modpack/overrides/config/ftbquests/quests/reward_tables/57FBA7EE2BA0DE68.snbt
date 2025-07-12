@@ -1,7 +1,7 @@
 {
 	id: "57FBA7EE2BA0DE68"
 	loot_size: 1
-	order_index: 14
+	order_index: 12
 	rewards: [
 		{ id: "3747D5CC87BE881D", item: { count: 1, id: "sgjourney:classic_stargate" } }
 		{ id: "05DB51EA28522789", item: { count: 1, id: "minecraft:zombie_horse_spawn_egg" } }
