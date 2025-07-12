@@ -1,7 +1,7 @@
 {
 	id: "699CF211D7DD74EE"
 	loot_size: 1
-	order_index: 12
+	order_index: 10
 	rewards: [
 		{ id: "4041ADE923BA0315", item: { count: 1, id: "create:clutch" } }
 		{ id: "73280DF6904EFEF8", item: { count: 1, id: "create:gearshift" } }

@@ -62,14 +62,24 @@
 	quests: [
 		{
 			id: "6BF628828AD764EF"
-			rewards: [{
-				id: "450C0DEC415D761C"
-				item: {
-					count: 1
-					id: "powah:book"
+			rewards: [
+				{
+					id: "450C0DEC415D761C"
+					item: {
+						count: 1
+						id: "powah:book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1001EF0E729DA96A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -83,12 +93,23 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "5F278DBB09E8420E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1727269BF33A41E7"
-				table_id: 1899666024034062704L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1727269BF33A41E7"
+					table_id: 1899666024034062704L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "18E2F0564972FC40"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "006FF2647B251337"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(powah:energy_cells)not(item(powah:energy_cell_creative))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -100,12 +121,23 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "70E2ADBEFB1511FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6384F2CCAB2E74B5"
-				table_id: 1899666024034062704L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6384F2CCAB2E74B5"
+					table_id: 1899666024034062704L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "4512DDD2450E16A3"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4CFB3999CDDC0569"
 				item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -117,12 +149,22 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "6C566BDD515C2575"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57FE9709C2544407"
-				table_id: 1899666024034062704L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57FE9709C2544407"
+					table_id: 1899666024034062704L
+					type: "choice"
+				}
+				{
+					id: "503BF1A269BFF91D"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "49B074E361DEE1DA"
@@ -141,12 +183,22 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "3F3595C5252F467F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4830FD0430C5D5FE"
-				table_id: 1899666024034062704L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4830FD0430C5D5FE"
+					table_id: 1899666024034062704L
+					type: "choice"
+				}
+				{
+					id: "741EDF106B065BCA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5D54C38E325C51BF"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(powah:ender_cells)item_tag(powah:ender_gates)item_tag(powah:energy_cables))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -158,12 +210,23 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "10E8A956CA36E9BC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5456513DDD2600B8"
-				table_id: 1899666024034062704L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5456513DDD2600B8"
+					table_id: 1899666024034062704L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6181455D7F755951"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "50643825139D83E1"
@@ -192,15 +255,26 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "0BD8CB14D765EE43"
-			rewards: [{
-				count: 4
-				id: "57CC39F29E6A4CC1"
-				item: {
-					count: 1
-					id: "minecraft:blaze_rod"
+			rewards: [
+				{
+					count: 4
+					id: "57CC39F29E6A4CC1"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 15
+					id: "71C60578CF2CA8BF"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -214,12 +288,23 @@
 		{
 			dependencies: ["6BF628828AD764EF"]
 			id: "4DA255280F7E1DC4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "40F3BFD2FCBFC316"
-				table_id: 1899666024034062704L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40F3BFD2FCBFC316"
+					table_id: 1899666024034062704L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2A0254F8CCC53EFF"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1A11E225201FC8B5"

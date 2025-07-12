@@ -1,7 +1,7 @@
 {
 	id: "30815BC01E40208B"
 	loot_size: 1
-	order_index: 4
+	order_index: 2
 	rewards: [
 		{
 			count: 3
@@ -13,38 +13,6 @@
 			weight: 1.5f
 		}
 		{ id: "1152B010CC3291DF", item: { count: 1, id: "minecraft:diamond_block" } }
-		{
-			id: "1A50919075568C2F"
-			item: {
-				count: 1
-				id: "mysticalagriculture:prudentium_block"
-			}
-			weight: 0.4f
-		}
-		{
-			id: "3220C9E88B1B05CC"
-			item: {
-				count: 1
-				id: "mysticalagriculture:imperium_block"
-			}
-			weight: 0.2f
-		}
-		{
-			id: "4AC5BFA22652C4DF"
-			item: {
-				count: 1
-				id: "mysticalagriculture:tertium_block"
-			}
-			weight: 0.3f
-		}
-		{
-			id: "7607F9AAA0F90E54"
-			item: {
-				count: 1
-				id: "mysticalagriculture:supremium_block"
-			}
-			weight: 0.1f
-		}
 		{
 			id: "07E3032B73BA427F"
 			item: {
@@ -121,7 +89,6 @@
 			}
 			weight: 2.0f
 		}
-		{ id: "503CAF44C8D49B9C", item: { count: 1, id: "productivebees:bee_nest_diamond_helmet" } }
 		{
 			count: 7
 			id: "0CC08D160CD73BFF"
