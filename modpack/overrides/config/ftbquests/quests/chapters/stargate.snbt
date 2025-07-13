@@ -33,15 +33,25 @@
 			dependencies: ["6CB1A938135C55CD"]
 			hide_until_deps_complete: true
 			id: "51DED8F7D84CD235"
-			rewards: [{
-				count: 16
-				id: "28710313F6D8D67C"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
+			rewards: [
+				{
+					count: 16
+					id: "28710313F6D8D67C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "37AA3FA1055885F8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -56,14 +66,24 @@
 			dependencies: ["51DED8F7D84CD235"]
 			hide_until_deps_complete: true
 			id: "32C5CD8426D8B39C"
-			rewards: [{
-				id: "1E5FF3D31B840DA1"
-				item: {
-					count: 1
-					id: "artifacts:villager_hat"
+			rewards: [
+				{
+					id: "1E5FF3D31B840DA1"
+					item: {
+						count: 1
+						id: "artifacts:villager_hat"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14EA27E63AD57197"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "02C891EC6CBE30F1"
 				item: { count: 1, id: "sgjourney:archeology_table" }
@@ -76,11 +96,21 @@
 			dependencies: ["32C5CD8426D8B39C"]
 			hide_until_deps_complete: true
 			id: "36E1BF25F676FC79"
-			rewards: [{
-				id: "65382A5766CA718D"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "65382A5766CA718D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3C089526AD6C613C"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7054DFE56D6D74AF"
@@ -100,11 +130,21 @@
 			dependencies: ["36E1BF25F676FC79"]
 			hide_until_deps_complete: true
 			id: "42930133E46A0A7A"
-			rewards: [{
-				id: "2C9088C08A34A96D"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "2C9088C08A34A96D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "79B41C9096BCD083"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "sgjourney:abydos_desert"
 				icon: {
@@ -123,14 +163,24 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "184787879E793720"
-			rewards: [{
-				id: "498F0597ECA27E7C"
-				item: {
-					count: 1
-					id: "sgjourney:refined_naquadah"
+			rewards: [
+				{
+					id: "498F0597ECA27E7C"
+					item: {
+						count: 1
+						id: "sgjourney:refined_naquadah"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "43C1E456B597AA6E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "074F1EEF530D34C2"
 				item: { count: 1, id: "sgjourney:raw_naquadah" }
@@ -142,14 +192,24 @@
 		{
 			dependencies: ["184787879E793720"]
 			id: "5DCCB55C5BE6CC4C"
-			rewards: [{
-				id: "5D732D1F403F0B16"
-				item: {
-					count: 1
-					id: "sgjourney:liquid_naquadah_bucket"
+			rewards: [
+				{
+					id: "5D732D1F403F0B16"
+					item: {
+						count: 1
+						id: "sgjourney:liquid_naquadah_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "505854C1AAF575C5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "053BD8CDCC30F3F8"
 				item: { count: 1, id: "sgjourney:naquadah_liquidizer" }
@@ -161,15 +221,25 @@
 		{
 			dependencies: ["5DCCB55C5BE6CC4C"]
 			id: "579A9C086CDF34DE"
-			rewards: [{
-				count: 16
-				id: "10DB5741663E0266"
-				item: {
-					count: 1
-					id: "modern_industrialization:fluid_pipe"
+			rewards: [
+				{
+					count: 16
+					id: "10DB5741663E0266"
+					item: {
+						count: 1
+						id: "modern_industrialization:fluid_pipe"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3AE5EE646E34BF7B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1D5110B122115909"
 				item: { count: 1, id: "sgjourney:crystallizer" }
@@ -182,15 +252,25 @@
 			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "364A1799C5F9A25C"
-			rewards: [{
-				count: 4
-				id: "09C2036E91B87E2B"
-				item: {
-					count: 1
-					id: "sgjourney:unity_shard"
+			rewards: [
+				{
+					count: 4
+					id: "09C2036E91B87E2B"
+					item: {
+						count: 1
+						id: "sgjourney:unity_shard"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "51CCE1F197B14369"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "sgjourney:unitas"
 				icon: {
@@ -206,15 +286,25 @@
 			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "04009475BA6BC159"
-			rewards: [{
-				count: 16
-				id: "3B9F7A8D5488B1D9"
-				item: {
-					count: 1
-					id: "modern_industrialization:item_pipe"
+			rewards: [
+				{
+					count: 16
+					id: "3B9F7A8D5488B1D9"
+					item: {
+						count: 1
+						id: "modern_industrialization:item_pipe"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "774B8E3A1EFAA52B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					biome: "sgjourney:abydos_spires"
@@ -233,14 +323,24 @@
 		{
 			dependencies: ["184787879E793720"]
 			id: "3560DF7703EDA4B1"
-			rewards: [{
-				id: "092B687F4202BC08"
-				item: {
-					count: 1
-					id: "sgjourney:pure_naquadah"
+			rewards: [
+				{
+					id: "092B687F4202BC08"
+					item: {
+						count: 1
+						id: "sgjourney:pure_naquadah"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2631CCB8CFD58288"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2FECBA13E08CC7AB"
 				item: { count: 1, id: "sgjourney:pure_naquadah" }
@@ -252,15 +352,25 @@
 		{
 			dependencies: ["184787879E793720"]
 			id: "5E64EF691EC1BFD5"
-			rewards: [{
-				count: 8
-				id: "4B717F7E504A4F8F"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
+			rewards: [
+				{
+					count: 8
+					id: "4B717F7E504A4F8F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1A6CFD062F66D2DA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "33A0023CE5DECBF6"
@@ -284,14 +394,25 @@
 		{
 			dependencies: ["579A9C086CDF34DE"]
 			id: "0A3FAAEB1285FA7A"
-			rewards: [{
-				id: "6E254F31A9EA4F88"
-				item: {
-					count: 1
-					id: "sgjourney:pure_naquadah_block"
+			rewards: [
+				{
+					id: "6E254F31A9EA4F88"
+					item: {
+						count: 1
+						id: "sgjourney:pure_naquadah_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 10
+					id: "7A9D60C2FE2E5030"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [
@@ -320,6 +441,14 @@
 			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "58DA170D896B0C5C"
+			rewards: [{
+				id: "2BF5F2B9F64D6222"
+				item: {
+					count: 1
+					id: "libraryferret:gold_coins_jtl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "sgjourney:chulak"
 				icon: {

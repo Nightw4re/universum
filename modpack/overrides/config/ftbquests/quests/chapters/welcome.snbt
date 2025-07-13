@@ -9,31 +9,13 @@
 	id: "6CB1A938135C55CD"
 	images: [
 		{
-			dependency: "41A5121596488212"
-			height: 1.0d
-			image: "productivebees:block/nest/warped_bee_nest_front_honey"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependency: "0DED8F3DFBDDA6C6"
-			height: 1.0d
-			image: "mysticalagriculture:item/seeds/mystical_flower_seeds"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: 2.0d
-		}
-		{
 			dependency: "1EBC773ED06E4670"
 			height: 1.0d
 			image: "minecraft:textures/gui/sprites/hud/heart/full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 4.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependency: "1EBC773ED06E4670"
@@ -41,8 +23,8 @@
 			image: "minecraft:textures/particle/goldheart_2.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: 4.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependency: "776448522144B159"
@@ -50,8 +32,8 @@
 			image: "apotheosis:items/gems/endersurge"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependency: "6C7FA1194422F63E"
@@ -60,25 +42,15 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
-			dependency: "4ED4ED6F965C40DE"
-			height: 1.0d
-			image: "minecraft:textures/map/decorations/plains_village.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependency: "34EDE3B256C8DEC1"
 			height: 1.0d
 			image: "valhelsia_structures:item/explorers_tent"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
-			y: -1.0d
+			x: -5.0d
+			y: 0.5d
 		}
 	]
 	order_index: 0
@@ -192,55 +164,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0E0FA5B6A8D8C437"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "041C084B2F12D089"
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["681BFBC59884DAF3"]
-			icon: {
-				id: "minecraft:bee_nest"
-			}
-			id: "41A5121596488212"
-			rewards: [{
-				count: 4
-				id: "463B85DD513B7C7A"
-				item: {
-					count: 1
-					id: "productivebees:sturdy_bee_cage"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "524787D451E87674"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:honeycomb)item(minecraft:honey_bottle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["681BFBC59884DAF3"]
-			id: "0DED8F3DFBDDA6C6"
-			rewards: [{
-				count: 2
-				id: "58AD70569493BB2E"
-				item: {
-					count: 1
-					id: "mysticalagriculture:prosperity_block"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0188CBB27C11A1B1"
-				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
-				type: "item"
-			}]
-			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -263,6 +200,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "275F571100B94C69"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "79E68AB412247DDD"
@@ -270,7 +215,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["681BFBC59884DAF3"]
@@ -278,22 +223,32 @@
 				id: "apotheosis:gem_dust"
 			}
 			id: "776448522144B159"
-			rewards: [{
-				count: 10
-				id: "7BE03D49289AA857"
-				item: {
-					count: 1
-					id: "apotheosis:gem_dust"
+			rewards: [
+				{
+					count: 10
+					id: "7BE03D49289AA857"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "621D813A4D206DE9"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "778D901AFE0B1935"
 				item: { components: { "ftbfiltersystem:filter": "or(mod(apotheosis))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["681BFBC59884DAF3"]
@@ -301,18 +256,28 @@
 				id: "chipped:framed_sea_lantern"
 			}
 			id: "6C7FA1194422F63E"
-			rewards: [{
-				id: "3782C7E79CDA2544"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "3782C7E79CDA2544"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5EDEA11C03745CA0"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0FDFEEEA052F965F"
 				item: { components: { "ftbfiltersystem:filter": "or(mod(chipped))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["681BFBC59884DAF3"]
@@ -320,41 +285,32 @@
 				id: "easy_villagers:iron_farm"
 			}
 			id: "4ED4ED6F965C40DE"
-			rewards: [{
-				count: 2
-				id: "606C2043058A3832"
-				item: {
-					count: 1
-					id: "easy_villagers:trader"
+			rewards: [
+				{
+					count: 2
+					id: "606C2043058A3832"
+					item: {
+						count: 1
+						id: "easy_villagers:trader"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "78CBCB12FCEB8A99"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "72F2AA2C1D5877DD"
 				item: { components: { "ftbfiltersystem:filter": "or(mod(easy_villagers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["681BFBC59884DAF3"]
-			icon: {
-				id: "minecolonies:blockhuttownhall"
-			}
-			id: "34EDE3B256C8DEC1"
-			rewards: [{
-				id: "0AA4A57211F98314"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "59101F7D53A2B65D"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(minecolonies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
 			x: -4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 	]
 }
