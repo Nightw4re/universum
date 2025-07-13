@@ -14,12 +14,23 @@
 			dependencies: ["6CB1A938135C55CD"]
 			hide_until_deps_complete: true
 			id: "689225F696EE4683"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0765F19F6664C40F"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0765F19F6664C40F"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "18B13935A0FEA0A7"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -36,12 +47,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "4412AC098D69D7F2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "05FBB3A443861815"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05FBB3A443861815"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 60
+					id: "5A9DA83D70FAC173"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: {
@@ -57,12 +79,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "3BBB9F4988E74D19"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B3793A210D948CD"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B3793A210D948CD"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "1C3761D2D4CD9D0A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {
@@ -78,12 +111,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "2C913635E400E915"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16E731034D9D8E7F"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16E731034D9D8E7F"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 60
+					id: "044B9B99240606CB"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: {
@@ -99,12 +143,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "15B0E988D9E63F51"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "23CF8446FC6EEB79"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23CF8446FC6EEB79"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 60
+					id: "17D1F425A9596808"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: {
@@ -120,12 +175,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "103305DA0E236100"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29280E9A9B2C1445"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29280E9A9B2C1445"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "38AA2E494A320F48"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: {
@@ -141,12 +207,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "7292E4FE5EFA8CFE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B453C221F476D14"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B453C221F476D14"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "2FCA7317AA86C506"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: {
@@ -162,12 +239,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "1E7E8E692E765240"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28C01EEBAD30B67F"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28C01EEBAD30B67F"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "227BA5842017F684"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: {
@@ -184,12 +272,23 @@
 			dependencies: ["689225F696EE4683"]
 			icon_scale: 2.0d
 			id: "54C617A39639DACC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "673CDF2619251DC9"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "673CDF2619251DC9"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "200A059114C12573"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: {
@@ -211,12 +310,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "2EE1A515FE555D8A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D22809BD4176FD5"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D22809BD4176FD5"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "6B144BB88CFB050F"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				icon: {
@@ -232,12 +342,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "79655D9514F0F307"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "613248A28A6C1610"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "613248A28A6C1610"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "092CD10276B376BA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: {
@@ -253,12 +374,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "4824A4A691A1D394"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15C3600A38FBD919"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15C3600A38FBD919"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "7E07CE787486FF94"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: {
@@ -275,12 +407,23 @@
 			dependencies: ["689225F696EE4683"]
 			icon_scale: 2.0d
 			id: "2479447E7F09A555"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6965DF5EFBB9C6DC"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6965DF5EFBB9C6DC"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "1749D33936279C51"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "eternal_starlight:lunar_monstrosity"
 				icon: {
@@ -303,12 +446,23 @@
 			dependencies: ["689225F696EE4683"]
 			icon_scale: 2.0d
 			id: "1F73960A6F9AA0CE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4316256049DC7C54"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4316256049DC7C54"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "7B0693E80B4C511C"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "eternal_starlight:starlight_golem"
 				icon: {
@@ -330,12 +484,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "15B6D69DC41FEB29"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "135E69C997BD4B31"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "135E69C997BD4B31"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "009DD986C19F94C1"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -351,12 +516,23 @@
 		{
 			dependencies: ["689225F696EE4683"]
 			id: "6D3DDA3D870C9348"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0B77B28D96F6052B"
-				table_id: 6783516616363103983L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B77B28D96F6052B"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 60
+					id: "4A433EBAFDE9C704"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -368,6 +544,34 @@
 			}]
 			x: -0.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "36C1AD345ECCEC9C"
+			rewards: [
+				{
+					count: 100
+					id: "0B13D40840221BED"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35F74D922E9FEB58"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23D6560AB40FF882"
+				item: { count: 1, id: "fdbosses:lightning_core" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 }

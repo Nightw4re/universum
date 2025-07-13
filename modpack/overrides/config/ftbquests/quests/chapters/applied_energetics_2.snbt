@@ -64,6 +64,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "60AC54569232A2A4"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			size: 2.0d
 			tasks: [
@@ -84,15 +92,26 @@
 		{
 			dependencies: ["432B6750035E63F3"]
 			id: "4A9CCB3B3D8B80DE"
-			rewards: [{
-				count: 16
-				id: "46D02D141082E24E"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
+			rewards: [
+				{
+					count: 16
+					id: "46D02D141082E24E"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "2257A8EFB19CBD7B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7562FA5B0506352D"
 				item: { count: 1, id: "ae2:fluix_crystal" }
@@ -104,6 +123,15 @@
 		{
 			dependencies: ["2D58EECF6EB9B619"]
 			id: "432B6750035E63F3"
+			rewards: [{
+				count: 2
+				id: "1BA1DCF337BCFEDC"
+				item: {
+					count: 1
+					id: "libraryferret:gold_coins_jtl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33BF3976874EFFB4"
 				item: { count: 1, id: "ae2:charger" }
@@ -115,15 +143,25 @@
 		{
 			dependencies: ["2D58EECF6EB9B619"]
 			id: "42AAD9EE7BC90E8E"
-			rewards: [{
-				count: 64
-				id: "4306E30F6CD7E738"
-				item: {
-					count: 1
-					id: "minecraft:glass"
+			rewards: [
+				{
+					count: 64
+					id: "4306E30F6CD7E738"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "721D0A0988D42738"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2F37E3DCCFA8D082"
 				item: { count: 1, id: "ae2:quartz_fiber" }
@@ -138,15 +176,25 @@
 				"4A9CCB3B3D8B80DE"
 			]
 			id: "4D52E1F83E0D482A"
-			rewards: [{
-				count: 16
-				id: "44747C68EF5BB253"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
+			rewards: [
+				{
+					count: 16
+					id: "44747C68EF5BB253"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07655F6D811B0E56"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "533F9BA33183BB88"
 				item: { count: 1, id: "ae2:fluix_glass_cable" }
@@ -177,6 +225,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "0B1633F5D8807C87"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "356E4F1BE5EDA208"
@@ -189,11 +246,21 @@
 		{
 			dependencies: ["2D58EECF6EB9B619"]
 			id: "0808986AD62B9982"
-			rewards: [{
-				id: "0A6CF5E8A3C6D10C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "0A6CF5E8A3C6D10C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50DE156C71757159"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B184D4B1FECEAAB"
 				item: { count: 1, id: "ae2:energy_acceptor" }
@@ -209,15 +276,26 @@
 			]
 			hide_dependency_lines: true
 			id: "678797941B517892"
-			rewards: [{
-				count: 8
-				id: "3FBA506BE922A2C2"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
+			rewards: [
+				{
+					count: 8
+					id: "3FBA506BE922A2C2"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "74C47889BFB47C14"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "046ECF8BEF06B2F0"
@@ -230,15 +308,25 @@
 		{
 			dependencies: ["678797941B517892"]
 			id: "4FA3DEADAEC0DD0A"
-			rewards: [{
-				count: 8
-				id: "346ECE85576BCD9D"
-				item: {
-					count: 1
-					id: "ae2:certus_quartz_crystal"
+			rewards: [
+				{
+					count: 8
+					id: "346ECE85576BCD9D"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "223008D3D47A2DD5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5CFF0B91B2F1F454"
 				item: { count: 1, id: "ae2:drive" }
@@ -250,15 +338,26 @@
 		{
 			dependencies: ["4FA3DEADAEC0DD0A"]
 			id: "3885409C52D57A01"
-			rewards: [{
-				count: 8
-				id: "7766CB23F86D5804"
-				item: {
-					count: 1
-					id: "extendedae:entro_crystal"
+			rewards: [
+				{
+					count: 8
+					id: "7766CB23F86D5804"
+					item: {
+						count: 1
+						id: "extendedae:entro_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "1F3BE8FBFE0CA9E5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "35EBB7F36F3BEAAC"
 				item: { count: 1, id: "extendedae:ex_drive" }
@@ -426,15 +525,26 @@
 				id: "easy_villagers:villager"
 			}
 			id: "03AA5258043E86C1"
-			rewards: [{
-				count: 10
-				id: "5E55BD607930AE43"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
+			rewards: [
+				{
+					count: 10
+					id: "5E55BD607930AE43"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "20402D0AFDB223CF"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "63EF285AED8ECFCA"
 				item: { count: 1, id: "minecraft:emerald" }
@@ -446,15 +556,26 @@
 		{
 			dependencies: ["432B6750035E63F3"]
 			id: "09ED1B5168C923B2"
-			rewards: [{
-				count: 8
-				id: "0AA58334AA4D6444"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
+			rewards: [
+				{
+					count: 8
+					id: "0AA58334AA4D6444"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "0C00A88215F2B030"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "32490386356F6B69"
 				item: { count: 1, id: "ae2:inscriber" }
@@ -466,14 +587,25 @@
 		{
 			dependencies: ["4FA3DEADAEC0DD0A"]
 			id: "1463FAE9C7425298"
-			rewards: [{
-				id: "2AE0DC1CFB82F3B1"
-				item: {
-					count: 1
-					id: "ae2:item_storage_cell_1k"
+			rewards: [
+				{
+					id: "2AE0DC1CFB82F3B1"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_1k"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "65227782D555BC95"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "060B41C7F734EAC1"
 				item: { count: 1, id: "ae2:item_storage_cell_1k" }
@@ -485,15 +617,26 @@
 		{
 			dependencies: ["4FA3DEADAEC0DD0A"]
 			id: "46D29B695C8DF247"
-			rewards: [{
-				count: 2
-				id: "080DF33420BD0974"
-				item: {
-					count: 1
-					id: "ae2:cell_component_1k"
+			rewards: [
+				{
+					count: 2
+					id: "080DF33420BD0974"
+					item: {
+						count: 1
+						id: "ae2:cell_component_1k"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "342AC1DA4B4C52A8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "75C2FCB31AAABBC4"
 				item: { count: 1, id: "ae2:fluid_storage_cell_1k" }
@@ -505,15 +648,26 @@
 		{
 			dependencies: ["4FA3DEADAEC0DD0A"]
 			id: "66498FE776FDA8C2"
-			rewards: [{
-				count: 2
-				id: "7CF539E491F1DE31"
-				item: {
-					count: 1
-					id: "ae2:cell_component_1k"
+			rewards: [
+				{
+					count: 2
+					id: "7CF539E491F1DE31"
+					item: {
+						count: 1
+						id: "ae2:cell_component_1k"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "6070D5F67CAFEA93"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D06C40A19E2931A"
 				item: { count: 1, id: "appmek:chemical_storage_cell_1k" }
@@ -530,11 +684,21 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2FBF68122D671CEC"
-			rewards: [{
-				id: "54FB77959D369705"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "54FB77959D369705"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "194881C275CDDED8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "19E753276305329D"
 				item: { count: 1, id: "megacells:cell_component_1m" }
@@ -545,15 +709,26 @@
 		}
 		{
 			id: "74EE049E116FADB1"
-			rewards: [{
-				count: 16
-				id: "45C4C53453B1F4BE"
-				item: {
-					count: 1
-					id: "ae2:fluix_dust"
+			rewards: [
+				{
+					count: 16
+					id: "45C4C53453B1F4BE"
+					item: {
+						count: 1
+						id: "ae2:fluix_dust"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "0C6370597527BAAE"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -573,15 +748,26 @@
 		{
 			dependencies: ["74EE049E116FADB1"]
 			id: "49FBCFDF2250634F"
-			rewards: [{
-				count: 6
-				id: "5CC7B7008E70CBA0"
-				item: {
-					count: 1
-					id: "ae2:logic_processor"
+			rewards: [
+				{
+					count: 6
+					id: "5CC7B7008E70CBA0"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "42840C0C34171C67"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D2F3FA442B4D4F9"
 				item: { count: 1, id: "ae2:cable_pattern_provider" }
@@ -593,15 +779,26 @@
 		{
 			dependencies: ["74EE049E116FADB1"]
 			id: "003759F6AFDF5945"
-			rewards: [{
-				count: 6
-				id: "7FFCC2F8AA9A2D49"
-				item: {
-					count: 1
-					id: "ae2:calculation_processor"
+			rewards: [
+				{
+					count: 6
+					id: "7FFCC2F8AA9A2D49"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "03E454F15641EC5C"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2CDEAFB6C96F8FA4"
@@ -623,15 +820,26 @@
 				"611E3E5B7369C3C9"
 			]
 			id: "1C111C9EF632F7DC"
-			rewards: [{
-				count: 4
-				id: "459E9E05CED3B949"
-				item: {
-					count: 1
-					id: "ae2:singularity"
+			rewards: [
+				{
+					count: 4
+					id: "459E9E05CED3B949"
+					item: {
+						count: 1
+						id: "ae2:singularity"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "1DE20A22F0F00406"
+					item: {
+						count: 20
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			shape: "heart"
 			size: 2.0d
 			tasks: [{
@@ -645,14 +853,25 @@
 		{
 			dependencies: ["6F8596EF4151F76D"]
 			id: "7D49E9D05DFEFA00"
-			rewards: [{
-				id: "15307C911C69C44F"
-				item: {
-					count: 1
-					id: "minecraft:lava_bucket"
+			rewards: [
+				{
+					id: "15307C911C69C44F"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "1D9B7F7EC0B2AB59"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "17DA498BE65DA508"
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
@@ -664,15 +883,26 @@
 		{
 			dependencies: ["6F8596EF4151F76D"]
 			id: "611E3E5B7369C3C9"
-			rewards: [{
-				count: 4
-				id: "27A308509F174CDC"
-				item: {
-					count: 1
-					id: "extendedae:silicon_block"
+			rewards: [
+				{
+					count: 4
+					id: "27A308509F174CDC"
+					item: {
+						count: 1
+						id: "extendedae:silicon_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "4C620D7D2E7680AA"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "160EA80373B43578"
 				item: { count: 1, id: "extendedae:circuit_cutter" }
@@ -684,15 +914,26 @@
 		{
 			dependencies: ["74EE049E116FADB1"]
 			id: "0B335479C82AF2FE"
-			rewards: [{
-				count: 6
-				id: "1D988022752517B3"
-				item: {
-					count: 1
-					id: "ae2:engineering_processor"
+			rewards: [
+				{
+					count: 6
+					id: "1D988022752517B3"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "2E89549FE8E32686"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "15909DE3B05D0699"
 				item: { count: 1, id: "ae2:crafting_accelerator" }
@@ -704,14 +945,24 @@
 		{
 			dependencies: ["74EE049E116FADB1"]
 			id: "2D95B976D5F3DFBF"
-			rewards: [{
-				id: "68A19455C026D466"
-				item: {
-					count: 1
-					id: "ae2:cell_component_4k"
+			rewards: [
+				{
+					id: "68A19455C026D466"
+					item: {
+						count: 1
+						id: "ae2:cell_component_4k"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "57F7040648C7256B"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3118AD6323F87A1F"
@@ -749,6 +1000,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2EDB8C8ABA5C2690"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "386BA9CDACE0BEB5"
@@ -761,14 +1020,25 @@
 		{
 			dependencies: ["4CAC010FC6A3A2ED"]
 			id: "46C75937AC35A417"
-			rewards: [{
-				id: "10621EAC9F1FCDB2"
-				item: {
-					count: 1
-					id: "extendedae:infinity_water_cell"
+			rewards: [
+				{
+					id: "10621EAC9F1FCDB2"
+					item: {
+						count: 1
+						id: "extendedae:infinity_water_cell"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "41C84CB4F48738AE"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "064652480E69A720"
 				item: { count: 1, id: "ae2:condenser" }
@@ -779,14 +1049,24 @@
 		}
 		{
 			id: "4CAC010FC6A3A2ED"
-			rewards: [{
-				id: "7F98EE3D5025B794"
-				item: {
-					count: 1
-					id: "ae2:cell_component_64k"
+			rewards: [
+				{
+					id: "7F98EE3D5025B794"
+					item: {
+						count: 1
+						id: "ae2:cell_component_64k"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "79D8532F3F52F81C"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "08314D25EC77B64F"
 				item: { count: 1, id: "ae2:cell_component_64k" }
