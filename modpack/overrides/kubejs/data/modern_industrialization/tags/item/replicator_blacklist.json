@@ -68,6 +68,7 @@
     "megacells:bulk_item_cell",
     "mekanism:qio_drive_base",
     "mekanism:qio_drive_hyper_dense",
-    "mekanism:qio_drive_supermassive"
+    "mekanism:qio_drive_supermassive",
+    "libraryferret:gold_coins_jtl"
   ]
 }
