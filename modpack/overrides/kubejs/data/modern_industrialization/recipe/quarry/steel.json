@@ -60,22 +60,6 @@
       "item": "powah:uraninite_ore",
       "amount": 1,
       "probability": 0.08
-    },
-    {
-      "neoforge:conditions": [
-        { "type": "neoforge:mod_loaded", "modid": "mysticalagriculture" }
-      ],
-      "item": "mysticalagriculture:prosperity_ore",
-      "amount": 1,
-      "probability": 0.08
-    },
-    {
-      "neoforge:conditions": [
-        { "type": "neoforge:mod_loaded", "modid": "mysticalagriculture" }
-      ],
-      "item": "mysticalagriculture:inferium_ore",
-      "amount": 1,
-      "probability": 0.04
     }
   ]
 }
