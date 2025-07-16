@@ -1,8 +1,0 @@
-{
-    "type": "productivebees:bee_conversion",
-    "source": "productivebees:crystalline",
-    "result": "productivebees:naquadah",
-    "item": {
-      "item": "sgjourney:naquadah_block"
-    }
-  }

@@ -467,33 +467,6 @@
 						Xp: 0
 						attributes: [
 							{
-								base: 0.0d
-								id: "powerscale:arrow_damage"
-								modifiers: [{
-									amount: 0.0d
-									id: "powerscale:arrow_damage.level_boost"
-									operation: "add_value"
-								}]
-							}
-							{
-								base: 20.0d
-								id: "minecraft:generic.max_health"
-								modifiers: [{
-									amount: 11.625d
-									id: "powerscale:max_health.level_boost"
-									operation: "add_value"
-								}]
-							}
-							{
-								base: 0.5d
-								id: "minecraft:generic.movement_speed"
-								modifiers: [{
-									amount: 0.0d
-									id: "powerscale:movement_speed.level_boost"
-									operation: "add_value"
-								}]
-							}
-							{
 								base: 1.0d
 								id: "minecraft:generic.fall_damage_multiplier"
 							}

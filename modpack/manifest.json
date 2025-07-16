@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Universum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nightw4re",
   "overrides": "overrides",
   "files": [
@@ -99,11 +99,6 @@
     {
       "projectID": 242818,
       "fileID": 6583751,
-      "required": true
-    },
-    {
-      "projectID": 242998,
-      "fileID": 6565251,
       "required": true
     },
     {
@@ -1164,11 +1159,6 @@
     {
       "projectID": 1144296,
       "fileID": 6638384,
-      "required": true
-    },
-    {
-      "projectID": 1155398,
-      "fileID": 6333313,
       "required": true
     },
     {
