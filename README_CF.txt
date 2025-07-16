@@ -21,8 +21,6 @@ Since Minecraft has its worlds and is based on what people like, we are aiming w
 
 *   Infinite AE2 channels – 8 for the small ones and 32 for the dense ones – are a thing of the past.
 *   Crossmod compatibility changes - such as Steel Ore(from Stellaris mod) can no longer be generated in the world.
-*   You can find MineColonies - which is counted as an optional mod for everyone, to play the game differently.
-*   Silent scale power, mob scaling has been reduced by 50%
 *   Custom quests
 *   Removed Apotheosis Towers and Barbarian camps from Minecolonies to have a more vanilla-style overworld.
 
