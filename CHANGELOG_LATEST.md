@@ -1,6 +1,11 @@
 IMPORTANT! IF YOU UPDATE FROM 0.x TO 1.x IT IS HIGHLY RECOMMENDED TO RESTART WORLD.
 
 
+# v1.0.4
+
+downgrade suplementaries, causing server crash
+
+
 # v1.0.2
 
 ## Mods
