@@ -2,5 +2,5 @@ version:3955
 fullscreen:true
 guiScale:2
 narratorHotkey:false
-resourcePacks:["vanilla","mod_resources","mod/towntalk:respack","moonlight:mods_dynamic_assets","mod/megacells:optional_cell_colours","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/Stellarity-RP-3-0-3.zip","file/AE2 GUI.zip","file/ae2-gui-extended.zip","file/BuildingGadgets 0.27.zip"]
-incompatibleResourcePacks:["file/BuildingGadgets 0.27.zip"]
+resourcePacks:["vanilla","mod_resources","mod/pneumaticcraft:fusion_integration","moonlight:mods_dynamic_assets","mod/megacells:optional_cell_colours","file/Stellarity-RP-3-0-3.zip","file/Tech RPG Font.zip","file/ae2-gui-light.zip"]
+incompatibleResourcePacks:["file/Tech RPG Font.zip"]
