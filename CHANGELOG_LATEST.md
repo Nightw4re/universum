@@ -1,5 +1,11 @@
 IMPORTANT! IF YOU UPDATE FROM 0.x TO 1.x IT IS HIGHLY RECOMMENDED TO RESTART WORLD.
 
+# v1.0.5
+
+- Added Butchercraft
+- Conversion from Uraninite to Uranium by Mekanism
+- Mods update
+
 
 # v1.0.4
 
