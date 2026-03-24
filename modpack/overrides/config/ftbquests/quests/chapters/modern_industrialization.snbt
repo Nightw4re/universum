@@ -25,11 +25,13 @@
 			y: -4.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2E8AFC74EDA4AB31"
+			dependencies: ["569A9E3D42C3AC8F"]
+		hide_until_deps_complete: true
+		id: "2E8AFC74EDA4AB31"
 			rewards: [
 				{
 					id: "2DAA24480FF024DC"
@@ -222,7 +224,7 @@
 			]
 			tasks: [{
 				id: "3ED9A8CE9169AAF5"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(modern_industrialization:fluid_pipes)item(mekanism:ultimate_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:basic_mechanical_pipe)item(pipez:fluid_pipe)item(pipez:universal_pipe)item(create:fluid_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(modern_industrialization:fluid_pipes)item(mekanism:ultimate_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:basic_mechanical_pipe)item(pipez:fluid_pipe)item(pipez:universal_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -256,7 +258,7 @@
 				{
 					count: 22L
 					id: "584BBDD8F4B983B2"
-					item: { count: 22, id: "minecraft:bricks" }
+					item: { count: 1, id: "minecraft:bricks" }
 					type: "item"
 				}
 			]
@@ -291,7 +293,7 @@
 				{
 					count: 30L
 					id: "6B37930877918315"
-					item: { count: 30, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 			]
@@ -300,7 +302,6 @@
 		}
 		{
 			dependencies: ["7D8AC4B0BF9D6CA6"]
-			hide_until_deps_complete: true
 			id: "30255151F00C774D"
 			rewards: [
 				{
@@ -402,7 +403,6 @@
 		}
 		{
 			dependencies: ["3D6B06803DA99B9D"]
-			hide_until_deps_complete: true
 			id: "0B74E51225FD08B2"
 			rewards: [
 				{
@@ -758,7 +758,7 @@
 				{
 					count: 7L
 					id: "1898A9CFDE9D67F0"
-					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
@@ -772,7 +772,6 @@
 		}
 		{
 			dependencies: ["12E6A9A70FD2D660"]
-			hide_until_deps_complete: true
 			id: "3D6B06803DA99B9D"
 			rewards: [
 				{
@@ -820,7 +819,7 @@
 			tasks: [{
 				count: 16L
 				id: "0EA472E244BC4DFD"
-				item: { count: 16, id: "modern_industrialization:cupronickel_coil" }
+				item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -854,7 +853,7 @@
 				{
 					count: 14L
 					id: "7EC399CBC1AA2E5C"
-					item: { count: 14, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -956,7 +955,6 @@
 		}
 		{
 			dependencies: ["50D8C7133B41BBD4"]
-			hide_until_deps_complete: true
 			id: "34A06ECD54D00572"
 			rewards: [
 				{
@@ -1196,7 +1194,6 @@
 		}
 		{
 			dependencies: ["330E07E59D3E5636"]
-			hide_until_deps_complete: true
 			id: "09AFE687CF11E336"
 			rewards: [
 				{
@@ -1229,7 +1226,6 @@
 				"09AFE687CF11E336"
 				"19CAAC18181483E7"
 			]
-			hide_until_deps_complete: true
 			icon_scale: 0.75d
 			id: "1E7492EFCF1404CA"
 			rewards: [
@@ -1261,7 +1257,6 @@
 		}
 		{
 			dependencies: ["3B3194C11D4698A6"]
-			hide_until_deps_complete: true
 			id: "73FFA4AB2E6E948B"
 			rewards: [
 				{
@@ -1289,7 +1284,6 @@
 		}
 		{
 			dependencies: ["2F0AC44C3873AD20"]
-			hide_until_deps_complete: true
 			id: "19CAAC18181483E7"
 			rewards: [
 				{
@@ -1332,6 +1326,90 @@
 			]
 			x: 6.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["2E8AFC74EDA4AB31"]
+			description: ["To unlock MI Electric Age machines, the Basic Machine Hull requires Refined Naquadah from SGJourney. Travel through the Stargate to Abydos to access Naquadah deposits."]
+			id: "A2B3C4D5E6F70001"
+			rewards: [
+				{
+					id: "A2B3C4D5E6F70011"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "SGC Electric Age Gate — Refined Naquadah"
+			tasks: [{
+				id: "A2B3C4D5E6F70012"
+				item: { count: 1, id: "sgjourney:refined_naquadah" }
+				type: "item"
+			}]
+			title: "Naquadah Power Core"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E8AFC74EDA4AB31"]
+			description: ["The PneumaticCraft Printed Circuit Board is required for the MI Basic Machine Hull. Craft it in the PnC Pressure Chamber — the same technology that powers SGC gate dialing computers."]
+			id: "A2B3C4D5E6F70002"
+			rewards: [
+				{
+					id: "A2B3C4D5E6F70021"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "SGC Electric Age Gate — PnC PCB"
+			tasks: [{
+				id: "A2B3C4D5E6F70022"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			title: "Gate Dialing Computer PCB"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"A2B3C4D5E6F70001"
+				"A2B3C4D5E6F70002"
+			]
+			id: "A2B3C4D5E6F70003"
+			rewards: [
+				{
+					id: "A2B3C4D5E6F70031"
+					item: {
+						count: 1
+						id: "modern_industrialization:basic_machine_hull"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "A2B3C4D5E6F70032"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "MI Electric Age Unlocked"
+			tasks: [{
+				id: "A2B3C4D5E6F70033"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			title: "Electric Age: SGC Hull"
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["34A06ECD54D00572"]

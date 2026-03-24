@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "02D94E7EA029CF01"
+	icon: {
+		id: "industrialforegoing:plant_gatherer"
+	}
+	id: "B1C2D3E4F5A60001"
+	order_index: 1
+	title: "Industrial Foregoing"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["58DA170D896B0C5C"]
+			description: ["On Chulak, the Jaffa have mastered bio-engineering under the Goa'uld. With their schematics, the Tau'ri can replicate this technology — automated agriculture and biomass processing."]
+			hide_until_deps_complete: true
+			id: "B1C2D3E4F5A60010"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A60011"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_sower"
+					}
+					type: "item"
+				}
+				{
+					id: "B1C2D3E4F5A60012"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B1C2D3E4F5A60013"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			title: "Chulak → Jaffa Bio-Tech → Plant Sower"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B1C2D3E4F5A60010"]
+			id: "B1C2D3E4F5A60020"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A60021"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_gatherer"
+					}
+					type: "item"
+				}
+				{
+					id: "B1C2D3E4F5A60022"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B1C2D3E4F5A60023"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			title: "Automated Harvest"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B1C2D3E4F5A60010"]
+			id: "B1C2D3E4F5A60030"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A60031"
+					item: {
+						count: 1
+						id: "industrialforegoing:animal_rancher"
+					}
+					type: "item"
+				}
+				{
+					id: "B1C2D3E4F5A60032"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B1C2D3E4F5A60033"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			title: "Jaffa Livestock System"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["B1C2D3E4F5A60030"]
+			description: ["The Jaffa use Goa'uld neural suppression technology to subdue hostile organisms. The Mob Crusher replicates this — no drones required."]
+			id: "B1C2D3E4F5A60040"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A60041"
+					item: {
+						count: 1
+						id: "industrialforegoing:mob_crusher"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "B1C2D3E4F5A60042"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B1C2D3E4F5A60043"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			title: "Mob Crusher → No Drones Needed"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"B1C2D3E4F5A60020"
+				"B1C2D3E4F5A60040"
+			]
+			description: ["The Naquadah Extraction Rig — an Industrial Foregoing Laser Drill repurposed for deep-ore mining. Requires power and time, but mines automatically."]
+			id: "B1C2D3E4F5A60050"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A60051"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "B1C2D3E4F5A60052"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "B1C2D3E4F5A60053"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			title: "Naquadah Extraction Rig"
+			x: 6.5d
+			y: 2.5d
+		}
+	]
+}

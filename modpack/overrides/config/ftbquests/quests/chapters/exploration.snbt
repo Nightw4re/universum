@@ -7,7 +7,7 @@
 		id: "minecraft:compass"
 	}
 	id: "E0000001E0000001"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

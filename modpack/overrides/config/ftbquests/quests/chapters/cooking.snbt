@@ -7,11 +7,13 @@
 		id: "cookingforblockheads:white_oven"
 	}
 	id: "1CAE135FFFE06CB5"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "11DA91DFD5909DAD"
+			dependencies: ["6CB1A938135C55CD"]
+		hide_until_deps_complete: true
+		id: "11DA91DFD5909DAD"
 			rewards: [
 				{
 					id: "25D21501E95F3521"
@@ -509,34 +511,6 @@
 			]
 			x: -2.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["11DA91DFD5909DAD"]
-			id: "63EC940952BBE61A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "798F050AAEC1B5E7"
-					table_id: 4808843298611999600L
-					type: "random"
-				}
-				{
-					count: 2
-					id: "56C82D1F769A2AAA"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "24D5536C1FB762C2"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(supplementaries:cookies)", "minecraft:custom_name": "\"Cookies\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -9.0d
 		}
 	]
 }

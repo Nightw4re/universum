@@ -7,12 +7,13 @@
 		id: "mekanism:pellet_polonium"
 	}
 	id: "569A9E3D42C3AC8F"
-	order_index: 2
+	order_index: 1
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7AA41E5027A82A90"
+			dependencies: ["68753D672BE6FD31"]
+		id: "7AA41E5027A82A90"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -591,50 +592,6 @@
 		}
 		{
 			dependencies: ["7AA41E5027A82A90"]
-			id: "184CA60530ED2F53"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08A479AB43E1D2B5"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					id: "1445ADD01A56053D"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "37F8DEE56DEF41B6"
-					item: { count: 1, id: "mekanism:hazmat_mask" }
-					type: "item"
-				}
-				{
-					id: "280956634DECAA08"
-					item: { count: 1, id: "mekanism:hazmat_gown" }
-					type: "item"
-				}
-				{
-					id: "0E25DFADD7059DD7"
-					item: { count: 1, id: "mekanism:hazmat_pants" }
-					type: "item"
-				}
-				{
-					id: "0A4B85322A6FFE77"
-					item: { count: 1, id: "mekanism:hazmat_boots" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AA41E5027A82A90"]
 			id: "39C933055F0603D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -649,56 +606,6 @@
 			}]
 			x: 6.0d
 			y: -6.5d
-		}
-		{
-			dependencies: ["7AA41E5027A82A90"]
-			hide_until_deps_complete: false
-			id: "415F7366D7464F3C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4141B570F63D150F"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					id: "7B1871ACED9ED75B"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "410A453612B709CA"
-					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
-					type: "item"
-				}
-				{
-					id: "4746DEE771BBC99A"
-					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
-					type: "item"
-				}
-				{
-					id: "05BD6F36EBCF7836"
-					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
-					type: "item"
-				}
-				{
-					id: "076879DF57570042"
-					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
-					type: "item"
-				}
-				{
-					id: "1D4995D35626EB75"
-					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["7AA41E5027A82A90"]
@@ -726,50 +633,6 @@
 			}]
 			x: 4.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["184CA60530ED2F53"]
-			id: "5B8A015714D89B41"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "096645CE7619315D"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					id: "3892CCC2A1155553"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "66EABE8678CED017"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
-					type: "item"
-				}
-				{
-					id: "558958F95B02158D"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
-					type: "item"
-				}
-				{
-					id: "6B2F598A7773229E"
-					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
-					type: "item"
-				}
-				{
-					id: "353EB589CCB1D1D2"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["261C693CF23AD92B"]
@@ -851,153 +714,6 @@
 			}]
 			x: 4.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["588A0579C53D11D3"]
-			id: "54B48D969704E47F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "681C9E498D6B605B"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 20
-					id: "2F4F27DBE3660742"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "247D4AD178D291A8"
-				item: { count: 1, id: "mekanismgenerators:hohlraum" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5B8A015714D89B41"]
-			id: "588A0579C53D11D3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5BAA6827FCB307BF"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 20
-					id: "58648C68C33FDDA7"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "75FFDF0F9BC8DD08"
-					item: { count: 1, id: "mekanism:laser_amplifier" }
-					type: "item"
-				}
-				{
-					id: "7E74F5C21C5787E1"
-					item: { count: 1, id: "mekanism:laser" }
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18797D43062D4894"]
-			id: "6F14870A5534D9CB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "472DAE4F332D7681"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 30
-					id: "255B52802081C2FE"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1AEE7D9DFE912085"
-				item: { count: 1, id: "mekanism:pellet_polonium" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5B8A015714D89B41"]
-			id: "18797D43062D4894"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6C74D9F78E4F7010"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 20
-					id: "6D23AD7CC4229905"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "110D12BDA7F4B512"
-				item: { count: 1, id: "mekanism:solar_neutron_activator" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18797D43062D4894"]
-			id: "5E9173A2E39D1A2F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5BDDCBCBD906D81B"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 30
-					id: "0FBD23A5B16282D8"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "16F290A366D10FB9"
-				item: { count: 1, id: "mekanism:pellet_plutonium" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
 		}
 	]
 }
