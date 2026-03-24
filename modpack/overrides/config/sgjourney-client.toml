@@ -36,6 +36,9 @@
 			# Default: 64
 			# Range: 16 ~ 128
 			stargate_max_sound_distance = 64
+			#If ENABLED, event horizons will render in a way that is compatible with AMD, if DISABLED they won't, AUTO detection by default
+			#Allowed Values: AUTO, DISABLED, ENABLED
+			render_amd = "AUTO"
 
 		["Stargate Journey Client Config"."DHD Config".client]
 			#If true, Milky Way DHD symbol positions won't be ordered and instead be based on the canon

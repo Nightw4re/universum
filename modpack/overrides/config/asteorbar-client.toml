@@ -41,128 +41,8 @@
 	# Default: 0
 	# Range: > 0
 	hideUnchangingBarAfterSeconds = 0
-	#The color of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -47803
-	# Range: > -2147483648
-	healthColorNormal = -47803
-	#The color of the poison health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -6520798
-	# Range: > -2147483648
-	healthColorPoison = -6520798
-	#The color of the wither health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -11589849
-	# Range: > -2147483648
-	healthColorWither = -11589849
-	#The color of the frozen health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -13133580
-	# Range: > -2147483648
-	healthColorFrozen = -13133580
-	#The color of the health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -10663864
-	# Range: > -2147483648
-	healthBoundColor = -10663864
-	#The color of the health bar bound when blinking. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1
-	# Range: > -2147483648
-	healthBoundColorBlink = -1
-	#The color of the low health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -65536
-	# Range: > -2147483648
-	healthBoundColorLow = -65536
-	#The color of the empty part of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -12171706
-	# Range: > -2147483648
-	healthEmptyColor = -12171706
-	#The color of the absorption bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1715364
-	# Range: > -2147483648
-	absorptionColor = -1715364
-	#The color of the absorption bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1715364
-	# Range: > -2147483648
-	absorptionBoundColor = -1715364
-	#The color of the normal food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -724404
-	# Range: > -2147483648
-	foodColorNormal = -724404
-	#The color of the hunger food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -5194156
-	# Range: > -2147483648
-	foodColorHunger = -5194156
-	#The color of the food level bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -9805502
-	# Range: > -2147483648
-	foodBoundColor = -9805502
-	#The color of the food level bar bound when blinking. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -7437475
-	# Range: > -2147483648
-	foodBoundColorBlink = -7437475
-	#The color of the empty part of the food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -12171706
-	# Range: > -2147483648
-	foodEmptyColor = -12171706
-	#The color of the saturation bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -367
-	# Range: > -2147483648
-	saturationColor = -367
-	#The color of the experience bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -7945129
-	# Range: > -2147483648
-	experienceColor = -7945129
-	#The color of the experience bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -16183284
-	# Range: > -2147483648
-	experienceBoundColor = -16183284
-	#The color of the empty part of the experience bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -14076625
-	# Range: > -2147483648
-	experienceEmptyColor = -14076625
-	#The color of the air bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -3019777
-	# Range: > -2147483648
-	airColor = -3019777
-	#The color of the air bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -16739073
-	# Range: > -2147483648
-	airBoundColor = -16739073
-	#The color of the mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -2464212
-	# Range: > -2147483648
-	mountHealthColor = -2464212
-	#The color of the second mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -4079167
-	# Range: > -2147483648
-	mountHealthColor2 = -4079167
-	#The color of the mount health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -8439527
-	# Range: > -2147483648
-	mountHealthBoundColor = -8439527
-	#The color of the second mount health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -8816263
-	# Range: > -2147483648
-	mountHealthBoundColor2 = -8816263
-	#The color of the empty part of the mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -12171706
-	# Range: > -2147483648
-	mountHealthEmptyColor = -12171706
 	#Whether to display the mount health bar on the left side. Or it will be displayed on the right side.
 	mountHealthOnLeftSide = false
-	#The color of the armor bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1644558
-	# Range: > -2147483648
-	armorColor = -1644558
-	#The color of the armor bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -13487566
-	# Range: > -2147483648
-	armorBoundColor = -13487566
-	#The color of the empty part of the armor bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -12171706
-	# Range: > -2147483648
-	armorEmptyColor = -12171706
-	#The color of the armor toughness bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -9056769
-	# Range: > -2147483648
-	armorToughnessColor = -9056769
 	#Whether to enable health bar blink. This feature is designed to simulate the vanilla health icon blink.
 	enableHealthBlink = true
 	#The health bar will start to flash when health rate is lower than this value. From 0.0-1.0. 0.0 means never flash.
@@ -215,6 +95,90 @@
 	cornerVerticalPadding = 16
 	#Force every bar to be rendered at the corner. Only works in corner layout.
 	forceRenderAtCorner = false
+	#The inner height of the overlay bar, the full height will be inner height + 2.
+	# Default: 3
+	# Range: > 1
+	overlayBarInnerHeight = 3
+	#The vertical margin of the overlay bar
+	# Default: 1
+	# Range: > 0
+	overlayBarVerticalMargin = 1
+	#The offset of the overlay bar text on the Y axis
+	# Default: -2
+	# Range: > -2147483648
+	overlayBarTextOffsetY = -2
+	#Hide decimal when the value is equal to or more than this value. 0 to hide all decimals.
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hideDecimalWhenEqualOrMoreThan = 100.0
+	#The opacity of the health bar when the entity is regenerating health. 0 to 1.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	healthRegenerationOpacity = 1.0
+	#The opacity of the health bar when the entity is regenerating health and the health is full. 0 to 1.
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	healthRegenerationOpacityOnFull = 0.33
+	#The color of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthColorNormalARGB = "#ffff4545"
+	#The color of the poison health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthColorPoisonARGB = "#ff9c8022"
+	#The color of the wither health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthColorWitherARGB = "#ff4f2727"
+	#The color of the frozen health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthColorFrozenARGB = "#ff3798f4"
+	#The color of the health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBoundColorARGB = "#ff5d4848"
+	#The color of the health bar bound when blinking. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBoundColorBlinkARGB = "#ffffffff"
+	#The color of the low health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBoundColorLowARGB = "#ffff0000"
+	#The color of the empty part of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthEmptyColorARGB = "#ff464646"
+	#The color of the absorption bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	absorptionColorARGB = "#ffe5d35c"
+	#The color of the absorption bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	absorptionBoundColorARGB = "#ffe5d35c"
+	#The color of the normal food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	foodColorNormalARGB = "#fff4f24c"
+	#The color of the hunger food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	foodColorHungerARGB = "#ffb0be54"
+	#The color of the food level bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	foodBoundColorARGB = "#ff6a6142"
+	#The color of the food level bar bound when blinking. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	foodBoundColorBlinkARGB = "#ff8e835d"
+	#The color of the empty part of the food level bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	foodEmptyColorARGB = "#ff464646"
+	#The color of the saturation bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	saturationColorARGB = "#fffffe91"
+	#The color of the experience bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	experienceColorARGB = "#ff86c457"
+	#The color of the experience bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	experienceBoundColorARGB = "#ff09100c"
+	#The color of the empty part of the experience bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	experienceEmptyColorARGB = "#ff29352f"
+	#The color of the air bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	airColorARGB = "#ffd1ebff"
+	#The color of the air bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	airBoundColorARGB = "#ff0094ff"
+	#The color of the mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	mountHealthColorARGB = "#ffda662c"
+	#The color of the second mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	mountHealthColor2ARGB = "#ffc1c1c1"
+	#The color of the mount health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	mountHealthBoundColorARGB = "#ff7f3919"
+	#The color of the second mount health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	mountHealthBoundColor2ARGB = "#ff797979"
+	#The color of the empty part of the mount health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	mountHealthEmptyColorARGB = "#ff464646"
+	#The color of the armor bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	armorColorARGB = "#ffe6e7f2"
+	#The color of the armor bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	armorBoundColorARGB = "#ff323232"
+	#The color of the empty part of the armor bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	armorEmptyColorARGB = "#ff464646"
+	#The color of the armor toughness bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	armorToughnessColorARGB = "#ff75cdff"
 
 [entity]
 	#Whether to enable health bar for entity. If disabled, all other health bar options will be ignored.
@@ -269,32 +233,20 @@
 	healthBarBoundWidth = 2
 	#Whether to render the vertex of the health bar bound.
 	healthBarBoundVertex = false
-	#The color of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1442807808
-	# Range: > -2147483648
-	healthBarHealthColor = -1442807808
-	#The color of the absorption bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1426063616
-	# Range: > -2147483648
-	healthBarAbsorptionColor = -1426063616
-	#The color of the health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: 1432379488
-	# Range: > -2147483648
-	healthBarBoundColor = 1432379488
-	#The color of the empty part of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: 859848768
-	# Range: > -2147483648
-	healthBarEmptyColor = 859848768
 	#Whether to use dynamic color for health bar. The color will be picked between healthBarHealthColorFull and healthBarHealthColorEmpty based on the health rate. If disabled, the health bar will always be healthBarHealthColor
 	healthBarHealthColorDynamic = true
+	#The color of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBarHealthColorARGB = "#AA008000"
+	#The color of the absorption bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBarAbsorptionColorARGB = "#AAFFFF00"
+	#The color of the health bar bound. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBarBoundColorARGB = "#55606060"
+	#The color of the empty part of the health bar. 0x00000000 to 0xFFFFFFFF. ARGB format.
+	healthBarEmptyColorARGB = "#33404040"
 	#The color of the health bar when the mob is full health. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1442807808
-	# Range: > -2147483648
-	healthBarHealthColorFull = -1442807808
+	healthBarHealthColorFullARGB = "#AA008000"
 	#The color of the health bar when the mob is low health. 0x00000000 to 0xFFFFFFFF. ARGB format.
-	# Default: -1434451968
-	# Range: > -2147483648
-	healthBarHealthColorEmpty = -1434451968
+	healthBarHealthColorEmptyARGB = "#AA800000"
 
 [hook]
 	#Whether to hook Tough As Nails. If enabled, the mod will display the thirst bar.

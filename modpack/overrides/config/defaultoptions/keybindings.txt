@@ -143,8 +143,6 @@ key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space:
 key_key.guideme.guide:key.keyboard.g:
 key_key.trade_cycling.cycle_trades:key.keyboard.c:
-key_key.apotheosis.toggle_radial_mining:key.keyboard.o:CONTROL
-key_key.apotheosis.open_world_tier_select:key.keyboard.t:CONTROL
 key_key.jade.config:key.keyboard.keypad.0:
 key_key.jade.show_overlay:key.keyboard.keypad.1:
 key_key.jade.toggle_liquid:key.keyboard.keypad.2:
