@@ -20,9 +20,7 @@ ServerEvents.recipes(event => {
         A: 'sgjourney:naquadah_alloy'
     })
 
-    // Trinium iris (override the sgjourney trinium_iris recipe to use actual trinium alloy)
-    // Remove old recipe and add corrected one
-    event.remove({ output: 'sgjourney:trinium_iris' })
+    // Trinium iris — sgjourney has no default recipe for this, so no removal needed
     event.shaped('sgjourney:trinium_iris', [
         'TAT',
         'AXA',
@@ -30,10 +28,25 @@ ServerEvents.recipes(event => {
     ], {
         T: 'universum:trinium_alloy',
         A: 'sgjourney:naquadah_alloy',
-        X: 'sgjourney:stargate_chevron'
+        X: 'sgjourney:classic_stargate_chevron_block'
     })
 
     // --- Naquadria ---
+
+    // --- MekaSuit Energy Unit ---
+    // Naquadria is an unstable but extremely energetic form of Naquadah — used in SGC for shields.
+    // Adding it as requirement for the MekaSuit Energy Unit module (energy shield upgrade).
+    event.remove({ id: 'mekanism:module_energy_unit' })
+    event.shaped('mekanism:module_energy_unit', [
+        'ANA',
+        'APA',
+        'HHH'
+    ], {
+        A: '#c:alloys/advanced',
+        N: 'universum:naquadria',
+        H: 'mekanism:hdpe_sheet',
+        P: 'mekanism:module_base',
+    })
 
     // Naquadria cannot be smelted normally — it must be liquefied via MI Chemical Reactor
     // Naquadria → Liquid Naquadria (bucket): using MI's chemical_reactor

@@ -8,8 +8,8 @@
 // See also: pnc_mi_bridge.js for the Printed Circuit Board recipe
 
 ServerEvents.recipes(event => {
-    // Remove the original MI assembler recipe for basic_machine_hull
-    event.remove({ output: 'modern_industrialization:basic_machine_hull', type: 'modern_industrialization:assembler' })
+    // Remove the original MI assembler recipe for basic_machine_hull by exact ID
+    event.remove({ id: 'modern_industrialization:electric_age/hull/lv_machine_hull_asbl' })
 
     // Re-add with Refined Naquadah + PnC Printed Circuit Board requirement
     event.custom({
