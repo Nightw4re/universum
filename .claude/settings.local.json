@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.curseforge.com)",
+      "WebSearch",
+      "WebFetch(domain:modrinth.com)",
+      "WebFetch(domain:maven.saps.dev)"
+    ]
+  }
+}

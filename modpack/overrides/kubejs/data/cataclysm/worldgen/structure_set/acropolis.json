@@ -1,0 +1,9 @@
+{
+  "structures": [{ "structure": "cataclysm:acropolis", "weight": 1 }],
+  "placement": {
+    "type": "cataclysm:cataclysm_random_spread",
+    "salt": 913530102,
+    "spacing": 80,
+    "separation": 50
+  }
+}

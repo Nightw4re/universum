@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "E0000001E0000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "E0000002E0000002"
+			rewards: [
+				{
+					id: "E000R001E000R001"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "E000R002E000R002"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The world is waiting. Leave your spawn and discover what lies beyond the horizon."
+			tasks: [{
+				id: "E000T001E000T001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E0000002E0000002"]
+			hide_until_deps_complete: true
+			id: "E0000010E0000010"
+			rewards: [
+				{
+					count: 16
+					id: "E000R010E000R010"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "E000R011E000R011"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Villages hold valuable trades and shelter."
+			tasks: [{
+				id: "E000T010E000T010"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E0000002E0000002"]
+			id: "E0000020E0000020"
+			rewards: [
+				{
+					count: 8
+					id: "E000R020E000R020"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "E000R021E000R021"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Descend into one of the many generated dungeons scattered through the world."
+			tasks: [{
+				id: "E000T020E000T020"
+				item: { count: 1, id: "minecraft:trial_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E0000002E0000002"]
+			id: "E0000030E0000030"
+			rewards: [
+				{
+					count: 8
+					id: "E000R030E000R030"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "E000R031E000R031"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ancient structures hide powerful loot — and dangerous traps."
+			tasks: [{
+				id: "E000T030E000T030"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(valhelsia_structures))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E0000020E0000020"]
+			id: "E0000040E0000040"
+			rewards: [
+				{
+					id: "E000R040E000R040"
+					item: {
+						count: 1
+						id: "artifacts:lucky_scarf"
+					}
+					type: "item"
+				}
+				{
+					id: "E000R041E000R041"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ancient relics await those brave enough to venture into dangerous ruins."
+			tasks: [{
+				id: "E000T040E000T040"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(artifacts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["E0000002E0000002"]
+			id: "E0000050E0000050"
+			rewards: [
+				{
+					id: "E000R050E000R050"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "E000R051E000R051"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Nether holds unique resources unavailable in the overworld."
+			tasks: [{
+				id: "E000T050E000T050"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["E0000050E0000050"]
+			id: "E0000060E0000060"
+			rewards: [
+				{
+					id: "E000R060E000R060"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "E000R061E000R061"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Conquer death itself and claim the dragon's power."
+			tasks: [{
+				id: "E000T060E000T060"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["E0000060E0000060"]
+			id: "E0000070E0000070"
+			rewards: [
+				{
+					id: "E000R070E000R070"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "E000R071E000R071"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Beyond the stars lies another dimension — Stellarity awaits the boldest explorers."
+			tasks: [{
+				id: "E000T070E000T070"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}
