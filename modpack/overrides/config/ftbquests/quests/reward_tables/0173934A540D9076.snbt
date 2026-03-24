@@ -1,10 +1,8 @@
 {
 	id: "0173934A540D9076"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
-		{ id: "12008D4A2BBD27A6", item: { count: 1, id: "mekanismgenerators:wind_generator" } }
-		{ id: "3B7D66DD901CAA84", item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" } }
 		{
 			count: 4
 			id: "0BB377AC01E68649"

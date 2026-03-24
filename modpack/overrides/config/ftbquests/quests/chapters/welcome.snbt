@@ -7,6 +7,7 @@
 		id: "minecraft:grass_block"
 	}
 	id: "6CB1A938135C55CD"
+	title: "Chapter One: Minecraft+"
 	images: [
 		{
 			dependency: "1EBC773ED06E4670"
@@ -25,15 +26,6 @@
 			width: 1.0d
 			x: 0.5d
 			y: 0.0d
-		}
-		{
-			dependency: "776448522144B159"
-			height: 1.0d
-			image: "apotheosis:items/gems/endersurge"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 4.0d
 		}
 		{
 			dependency: "6C7FA1194422F63E"
@@ -97,7 +89,6 @@
 		}
 		{
 			dependencies: ["6C19FDFF0750F2D5"]
-			hide_until_deps_complete: true
 			id: "3F79D19CD41B9827"
 			rewards: [{
 				count: 4
@@ -121,7 +112,6 @@
 				"3F79D19CD41B9827"
 				"5844CB69B1BD0C35"
 			]
-			hide_until_deps_complete: true
 			id: "27595D60CB566E43"
 			rewards: [{
 				id: "4437799B6ACB72DF"
@@ -141,7 +131,6 @@
 		}
 		{
 			dependencies: ["27595D60CB566E43"]
-			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
 			}
@@ -193,14 +182,6 @@
 					xp: 100
 				}
 				{
-					id: "51ED030A29CFD6A2"
-					item: {
-						count: 1
-						id: "solcarrot:food_book"
-					}
-					type: "item"
-				}
-				{
 					id: "275F571100B94C69"
 					item: {
 						count: 1
@@ -216,39 +197,6 @@
 			}]
 			x: 0.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["681BFBC59884DAF3"]
-			icon: {
-				id: "apotheosis:gem_dust"
-			}
-			id: "776448522144B159"
-			rewards: [
-				{
-					count: 10
-					id: "7BE03D49289AA857"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
-				{
-					id: "621D813A4D206DE9"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "778D901AFE0B1935"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(apotheosis))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["681BFBC59884DAF3"]

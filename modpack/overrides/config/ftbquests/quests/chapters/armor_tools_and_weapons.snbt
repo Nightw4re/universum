@@ -25,11 +25,13 @@
 			y: -10.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2FED7A81DF6D6175"
+			dependencies: ["6CB1A938135C55CD"]
+		hide_until_deps_complete: true
+		id: "2FED7A81DF6D6175"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -538,32 +540,6 @@
 			}]
 			x: 2.0d
 			y: -11.0d
-		}
-		{
-			id: "568F7A21DA848894"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61F0EF00938AF49D"
-					table_id: 3495175666515583115L
-					type: "random"
-				}
-				{
-					id: "6E2BEF89DB737BFC"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "49178F3280C28D75"
-				item: { components: { "ftbfiltersystem:filter": "mod(mekanismtools)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -8.5d
 		}
 		{
 			id: "133D266FCD3ABEF2"

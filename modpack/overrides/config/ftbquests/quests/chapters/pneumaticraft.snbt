@@ -7,11 +7,13 @@
 		id: "pneumaticcraft:reinforced_pressure_tube"
 	}
 	id: "68753D672BE6FD31"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4D5DE6CE8BC8A185"
+			dependencies: ["741946F0622C49E7"]
+		hide_until_deps_complete: true
+		id: "4D5DE6CE8BC8A185"
 			rewards: [
 				{
 					id: "0FCFB754A6E30CC0"
@@ -332,7 +334,7 @@
 				{
 					count: 4L
 					id: "45BE796F8832DD9C"
-					item: { count: 4, id: "pneumaticcraft:refinery_output" }
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
 					type: "item"
 				}
 			]
