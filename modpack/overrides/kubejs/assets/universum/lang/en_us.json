@@ -1,0 +1,16 @@
+{
+  "biome.universum.oannes": "Oannes ocean",
+  "biome.universum.niflheim": "Niflheim snow plains",
+  "biome.universum.netu": "Netu Plains",
+
+  "item.universum.raw_trinium": "Raw Trinium",
+  "item.universum.trinium_ingot": "Trinium Ingot",
+  "item.universum.trinium_alloy": "Trinium Alloy",
+  "item.universum.naquadria": "Naquadria",
+  "item.universum.liquid_naquadria_bucket": "Liquid Naquadria Bucket",
+
+  "block.universum.trinium_ore": "Trinium Ore",
+  "block.universum.deepslate_trinium_ore": "Deepslate Trinium Ore",
+  "block.universum.naquadria_ore": "Naquadria Ore",
+  "block.universum.deepslate_naquadria_ore": "Deepslate Naquadria Ore"
+}

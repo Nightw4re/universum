@@ -1,0 +1,9 @@
+{
+  "structures": [{ "structure": "cataclysm:cursed_pyramid", "weight": 1 }],
+  "placement": {
+    "type": "cataclysm:cataclysm_random_spread",
+    "salt": 9167234590,
+    "spacing": 80,
+    "separation": 50
+  }
+}

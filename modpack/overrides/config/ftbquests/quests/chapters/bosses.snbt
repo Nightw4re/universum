@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "22D133045023811C"
+	icon: {
+		id: "cataclysm:altar_of_fire"
+	}
+	id: "B0550001B0550001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			hide_until_deps_complete: true
+			id: "B0550002B0550002"
+			rewards: [
+				{
+					id: "B055R001B055R001"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R002B055R002"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find the Altar of Fire hidden deep underground and summon the Ignited Berserker."
+			tasks: [{
+				id: "B055T001B055T001"
+				item: { count: 1, id: "cataclysm:altar_of_fire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B0550002B0550002"]
+			id: "B0550010B0550010"
+			rewards: [
+				{
+					count: 4
+					id: "B055R010B055R010"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R011B055R011"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Ignited Berserker — the first guardian of the Ancient Factory."
+			tasks: [{
+				id: "B055T010B055T010"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B0550010B0550010"]
+			icon: {
+				id: "cataclysm:ancient_metal_ingot"
+			}
+			id: "B0550020B0550020"
+			rewards: [
+				{
+					id: "B055R020B055R020"
+					item: {
+						count: 1
+						id: "cataclysm:belt_of_monstrosity"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "B055R021B055R021"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Descend into the Ancient Factory in the depths of Netu and slay its mechanical guardian."
+			tasks: [{
+				id: "B055T020B055T020"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550030B0550030"
+			rewards: [
+				{
+					id: "B055R030B055R030"
+					item: {
+						count: 1
+						id: "cataclysm:altar_of_abyss"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R031B055R031"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find the Sunken City beneath the Oannes ocean."
+			tasks: [{
+				id: "B055T030B055T030"
+				item: { count: 1, id: "cataclysm:altar_of_abyss" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["B0550030B0550030"]
+			id: "B0550040B0550040"
+			rewards: [
+				{
+					id: "B055R040B055R040"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R041B055R041"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Leviathan lurking beneath the ocean of Oannes."
+			tasks: [{
+				id: "B055T040B055T040"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550050B0550050"
+			rewards: [
+				{
+					id: "B055R050B055R050"
+					item: {
+						count: 1
+						id: "cataclysm:altar_of_void"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R051B055R051"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Seek the Acropolis floating above Oannes."
+			tasks: [{
+				id: "B055T050B055T050"
+				item: { count: 1, id: "cataclysm:altar_of_void" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["B0550050B0550050"]
+			id: "B0550060B0550060"
+			rewards: [
+				{
+					id: "B055R060B055R060"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "B055R061B055R061"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Defeat Ignis atop the Acropolis."
+			tasks: [{
+				id: "B055T060B055T060"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550070B0550070"
+			rewards: [
+				{
+					id: "B055R070B055R070"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_malkuth"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R071B055R071"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Discover and enter the Malkuth Arena in Oannes."
+			tasks: [{
+				id: "B055T070B055T070"
+				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["B0550070B0550070"]
+			id: "B0550080B0550080"
+			rewards: [
+				{
+					id: "B055R080B055R080"
+					item: {
+						count: 1
+						id: "fdbosses:malkuth_trophy"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "B055R081B055R081"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Defeat Malkuth — the warden of the deep."
+			tasks: [{
+				id: "B055T080B055T080"
+				item: { count: 1, id: "fdbosses:malkuth_trophy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550090B0550090"
+			rewards: [
+				{
+					id: "B055R090B055R090"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_chesed"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R091B055R091"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find the Chesed Arena burning in the depths of Netu."
+			tasks: [{
+				id: "B055T090B055T090"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B0550090B0550090"]
+			id: "B0550100B0550100"
+			rewards: [
+				{
+					id: "B055R100B055R100"
+					item: {
+						count: 1
+						id: "fdbosses:chesed_trophy"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "B055R101B055R101"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Defeat Chesed — the fire colossus of Netu."
+			tasks: [{
+				id: "B055T100B055T100"
+				item: { count: 1, id: "fdbosses:chesed_trophy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550110B0550110"
+			rewards: [
+				{
+					id: "B055R110B055R110"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R111B055R111"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Explore the Cursed Pyramid on Abydos."
+			tasks: [{
+				id: "B055T110B055T110"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			id: "B0550120B0550120"
+			rewards: [
+				{
+					count: 2
+					id: "B055R120B055R120"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "B055R121B055R121"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Survive the Frosted Prison in Niflheim."
+			tasks: [{
+				id: "B055T120B055T120"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+}

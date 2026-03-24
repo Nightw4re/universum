@@ -1,0 +1,11 @@
+{
+  "type": "universum:oannes",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "universum:oannes",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "universum:oannes"
+    }
+  }
+}

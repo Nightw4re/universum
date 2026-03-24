@@ -1,0 +1,17 @@
+{
+	"name": "solar_system.universum.netu",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"address": [1, 18, 33, 27, 30, 9, 34], "randomizable": true},
+	"addresses":
+	[
+		{"galaxy": "sgjourney:milky_way", "address": {"address": [18, 33, 27, 30, 9, 11], "randomizable": true}}
+	],
+
+	"point_of_origin": "sgjourney:serpent",
+
+	"dimensions":
+	[
+		"universum:netu"
+	]
+}
