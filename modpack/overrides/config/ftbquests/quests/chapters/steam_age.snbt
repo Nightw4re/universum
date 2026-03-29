@@ -1,0 +1,367 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "modern_industrialization:bronze_boiler"
+	}
+	id: "5AA1B2C3D4E5F601"
+	order_index: 2
+	quest_links: [ ]
+	title: "Steam Age"
+	quests: [
+		{
+			dependencies: ["6CB1A938135C55CD"]
+			hide_until_deps_complete: true
+			id: "5A01000000000010"
+			subtitle: "Build your first bronze boiler. The industrial revolution of Universum begins."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01000000000012"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "5A01000000000013"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A01000000000011"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A01000000000010"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000010"
+			subtitle: "A water pump feeds the boiler. Without water, steam won't flow."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000012"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "5A01B00000000013"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01B00000000011"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_water_pump)item(modern_industrialization:steel_water_pump)item(modern_industrialization:electric_water_pump))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5A01000000000010"
+				"5A01B00000000010"
+			]
+			hide_until_deps_complete: true
+			id: "5A01000000000020"
+			subtitle: "The ore crusher. Each ore gives two powders — double your yield."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01000000000022"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "5A01000000000023"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01000000000021"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A01B00000000010"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000020"
+			subtitle: "Mixer, Compressor, and Cutting Machine — the core of bronze-age production."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000022"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "5A01B00000000023"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01B00000000021"
+					item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000024"
+					item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000025"
+					item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A01B00000000020"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000030"
+			subtitle: "Hatches connect machines to item and fluid inputs and outputs."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000032"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "5A01B00000000033"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01B00000000031"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000034"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000035"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000036"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5A01000000000020"
+				"5A01B00000000030"
+			]
+			hide_until_deps_complete: true
+			id: "5A01000000000030"
+			subtitle: "The steam blast furnace smelts steel — the foundation for Pressure Age."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01000000000032"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 15
+					id: "5A01000000000033"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A01000000000031"
+				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A01000000000030"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000040"
+			subtitle: "Steel machines — the bridge between bronze and the electric era."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000042"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "5A01B00000000043"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01B00000000041"
+					item: { count: 1, id: "modern_industrialization:steel_compressor" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000044"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A01B00000000040"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000050"
+			subtitle: "Large Steam Boiler provides more steam for demanding machines."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000052"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 15
+					id: "5A01B00000000053"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01B00000000051"
+				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A01000000000030"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000060"
+			subtitle: "Coke Oven converts coal into coke — essential for steel production."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000062"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "5A01B00000000063"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01B00000000061"
+					item: { count: 1, id: "modern_industrialization:coke_oven" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A01000000000030"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000070"
+			subtitle: "Bronze and steel drills make mining faster. The steam quarry automates it."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000072"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "5A01B00000000073"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A01B00000000071"
+					item: { count: 1, id: "modern_industrialization:bronze_drill" }
+					type: "item"
+				}
+				{
+					id: "5A01B00000000074"
+					item: { count: 1, id: "modern_industrialization:steel_drill" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A01B00000000070"]
+			hide_until_deps_complete: true
+			id: "5A01B00000000080"
+			subtitle: "Steam Quarry mines an area automatically. Requires steel casings and pipes."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A01B00000000082"
+					table_id: 8047370271713922288L
+					type: "random"
+				}
+				{
+					count: 15
+					id: "5A01B00000000083"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A01B00000000081"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+}

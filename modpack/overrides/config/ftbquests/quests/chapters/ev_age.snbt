@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_age"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "modern_industrialization:highly_advanced_machine_hull"
+	}
+	id: "5AA1B2C3D4E5F606"
+	order_index: 7
+	quest_links: [ ]
+	title: "EV Age"
+	quests: [
+		{
+			dependencies: ["5A05000000000040"]
+			hide_until_deps_complete: true
+			id: "5A06000000000010"
+			subtitle: "Highly Advanced Machine Hull — EV tier MI. Opens the path to quantum circuits and MekaSuit."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06000000000012"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "5A06000000000013"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A06000000000011"
+				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A06000000000010"]
+			hide_until_deps_complete: true
+			id: "5A06B00000000010"
+			subtitle: "Oannes — an ocean dimension hiding Naquadria deposits. Bring strong armor and a plan."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06B00000000012"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "5A06B00000000013"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "universum:oannes"
+				icon: {
+					id: "minecraft:prismarine"
+				}
+				id: "5A06B00000000011"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A06B00000000010"]
+			hide_until_deps_complete: true
+			id: "5A06000000000020"
+			subtitle: "Naquadria — exotic ore from Oannes. The energy source behind the MekaSuit power module."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06000000000022"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5A06000000000023"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A06000000000021"
+				item: { count: 1, id: "universum:naquadria" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A06000000000010"]
+			hide_until_deps_complete: true
+			id: "5A06B00000000020"
+			subtitle: "Uranium dust plus Bismuth dust — feed both into the MI Centrifuge to produce Polonium Pellets."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06B00000000022"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "5A06B00000000023"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A06B00000000021"
+					item: { count: 1, id: "modern_industrialization:uranium_dust" }
+					type: "item"
+				}
+				{
+					id: "5A06B00000000024"
+					item: { count: 1, id: "universum:bismuth_dust" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A06B00000000020"]
+			hide_until_deps_complete: true
+			id: "5A06B00000000030"
+			subtitle: "Polonium Pellet — synthesized from uranium and bismuth in the centrifuge. Required input for the SPS."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06B00000000032"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "5A06B00000000033"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A06B00000000031"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A06B00000000030"]
+			hide_until_deps_complete: true
+			id: "5A06B00000000040"
+			subtitle: "SPS (Supercritical Phase Shifter) converts polonium into antimatter using supercharged coils."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06B00000000042"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5A06B00000000043"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A06B00000000041"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "5A06B00000000044"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "5A06B00000000045"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A06000000000010"]
+			hide_until_deps_complete: true
+			id: "5A06000000000030"
+			subtitle: "Module Base — the foundation of all MekaSuit modules. Craft this first."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06000000000032"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "5A06000000000033"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A06000000000031"
+				item: { count: 1, id: "mekanism:module_base" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5A06000000000030"
+				"5A06000000000020"
+			]
+			hide_until_deps_complete: true
+			id: "5A06B00000000050"
+			subtitle: "Energy Unit (Naquadria-powered) — the module that makes MekaSuit self-sustaining."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06B00000000052"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5A06B00000000053"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A06B00000000051"
+				item: { count: 1, id: "mekanism:module_energy_unit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5A06000000000020"
+				"5A06B00000000040"
+				"5A06B00000000050"
+			]
+			hide_until_deps_complete: true
+			id: "5A06000000000040"
+			subtitle: "MekaSuit Helmet — the first piece of the ultimate exo-armor. EV Age begins in earnest."
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A06000000000042"
+					table_id: 6339845541830123112L
+					type: "random"
+				}
+				{
+					count: 60
+					id: "5A06000000000043"
+					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A06000000000041"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+}

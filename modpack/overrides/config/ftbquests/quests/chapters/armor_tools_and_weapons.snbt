@@ -30,8 +30,9 @@
 	quests: [
 		{
 			dependencies: ["6CB1A938135C55CD"]
-		hide_until_deps_complete: true
-		id: "2FED7A81DF6D6175"
+			hide_until_deps_complete: true
+			id: "2FED7A81DF6D6175"
+			subtitle: "Iron tools and armor are your foundation. Upgrade to diamond before entering automation."
 			rewards: [
 				{
 					exclude_from_claim_all: true

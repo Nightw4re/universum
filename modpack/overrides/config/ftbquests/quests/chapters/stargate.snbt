@@ -26,7 +26,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -464,7 +464,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -536,8 +536,8 @@
 				id: "1E5DE144AB12C2F2"
 				type: "dimension"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["595BB8D572A260FD"]
@@ -566,8 +566,8 @@
 				id: "4AE96DA472A2910C"
 				type: "dimension"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["595BB8D572A260FD"]
@@ -596,8 +596,8 @@
 				id: "5B4321FC094D6F2F"
 				type: "dimension"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["12922AC39F0CAF01"]
@@ -627,8 +627,8 @@
 				item: { count: 1, id: "universum:raw_trinium" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0535DD3AE5424DDE"]
@@ -658,8 +658,8 @@
 				item: { count: 1, id: "universum:naquadria" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -674,7 +674,7 @@
 					id: "18B2D1485C428438"
 					item: {
 						count: 1
-						id: "universum:trinium_alloy"
+						id: "universum:trinium_ingot"
 					}
 					type: "item"
 				}
@@ -689,14 +689,14 @@
 				}
 			]
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "10861DCF97C2BBAD"
-				item: { count: 1, id: "universum:trinium_alloy" }
+				item: { count: 1, id: "universum:trinium_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 3.0d
+			y: -7.5d
 		}
 	]
 }
