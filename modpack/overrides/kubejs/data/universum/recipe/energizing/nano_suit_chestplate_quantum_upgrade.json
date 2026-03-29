@@ -1,22 +1,14 @@
 {
-  "type": "powah:energizing",
-  "energy": 100000000000,
-  "ingredients": [
-    {
-      "item": "pneumaticcraft:printed_circuit_board"
-    },
-    {
-      "item": "mekanism:pellet_antimatter"
-    },
-    {
-      "item": "modern_industrialization:quantum_chestplate"
-    },
-    {
-      "item": "extended_industrialization:nano_chestplate"
-    }
+  "type": "modern_industrialization:assembler",
+  "eu": 512,
+  "duration": 400,
+  "item_inputs": [
+    { "amount": 1, "item": "pneumaticcraft:printed_circuit_board" },
+    { "amount": 1, "item": "mekanism:pellet_antimatter" },
+    { "amount": 1, "item": "modern_industrialization:quantum_chestplate" },
+    { "amount": 1, "item": "extended_industrialization:nano_chestplate" }
   ],
-  "result": {
-    "count": 1,
-    "id": "extended_industrialization:nano_quantum_chestplate"
-  }
+  "item_outputs": [
+    { "amount": 1, "item": "extended_industrialization:nano_quantum_chestplate" }
+  ]
 }
