@@ -6,18 +6,17 @@
 	icon: {
 		id: "cataclysm:altar_of_fire"
 	}
-	id: "B0550001B0550001"
+	id: "345193002BB7B0C5"
 	order_index: 2
-	title: "Bosses"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6CB1A938135C55CD"]
 			hide_until_deps_complete: true
-			id: "B0550002B0550002"
+			id: "0A13E21DE471F8EA"
 			rewards: [
 				{
-					id: "B055R001B055R001"
+					id: "4ABD0DF8C74475D1"
 					item: {
 						count: 1
 						id: "cataclysm:ancient_metal_ingot"
@@ -25,7 +24,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R002B055R002"
+					id: "3306A953DD62F76A"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -33,9 +32,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find the Altar of Fire hidden deep underground and summon the Ignited Berserker."
 			tasks: [{
-				id: "B055T001B055T001"
+				id: "5D4EADC8503EF197"
 				item: { count: 1, id: "cataclysm:altar_of_fire" }
 				type: "item"
 			}]
@@ -43,12 +41,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B0550002B0550002"]
-			id: "B0550010B0550010"
+			id: "09069A8D7E3B32D6"
 			rewards: [
 				{
 					count: 4
-					id: "B055R010B055R010"
+					id: "7A70050532D2D7C0"
 					item: {
 						count: 1
 						id: "cataclysm:ancient_metal_ingot"
@@ -56,7 +53,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R011B055R011"
+					id: "45EBF89CB5E52E75"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -64,9 +61,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat the Ignited Berserker — the first guardian of the Ancient Factory."
 			tasks: [{
-				id: "B055T010B055T010"
+				id: "2C48EC04F6E4593D"
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
@@ -74,14 +70,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B0550010B0550010"]
 			icon: {
 				id: "cataclysm:ancient_metal_ingot"
 			}
-			id: "B0550020B0550020"
+			id: "27F1A55DAFE23346"
 			rewards: [
 				{
-					id: "B055R020B055R020"
+					id: "199FD5887AF0F437"
 					item: {
 						count: 1
 						id: "cataclysm:belt_of_monstrosity"
@@ -90,7 +85,7 @@
 				}
 				{
 					count: 3
-					id: "B055R021B055R021"
+					id: "3BC657B25E279161"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -100,9 +95,8 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Descend into the Ancient Factory in the depths of Netu and slay its mechanical guardian."
 			tasks: [{
-				id: "B055T020B055T020"
+				id: "6996581CE5D8C470"
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
@@ -111,10 +105,10 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550030B0550030"
+			id: "43CD0B5920CC87E9"
 			rewards: [
 				{
-					id: "B055R030B055R030"
+					id: "1566F74C28100E6F"
 					item: {
 						count: 1
 						id: "cataclysm:altar_of_abyss"
@@ -122,7 +116,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R031B055R031"
+					id: "2ECF3A095C62FCE5"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -130,9 +124,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find the Sunken City beneath the Oannes ocean."
 			tasks: [{
-				id: "B055T030B055T030"
+				id: "01503200FF588F99"
 				item: { count: 1, id: "cataclysm:altar_of_abyss" }
 				type: "item"
 			}]
@@ -140,11 +133,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["B0550030B0550030"]
-			id: "B0550040B0550040"
+			id: "638069E7E0C142D4"
 			rewards: [
 				{
-					id: "B055R040B055R040"
+					id: "2AEC36553ED5899D"
 					item: {
 						count: 1
 						id: "cataclysm:abyss_eye"
@@ -152,7 +144,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R041B055R041"
+					id: "2E7E787B4DA01E99"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -160,9 +152,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat the Leviathan lurking beneath the ocean of Oannes."
 			tasks: [{
-				id: "B055T040B055T040"
+				id: "12281AA77F5AFDD7"
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
@@ -171,10 +162,10 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550050B0550050"
+			id: "4E68A8AC57DAB8CF"
 			rewards: [
 				{
-					id: "B055R050B055R050"
+					id: "129A1957A328C47F"
 					item: {
 						count: 1
 						id: "cataclysm:altar_of_void"
@@ -182,7 +173,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R051B055R051"
+					id: "4C91E5E410B0C460"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -190,9 +181,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Seek the Acropolis floating above Oannes."
 			tasks: [{
-				id: "B055T050B055T050"
+				id: "6649B0876C3CDB7E"
 				item: { count: 1, id: "cataclysm:altar_of_void" }
 				type: "item"
 			}]
@@ -200,11 +190,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["B0550050B0550050"]
-			id: "B0550060B0550060"
+			id: "5D4A1B4F9474D7BC"
 			rewards: [
 				{
-					id: "B055R060B055R060"
+					id: "381F504F94E5EF2F"
 					item: {
 						count: 1
 						id: "cataclysm:monstrous_eye"
@@ -213,7 +202,7 @@
 				}
 				{
 					count: 3
-					id: "B055R061B055R061"
+					id: "0EFCA042A168E9D6"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -223,9 +212,8 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Defeat Ignis atop the Acropolis."
 			tasks: [{
-				id: "B055T060B055T060"
+				id: "47233C1E142CF093"
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
@@ -234,10 +222,10 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550070B0550070"
+			id: "31B4F76F0BF07549"
 			rewards: [
 				{
-					id: "B055R070B055R070"
+					id: "1507ADF2438AE1F8"
 					item: {
 						count: 1
 						id: "fdbosses:eye_of_malkuth"
@@ -245,7 +233,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R071B055R071"
+					id: "7C2240941274FD0F"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -253,9 +241,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover and enter the Malkuth Arena in Oannes."
 			tasks: [{
-				id: "B055T070B055T070"
+				id: "24189392603BBCAE"
 				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
 				type: "item"
 			}]
@@ -263,11 +250,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["B0550070B0550070"]
-			id: "B0550080B0550080"
+			id: "647FFFA91D970D3C"
 			rewards: [
 				{
-					id: "B055R080B055R080"
+					id: "4194E666CD0A6907"
 					item: {
 						count: 1
 						id: "fdbosses:malkuth_trophy"
@@ -276,7 +262,7 @@
 				}
 				{
 					count: 3
-					id: "B055R081B055R081"
+					id: "4A26300F2E01D142"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -286,9 +272,8 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Defeat Malkuth — the warden of the deep."
 			tasks: [{
-				id: "B055T080B055T080"
+				id: "5525DC845A8BD557"
 				item: { count: 1, id: "fdbosses:malkuth_trophy" }
 				type: "item"
 			}]
@@ -297,10 +282,10 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550090B0550090"
+			id: "437982DB7BC7780F"
 			rewards: [
 				{
-					id: "B055R090B055R090"
+					id: "2EF5FFC30C0F10A7"
 					item: {
 						count: 1
 						id: "fdbosses:eye_of_chesed"
@@ -308,7 +293,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R091B055R091"
+					id: "63C9DBAE8D95EC1D"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -316,9 +301,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find the Chesed Arena burning in the depths of Netu."
 			tasks: [{
-				id: "B055T090B055T090"
+				id: "05BA52D0B4B430BA"
 				item: { count: 1, id: "fdbosses:eye_of_chesed" }
 				type: "item"
 			}]
@@ -326,11 +310,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B0550090B0550090"]
-			id: "B0550100B0550100"
+			id: "16E50342E12347CF"
 			rewards: [
 				{
-					id: "B055R100B055R100"
+					id: "2DA0AD6E87836FB7"
 					item: {
 						count: 1
 						id: "fdbosses:chesed_trophy"
@@ -339,7 +322,7 @@
 				}
 				{
 					count: 3
-					id: "B055R101B055R101"
+					id: "1828174CEE1E1FC0"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -349,9 +332,8 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Defeat Chesed — the fire colossus of Netu."
 			tasks: [{
-				id: "B055T100B055T100"
+				id: "21DAE7FA0319C55D"
 				item: { count: 1, id: "fdbosses:chesed_trophy" }
 				type: "item"
 			}]
@@ -360,10 +342,10 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550110B0550110"
+			id: "3B7F40F8B7731960"
 			rewards: [
 				{
-					id: "B055R110B055R110"
+					id: "5C6E1A4AE5D11C7B"
 					item: {
 						count: 1
 						id: "cataclysm:cursed_eye"
@@ -371,7 +353,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R111B055R111"
+					id: "3DEE86E0AEAE8840"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -379,9 +361,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Explore the Cursed Pyramid on Abydos."
 			tasks: [{
-				id: "B055T110B055T110"
+				id: "5CBCC908C0C3C09B"
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
@@ -390,11 +371,11 @@
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
-			id: "B0550120B0550120"
+			id: "7D83C8AEE25B0535"
 			rewards: [
 				{
 					count: 2
-					id: "B055R120B055R120"
+					id: "57F095DA61F957AC"
 					item: {
 						count: 1
 						id: "cataclysm:ignitium_ingot"
@@ -402,7 +383,7 @@
 					type: "item"
 				}
 				{
-					id: "B055R121B055R121"
+					id: "25CF8037A6A7AEA5"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -410,9 +391,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Survive the Frosted Prison in Niflheim."
 			tasks: [{
-				id: "B055T120B055T120"
+				id: "49C41EEEE33C4ACC"
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]

@@ -3,19 +3,41 @@
 // Naquadria — unstable isotope of Naquadah; solid that can be liquefied
 
 StartupEvents.registry('item', event => {
+    // Bismuth — mined in Netu, used for Polonium production
+    event.create('universum:raw_bismuth').texture('universum:item/raw_bismuth')
+    event.create('universum:bismuth_ingot').texture('universum:item/bismuth_ingot')
+    event.create('universum:bismuth_dust').texture('universum:item/bismuth_dust')
+
     // Trinium
     event.create('universum:raw_trinium').texture('universum:item/raw_trinium')
     event.create('universum:trinium_ingot').texture('universum:item/trinium_ingot')
-    event.create('universum:trinium_alloy').texture('universum:item/trinium_alloy')
 
     // Naquadria
     event.create('universum:naquadria').texture('universum:item/naquadria')
+
+    // Ancient Coordinates — written book reward for completing the endgame
+    event.create('universum:ancient_coordinates')
+        .texture('universum:item/ancient_coordinates')
+        .maxStackSize(1)
     event.create('universum:liquid_naquadria_bucket')
         .texture('universum:item/liquid_naquadria_bucket')
         .maxStackSize(1)
 })
 
 StartupEvents.registry('block', event => {
+    // Bismuth ores
+    event.create('universum:bismuth_ore')
+        .requiresTool()
+        .hardness(3.0)
+        .resistance(4.5)
+        .texture('universum:block/bismuth_ore')
+
+    event.create('universum:deepslate_bismuth_ore')
+        .requiresTool()
+        .hardness(4.5)
+        .resistance(4.5)
+        .texture('universum:block/deepslate_bismuth_ore')
+
     // Trinium ores
     event.create('universum:trinium_ore')
         .requiresTool()

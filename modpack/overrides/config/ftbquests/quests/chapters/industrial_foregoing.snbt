@@ -6,19 +6,17 @@
 	icon: {
 		id: "industrialforegoing:plant_gatherer"
 	}
-	id: "B1C2D3E4F5A60001"
+	id: "0816AFA71A1B5958"
 	order_index: 1
-	title: "Industrial Foregoing"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["58DA170D896B0C5C"]
-			description: ["On Chulak, the Jaffa have mastered bio-engineering under the Goa'uld. With their schematics, the Tau'ri can replicate this technology — automated agriculture and biomass processing."]
 			hide_until_deps_complete: true
-			id: "B1C2D3E4F5A60010"
+			id: "265EC3535290ECE6"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A60011"
+					id: "46CA270BA82F7D6C"
 					item: {
 						count: 1
 						id: "industrialforegoing:plant_sower"
@@ -26,7 +24,7 @@
 					type: "item"
 				}
 				{
-					id: "B1C2D3E4F5A60012"
+					id: "0308B8BF517EAC68"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -35,20 +33,18 @@
 				}
 			]
 			tasks: [{
-				id: "B1C2D3E4F5A60013"
+				id: "4446EB4D7FDBA6A0"
 				item: { count: 1, id: "industrialforegoing:plant_sower" }
 				type: "item"
 			}]
-			title: "Chulak → Jaffa Bio-Tech → Plant Sower"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["B1C2D3E4F5A60010"]
-			id: "B1C2D3E4F5A60020"
+			id: "272C3679C3C219F4"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A60021"
+					id: "08B840E7974B7385"
 					item: {
 						count: 1
 						id: "industrialforegoing:plant_gatherer"
@@ -56,7 +52,7 @@
 					type: "item"
 				}
 				{
-					id: "B1C2D3E4F5A60022"
+					id: "273C5955D1B7C62A"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -65,20 +61,18 @@
 				}
 			]
 			tasks: [{
-				id: "B1C2D3E4F5A60023"
+				id: "759C97ABA7995912"
 				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
 				type: "item"
 			}]
-			title: "Automated Harvest"
 			x: 0.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["B1C2D3E4F5A60010"]
-			id: "B1C2D3E4F5A60030"
+			id: "0FE4B3982C3E9B9C"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A60031"
+					id: "02B8CFDEC76E21D6"
 					item: {
 						count: 1
 						id: "industrialforegoing:animal_rancher"
@@ -86,7 +80,7 @@
 					type: "item"
 				}
 				{
-					id: "B1C2D3E4F5A60032"
+					id: "0B3FED7D85A5A259"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -95,21 +89,18 @@
 				}
 			]
 			tasks: [{
-				id: "B1C2D3E4F5A60033"
+				id: "0C6252C84987F582"
 				item: { count: 1, id: "industrialforegoing:animal_rancher" }
 				type: "item"
 			}]
-			title: "Jaffa Livestock System"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["B1C2D3E4F5A60030"]
-			description: ["The Jaffa use Goa'uld neural suppression technology to subdue hostile organisms. The Mob Crusher replicates this — no drones required."]
-			id: "B1C2D3E4F5A60040"
+			id: "42378FD2FD0F715F"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A60041"
+					id: "1FB8994A12C55536"
 					item: {
 						count: 1
 						id: "industrialforegoing:mob_crusher"
@@ -118,7 +109,7 @@
 				}
 				{
 					count: 5
-					id: "B1C2D3E4F5A60042"
+					id: "34FC54419E3A92F5"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -127,24 +118,18 @@
 				}
 			]
 			tasks: [{
-				id: "B1C2D3E4F5A60043"
+				id: "6AE4B6DEF63ABAE4"
 				item: { count: 1, id: "industrialforegoing:mob_crusher" }
 				type: "item"
 			}]
-			title: "Mob Crusher → No Drones Needed"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"B1C2D3E4F5A60020"
-				"B1C2D3E4F5A60040"
-			]
-			description: ["The Naquadah Extraction Rig — an Industrial Foregoing Laser Drill repurposed for deep-ore mining. Requires power and time, but mines automatically."]
-			id: "B1C2D3E4F5A60050"
+			id: "72A55BE18B8270C6"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A60051"
+					id: "5945CA43322220F3"
 					item: {
 						count: 1
 						id: "industrialforegoing:laser_drill"
@@ -153,7 +138,7 @@
 				}
 				{
 					count: 10
-					id: "B1C2D3E4F5A60052"
+					id: "7F37FB4AAFA6C26E"
 					item: {
 						count: 1
 						id: "libraryferret:gold_coins_jtl"
@@ -164,11 +149,10 @@
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "B1C2D3E4F5A60053"
+				id: "08B1CD01FB8E3B30"
 				item: { count: 1, id: "industrialforegoing:laser_drill" }
 				type: "item"
 			}]
-			title: "Naquadah Extraction Rig"
 			x: 6.5d
 			y: 2.5d
 		}

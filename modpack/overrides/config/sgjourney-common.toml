@@ -23,7 +23,7 @@
 			#Capacity of the energy buffer inside the DHD
 			# Default: 300000
 			# Range: 0 ~ 9223372036854775807
-			milky_way_dhd_energy_buffer_capacity = 300000
+			milky_way_dhd_energy_buffer_capacity = 6000000
 			#Maximum amount of energy that can be transferred to the DHD in one tick
 			# Default: 100000
 			# Range: 0 ~ 9223372036854775807
@@ -189,7 +189,7 @@
 			#The amount of energy required to establish a connection inside the galaxy
 			# Default: 100000
 			# Range: 0 ~ 9223372036854775807
-			interstellar_connection_energy_cost = 100000
+			interstellar_connection_energy_cost = 5000000
 			#The amount of energy required to establish a connection outside the galaxy
 			# Default: 100000000000
 			# Range: 0 ~ 9223372036854775807
