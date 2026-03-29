@@ -66,15 +66,17 @@ export async function transferFull(srcDir, dstDir, label, opts) {
 }
 
 /**
- * Selective transfer: only copies files that already exist in srcDir (tracked files).
+ * Selective transfer: only copies files that already exist in trackedDir.
+ * trackedDir defaults to srcDir (correct for deploy: overrides → game).
+ * For sync (game → overrides), pass trackedDir = dstDir so only repo-tracked files are pulled.
  */
-export async function transferSelective(srcDir, dstDir, label, opts) {
+export async function transferSelective(srcDir, dstDir, label, opts, trackedDir = srcDir) {
     if (!(await exists(srcDir))) {
         console.warn(`WARNING: directory not found — ${srcDir}`);
         return;
     }
     console.log(`\n[${label}] selective (tracked files only)`);
-    const trackedFiles = await readDirRecursive(srcDir);
+    const trackedFiles = await readDirRecursive(trackedDir);
     for (const rel of trackedFiles) {
         await copyFile(join(srcDir, rel), join(dstDir, rel), rel, opts);
     }

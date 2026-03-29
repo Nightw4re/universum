@@ -15,7 +15,7 @@
 			dependencies: ["5A02000000000030"]
 			hide_until_deps_complete: true
 			id: "5A03000000000010"
-			subtitle: "Refined Naquadah + Printed Circuit Board. The MI electric age begins."
+			subtitle: "Printed Circuit Board from PneumaticCraft Assembly System. The MI electric age begins."
 			rewards: [
 				{
 					exclude_from_claim_all: true

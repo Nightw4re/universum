@@ -993,25 +993,14 @@
 		{
 			dependencies: ["4CAC010FC6A3A2ED"]
 			id: "46C75937AC35A417"
-			rewards: [
-				{
-					id: "10621EAC9F1FCDB2"
-					item: {
-						count: 1
-						id: "extendedae:infinity_water_cell"
-					}
-					type: "item"
+			rewards: [{
+				id: "10621EAC9F1FCDB2"
+				item: {
+					count: 1
+					id: "ae2:cell_component_16k"
 				}
-				{
-					count: 3
-					id: "41C84CB4F48738AE"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "064652480E69A720"
 				item: { count: 1, id: "ae2:condenser" }
@@ -1019,6 +1008,45 @@
 			}]
 			x: 8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4CAC010FC6A3A2ED"]
+			id: "6C1E3D8B5C8A4F2A"
+			rewards: [{
+				id: "3A7A5F1C9D8E2B44"
+				item: {
+					count: 1
+					id: "ae2:cell_component_16k"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B2E3C4D5F607182"
+				item: { count: 1, id: "extendedae:infinity_cobblestone_cell" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CAC010FC6A3A2ED"]
+			id: "3F4E5D6C7B8A9012"
+			rewards: [{
+				count: 3
+				id: "4E02062CBE37CA06"
+				item: {
+					count: 1
+					id: "libraryferret:gold_coins_jtl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F1E2D3C4B5A6978"
+				item: { count: 1, id: "extendedae:infinity_water_cell" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			id: "4CAC010FC6A3A2ED"

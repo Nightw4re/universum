@@ -32,7 +32,7 @@ async function main() {
     console.log(`Overrides dir: ${overridesDir}`);
 
     await transferFull(join(gameInstance, 'kubejs'), join(overridesDir, 'kubejs'), 'kubejs', opts);
-    await transferSelective(join(gameInstance, 'config'), join(overridesDir, 'config'), 'config', opts);
+    await transferSelective(join(gameInstance, 'config'), join(overridesDir, 'config'), 'config', opts, join(overridesDir, 'config'));
     await transferFull(join(gameInstance, 'resourcepacks'), join(overridesDir, 'resourcepacks'), 'resourcepacks', opts);
 
     console.log(opts.dryRun ? '\n=== DRY RUN complete. Re-run with --apply to copy. ===' : '\n=== Sync complete. ===');

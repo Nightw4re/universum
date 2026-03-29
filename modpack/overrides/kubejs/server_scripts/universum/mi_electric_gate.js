@@ -1,31 +1,68 @@
 // SGJourney + PneumaticCraft → Modern Industrialization Electric Age gate
 //
-// The Basic Machine Hull (LV hull) is the bottleneck item for entering MI Electric Age.
-// Recipe requires:
-//   - 2x sgjourney:refined_naquadah  → forces SGJourney midgame progression
-//   - 1x pneumaticcraft:printed_circuit_board → forces PnC Assembly System setup
+// Basic Machine Hull (LV hull): crafting table recipe, no naquadah required.
+// Uses PnC Printed Circuit Board as the key component instead of MI Analog Circuit.
 //
-// See also: pnc_mi_bridge.js for the Printed Circuit Board recipe
+// Turbo Machine Hull (HV hull): assembler recipe extended to require Naquadah Plate,
+// balancing late-game progression via SGJourney Naquadah.
 
 ServerEvents.recipes(event => {
-    // Remove the original MI assembler recipe for basic_machine_hull by exact ID
+    // Remove original assembler recipe for basic_machine_hull
     event.remove({ id: 'modern_industrialization:electric_age/hull/lv_machine_hull_asbl' })
+    event.remove({ id: 'modern_industrialization:assembler_generated/electric_age/hull/lv_machine_hull' })
 
-    // Re-add with Refined Naquadah + PnC Printed Circuit Board requirement
+    // Basic Machine Hull — crafting table, PnC Finished PCB required
+    event.shaped('modern_industrialization:basic_machine_hull', [
+        'CCC',
+        'PBP',
+        'CCC'
+    ], {
+        C: 'modern_industrialization:tin_cable',
+        P: 'pneumaticcraft:printed_circuit_board',
+        B: 'modern_industrialization:steel_machine_casing'
+    })
+
+    // Remove all original turbo_machine_hull and turbo_machine_casing recipes
+    event.remove({ id: 'modern_industrialization:assembler_generated/electric_age/hull/turbo_machine_hull' })
+    event.remove({ id: 'modern_industrialization:electric_age/hull/turbo_machine_hull_asbl' })
+    event.remove({ id: 'modern_industrialization:assembler_generated/electric_age/casing/turbo_machine_casing' })
+    event.remove({ id: 'modern_industrialization:electric_age/casing/turbo_machine_casing_asbl' })
+
+    // Turbo Machine Casing — 8x Naquadah Plate + Advanced Machine Hull (in assembler)
     event.custom({
         type: 'modern_industrialization:assembler',
         eu: 8,
         duration: 200,
         item_inputs: [
-            { amount: 1, item: 'modern_industrialization:analog_circuit' },
-            { amount: 3, item: 'modern_industrialization:tin_cable' },
-            { amount: 2, item: 'modern_industrialization:redstone_battery' },
-            { amount: 1, item: 'modern_industrialization:steel_machine_casing' },
-            { amount: 2, item: 'sgjourney:refined_naquadah' },
-            { amount: 1, item: 'pneumaticcraft:printed_circuit_board' }
+            { amount: 8, item: 'universum:naquadah_plate' },
+            { amount: 1, item: 'modern_industrialization:advanced_machine_hull' }
+        ],
+        item_outputs: [{ amount: 1, item: 'modern_industrialization:turbo_machine_casing' }]
+    })
+
+    // Turbo Machine Hull — assembler, requires Naquadah Plate for balance
+    event.custom({
+        type: 'modern_industrialization:assembler',
+        eu: 8,
+        duration: 200,
+        item_inputs: [
+            { amount: 2, item: 'modern_industrialization:sodium_battery' },
+            { amount: 1, item: 'modern_industrialization:digital_circuit' },
+            { amount: 1, item: 'modern_industrialization:turbo_machine_casing' },
+            { amount: 3, item: 'modern_industrialization:aluminum_cable' },
+            { amount: 2, item: 'universum:naquadah_plate' }
         ],
         item_outputs: [
-            { amount: 1, item: 'modern_industrialization:basic_machine_hull' }
+            { amount: 1, item: 'modern_industrialization:turbo_machine_hull' }
         ]
+    })
+
+    // Naquadah Plate — MI Compressor (naquadah ingot → plate)
+    event.custom({
+        type: 'modern_industrialization:compressor',
+        eu: 8,
+        duration: 200,
+        item_inputs: [{ amount: 1, item: 'sgjourney:naquadah' }],
+        item_outputs: [{ amount: 1, item: 'universum:naquadah_plate' }]
     })
 })
