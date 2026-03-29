@@ -19,9 +19,15 @@ StartupEvents.registry('item', event => {
     event.create('universum:ancient_coordinates')
         .texture('universum:item/ancient_coordinates')
         .maxStackSize(1)
-    event.create('universum:liquid_naquadria_bucket')
-        .texture('universum:item/liquid_naquadria_bucket')
-        .maxStackSize(1)
+})
+
+StartupEvents.registry('fluid', event => {
+    // Liquid Naquadria — naquadria dissolved into fluid form, used in advanced recipes
+    event.create('universum:liquid_naquadria')
+        .displayName('Liquid Naquadria')
+        .stillTexture('universum:fluid/liquid_naquadria_still')
+        .flowingTexture('universum:fluid/liquid_naquadria_flow')
+
 })
 
 StartupEvents.registry('block', event => {

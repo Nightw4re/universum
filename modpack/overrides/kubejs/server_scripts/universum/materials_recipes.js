@@ -52,10 +52,8 @@ ServerEvents.recipes(event => {
         item_outputs: [{ amount: 1, item: 'universum:naquadria' }]
     })
 
-    // --- Polonium ---
-
     // Bismuth Dust + Uranium Dust → Polonium Pellet via MI Centrifuge
-    // Models nuclear transmutation of Bismuth-209 via neutron bombardment.
+    // This is our replacement for the inaccessible Mekanism PRC route.
     event.custom({
         type: 'modern_industrialization:centrifuge',
         eu: 32,
@@ -67,45 +65,50 @@ ServerEvents.recipes(event => {
         item_outputs: [{ amount: 1, item: 'mekanism:pellet_polonium' }]
     })
 
-    // --- SPS Casing ---
-    // Trinium Ingot replaces HDPE sheet as structural reinforcement (SPS requires extreme durability).
-    event.remove({ id: 'mekanism:sps_casing' })
-    event.shaped('mekanism:sps_casing', [
-        'TAT',
-        'A#A',
-        'TAT'
-    ], {
-        T: 'universum:trinium_ingot',
-        A: '#c:pellets/polonium',
-        '#': '#c:pellets/plutonium'
+    // MI plutonium dust -> Mekanism plutonium pellet.
+    // This replaces the unusable nuclear-waste route for plutonium pellets.
+    event.custom({
+        type: 'modern_industrialization:centrifuge',
+        eu: 64,
+        duration: 200,
+        item_inputs: [{ amount: 1, item: 'modern_industrialization:plutonium_dust' }],
+        item_outputs: [{ amount: 1, item: 'mekanism:pellet_plutonium' }]
     })
 
-    // --- MekaSuit armor ---
-    // Trinium Ingot added as structural core: replaces the side HDPE sheet slots in the armor recipe.
-    const mekasuitPieces = [
-        { id: 'mekanism:mekasuit_helmet',    base: 'minecraft:netherite_helmet' },
-        { id: 'mekanism:mekasuit_bodyarmor', base: 'minecraft:netherite_chestplate' },
-        { id: 'mekanism:mekasuit_pants',     base: 'minecraft:netherite_leggings' },
-        { id: 'mekanism:mekasuit_boots',     base: 'minecraft:netherite_boots' }
-    ]
-    mekasuitPieces.forEach(piece => {
-        event.remove({ id: piece.id })
-        event.shaped(piece.id, [
-            'PCP',
-            'T#T',
-            'AEA'
-        ], {
-            P: 'mekanism:hdpe_sheet',
-            C: '#c:circuits/ultimate',
-            T: 'universum:trinium_ingot',
-            '#': piece.base,
-            A: '#c:pellets/polonium',
-            E: 'mekanism:basic_induction_cell'
-        })
+    // Pellet -> chemical conversion for the SPS chain.
+    event.remove({ id: 'mekanism:processing/lategame/polonium' })
+    event.custom({
+        type: 'mekanism:chemical_conversion',
+        input: { item: 'mekanism:pellet_polonium' },
+        output: { amount: 1000, id: 'mekanism:polonium' }
+    })
+
+    event.remove({ id: 'mekanism:processing/lategame/plutonium' })
+    event.custom({
+        type: 'mekanism:chemical_conversion',
+        input: { item: 'mekanism:pellet_plutonium' },
+        output: { amount: 1000, id: 'mekanism:plutonium' }
+    })
+
+    // We do not have a generators-based nuclear waste chain, so keep plutonium out of the old route.
+    event.remove({ id: 'mekanism:processing/lategame/polonium_pellet/from_reaction' })
+    event.remove({ id: 'mekanism:processing/lategame/plutonium_pellet/from_reaction' })
+
+    // Naquadria + Sulfuric Acid + Liquid Naquadah â†’ Liquid Naquadria via MI Chemical Reactor
+    event.custom({
+        type: 'modern_industrialization:chemical_reactor',
+        eu: 512,
+        duration: 200,
+        item_inputs: [{ amount: 1, item: 'universum:naquadria' }],
+        fluid_inputs: [
+            { amount: 1000, fluid: 'modern_industrialization:sulfuric_acid' },
+            { amount: 1000, fluid: 'sgjourney:liquid_naquadah' }
+        ],
+        fluid_outputs: [{ amount: 250, fluid: 'universum:liquid_naquadria' }]
     })
 
     // --- MekaSuit Energy Unit ---
-    // Naquadria is an unstable but extremely energetic form of Naquadah — used in SGC for shields.
+    // Liquid Naquadria is the unstable but extremely energetic form used in SGC for shields.
     // Adding it as requirement for the MekaSuit Energy Unit module (energy shield upgrade).
     event.remove({ output: 'mekanism:module_energy_unit' })
     event.shaped('mekanism:module_energy_unit', [
@@ -114,42 +117,37 @@ ServerEvents.recipes(event => {
         'HHH'
     ], {
         A: '#c:alloys/advanced',
-        N: 'universum:naquadria',
+        N: 'universum:liquid_naquadria_bucket',
         H: 'mekanism:hdpe_sheet',
         P: 'mekanism:module_base',
     })
 
-    // Naquadria cannot be smelted normally — it must be liquefied via MI Chemical Reactor
-    // Naquadria → Liquid Naquadria (bucket): using MI's chemical_reactor
-    // MI fluid output recipes use the custom_machine type via Modern Industrialization KubeJS API
+    // Liquid Naquadria → Naquadria via MI Vacuum Freezer (solidification by freezing)
     event.custom({
-        type: 'modern_industrialization:chemical_reactor',
-        eu: 512,
+        type: 'modern_industrialization:vacuum_freezer',
+        eu: 64,
         duration: 200,
-        item_inputs: [{ amount: 1, item: 'universum:naquadria' }],
-        item_outputs: [{ amount: 1, item: 'universum:liquid_naquadria_bucket' }]
+        fluid_inputs: [{ amount: 1000, fluid: 'universum:liquid_naquadria' }],
+        item_outputs: [{ amount: 1, item: 'universum:naquadria' }]
     })
 
-    // Liquid Naquadria → Naquadria (solidification via MI Distillery or simple crafting)
-    event.shapeless('universum:naquadria', ['universum:liquid_naquadria_bucket'])
-
-    // --- Advanced AE Quantum Armor ---
-    // Quantum Armor requires Naquadah (structural lattice) and Naquadria (energy core).
-    const quantumArmorPieces = [
-        { id: 'advanced_ae:quantum_helmet',    base: 'mekanism:mekasuit_helmet' },
-        { id: 'advanced_ae:quantum_chestplate', base: 'mekanism:mekasuit_bodyarmor' },
-        { id: 'advanced_ae:quantum_leggings',  base: 'mekanism:mekasuit_pants' },
-        { id: 'advanced_ae:quantum_boots',     base: 'mekanism:mekasuit_boots' }
+    // --- MekaSuit ---
+    // MekaSuit is the true high-end armor tier, so it should take the Advanced AE Quantum Armor as a base.
+    const mekaSuitPieces = [
+        { id: 'mekanism:mekasuit_helmet',     base: 'advanced_ae:quantum_helmet' },
+        { id: 'mekanism:mekasuit_bodyarmor',  base: 'advanced_ae:quantum_chestplate' },
+        { id: 'mekanism:mekasuit_pants',      base: 'advanced_ae:quantum_leggings' },
+        { id: 'mekanism:mekasuit_boots',      base: 'advanced_ae:quantum_boots' }
     ]
-    quantumArmorPieces.forEach(piece => {
+    mekaSuitPieces.forEach(piece => {
         event.remove({ output: piece.id })
         event.shaped(piece.id, [
-            'NQN',
+            'LQL',
             'Q#Q',
-            'NQN'
+            'LQL'
         ], {
-            N: 'sgjourney:naquadah',
-            Q: 'universum:naquadria',
+            L: 'universum:liquid_naquadria_bucket',
+            Q: 'sgjourney:naquadah',
             '#': piece.base
         })
     })
