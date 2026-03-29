@@ -12,7 +12,13 @@
 	chapter.5AA1B2C3D4E5F601.title: "Steam Age"
 	chapter.5AA1B2C3D4E5F602.title: "Pressure Age"
 	chapter.5AA1B2C3D4E5F603.title: "LV Age"
-	chapter.5AA1B2C3D4E5F604.title: "MV Age"
+	chapter.5AA1B2C3D4E5F604.title: "Electric Age"
+	quest.5A04000000000005.title: "LV Solar Panel"
+	quest.5A04000000000005.quest_desc: ["A clean early-game solar generator for your first electric grid."]
+	quest.5A04000000000006.title: "MV Solar Panel"
+	quest.5A04000000000006.quest_desc: ["An upgraded solar panel for larger and more stable power networks."]
+	quest.5A04000000000007.title: "HV Solar Panel"
+	quest.5A04000000000007.quest_desc: ["A high-tier solar panel for the final stretch of your electric grid."]
 	chapter.5AA1B2C3D4E5F605.title: "HV Age"
 	chapter.5AA1B2C3D4E5F606.title: "EV Age"
 	chapter.5AA1B2C3D4E5F607.title: "SV Age"
@@ -308,6 +314,8 @@
 	quest.3EB974639FE40CA5.quest_subtitle: "Villages hold valuable trades and shelter."
 	quest.3F3595C5252F467F.quest_desc: ["Craft a cable, Ender gate, Ender cell to connect machines a far away."]
 	quest.3F3595C5252F467F.title: "Transfer energy"
+	quest.3F4E5D6C7B8A9012.quest_desc: ["A practical AE2 utility cell for endless water supply."]
+	quest.3F4E5D6C7B8A9012.title: "Infinite Water Cell"
 	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
 	quest.3F79D19CD41B9827.title: "Craft a chest"
 	quest.40330664718B7981.quest_desc: ["To unlock MI Electric Age machines, the Basic Machine Hull requires Refined Naquadah from SGJourney. Travel through the Stargate to Abydos to access Naquadah deposits."]
@@ -465,6 +473,10 @@
 	quest.5A03000000000020.quest_subtitle: "ME Controller — srdce Applied Energistics 2 sítě."
 	quest.5A03000000000030.quest_subtitle: "Metalurgická pec — základní Mekanism stroj pro zpracování kovů."
 	quest.5A03000000000040.quest_subtitle: "LV infrastruktura dokončena. Automatizace a storage připraveny."
+	quest.5A04000000000005.quest_desc: ["A clean early-game solar generator for your first electric grid."]
+	quest.5A04000000000005.title: "LV Solar Panel"
+	quest.5A04000000000006.quest_desc: ["An upgraded solar panel for larger and more stable power networks."]
+	quest.5A04000000000006.title: "MV Solar Panel"
 	quest.5A04000000000010.quest_subtitle: "Pokročilý hull odemkne MV stroje a složitější zpracování materiálů."
 	quest.5A04000000000020.quest_subtitle: "Elektrická vysoká pec zpracuje speciální slitiny nedostupné pro parní verzi."
 	quest.5A04000000000030.quest_subtitle: "Molekulární assembler — AE2 autocraft. Výroba na vyžádání, bez limitů."
@@ -490,7 +502,6 @@
 		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 	]
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
-	quest.5C7E5C089069DDAC.title: "SPS"
 	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
 	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
 	quest.5D4A1B4F9474D7BC.quest_subtitle: "Defeat Ignis atop the Acropolis."
@@ -577,6 +588,8 @@
 		""
 		"REMEMBER! Eat as many unique foods as possible, it will empower you."
 	]
+	quest.6C1E3D8B5C8A4F2A.quest_desc: ["A practical AE2 utility cell for endless cobblestone production."]
+	quest.6C1E3D8B5C8A4F2A.title: "Infinite Cobblestone Cell"
 	quest.6C566BDD515C2575.quest_desc: [
 		"You can transfer energy to all items you have with yourself wirelessly. "
 		""
@@ -653,6 +666,8 @@
 	quest.7AFA855108C8EDB8.title: "Fridge"
 	quest.7D7BB64C4F4BA260.title: "LV transfer"
 	quest.7D83C8AEE25B0535.quest_subtitle: "Survive the Frosted Prison in Niflheim."
+	quest.7F2A11C4D6B8E901.quest_desc: ["Gather the clues needed to solve the final symbol. Bring a spyglass, a book and quill, and a digital circuit to complete the research."]
+	quest.7F2A11C4D6B8E901.title: "Finding the 7th Chevron"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
 	quest.7FA54F2D5D3E5D7D.title: "Villager"
 	quest.A1B2C3D4E5F60001.quest_desc: ["With Pure Naquadah and a Classic Stargate operational, you now have the knowledge to build the ultimate gate — the Universe Stargate. It opens paths to far reaches of the galaxy."]

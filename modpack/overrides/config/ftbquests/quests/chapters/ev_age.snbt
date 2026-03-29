@@ -100,106 +100,6 @@
 		{
 			dependencies: ["5A06000000000010"]
 			hide_until_deps_complete: true
-			id: "5A06B00000000020"
-			subtitle: "Uranium dust plus Bismuth dust — feed both into the MI Centrifuge to produce Polonium Pellets."
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A06B00000000022"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 45
-					id: "5A06B00000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5A06B00000000021"
-					item: { count: 1, id: "modern_industrialization:uranium_dust" }
-					type: "item"
-				}
-				{
-					id: "5A06B00000000024"
-					item: { count: 1, id: "universum:bismuth_dust" }
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5A06B00000000020"]
-			hide_until_deps_complete: true
-			id: "5A06B00000000030"
-			subtitle: "Polonium Pellet — synthesized from uranium and bismuth in the centrifuge. Required input for the SPS."
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A06B00000000032"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 45
-					id: "5A06B00000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5A06B00000000031"
-				item: { count: 1, id: "mekanism:pellet_polonium" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5A06B00000000030"]
-			hide_until_deps_complete: true
-			id: "5A06B00000000040"
-			subtitle: "SPS (Supercritical Phase Shifter) converts polonium into antimatter using supercharged coils."
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A06B00000000042"
-					table_id: 104589163806691446L
-					type: "random"
-				}
-				{
-					count: 50
-					id: "5A06B00000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5A06B00000000041"
-					item: { count: 1, id: "mekanism:sps_casing" }
-					type: "item"
-				}
-				{
-					id: "5A06B00000000044"
-					item: { count: 1, id: "mekanism:sps_port" }
-					type: "item"
-				}
-				{
-					id: "5A06B00000000045"
-					item: { count: 1, id: "mekanism:supercharged_coil" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5A06000000000010"]
-			hide_until_deps_complete: true
 			id: "5A06000000000030"
 			subtitle: "Module Base — the foundation of all MekaSuit modules. Craft this first."
 			rewards: [
@@ -227,7 +127,6 @@
 		{
 			dependencies: [
 				"5A06000000000030"
-				"5A06000000000020"
 			]
 			hide_until_deps_complete: true
 			id: "5A06B00000000050"
@@ -256,8 +155,6 @@
 		}
 		{
 			dependencies: [
-				"5A06000000000020"
-				"5A06B00000000040"
 				"5A06B00000000050"
 			]
 			hide_until_deps_complete: true

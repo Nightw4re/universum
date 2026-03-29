@@ -15,6 +15,9 @@ StartupEvents.registry('item', event => {
     // Naquadria
     event.create('universum:naquadria').texture('universum:item/naquadria')
 
+    // Naquadah Plate — compressed naquadah for Turbo Machine Hull
+    event.create('universum:naquadah_plate').texture('universum:item/naquadah_plate')
+
     // Ancient Coordinates — written book reward for completing the endgame
     event.create('universum:ancient_coordinates')
         .texture('universum:item/ancient_coordinates')

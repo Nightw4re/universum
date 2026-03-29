@@ -7,15 +7,13 @@
 		id: "modern_industrialization:turbo_machine_hull"
 	}
 	id: "5AA1B2C3D4E5F605"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
-	title: "HV Age"
 	quests: [
 		{
-			dependencies: ["5A04000000000040"]
+			dependencies: ["184787879E793720"]
 			hide_until_deps_complete: true
 			id: "5A05000000000010"
-			subtitle: "Turbo Machine Hull — the industrial powerhouse of the HV era. Higher voltage, higher throughput."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -26,7 +24,10 @@
 				{
 					count: 35
 					id: "5A05000000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -44,7 +45,6 @@
 			dependencies: ["5A05000000000010"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000010"
-			subtitle: "MV Steam Turbine and energy hatch — a stronger power plant for your HV network."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -55,7 +55,10 @@
 				{
 					count: 30
 					id: "5A05B00000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -76,14 +79,13 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A05000000000010"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000020"
-			subtitle: "Distillation Tower separates crude oil into diesel, naphtha, and heavy fuel. Power your generators."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -94,7 +96,10 @@
 				{
 					count: 30
 					id: "5A05B00000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -110,7 +115,6 @@
 			dependencies: ["5A05B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000030"
-			subtitle: "Oil Drilling Rig extracts crude oil automatically from underground reservoirs."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -121,7 +125,10 @@
 				{
 					count: 30
 					id: "5A05B00000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -130,14 +137,13 @@
 				item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5A05000000000010"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000040"
-			subtitle: "Vacuum Freezer processes hot ingots using liquid nitrogen — required for high-tier alloys."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -148,7 +154,10 @@
 				{
 					count: 25
 					id: "5A05B00000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -158,13 +167,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A05000000000010"]
 			hide_until_deps_complete: true
 			id: "5A05000000000030"
-			subtitle: "Netu — a volcanic dimension rich in osmium, bismuth, and fluorite. Prepare for intense heat."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -175,7 +183,10 @@
 				{
 					count: 40
 					id: "5A05000000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -187,14 +198,13 @@
 				id: "5A05000000000031"
 				type: "biome"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A05000000000030"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000070"
-			subtitle: "Raw Bismuth — mined in Netu. Required to produce Polonium via centrifuge processing."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -205,7 +215,10 @@
 				{
 					count: 25
 					id: "5A05B00000000073"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -214,14 +227,13 @@
 				item: { count: 1, id: "universum:raw_bismuth" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A05B00000000070"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000080"
-			subtitle: "Bismuth ingot and dust — smelt raw bismuth, then grind it into dust for Polonium production."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -232,7 +244,10 @@
 				{
 					count: 25
 					id: "5A05B00000000083"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -248,14 +263,13 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.5d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A05B00000000040"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000090"
-			subtitle: "Stainless steel and titanium drills — high-tier quarry heads for deep mining operations."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -266,7 +280,10 @@
 				{
 					count: 28
 					id: "5A05B00000000093"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -282,8 +299,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 1.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -292,7 +309,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A05000000000040"
-			subtitle: "HV era complete. Bismuth refined, distillation running, and vacuum processing ready for EV Age."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -303,7 +319,10 @@
 				{
 					count: 45
 					id: "5A05000000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -314,8 +333,8 @@
 				item: { count: 1, id: "universum:bismuth_dust" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.5d
+			x: 0.75d
+			y: 0.75d
 		}
 	]
 }
