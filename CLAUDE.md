@@ -94,6 +94,24 @@ SGJourney solar systems in `kubejs/data/sgjourney/solar_system/`.
 | `hostile_neural_network.snbt` | Industrial | Hostile Neural Networks |
 | `industrial_foregoing.snbt` | Industrial | Industrial Foregoing |
 
+## Commit Messages
+
+Format:
+
+```
+<short description>
+
+<explanation of why the change was made>
+```
+
+- First line: concise summary of what changed (imperative mood)
+- Empty line after the first line
+- Body: explain the motivation or context (why, not just what)
+
+If a fix corrects a change introduced earlier in the **same branch**, the fix must be folded into the original commit (via `git rebase -i` fixup/squash) — not added as a new commit.
+
+Do not add AI as a co-author in commit messages (no `Co-Authored-By` lines).
+
 ## Key Modpack Customizations
 
 - **AE2**: Infinite channels disabled (8 per small cable, 32 per dense).
