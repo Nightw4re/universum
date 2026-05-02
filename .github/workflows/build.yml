@@ -1,37 +1,185 @@
-name: Upload to CurseForge (Tag Release)
+name: Deploy
+
+env:
+  MC_VERSION: 1.21.1
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Publish target
+        required: true
+        type: choice
+        options:
+          - curseforge
+          - modrinth
+      release_channel:
+        description: Release channel
+        required: true
+        type: choice
+        options:
+          - release
+          - alpha
+
+permissions:
+  contents: write
 
 jobs:
-  build_and_upload:
+  version_check:
     runs-on: ubuntu-latest
-
-    env:
-      NODE_OPTIONS: "--dns-result-order=ipv4first"
-
+    outputs:
+      current: ${{ steps.version.outputs.current }}
+      changed: ${{ steps.version.outputs.changed }}
     steps:
-      - name: Check internet connection with curl and timeout
-        run: curl --connect-timeout 10 --max-time 30 -I minecraft.curseforge.com
-
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
         with:
-          node-version: '22'
+          fetch-depth: 0
 
-      - name: Install dependencies
+      - name: Check version changed
+        id: version
+        shell: bash
+        run: |
+          current=$(node -p "require('./package.json').version")
+          previous=$(git show origin/main:package.json 2>/dev/null | node -p "JSON.parse(require('fs').readFileSync(0, 'utf8')).version" || true)
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+          if [ -n "$previous" ] && [ "$current" = "$previous" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: version_check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
         run: npm ci
-
       - name: Build ZIP archive
-        run: node scripts/build.mjs
+        run: npm run build
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: universum-zip
+          path: build/*.zip
+          if-no-files-found: error
 
-      - name: Upload to CurseForge
+  build_modrinth:
+    needs: version_check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: npm ci
+      - name: Build Modrinth pack
+        run: npm run build:modrinth
+      - name: Upload Modrinth artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: universum-modrinth
+          path: build/modrinth/*.zip
+          if-no-files-found: error
+
+  publish_curseforge:
+    needs: [version_check, build]
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && needs.version_check.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: universum-zip
+          path: build
+      - name: Publish to CurseForge
         env:
           CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
-          CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
+          CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          RELEASE_CHANNEL: ${{ startsWith(github.event.pull_request.head.ref, 'alpha/') && 'alpha' || 'release' }}
         run: node scripts/upload.mjs
+
+  publish_modrinth:
+    needs: [version_check, build_modrinth]
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: universum-modrinth
+          path: build
+      - name: Publish to Modrinth
+        shell: bash
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
+          VERSION: ${{ needs.version_check.outputs.current }}
+          RELEASE_CHANNEL: ${{ startsWith(github.event.pull_request.head.ref, 'alpha/') && 'alpha' || 'release' }}
+        run: |
+          set -euo pipefail
+          zip_file=$(find build -maxdepth 1 -name '*.zip' -print -quit)
+          if [ -z "$zip_file" ]; then
+            echo "No zip artifact found in build/"
+            exit 1
+          fi
+          changelog=$(node --input-type=module -e "import { getReleaseNotes } from './scripts/release-notes.mjs'; process.stdout.write(getReleaseNotes())")
+          if [ "$RELEASE_CHANNEL" = "release" ]; then
+            featured=true
+            status=listed
+          else
+            featured=false
+            status=unlisted
+          fi
+          payload=$(cat <<JSON
+          {
+            "name": "Universum v${VERSION}",
+            "version_number": "${VERSION}",
+            "changelog": ${changelog@Q},
+            "dependencies": [],
+            "game_versions": ["1.21.1"],
+            "version_type": "${RELEASE_CHANNEL}",
+            "loaders": ["neoforge"],
+            "featured": ${featured},
+            "status": "${status}",
+            "requested_status": "${status}",
+            "project_id": "${MODRINTH_PROJECT_ID}",
+            "file_parts": ["file"],
+            "primary_file": "file"
+          }
+          JSON
+          )
+          curl -fsS -X POST "https://api.modrinth.com/v2/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -F "data=$payload;type=application/json" \
+            -F "file=@${zip_file};type=application/zip"

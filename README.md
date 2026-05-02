@@ -30,3 +30,14 @@ The modpack adds two original materials inspired by the Stargate Canon universe:
 *   **Naquadria** — an unstable isotope of Naquadah. Unlike Naquadah, Naquadria exists as a solid ore but must be liquefied in a Chemical Reactor before it can be used in high-energy applications. Found in the Oannes dimension. Essential for advanced Modern Industrialization and SGJourney endgame crafting.
 
 ## Join our official server on [CapyCraft](https://discord.gg/exV9JXJdEn)
+
+## Build outputs
+
+- `npm run build` creates the CurseForge pack
+- `npm run build:modrinth` creates the Modrinth pack
+- `npm run build:server` creates the standalone server package
+
+## Release channels
+
+- `release` for public builds
+- `alpha` for internal or early pre-release builds

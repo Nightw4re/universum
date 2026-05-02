@@ -1,4 +1,4 @@
-# Universum Modpack — AI Context
+# Universum Modpack â€” AI Context
 
 Minecraft modpack for **NeoForge 1.21.1**, Stargate-themed. Managed via CurseForge.
 
@@ -8,7 +8,7 @@ Minecraft modpack for **NeoForge 1.21.1**, Stargate-themed. Managed via CurseFor
 modpack/
   manifest.json               # CurseForge manifest (mod list + versions)
   overrides/
-    config/                   # Mod config files (selective — only tracked files)
+    config/                   # Mod config files (selective â€” only tracked files)
       ftbquests/quests/       # FTB Quests data
         chapters/             # One .snbt file per quest chapter
         lang/en_us.snbt       # Quest title/description translations (legacy, NOT used in-game)
@@ -21,8 +21,8 @@ modpack/
       data/                   # Custom worldgen, dimensions, recipes, structures
     resourcepacks/            # Resource packs
 scripts/
-  sync.mjs                    # Copies FROM game → repo (pull changes made in-game)
-  deploy.mjs                  # Copies FROM repo → game (push changes to local game)
+  sync.mjs                    # Copies FROM game â†’ repo (pull changes made in-game)
+  deploy.mjs                  # Copies FROM repo â†’ game (push changes to local game)
   build.mjs                   # Builds release zip
   cfg.mjs                     # Shared config (game instance path, dirs)
 ```
@@ -68,19 +68,19 @@ Dimensions defined in `kubejs/data/universum/dimension/`.
 Worldgen (biomes, noise, ores, placed features) in `kubejs/data/universum/worldgen/`.
 SGJourney solar systems in `kubejs/data/sgjourney/solar_system/`.
 
-## FTB Quests — Important Notes
+## FTB Quests â€” Important Notes
 
-- Quest descriptions use the `subtitle` field **directly in the `.snbt` chapter file** — NOT the lang file.
+- Quest descriptions use the `subtitle` field **directly in the `.snbt` chapter file** â€” NOT the lang file.
 - The `lang/en_us.snbt` file exists but its `quest.ID.quest_desc` entries are **not displayed in-game** (legacy).
 - To hide a quest until its prerequisite is done: set both `dependencies: ["QUEST_ID"]` AND `hide_until_deps_complete: true`.
-- A quest with `hide_until_deps_complete: true` but **no `dependencies`** will be **permanently invisible** — always check both fields together.
+- A quest with `hide_until_deps_complete: true` but **no `dependencies`** will be **permanently invisible** â€” always check both fields together.
 - The root dependency used by most chapter-entry quests is `"6CB1A938135C55CD"` (Chapter One / welcome chapter ID).
 
 ### Quest Chapter Files
 
 | File | Group | Description |
 |---|---|---|
-| `welcome.snbt` | — | Intro / Chapter One |
+| `welcome.snbt` | â€” | Intro / Chapter One |
 | `exploration.snbt` | The Journey | Overworld & dimension exploration |
 | `stargate.snbt` | The Journey | SGJourney progression, custom dimensions, Trinium/Naquadria |
 | `chapter_fivethe_endgame.snbt` | The Journey | Endgame |
@@ -104,11 +104,20 @@ Format:
 <explanation of why the change was made>
 ```
 
-- First line: concise summary of what changed (imperative mood)
+- First line: `type(scope): subject`
+- Supported `type` values for release notes: `feat`, `fix`, `update`, `remove`
 - Empty line after the first line
 - Body: explain the motivation or context (why, not just what)
+- Use the same `type` prefixes consistently so changelog generation can group commits automatically
 
-If a fix corrects a change introduced earlier in the **same branch**, the fix must be folded into the original commit (via `git rebase -i` fixup/squash) — not added as a new commit.
+## Release Channels
+
+- `release` = normal public build
+- `alpha` = internal or early pre-release build
+- For CurseForge, the channel is passed as `releaseType`
+- For Modrinth, `release` stays `listed`, while `alpha` should be `unlisted`
+
+If a fix corrects a change introduced earlier in the **same branch**, the fix must be folded into the original commit (via `git rebase -i` fixup/squash) â€” not added as a new commit.
 
 Do not add AI as a co-author in commit messages (no `Co-Authored-By` lines).
 

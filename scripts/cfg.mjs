@@ -17,7 +17,6 @@ const serverInstance = process.env.SERVER_INSTANCE
 
 const buildDir = join(rootDir, 'build');
 const outputZip = join(buildDir, 'modpack.zip');
-const changelog = join(rootDir, 'CHANGELOG_LATEST.md');
 const modpackDir = join(rootDir, 'modpack');
 const overridesDir = join(modpackDir, 'overrides');
 const manifest = join(modpackDir, 'manifest.json');
@@ -30,7 +29,6 @@ export {
     serverInstance,
     buildDir,
     outputZip,
-    changelog,
     modpackDir,
     baseURI,
     modlist,
