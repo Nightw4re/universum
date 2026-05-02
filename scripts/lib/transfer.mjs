@@ -25,7 +25,7 @@ export async function readDirRecursive(dir, base = dir) {
 
 export async function copyFile(src, dst, label, { dryRun, verbose, exclude = [] }) {
     const filename = label.split(/[\\/]/).pop();
-    if (exclude.some(pattern => pattern.test(filename))) {
+    if (exclude.some(pattern => pattern.test(label) || pattern.test(filename))) {
         if (verbose) console.log(`  SKIP (excluded): ${label}`);
         return;
     }
