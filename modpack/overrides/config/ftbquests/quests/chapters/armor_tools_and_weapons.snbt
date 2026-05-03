@@ -118,7 +118,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.5d
 			y: -12.5d
 		}
 		{
@@ -264,7 +264,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			id: "27BBBC04480FF3BB"
@@ -325,7 +325,7 @@
 				}
 			]
 			x: -11.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			id: "61DDF151DFBE8531"
@@ -409,33 +409,6 @@
 			y: -11.0d
 		}
 		{
-			id: "3BCD03ECF406C421"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3FD571EC76F3A35D"
-					table_id: 3495175666515583115L
-					type: "random"
-				}
-				{
-					count: 4
-					id: "15D63AB33B16B9D5"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7D43BBC9D2FF2F20"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(pipez))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -11.0d
-			y: -11.5d
-		}
-		{
 			id: "2D44D161C058551F"
 			rewards: [
 				{
@@ -512,7 +485,7 @@
 				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -8.5d
 		}
 		{
@@ -566,8 +539,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -11.5d
+			x: -13.5d
+			y: -12.5d
 		}
 	]
 }

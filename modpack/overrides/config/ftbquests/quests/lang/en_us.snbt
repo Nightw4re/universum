@@ -53,6 +53,8 @@
 	quest.0A13E21DE471F8EA.quest_subtitle: "Find the Altar of Fire hidden deep underground and summon the Ignited Berserker."
 	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the required blocks in the quest, when you're done, right click on the base block with an empty hand."]
 	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
+	quest.7F2A11C4D6B8E901.title: "Finding the 7th Chevron"
+	quest.7F2A11C4D6B8E901.quest_desc: ["Gather the clues needed to solve the final symbol. Bring a spyglass, a book and quill, and a digital circuit to complete the research."]
 	quest.0BD8CB14D765EE43.quest_desc: [
 		"Have you enough uraninite to generate FIssion energy, you can enhance it with burning material, Redstone, and Dry Ice to get even more energy."
 		""
