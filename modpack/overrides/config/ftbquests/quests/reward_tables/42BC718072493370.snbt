@@ -1,9 +1,8 @@
 {
 	id: "42BC718072493370"
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
-		{ id: "6650A3642AB87B18", item: { count: 1, id: "create:mechanical_mixer" } }
 		{
 			count: 16
 			id: "28CC80ECB919738E"
@@ -28,7 +27,6 @@
 				id: "minecraft:potato"
 			}
 		}
-		{ id: "510C289B89735CB0", item: { count: 1, id: "create:basin" } }
 		{
 			count: 32
 			id: "13E7072568FA2545"

@@ -1,24 +1,29 @@
-import { readFileSync, createReadStream, existsSync } from 'fs';
+import { createReadStream, existsSync } from 'fs';
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 import axios from 'axios';
-import { buildDir, changelog, outputZip } from './cfg.mjs';
+import { buildDir, outputZip } from './cfg.mjs';
+import { getReleaseNotes } from './release-notes.mjs';
 import packageJson from '../package.json' with { type: 'json' };
 
 const apiToken = process.env.CURSEFORGE_API_TOKEN;
 const projectId = process.env.CURSEFORGE_PROJECT_ID;
+const releaseChannel = (process.env.RELEASE_CHANNEL || 'release').toLowerCase();
 
 const baseURI = 'https://minecraft.curseforge.com/';
 const uploadURL = `${baseURI}api/projects/${projectId}/upload-file`
 const versionURL = `${baseURI}api/game/versions`;
-
-const changelogContext = readFileSync(changelog, 'utf8');
+const changelogContext = getReleaseNotes();
 
 if (!existsSync(buildDir)) {
     throw new Error(`Dir ${buildDir} not found.`);
 }
 
 async function uploadToCurseForge() {
+    if (!['release', 'alpha'].includes(releaseChannel)) {
+        throw new Error(`Invalid RELEASE_CHANNEL: ${releaseChannel}`);
+    }
+
     console.info('Retrieving versions.');
     const response = await fetch(
         versionURL,
@@ -44,7 +49,7 @@ async function uploadToCurseForge() {
     formData.append('metadata', JSON.stringify({
         'changelog': changelogContext,
         'changelogType': 'markdown',
-        'releaseType': 'release',
+        'releaseType': releaseChannel,
         'displayName': `universum-${packageJson.version}.zip`,
         gameVersions,
     }));

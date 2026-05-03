@@ -1,0 +1,15 @@
+{
+  "name": "sgjourney:stargate_pedestal",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "universum:stargate/milky_way/pedestal/stargate_pedestal_desert_empty_dhd",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "universum:netu",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "universum:netu",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "universum:netu"
+    }
+  }
+}

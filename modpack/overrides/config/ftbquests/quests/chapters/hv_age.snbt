@@ -1,0 +1,340 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv_age"
+	group: "78F3519E8A49FAB8"
+	icon: {
+		id: "modern_industrialization:turbo_machine_hull"
+	}
+	id: "5AA1B2C3D4E5F605"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["184787879E793720"]
+			hide_until_deps_complete: true
+			id: "5A05000000000010"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05000000000012"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "5A05000000000013"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A05000000000011"
+				item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A05000000000010"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000010"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000012"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "5A05B00000000013"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A05B00000000011"
+					item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
+					type: "item"
+				}
+				{
+					id: "5A05B00000000014"
+					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5A05B00000000015"
+					item: { count: 1, id: "modern_industrialization:lv_mv_transformer" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A05000000000010"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000020"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000022"
+					table_id: 7148289543630277349L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "5A05B00000000023"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A05B00000000021"
+				item: { count: 1, id: "modern_industrialization:distillation_tower" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A05B00000000020"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000030"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000032"
+					table_id: 7148289543630277349L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "5A05B00000000033"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A05B00000000031"
+				item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A05000000000010"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000040"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000042"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "5A05B00000000043"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A05B00000000041"
+				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A05000000000010"]
+			hide_until_deps_complete: true
+			id: "5A05000000000030"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05000000000032"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "5A05000000000033"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "universum:netu"
+				icon: {
+					id: "minecraft:magma_block"
+				}
+				id: "5A05000000000031"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A05000000000030"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000070"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000072"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "5A05B00000000073"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A05B00000000071"
+				item: { count: 1, id: "universum:raw_bismuth" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A05B00000000070"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000080"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000082"
+					table_id: 104589163806691446L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "5A05B00000000083"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A05B00000000081"
+					item: { count: 1, id: "universum:bismuth_ingot" }
+					type: "item"
+				}
+				{
+					id: "5A05B00000000084"
+					item: { count: 1, id: "universum:bismuth_dust" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A05B00000000040"]
+			hide_until_deps_complete: true
+			id: "5A05B00000000090"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05B00000000092"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 28
+					id: "5A05B00000000093"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A05B00000000091"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
+					type: "item"
+				}
+				{
+					id: "5A05B00000000094"
+					item: { count: 1, id: "modern_industrialization:titanium_drill" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A05B00000000040"
+				"5A05B00000000080"
+			]
+			hide_until_deps_complete: true
+			id: "5A05000000000040"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A05000000000042"
+					table_id: 8631043326084219217L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "5A05000000000043"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A05000000000041"
+				item: { count: 1, id: "universum:bismuth_dust" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+	]
+}

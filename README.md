@@ -22,4 +22,22 @@ Since Minecraft has its worlds and is based on what people like, we are aiming w
 *   Custom quests
 *   Removed Apotheosis Towers and Barbarian camps from Minecolonies to have a more vanilla-style overworld.
 
+## Custom SGC Materials
+
+The modpack adds two original materials inspired by the Stargate Canon universe:
+
+*   **Trinium** — an exceptionally lightweight yet incredibly strong metal used by advanced civilizations. Found deep in the Niflheim dimension. Refined into Trinium Alloy, which is required to craft a Trinium Iris for your Stargate.
+*   **Naquadria** — an unstable isotope of Naquadah. Unlike Naquadah, Naquadria exists as a solid ore but must be liquefied in a Chemical Reactor before it can be used in high-energy applications. Found in the Oannes dimension. Essential for advanced Modern Industrialization and SGJourney endgame crafting.
+
 ## Join our official server on [CapyCraft](https://discord.gg/exV9JXJdEn)
+
+## Build outputs
+
+- `npm run build` creates the CurseForge pack
+- `npm run build:modrinth` creates the Modrinth pack
+- `npm run build:server` creates the standalone server package
+
+## Release channels
+
+- `release` for public builds
+- `alpha` for internal or early pre-release builds

@@ -2,3 +2,8 @@ build
 temp
 local
 node_modules
+modpack/overrides/resourcepacks/
+server-files/libraries/
+server-files/mods/
+.env
+modpack/overrides/config/**/*.bak

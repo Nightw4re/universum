@@ -25,11 +25,14 @@
 			y: -10.0d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6CB1A938135C55CD"]
+			hide_until_deps_complete: true
 			id: "2FED7A81DF6D6175"
+			subtitle: "Iron tools and armor are your foundation. Upgrade to diamond before entering automation."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -115,7 +118,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.5d
 			y: -12.5d
 		}
 		{
@@ -261,7 +264,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			id: "27BBBC04480FF3BB"
@@ -322,7 +325,7 @@
 				}
 			]
 			x: -11.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			id: "61DDF151DFBE8531"
@@ -406,33 +409,6 @@
 			y: -11.0d
 		}
 		{
-			id: "3BCD03ECF406C421"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3FD571EC76F3A35D"
-					table_id: 3495175666515583115L
-					type: "random"
-				}
-				{
-					count: 4
-					id: "15D63AB33B16B9D5"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7D43BBC9D2FF2F20"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(pipez))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -11.0d
-			y: -11.5d
-		}
-		{
 			id: "2D44D161C058551F"
 			rewards: [
 				{
@@ -509,7 +485,7 @@
 				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -8.5d
 		}
 		{
@@ -540,32 +516,6 @@
 			y: -11.0d
 		}
 		{
-			id: "568F7A21DA848894"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61F0EF00938AF49D"
-					table_id: 3495175666515583115L
-					type: "random"
-				}
-				{
-					id: "6E2BEF89DB737BFC"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "49178F3280C28D75"
-				item: { components: { "ftbfiltersystem:filter": "mod(mekanismtools)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -8.5d
-		}
-		{
 			id: "133D266FCD3ABEF2"
 			rewards: [
 				{
@@ -589,8 +539,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -11.5d
+			x: -13.5d
+			y: -12.5d
 		}
 	]
 }

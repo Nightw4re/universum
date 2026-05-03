@@ -1,0 +1,17 @@
+{
+	"name": "solar_system.universum.oannes",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"address": [1, 6, 12, 18, 24, 30, 35], "randomizable": true},
+	"addresses":
+	[
+		{"galaxy": "sgjourney:milky_way", "address": {"address": [2, 7, 13, 19, 26, 34], "randomizable": true}}
+	],
+
+	"point_of_origin": "sgjourney:serpent",
+
+	"dimensions":
+	[
+		"universum:oannes"
+	]
+}

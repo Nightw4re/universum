@@ -10,7 +10,18 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "manifest": "node --env-file-if-exists=.env scripts/manifest.mjs",
+    "build": "node --env-file-if-exists=.env scripts/build.mjs",
+    "build:modrinth": "node --env-file-if-exists=.env scripts/build-modrinth.mjs",
+    "build:server": "node --env-file-if-exists=.env scripts/build-server.mjs",
+    "release:notes": "node scripts/release-notes.mjs",
+    "upload": "node --env-file-if-exists=.env scripts/upload.mjs",
+    "sync": "node --env-file-if-exists=.env scripts/sync.mjs",
+    "sync:apply": "node --env-file-if-exists=.env scripts/sync.mjs --apply",
+    "sync:verbose": "node --env-file-if-exists=.env scripts/sync.mjs --apply --verbose",
+    "deploy": "node --env-file-if-exists=.env scripts/deploy.mjs",
+    "deploy:apply": "node --env-file-if-exists=.env scripts/deploy.mjs --apply",
+    "deploy:verbose": "node --env-file-if-exists=.env scripts/deploy.mjs --apply --verbose"
   },
   "repository": {
     "type": "git",

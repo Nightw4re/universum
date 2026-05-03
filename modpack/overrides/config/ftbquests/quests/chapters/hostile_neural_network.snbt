@@ -7,10 +7,11 @@
 		id: "hostilenetworks:sim_chamber"
 	}
 	id: "2145A9FDB3DC298F"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			hide_until_deps_complete: true
 			id: "38AC75D170D5C67F"
 			rewards: [
 				{

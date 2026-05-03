@@ -54,10 +54,7 @@
       "probability": 0.2
     },
     {
-      "neoforge:conditions": [
-        { "type": "neoforge:mod_loaded", "modid": "powah" }
-      ],
-      "item": "powah:uraninite_ore",
+      "item": "modern_industrialization:uranium_ore",
       "amount": 1,
       "probability": 0.08
     }

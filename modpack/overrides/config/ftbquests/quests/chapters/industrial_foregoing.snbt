@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "02D94E7EA029CF01"
+	icon: {
+		id: "industrialforegoing:plant_gatherer"
+	}
+	id: "0816AFA71A1B5958"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["58DA170D896B0C5C"]
+			hide_until_deps_complete: true
+			id: "265EC3535290ECE6"
+			rewards: [
+				{
+					id: "46CA270BA82F7D6C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_sower"
+					}
+					type: "item"
+				}
+				{
+					id: "0308B8BF517EAC68"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4446EB4D7FDBA6A0"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "272C3679C3C219F4"
+			rewards: [
+				{
+					id: "08B840E7974B7385"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_gatherer"
+					}
+					type: "item"
+				}
+				{
+					id: "273C5955D1B7C62A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "759C97ABA7995912"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "0FE4B3982C3E9B9C"
+			rewards: [
+				{
+					id: "02B8CFDEC76E21D6"
+					item: {
+						count: 1
+						id: "industrialforegoing:animal_rancher"
+					}
+					type: "item"
+				}
+				{
+					id: "0B3FED7D85A5A259"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C6252C84987F582"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "42378FD2FD0F715F"
+			rewards: [
+				{
+					id: "1FB8994A12C55536"
+					item: {
+						count: 1
+						id: "industrialforegoing:mob_crusher"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34FC54419E3A92F5"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AE4B6DEF63ABAE4"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "72A55BE18B8270C6"
+			rewards: [
+				{
+					id: "5945CA43322220F3"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7F37FB4AAFA6C26E"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "08B1CD01FB8E3B30"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+	]
+}

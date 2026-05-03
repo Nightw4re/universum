@@ -17,16 +17,15 @@
 			y: -8.0d
 		}
 		{
-			dependency: "36E1BF25F676FC79"
 			height: 2.0d
-			image: "sgjourney:item/milky_way_stargate"
+			image: "minecraft:item/spyglass"
 			rotation: 0.0d
 			width: 2.0d
 			x: -4.5d
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -95,31 +94,35 @@
 		{
 			dependencies: ["32C5CD8426D8B39C"]
 			hide_until_deps_complete: true
-			id: "36E1BF25F676FC79"
-			rewards: [
-				{
-					id: "65382A5766CA718D"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "3C089526AD6C613C"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
+			icon: {
+				id: "sgjourney:milky_way_stargate"
+			}
+			id: "7F2A11C4D6B8E901"
+			rewards: [{
+				auto: "enabled"
+				id: "69464AA9FFADE915"
+				ignore_reward_blocking: true
+				stage: "stargate"
+				type: "gamestage"
+			}]
+			size: 2.0d
 			tasks: [
 				{
-					id: "7054DFE56D6D74AF"
-					item: { count: 1, id: "sgjourney:milky_way_stargate" }
+					consume_items: true
+					id: "7F2A11C4D6B8E904"
+					item: { count: 1, id: "minecraft:spyglass" }
 					type: "item"
 				}
 				{
-					id: "6443FFBCA066263F"
-					item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Slot: 0, count: 1, id: "sgjourney:large_control_crystal" }, { Slot: 1, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 2, count: 1, id: "sgjourney:communication_crystal" }, { Slot: 3, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 5, count: 1, id: "sgjourney:energy_crystal" }, { Slot: 7, count: 1, id: "sgjourney:transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Slot: 0, count: 1, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:milky_way_dhd" } }, count: 1, id: "sgjourney:milky_way_dhd" }
+					consume_items: true
+					id: "7F2A11C4D6B8E905"
+					item: { count: 1, id: "minecraft:writable_book" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7F2A11C4D6B8E906"
+					item: { count: 1, id: "modern_industrialization:digital_circuit" }
 					type: "item"
 				}
 			]
@@ -127,7 +130,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["36E1BF25F676FC79"]
+			dependencies: ["7F2A11C4D6B8E901"]
 			hide_until_deps_complete: true
 			id: "42930133E46A0A7A"
 			rewards: [
@@ -162,6 +165,7 @@
 				"04009475BA6BC159"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "184787879E793720"
 			rewards: [
 				{
@@ -191,6 +195,7 @@
 		}
 		{
 			dependencies: ["184787879E793720"]
+			hide_until_deps_complete: true
 			id: "5DCCB55C5BE6CC4C"
 			rewards: [
 				{
@@ -220,6 +225,7 @@
 		}
 		{
 			dependencies: ["5DCCB55C5BE6CC4C"]
+			hide_until_deps_complete: true
 			id: "579A9C086CDF34DE"
 			rewards: [
 				{
@@ -322,6 +328,7 @@
 		}
 		{
 			dependencies: ["184787879E793720"]
+			hide_until_deps_complete: true
 			id: "3560DF7703EDA4B1"
 			rewards: [
 				{
@@ -351,6 +358,7 @@
 		}
 		{
 			dependencies: ["184787879E793720"]
+			hide_until_deps_complete: true
 			id: "5E64EF691EC1BFD5"
 			rewards: [
 				{
@@ -393,6 +401,7 @@
 		}
 		{
 			dependencies: ["579A9C086CDF34DE"]
+			hide_until_deps_complete: true
 			id: "0A3FAAEB1285FA7A"
 			rewards: [
 				{
@@ -424,13 +433,13 @@
 				{
 					count: 9L
 					id: "3A1A0CC1EBDF58ED"
-					item: { count: 9, id: "sgjourney:classic_stargate_chevron_block" }
+					item: { count: 1, id: "sgjourney:classic_stargate_chevron_block" }
 					type: "item"
 				}
 				{
 					count: 14L
 					id: "55644AFB2320716F"
-					item: { count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					item: { count: 1, id: "sgjourney:classic_stargate_ring_block" }
 					type: "item"
 				}
 			]
@@ -458,7 +467,241 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A3FAAEB1285FA7A"
+				"3560DF7703EDA4B1"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "sgjourney:universe_stargate_chevron"
+			}
+			id: "595BB8D572A260FD"
+			rewards: [
+				{
+					id: "0E5D67DC1EBF463C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 5
+					id: "67E3CA6E22C5FA75"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "542C7DF1E93F6C1B"
+				item: { count: 1, id: "sgjourney:universe_stargate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"595BB8D572A260FD"
+				"42930133E46A0A7A"
+			]
+			hide_until_deps_complete: true
+			id: "5E3B3AAD899C02D6"
+			rewards: [
+				{
+					id: "44DC425F425E0F55"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "45AF1AB54DBAA31A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "universum:netu"
+				icon: {
+					id: "minecraft:fire_charge"
+				}
+				id: "1E5DE144AB12C2F2"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"595BB8D572A260FD"
+				"42930133E46A0A7A"
+			]
+			hide_until_deps_complete: true
+			id: "12922AC39F0CAF01"
+			rewards: [
+				{
+					id: "07553E7F52E269D4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3A2155EF8BFF8C06"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "universum:niflheim"
+				icon: {
+					id: "minecraft:packed_ice"
+				}
+				id: "4AE96DA472A2910C"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"595BB8D572A260FD"
+				"42930133E46A0A7A"
+			]
+			hide_until_deps_complete: true
+			id: "0535DD3AE5424DDE"
+			rewards: [
+				{
+					id: "2CC44AA40FE12958"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6D0E351D5CC72991"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "universum:oannes"
+				icon: {
+					id: "minecraft:prismarine"
+				}
+				id: "5B4321FC094D6F2F"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12922AC39F0CAF01"]
+			hide_until_deps_complete: true
+			id: "344B7BFC78A572D8"
+			rewards: [
+				{
+					count: 4
+					id: "13A79BA19F8CAB39"
+					item: {
+						count: 1
+						id: "universum:trinium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0CE7E50B9A2BC19D"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63D4E572ADBA8108"
+				item: { count: 1, id: "universum:raw_trinium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0535DD3AE5424DDE"]
+			hide_until_deps_complete: true
+			id: "68F26E498A8540F4"
+			rewards: [
+				{
+					count: 4
+					id: "1D12286C9765EEE6"
+					item: {
+						count: 1
+						id: "universum:naquadria"
+					}
+					type: "item"
+				}
+				{
+					id: "5A78D699EDD8D80A"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F712D08C60B714E"
+				item: { count: 1, id: "universum:naquadria" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"344B7BFC78A572D8"
+				"68F26E498A8540F4"
+			]
+			hide_until_deps_complete: true
+			id: "7CB632919D374782"
+			rewards: [
+				{
+					count: 4
+					id: "18B2D1485C428438"
+					item: {
+						count: 1
+						id: "universum:trinium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "20763548CCCE94B8"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "10861DCF97C2BBAD"
+				item: { count: 1, id: "universum:trinium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
 		}
 	]
 }

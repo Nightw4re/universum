@@ -1,0 +1,11 @@
+{
+  "type": "universum:niflheim",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "universum:niflheim",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "universum:niflheim"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "structures": [{ "structure": "fdbosses:malkuth_arena", "weight": 1 }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 97896465,
+    "spacing": 100,
+    "separation": 80
+  }
+}
