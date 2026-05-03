@@ -20,7 +20,6 @@ on:
         type: choice
         options:
           - curseforge
-          - modrinth
       release_channel:
         description: Release channel
         required: true
@@ -77,30 +76,11 @@ jobs:
           path: build/*.zip
           if-no-files-found: error
 
-  build_modrinth:
-    needs: version_check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - name: Install
-        run: npm ci
-      - name: Build Modrinth pack
-        run: npm run build:modrinth
-      - name: Upload Modrinth artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: universum-modrinth
-          path: build/modrinth/*.zip
-          if-no-files-found: error
-
   publish_curseforge:
     needs: [version_check, build]
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && needs.version_check.outputs.changed == 'true'
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'curseforge') ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true && needs.version_check.outputs.changed == 'true')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -119,67 +99,5 @@ jobs:
         env:
           CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
           CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
-          RELEASE_CHANNEL: ${{ startsWith(github.event.pull_request.head.ref, 'alpha/') && 'alpha' || 'release' }}
+          RELEASE_CHANNEL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || (startsWith(github.event.pull_request.head.ref, 'alpha/') && 'alpha' || 'release') }}
         run: node scripts/upload.mjs
-
-  publish_modrinth:
-    needs: [version_check, build_modrinth]
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - name: Install
-        run: npm ci
-      - uses: actions/download-artifact@v4
-        with:
-          name: universum-modrinth
-          path: build
-      - name: Publish to Modrinth
-        shell: bash
-        env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
-          VERSION: ${{ needs.version_check.outputs.current }}
-          RELEASE_CHANNEL: ${{ startsWith(github.event.pull_request.head.ref, 'alpha/') && 'alpha' || 'release' }}
-        run: |
-          set -euo pipefail
-          zip_file=$(find build -maxdepth 1 -name '*.zip' -print -quit)
-          if [ -z "$zip_file" ]; then
-            echo "No zip artifact found in build/"
-            exit 1
-          fi
-          changelog=$(node --input-type=module -e "import { getReleaseNotes } from './scripts/release-notes.mjs'; process.stdout.write(getReleaseNotes())")
-          if [ "$RELEASE_CHANNEL" = "release" ]; then
-            featured=true
-            status=listed
-          else
-            featured=false
-            status=unlisted
-          fi
-          payload=$(cat <<JSON
-          {
-            "name": "Universum v${VERSION}",
-            "version_number": "${VERSION}",
-            "changelog": ${changelog@Q},
-            "dependencies": [],
-            "game_versions": ["1.21.1"],
-            "version_type": "${RELEASE_CHANNEL}",
-            "loaders": ["neoforge"],
-            "featured": ${featured},
-            "status": "${status}",
-            "requested_status": "${status}",
-            "project_id": "${MODRINTH_PROJECT_ID}",
-            "file_parts": ["file"],
-            "primary_file": "file"
-          }
-          JSON
-          )
-          curl -fsS -X POST "https://api.modrinth.com/v2/version" \
-            -H "Authorization: $MODRINTH_TOKEN" \
-            -F "data=$payload;type=application/json" \
-            -F "file=@${zip_file};type=application/zip"
