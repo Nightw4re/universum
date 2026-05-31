@@ -191,7 +191,7 @@
 			]
 			tasks: [{
 				id: "79E68AB412247DDD"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:foods))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:foods))", "minecraft:custom_name": "\"Any Food\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -220,7 +220,7 @@
 			]
 			tasks: [{
 				id: "0FDFEEEA052F965F"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(chipped))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(mod(chipped))", "minecraft:custom_name": "\"Chipped Blocks\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -253,7 +253,7 @@
 			]
 			tasks: [{
 				id: "72F2AA2C1D5877DD"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(easy_villagers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(mod(easy_villagers))", "minecraft:custom_name": "\"Easy Villagers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -372,7 +372,7 @@
 			]
 			tasks: [{
 				id: "1737AD53789C2069"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(valhelsia_structures))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(mod(valhelsia_structures))", "minecraft:custom_name": "\"Structure Loot\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -401,7 +401,7 @@
 			]
 			tasks: [{
 				id: "05E9ACFC0281ED37"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(artifacts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(mod(artifacts))", "minecraft:custom_name": "\"Artifacts\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.5d

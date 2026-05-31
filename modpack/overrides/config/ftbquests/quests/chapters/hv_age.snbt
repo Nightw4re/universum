@@ -7,7 +7,7 @@
 		id: "modern_industrialization:turbo_machine_hull"
 	}
 	id: "5AA1B2C3D4E5F605"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,17 +32,16 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "5A05000000000011"
 				item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["5A05000000000010"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000010"
 			rewards: [
@@ -79,8 +78,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -6.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A05000000000010"]
@@ -141,7 +140,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5A05000000000010"]
+			dependencies: ["5A05B00000000010"]
 			hide_until_deps_complete: true
 			id: "5A05B00000000040"
 			rewards: [
@@ -198,8 +197,8 @@
 				id: "5A05000000000031"
 				type: "biome"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A05000000000030"]
@@ -227,8 +226,8 @@
 				item: { count: 1, id: "universum:raw_bismuth" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A05B00000000070"]
@@ -263,8 +262,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A05B00000000040"]
@@ -334,7 +333,7 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 0.75d
+			y: -3.75d
 		}
 	]
 }

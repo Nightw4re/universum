@@ -32,7 +32,6 @@
 			dependencies: ["6CB1A938135C55CD"]
 			hide_until_deps_complete: true
 			id: "2FED7A81DF6D6175"
-			subtitle: "Iron tools and armor are your foundation. Upgrade to diamond before entering automation."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -55,12 +54,12 @@
 			tasks: [
 				{
 					id: "7F352D9D5DCFEACF"
-					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_axe)item(minecraft:iron_chestplate)item(minecraft:iron_helmet)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_axe)item(minecraft:iron_chestplate)item(minecraft:iron_helmet)item(minecraft:iron_leggings)item(minecraft:iron_boots))", "minecraft:custom_name": "\"Iron Gear\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "0666F7F2F5B26F41"
-					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:diamond_sword)item(minecraft:diamond_axe)item(minecraft:diamond_pickaxe)item(minecraft:diamond_shovel)item(minecraft:diamond_hoe)item(minecraft:diamond_chestplate)item(minecraft:diamond_leggings)item(minecraft:diamond_boots)item(minecraft:diamond_helmet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:diamond_sword)item(minecraft:diamond_axe)item(minecraft:diamond_pickaxe)item(minecraft:diamond_shovel)item(minecraft:diamond_hoe)item(minecraft:diamond_chestplate)item(minecraft:diamond_leggings)item(minecraft:diamond_boots)item(minecraft:diamond_helmet))", "minecraft:custom_name": "\"Diamond Gear\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -88,7 +87,7 @@
 			]
 			tasks: [{
 				id: "74E837FE8A4DDD1C"
-				item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_chestplate)item(advanced_ae:quantum_helmet)item(advanced_ae:quantum_leggings)item(advanced_ae:quantum_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_chestplate)item(advanced_ae:quantum_helmet)item(advanced_ae:quantum_leggings)item(advanced_ae:quantum_boots))", "minecraft:custom_name": "\"Quantum Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -115,7 +114,7 @@
 			]
 			tasks: [{
 				id: "4A51669775DCB034"
-				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))", "minecraft:custom_name": "\"Building Gadgets\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -11.5d
@@ -188,7 +187,7 @@
 			]
 			tasks: [{
 				id: "0B06BC108424E9D8"
-				item: { components: { "ftbfiltersystem:filter": "or(item(deeperdarker:warden_helmet)item(deeperdarker:warden_chestplate)item(deeperdarker:warden_leggings)item(deeperdarker:warden_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(deeperdarker:warden_helmet)item(deeperdarker:warden_chestplate)item(deeperdarker:warden_leggings)item(deeperdarker:warden_boots))", "minecraft:custom_name": "\"Warden Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -233,7 +232,7 @@
 			]
 			tasks: [{
 				id: "2B7389EF2A969BBC"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))", "minecraft:custom_name": "\"MekaSuit\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -260,7 +259,7 @@
 			]
 			tasks: [{
 				id: "6F934093D9DE2641"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(artifacts:slot/hands))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(artifacts:slot/hands))", "minecraft:custom_name": "\"Artifact Trinkets\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -13.5d
@@ -287,7 +286,7 @@
 			]
 			tasks: [{
 				id: "5CBC9B161821D20A"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(pneumaticcraft:armors/pneumatic)item_tag(pneumaticcraft:armors/compressed_iron))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(pneumaticcraft:armors/pneumatic)item_tag(pneumaticcraft:armors/compressed_iron))", "minecraft:custom_name": "\"PneumaticCraft Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -348,7 +347,7 @@
 			]
 			tasks: [{
 				id: "64879C797BAB2847"
-				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_helmet)item(sgjourney:naquadah_chestplate)item(sgjourney:naquadah_leggings)item(sgjourney:naquadah_boots)item(sgjourney:system_lord_chestplate)item(sgjourney:system_lord_helmet)item(sgjourney:system_lord_leggings)item(sgjourney:system_lord_boots)item(sgjourney:jaffa_helmet)item(sgjourney:jaffa_chestplate)item(sgjourney:jaffa_leggings)item(sgjourney:jaffa_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_helmet)item(sgjourney:naquadah_chestplate)item(sgjourney:naquadah_leggings)item(sgjourney:naquadah_boots)item(sgjourney:system_lord_chestplate)item(sgjourney:system_lord_helmet)item(sgjourney:system_lord_leggings)item(sgjourney:system_lord_boots)item(sgjourney:jaffa_helmet)item(sgjourney:jaffa_chestplate)item(sgjourney:jaffa_leggings)item(sgjourney:jaffa_boots))", "minecraft:custom_name": "\"Goa'uld Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -375,7 +374,7 @@
 			]
 			tasks: [{
 				id: "5F3EE791800F4663"
-				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:matok)item(sgjourney:kara_kesh)item(sgjourney:naquadah_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:matok)item(sgjourney:kara_kesh)item(sgjourney:naquadah_sword))", "minecraft:custom_name": "\"Goa'uld Weapons\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -402,7 +401,7 @@
 			]
 			tasks: [{
 				id: "4591D10982A25E50"
-				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_pickaxe)item(sgjourney:naquadah_axe)item(sgjourney:naquadah_shovel)item(sgjourney:naquadah_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:naquadah_pickaxe)item(sgjourney:naquadah_axe)item(sgjourney:naquadah_shovel)item(sgjourney:naquadah_hoe))", "minecraft:custom_name": "\"Naquadah Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -429,7 +428,7 @@
 			]
 			tasks: [{
 				id: "4ADCF154B23C4559"
-				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))", "minecraft:custom_name": "\"Deeper Darker Weapons\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -456,7 +455,7 @@
 			]
 			tasks: [{
 				id: "7FB9E9C48B207830"
-				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(minecraft:swords)item_tag(c:tools/ranged_weapon))", "minecraft:custom_name": "\"AE2 Weapons\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -482,7 +481,7 @@
 			]
 			tasks: [{
 				id: "559FF0C650569170"
-				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "mod(ae2)or(item_tag(c:tools))", "minecraft:custom_name": "\"AE2 Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -509,7 +508,7 @@
 			]
 			tasks: [{
 				id: "6BE45E474FD5A5BC"
-				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(c:tools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "mod(deeperdarker)or(item_tag(c:tools))", "minecraft:custom_name": "\"Deeper Darker Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -536,7 +535,7 @@
 			]
 			tasks: [{
 				id: "149D6C6D77158769"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:diesel_jetpack)item(mekanism:jetpack)item(mekanism:jetpack_armored))", "minecraft:custom_name": "\"Jetpack\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -13.5d

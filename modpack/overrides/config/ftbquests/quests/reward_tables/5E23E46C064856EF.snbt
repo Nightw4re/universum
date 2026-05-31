@@ -33,17 +33,6 @@
 			}
 		}
 		{
-			count: 2
-			id: "267B0C10FCCAD0C2"
-			item: {
-				components: {
-					"ftbquests:missing_item": "voidtotem:totem_of_void_undying"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
-		}
-		{
 			id: "5C5080A281DBC0BE"
 			item: {
 				count: 1

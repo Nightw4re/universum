@@ -9,13 +9,11 @@
 	id: "5AA1B2C3D4E5F607"
 	order_index: 8
 	quest_links: [ ]
-	title: "SV Age"
 	quests: [
 		{
 			dependencies: ["5A06000000000040"]
 			hide_until_deps_complete: true
 			id: "5A07000000000010"
-			subtitle: "Quantum Machine Hull — the pinnacle of MI technology. The path to singularity and the replicator."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -26,7 +24,10 @@
 				{
 					count: 60
 					id: "5A07000000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -44,7 +45,6 @@
 			dependencies: ["5A07000000000010"]
 			hide_until_deps_complete: true
 			id: "5A07000000000020"
-			subtitle: "Niflheim — a frozen dimension. Trinium ore grows here, used in SPS Casing and MekaSuit."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -55,7 +55,10 @@
 				{
 					count: 60
 					id: "5A07000000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -74,7 +77,6 @@
 			dependencies: ["5A07000000000020"]
 			hide_until_deps_complete: true
 			id: "5A07000000000030"
-			subtitle: "Trinium Ingot — a resilient alloy from Niflheim. Used in SPS Casing and MekaSuit body armor."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -85,7 +87,10 @@
 				{
 					count: 55
 					id: "5A07000000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -104,7 +109,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A07000000000040"
-			subtitle: "Full MekaSuit — Trinium-forged exo-armor. Strong, fast, and virtually indestructible."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -115,7 +119,10 @@
 				{
 					count: 80
 					id: "5A07000000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -145,7 +152,6 @@
 			dependencies: ["5A07000000000010"]
 			hide_until_deps_complete: true
 			id: "5A07B00000000050"
-			subtitle: "Gravitational Modulating Unit — gravity manipulation module. Fly fast across any terrain."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -156,7 +162,10 @@
 				{
 					count: 70
 					id: "5A07B00000000053"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -172,7 +181,6 @@
 			dependencies: ["5A07000000000010"]
 			hide_until_deps_complete: true
 			id: "5A07000000000050"
-			subtitle: "Superconductor Storage Unit — maximum energy density for the final endgame push."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -183,7 +191,10 @@
 				{
 					count: 70
 					id: "5A07000000000053"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -199,7 +210,6 @@
 			dependencies: ["5A07000000000010"]
 			hide_until_deps_complete: true
 			id: "5A07B00000000010"
-			subtitle: "Kanthal and Superconductor coils — required for extreme-temperature EBF recipes and quantum machines."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -210,7 +220,10 @@
 				{
 					count: 55
 					id: "5A07B00000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -233,7 +246,6 @@
 			dependencies: ["5A07B00000000010"]
 			hide_until_deps_complete: true
 			id: "5A07B00000000020"
-			subtitle: "Implosion Compressor crushes materials under massive pressure — required to create a Singularity."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -244,7 +256,10 @@
 				{
 					count: 60
 					id: "5A07B00000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -260,7 +275,6 @@
 			dependencies: ["5A07B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A07B00000000030"
-			subtitle: "Singularity — compressed from an Ultradense Metal Ball and 64 Nukes. Gateway to UU-Matter."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -271,7 +285,10 @@
 				{
 					count: 65
 					id: "5A07B00000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -287,7 +304,6 @@
 			dependencies: ["5A07B00000000030"]
 			hide_until_deps_complete: true
 			id: "5A07B00000000040"
-			subtitle: "Quantum Circuit — built from Quantum Circuit Board, Qubits, and Cooling Cells. The core of quantum machines."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -298,7 +314,10 @@
 				{
 					count: 65
 					id: "5A07B00000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -329,7 +348,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A07000000000060"
-			subtitle: "The Replicator consumes UU-Matter (from Singularity via Electrolyzer) to duplicate almost any item."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -340,7 +358,10 @@
 				{
 					count: 100
 					id: "5A07000000000063"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]

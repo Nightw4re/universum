@@ -7,15 +7,13 @@
 		id: "modern_industrialization:basic_machine_hull"
 	}
 	id: "5AA1B2C3D4E5F603"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
-	title: "LV Age"
 	quests: [
 		{
 			dependencies: ["5A02000000000030"]
 			hide_until_deps_complete: true
 			id: "5A03000000000010"
-			subtitle: "Printed Circuit Board from PneumaticCraft Assembly System. The MI electric age begins."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -26,13 +24,16 @@
 				{
 					count: 20
 					id: "5A03000000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{\
+			tasks: [{
 				id: "5A03000000000011"
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
@@ -44,7 +45,6 @@
 			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000010"
-			subtitle: "Electric macerator, mixer, compressor — faster and more efficient than bronze."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -55,7 +55,10 @@
 				{
 					count: 15
 					id: "5A03B00000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -77,13 +80,12 @@
 				}
 			]
 			x: -1.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000060"
-			subtitle: "Centrifuge separates materials by density. Electrolyzer splits compounds into elements."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -94,7 +96,10 @@
 				{
 					count: 15
 					id: "5A03B00000000063"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -111,13 +116,12 @@
 				}
 			]
 			x: -1.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000070"
-			subtitle: "Packer, Unpacker and Polarizer — essential for automated material conversion."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -128,7 +132,10 @@
 				{
 					count: 15
 					id: "5A03B00000000073"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -155,42 +162,7 @@
 		{
 			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
-			id: "5A03B00000000080"
-			subtitle: "Rubber sheet and lubricant — used in many MI crafting recipes and machine upkeep."
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A03B00000000082"
-					table_id: 8047370271713922288L
-					type: "random"
-				}
-				{
-					count: 12
-					id: "5A03B00000000083"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5A03B00000000081"
-					item: { count: 1, id: "modern_industrialization:rubber_sheet" }
-					type: "item"
-				}
-				{
-					id: "5A03B00000000084"
-					item: { count: 1, id: "modern_industrialization:lubricant_bucket" }
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5A03000000000010"]
-			hide_until_deps_complete: true
 			id: "5A03B00000000020"
-			subtitle: "Raw Osmium — a key Mekanism material. Mine in overworld or in Netu."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -201,7 +173,10 @@
 				{
 					count: 15
 					id: "5A03B00000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -217,7 +192,6 @@
 			dependencies: ["5A03B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000030"
-			subtitle: "Basic Mekanism cables, pipes and transporters — the backbone of your network."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -228,7 +202,10 @@
 				{
 					count: 15
 					id: "5A03B00000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -254,14 +231,13 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -1.5d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A03B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A03000000000030"
-			subtitle: "Metallurgic Infuser — inputs + crystal = alloys. Core of Mekanism processing."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -272,7 +248,10 @@
 				{
 					count: 20
 					id: "5A03000000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -281,14 +260,13 @@
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A03B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000040"
-			subtitle: "Crusher and Enriching Factory — crush and enrich ores for 2× or 3× yield."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -299,7 +277,10 @@
 				{
 					count: 15
 					id: "5A03B00000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -315,14 +296,13 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.5d
+			x: -6.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["5A03B00000000030"]
+			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
 			id: "5A03B00000000090"
-			subtitle: "Machine upgrades boost speed, energy efficiency, and throughput."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -333,7 +313,10 @@
 				{
 					count: 15
 					id: "5A03B00000000093"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -354,113 +337,13 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5A03B00000000020"]
-			hide_until_deps_complete: true
-			id: "5A03B00000000050"
-			subtitle: "Certus Quartz — the foundation of AE2. Find a meteor, or grow crystals."
-			rewards: [
-				{
-					count: 16
-					id: "5A03B00000000052"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					id: "5A03B00000000053"
-					item: { count: 1, id: "ae2:guide" }
-					type: "item"
-				}
-				{
-					count: 10
-					id: "5A03B00000000054"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [
-				{
-					id: "5A03B00000000051"
-					item: { count: 1, id: "ae2:certus_quartz_dust" }
-					type: "item"
-				}
-				{
-					id: "5A03B00000000055"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-			]
 			x: -4.0d
-			y: 2.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["5A03B00000000050"]
-			hide_until_deps_complete: true
-			id: "5A03B00000000060B"
-			subtitle: "Charger charges Certus Quartz crystals. Inscriber manufactures processors."
-			rewards: [
-				{
-					count: 8
-					id: "5A03B00000000062B"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					count: 12
-					id: "5A03B00000000063B"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5A03B00000000061B"
-					item: { count: 1, id: "ae2:charger" }
-					type: "item"
-				}
-				{
-					id: "5A03B00000000064B"
-					item: { count: 1, id: "ae2:inscriber" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5A03B00000000060B"]
-			hide_until_deps_complete: true
-			id: "5A03000000000020"
-			subtitle: "ME Controller — the heart of the Applied Energistics 2 network."
-			rewards: [
-				{
-					count: 20
-					id: "5A03000000000022"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5A03000000000021"
-				item: { count: 1, id: "ae2:controller" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"5A03000000000020"
-				"5A03000000000030"
-				"5A03B00000000040"
-			]
+			dependencies: ["5A03000000000010"]
 			hide_until_deps_complete: true
 			id: "5A03000000000040"
-			subtitle: "LV infrastructure complete. Automation, storage and Mekanism ready."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -471,7 +354,10 @@
 				{
 					count: 30
 					id: "5A03000000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -482,7 +368,7 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 0.5d
 			y: -4.0d
 		}
 	]

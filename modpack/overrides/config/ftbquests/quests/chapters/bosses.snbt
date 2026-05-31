@@ -11,257 +11,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6CB1A938135C55CD"]
-			hide_until_deps_complete: true
-			id: "0A13E21DE471F8EA"
-			rewards: [
-				{
-					id: "4ABD0DF8C74475D1"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "3306A953DD62F76A"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5D4EADC8503EF197"
-				item: { count: 1, id: "cataclysm:altar_of_fire" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "09069A8D7E3B32D6"
-			rewards: [
-				{
-					count: 4
-					id: "7A70050532D2D7C0"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "45EBF89CB5E52E75"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2C48EC04F6E4593D"
-				item: { count: 1, id: "cataclysm:flame_eye" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				id: "cataclysm:ancient_metal_ingot"
-			}
-			id: "27F1A55DAFE23346"
-			rewards: [
-				{
-					id: "199FD5887AF0F437"
-					item: {
-						count: 1
-						id: "cataclysm:belt_of_monstrosity"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3BC657B25E279161"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "6996581CE5D8C470"
-				item: { count: 1, id: "cataclysm:mech_eye" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "43CD0B5920CC87E9"
-			rewards: [
-				{
-					id: "1566F74C28100E6F"
-					item: {
-						count: 1
-						id: "cataclysm:altar_of_abyss"
-					}
-					type: "item"
-				}
-				{
-					id: "2ECF3A095C62FCE5"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "01503200FF588F99"
-				item: { count: 1, id: "cataclysm:altar_of_abyss" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			id: "638069E7E0C142D4"
-			rewards: [
-				{
-					id: "2AEC36553ED5899D"
-					item: {
-						count: 1
-						id: "cataclysm:abyss_eye"
-					}
-					type: "item"
-				}
-				{
-					id: "2E7E787B4DA01E99"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "12281AA77F5AFDD7"
-				item: { count: 1, id: "cataclysm:abyss_eye" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "4E68A8AC57DAB8CF"
-			rewards: [
-				{
-					id: "129A1957A328C47F"
-					item: {
-						count: 1
-						id: "cataclysm:altar_of_void"
-					}
-					type: "item"
-				}
-				{
-					id: "4C91E5E410B0C460"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6649B0876C3CDB7E"
-				item: { count: 1, id: "cataclysm:altar_of_void" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
-			id: "5D4A1B4F9474D7BC"
-			rewards: [
-				{
-					id: "381F504F94E5EF2F"
-					item: {
-						count: 1
-						id: "cataclysm:monstrous_eye"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "0EFCA042A168E9D6"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "47233C1E142CF093"
-				item: { count: 1, id: "cataclysm:monstrous_eye" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "31B4F76F0BF07549"
-			rewards: [
-				{
-					id: "1507ADF2438AE1F8"
-					item: {
-						count: 1
-						id: "fdbosses:eye_of_malkuth"
-					}
-					type: "item"
-				}
-				{
-					id: "7C2240941274FD0F"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "24189392603BBCAE"
-				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.5d
-		}
-		{
+			dependencies: ["689225F696EE4683"]
+			icon_scale: 2.0d
 			id: "647FFFA91D970D3C"
 			rewards: [
 				{
-					id: "4194E666CD0A6907"
-					item: {
-						count: 1
-						id: "fdbosses:malkuth_trophy"
-					}
-					type: "item"
-				}
-				{
-					count: 3
+					count: 100
 					id: "4A26300F2E01D142"
 					item: {
 						count: 1
@@ -269,135 +24,26 @@
 					}
 					type: "item"
 				}
-			]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "5525DC845A8BD557"
-				item: { count: 1, id: "fdbosses:malkuth_trophy" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "437982DB7BC7780F"
-			rewards: [
 				{
-					id: "2EF5FFC30C0F10A7"
-					item: {
-						count: 1
-						id: "fdbosses:eye_of_chesed"
-					}
-					type: "item"
-				}
-				{
-					id: "63C9DBAE8D95EC1D"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3A41B76A5402695D"
+					table_id: 6783516616363103983L
+					type: "random"
 				}
 			]
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
-				id: "05BA52D0B4B430BA"
-				item: { count: 1, id: "fdbosses:eye_of_chesed" }
-				type: "item"
+				entity: "fdbosses:malkuth"
+				icon: {
+					id: "fdbosses:malkuth_trophy"
+				}
+				id: "24FC7704097FD795"
+				type: "kill"
+				value: 1L
 			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			id: "16E50342E12347CF"
-			rewards: [
-				{
-					id: "2DA0AD6E87836FB7"
-					item: {
-						count: 1
-						id: "fdbosses:chesed_trophy"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "1828174CEE1E1FC0"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "21DAE7FA0319C55D"
-				item: { count: 1, id: "fdbosses:chesed_trophy" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "3B7F40F8B7731960"
-			rewards: [
-				{
-					id: "5C6E1A4AE5D11C7B"
-					item: {
-						count: 1
-						id: "cataclysm:cursed_eye"
-					}
-					type: "item"
-				}
-				{
-					id: "3DEE86E0AEAE8840"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5CBCC908C0C3C09B"
-				item: { count: 1, id: "cataclysm:cursed_eye" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["6CB1A938135C55CD"]
-			id: "7D83C8AEE25B0535"
-			rewards: [
-				{
-					count: 2
-					id: "57F095DA61F957AC"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "25CF8037A6A7AEA5"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "49C41EEEE33C4ACC"
-				item: { count: 1, id: "cataclysm:desert_eye" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
+			x: -0.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6CB1A938135C55CD"]
@@ -794,84 +440,6 @@
 		}
 		{
 			dependencies: ["689225F696EE4683"]
-			icon_scale: 2.0d
-			id: "2479447E7F09A555"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6965DF5EFBB9C6DC"
-					table_id: 6783516616363103983L
-					type: "random"
-				}
-				{
-					count: 100
-					id: "1749D33936279C51"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "eternal_starlight:lunar_monstrosity"
-				icon: {
-					components: {
-						"minecraft:rarity": "rare"
-						"obtrophies:trophy_info": {
-							entity: "eternal_starlight:lunar_monstrosity"
-						}
-					}
-					id: "obtrophies:trophy"
-				}
-				id: "2A728D0514A131E0"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["689225F696EE4683"]
-			icon_scale: 2.0d
-			id: "1F73960A6F9AA0CE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4316256049DC7C54"
-					table_id: 6783516616363103983L
-					type: "random"
-				}
-				{
-					count: 100
-					id: "7B0693E80B4C511C"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "eternal_starlight:starlight_golem"
-				icon: {
-					components: {
-						"minecraft:rarity": "rare"
-						"obtrophies:trophy_info": {
-							entity: "eternal_starlight:starlight_golem"
-						}
-					}
-					id: "obtrophies:trophy"
-				}
-				id: "168C2077D9B0D5B7"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["689225F696EE4683"]
 			id: "15B6D69DC41FEB29"
 			rewards: [
 				{
@@ -955,12 +523,44 @@
 				}
 			]
 			tasks: [{
-				id: "23D6560AB40FF882"
+				id: "1E64D1DF91883FA0"
 				item: { count: 1, id: "fdbosses:lightning_core" }
 				type: "item"
 			}]
 			x: -3.0d
 			y: 16.5d
+		}
+		{
+			dependencies: ["689225F696EE4683"]
+			id: "35B89D6DA8C14625"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2490061BB4B4007F"
+					table_id: 6783516616363103983L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3C1665475F23B2A6"
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "fdbosses:geburah"
+				icon: {
+					id: "fdbosses:eye_of_geburah"
+				}
+				id: "445FF7C6C4D55449"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 }
