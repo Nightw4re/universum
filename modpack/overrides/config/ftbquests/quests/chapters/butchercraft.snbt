@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "butchercraft"
+	group: "22D133045023811C"
+	icon: {
+		id: "butchercraft:butcher_knife"
+	}
+	id: "5D05AD7853C1F76E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30CA0C7A59446F52"]
+			id: "30877432D1026706"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "0AB67FA442D0F85C"
+				item: { count: 1, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "30CA0C7A59446F52"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6BD2AA399DAC946D"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "3E534821A07DAB5E"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3606519F05CCDBFA"
+				item: { count: 1, id: "butchercraft:butcher_knife" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "73C8EB5BB682575E"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "29A279764017F2ED"
+				item: { count: 1, id: "butchercraft:butcher_block_block_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "748DB726196148CD"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6CFC7403D75E173E"
+				item: { count: 1, id: "butchercraft:meat_hook_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"11A11F5125227C37"
+				"748DB726196148CD"
+				"73C8EB5BB682575E"
+			]
+			id: "1428DF26AD3C91F3"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "4EAEDE5FE878F78E"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E534821A07DAB5E"]
+			id: "5D2CCE8038A39D5E"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "2978AA2447C462DD"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5D2CCE8038A39D5E"
+				"748DB726196148CD"
+			]
+			id: "0853964B50AF03B9"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3E4AA7FA469ABCFE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0853964B50AF03B9"
+				"4D419B1B673BD475"
+			]
+			id: "6DE21652A1AAE2FA"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "544C4E5BE55363FC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DE21652A1AAE2FA"]
+			id: "7ADDB93909DE3591"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4A199CECAAC147D9"
+					item: { count: 1, id: "butchercraft:fat" }
+					type: "item"
+				}
+				{
+					id: "327D958ED088EAEA"
+					item: { count: 1, id: "butchercraft:lard" }
+					type: "item"
+				}
+				{
+					id: "52A9E4FA15EEA5B3"
+					item: { count: 1, id: "butchercraft:soap" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7ADDB93909DE3591"]
+			id: "6C15C0C8E9DF4696"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "371066A2E62D95F3"
+					item: { count: 1, id: "butchercraft:mask" }
+					type: "item"
+				}
+				{
+					id: "0EFF45BD13C83F8C"
+					item: { count: 1, id: "butchercraft:apron" }
+					type: "item"
+				}
+				{
+					id: "3E19C9E752BA177F"
+					item: { count: 1, id: "butchercraft:gloves" }
+					type: "item"
+				}
+				{
+					id: "4F1A3C35F5B308F0"
+					item: { count: 1, id: "butchercraft:boots" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "11A11F5125227C37"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4E3FD5B0D3A65EC2"
+					item: { count: 1, id: "butchercraft:grinder_block_item" }
+					type: "item"
+				}
+				{
+					id: "48218C0CC5FE257E"
+					item: { count: 1, id: "butchercraft:extruder_tip" }
+					type: "item"
+				}
+				{
+					id: "7BBB0B4A1CAA1D23"
+					item: { count: 1, id: "butchercraft:grinder_tip" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11A11F5125227C37"]
+			id: "12DA86A78C49EA20"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7DF7FFE0297C79BF"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11A11F5125227C37"]
+			id: "153C69F1119B1310"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "399E5AF06C0B64DB"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1428DF26AD3C91F3"]
+			id: "4D419B1B673BD475"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "31FFAE5BE992575C"
+					item: { count: 1, id: "butchercraft:skinning_knife" }
+					type: "item"
+				}
+				{
+					id: "57296C1D29103533"
+					item: { count: 1, id: "butchercraft:bone_saw" }
+					type: "item"
+				}
+				{
+					id: "44BE03C7D842BD05"
+					item: { count: 1, id: "butchercraft:gut_knife" }
+					type: "item"
+				}
+				{
+					id: "1CF6ECA5BC47ABBE"
+					item: { count: 1, id: "minecraft:shears" }
+					type: "item"
+				}
+				{
+					id: "6BBABAEBAAD1B091"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+				{
+					id: "4E5E511FEFE6BF75"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+}

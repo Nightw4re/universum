@@ -34,12 +34,12 @@
 			tasks: [
 				{
 					id: "4EF81C2351DEAC34"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/knife))", "minecraft:custom_name": "\"Knife\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "10F4E30A60718970"
-					item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:cutting_board)item(farmersdelight:cutting_board))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:cutting_board)item(farmersdelight:cutting_board))", "minecraft:custom_name": "\"Cutting Board\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -68,7 +68,7 @@
 			]
 			tasks: [{
 				id: "66DD5FC1FE11F7B0"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:sinks)item_tag(cookingforblockheads:dyed_sinks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:sinks)item_tag(cookingforblockheads:dyed_sinks))", "minecraft:custom_name": "\"Sink\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -97,7 +97,7 @@
 			tasks: [{
 				count: 2L
 				id: "595DC04B205E64FD"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:fridges)item_tag(cookingforblockheads:dyed_fridges))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:fridges)item_tag(cookingforblockheads:dyed_fridges))", "minecraft:custom_name": "\"Fridge\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d

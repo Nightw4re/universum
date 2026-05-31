@@ -7,7 +7,6 @@
  * Strategy:
  *   - kubejs/        → full deploy (everything is custom)
  *   - config/        → selective deploy (only files tracked in overrides/config)
- *   - resourcepacks/ → full deploy
  *
  * Usage:
  *   node scripts/deploy.mjs              # dry-run (shows what would change)
@@ -34,7 +33,6 @@ async function main() {
 
     await transferFull(join(overridesDir, 'kubejs'), join(gameInstance, 'kubejs'), 'kubejs', opts);
     await transferSelective(join(overridesDir, 'config'), join(gameInstance, 'config'), 'config', opts);
-    await transferFull(join(overridesDir, 'resourcepacks'), join(gameInstance, 'resourcepacks'), 'resourcepacks', opts);
 
     console.log(opts.dryRun ? '\n=== DRY RUN complete. Re-run with --apply to copy. ===' : '\n=== Deploy complete. ===');
 }

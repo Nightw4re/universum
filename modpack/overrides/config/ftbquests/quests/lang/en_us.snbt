@@ -1,29 +1,30 @@
 {
+	chapter.00EDAB20C3FEF03D.title: "Butchercraft"
 	chapter.0816AFA71A1B5958.title: "Industrial Foregoing"
 	chapter.14C03B8DB3D755C6.title: "Chapter Two: Stargate"
 	chapter.1539A9ED6569386C.title: "Applied Energetics 2"
 	chapter.195703ECD0861D1D.title: "Modern Industrialization"
+	chapter.196DE83B1CBD505B.title: "Butchercraft"
 	chapter.1CAE135FFFE06CB5.title: "Cooking"
 	chapter.2145A9FDB3DC298F.title: "Hostile Neural Network"
+	chapter.3365399175594321.title: "Butchercraft"
 	chapter.345193002BB7B0C5.title: "Bosses"
 	chapter.3F91472CA2C9CFDD.title: "Ad Astra"
+	chapter.4AA4B496D42A9A3E.title: "Butchercraft"
 	chapter.4F80AA2EB0DCC10C.title: "Adventurer"
+	chapter.5162277936EB8BA8.title: "Butchercraft"
 	chapter.569A9E3D42C3AC8F.title: "Mekanism"
 	chapter.5AA1B2C3D4E5F601.title: "Steam Age"
 	chapter.5AA1B2C3D4E5F602.title: "Pressure Age"
-	chapter.5AA1B2C3D4E5F603.title: "LV Age"
-	chapter.5AA1B2C3D4E5F604.title: "Electric Age"
-	quest.5A04000000000005.title: "LV Solar Panel"
-	quest.5A04000000000005.quest_desc: ["A clean early-game solar generator for your first electric grid."]
-	quest.5A04000000000006.title: "MV Solar Panel"
-	quest.5A04000000000006.quest_desc: ["An upgraded solar panel for larger and more stable power networks."]
-	quest.5A04000000000007.title: "HV Solar Panel"
-	quest.5A04000000000007.quest_desc: ["A high-tier solar panel for the final stretch of your electric grid."]
+	chapter.5AA1B2C3D4E5F603.title: "Electric Age"
+	chapter.5AA1B2C3D4E5F604.title: "Electric Age II"
 	chapter.5AA1B2C3D4E5F605.title: "HV Age"
 	chapter.5AA1B2C3D4E5F606.title: "EV Age"
 	chapter.5AA1B2C3D4E5F607.title: "SV Age"
+	chapter.5D05AD7853C1F76E.title: "Butchercraft"
 	chapter.5D25557A809CB5D3.title: "Agriculture"
 	chapter.68753D672BE6FD31.title: "PneumatiCraft"
+	chapter.687A08D1EA5AFFF4.title: "Butchercraft"
 	chapter.698F9F466AB10C6E.title: "Chapter Three: The Darkness"
 	chapter.6CB1A938135C55CD.title: "Chapter One: Minecraft+"
 	chapter.741946F0622C49E7.title: "Armor, Tools, and Weapons"
@@ -34,35 +35,84 @@
 	chapter_group.22D133045023811C.title: "Survival  Combat"
 	chapter_group.244B68E119B27430.title: "Industrial"
 	chapter_group.78F3519E8A49FAB8.title: "The Journey"
+	quest.003759F6AFDF5945.quest_subtitle: "Obtain Import Bus and Export Bus."
+	quest.008D800580599E75.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.008D800580599E75.title: "The First Cuts"
+	quest.00B0C7CBB6B57A1E.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.00B0C7CBB6B57A1E.title: "Complete Butcher Station"
+	quest.02585EAC437560C1.quest_subtitle: "Complete this Cooking task."
+	quest.026434EEB7C07204.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.026434EEB7C07204.title: "The First Cuts"
+	quest.026E2AD2001A9A7B.quest_subtitle: "Obtain Fruit Basket."
 	quest.02CF96E19AF4E208.quest_subtitle: "MI Electric Age Unlocked"
 	quest.02CF96E19AF4E208.title: "Electric Age: SGC Hull"
+	quest.02FCECAEE8FF6F9B.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.02FCECAEE8FF6F9B.title: "A Clean Work Surface"
 	quest.0373A1579EFDB00B.title: "Basic Machines"
+	quest.0391E6F0DD603645.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.0391E6F0DD603645.title: "Cooked Butcher Food"
 	quest.03A2A443E738065F.quest_desc: ["For better items you will need this upgraded table."]
 	quest.03AA5258043E86C1.quest_desc: ["[ \"You can buy resources from villagers. Just use a\", { \"text\": \"Charger\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"432B6750035E63F3\" } }, \" as their working station.\" ]"]
+	quest.03AA5258043E86C1.quest_subtitle: "Complete this Applied Energetics 2 task."
+	quest.03C326546C6F331A.quest_subtitle: "Obtain Replicator."
 	quest.03C7C361F2A8FC5C.quest_desc: ["You can modify items on an anvil. Prismarine cobweb will remove all curses from an item. Various Tomes are working as an item symbolizing them, but the final result will be a book, and this is usable on an enchanting table as well."]
 	quest.04009475BA6BC159.quest_desc: ["Gain Rima address, by some scrolls you found it seems there are lot of naquadah."]
+	quest.04009475BA6BC159.quest_subtitle: "Visit Rima and Abydos Spires."
 	quest.04009475BA6BC159.title: "Source of Naquadah"
+	quest.04C57C824F02B61A.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.04C57C824F02B61A.title: "Ground Meat"
+	quest.04D42F8AC2ACAF12.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.04D42F8AC2ACAF12.title: "Hide and Skin"
+	quest.0535DD3AE5424DDE.quest_subtitle: "Visit Oannes."
 	quest.056223F1FCD5247E.quest_desc: ["There are modifiers used to enhance spawners, just hold any modifier in your main hand and right click on it. The list of modifiers can be found in JEI or the mod's book."]
 	quest.056223F1FCD5247E.title: "Spawner Modifiers"
 	quest.0665112D8E104BBB.quest_subtitle: "Make your favorite wine of choice a decor."
+	quest.06D9B6F0F248F961.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.06D9B6F0F248F961.title: "A Butcher's Apron"
+	quest.06FE811773C956E5.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.06FE811773C956E5.title: "Bones, Fat, and Scraps"
+	quest.070CE1A6DE294175.quest_subtitle: "Complete the AE2 Tools task."
 	quest.070CE1A6DE294175.title: "AE2 Tools"
+	quest.072D71077B72CACE.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.072D71077B72CACE.title: "The Meat Grinder"
+	quest.0787543635C8C8B2.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.0787543635C8C8B2.title: "Work Clothes, Not Armor"
+	quest.07C6DFC0381025FF.quest_subtitle: "Complete the Deeper Darker Tools task."
 	quest.07C6DFC0381025FF.title: "Deeper Darker Tools"
+	quest.0808986AD62B9982.quest_subtitle: "Obtain Energy Acceptor."
+	quest.0853964B50AF03B9.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.0853964B50AF03B9.title: "Hang the Carcass"
 	quest.08F9B4F3EAB3658D.quest_subtitle: "Extract the Grapejuice from the Pot."
 	quest.08F9B4F3EAB3658D.title: "Grapejuices"
 	quest.09069A8D7E3B32D6.quest_subtitle: "Defeat the Ignited Berserker — the first guardian of the Ancient Factory."
+	quest.097F0A76FFD953A3.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.097F0A76FFD953A3.title: "The Meat Grinder"
+	quest.09B4EA2986CD4FE0.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.09B4EA2986CD4FE0.title: "Casings and Sausages"
+	quest.09ED1B5168C923B2.quest_subtitle: "Obtain Inscriber."
 	quest.0A13E21DE471F8EA.quest_subtitle: "Find the Altar of Fire hidden deep underground and summon the Ignited Berserker."
+	quest.0A262BA8BF892802.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.0A262BA8BF892802.title: "Build a Small Butcher Corner"
 	quest.0A3FAAEB1285FA7A.quest_desc: ["Build a ring from the required blocks in the quest, when you're done, right click on the base block with an empty hand."]
+	quest.0A3FAAEB1285FA7A.quest_subtitle: "Obtain Classic Stargate Base Block, Classic Stargate Chevron Block, and Classic Stargate."
 	quest.0A3FAAEB1285FA7A.title: "Build own stargate"
-	quest.7F2A11C4D6B8E901.title: "Finding the 7th Chevron"
-	quest.7F2A11C4D6B8E901.quest_desc: ["Gather the clues needed to solve the final symbol. Bring a spyglass, a book and quill, and a digital circuit to complete the research."]
+	quest.0B335479C82AF2FE.quest_subtitle: "Obtain Crafting Accelerator."
+	quest.0B9C072882473009.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.0B9C072882473009.title: "A Bucket for the Homestead"
+	quest.0BA50B06187F22E8.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.0BA50B06187F22E8.title: "Hang the Carcass"
 	quest.0BD8CB14D765EE43.quest_desc: [
 		"Have you enough uraninite to generate FIssion energy, you can enhance it with burning material, Redstone, and Dry Ice to get even more energy."
 		""
 		"&lDon't forget to insert water, one bucket is enough.&r"
 	]
 	quest.0BD8CB14D765EE43.title: "Reactors"
+	quest.0C5E22C42D58DDAD.quest_subtitle: "Obtain Red Fertilizer and Green Fertilizer."
+	quest.0C6B5CB3FAC02B7B.quest_subtitle: "Obtain Organic Compost and Rich Soil."
 	quest.0DA586EB9A3C82E4.quest_desc: ["Welcome to enhanced Minecraft."]
 	quest.0DA586EB9A3C82E4.title: "Apothesis"
+	quest.0DA8EC1CDF5CE126.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.0DA8EC1CDF5CE126.title: "Render the Fat"
 	quest.0DED6D5C8A4C96B9.quest_desc: [
 		"After gathering all the requisite materials, you're finally ready to go into space!"
 		""
@@ -73,10 +123,15 @@
 	quest.0DED6D5C8A4C96B9.quest_subtitle: "You're finally ready to go to space! "
 	quest.0DED6D5C8A4C96B9.title: "To the Moon!"
 	quest.0E2C89F641504A33.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
-	quest.0F3C00BA4A23CF7B.quest_subtitle: "Ancient relics await those brave enough to venture into dangerous ruins."
+	quest.0E8BD28A2519D8B6.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.0E8BD28A2519D8B6.title: "Cooked Butcher Food"
+	quest.0F3C00BA4A23CF7B.quest_subtitle: "Poke through dangerous ruins for relics that are worth the risk."
 	quest.0F3C00BA4A23CF7B.title: "Collect Artifacts"
+	quest.0FC7782CDF54C9E7.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.0FC7782CDF54C9E7.title: "Render the Fat"
+	quest.0FE4B3982C3E9B9C.quest_subtitle: "Obtain Animal Rancher."
 	quest.0FE4B3982C3E9B9C.title: "Jaffa Livestock System"
-	quest.0FFE1CED9F1E7704.quest_subtitle: "Conquer death itself and claim the dragon's power."
+	quest.0FFE1CED9F1E7704.quest_subtitle: "Claim the Dragon Egg and close out the vanilla finale."
 	quest.10E8A956CA36E9BC.quest_desc: [
 		"&lFurnator&r - Very good for raw begging, but if you have something to be burned."
 		""
@@ -98,20 +153,58 @@
 	quest.112C0C7C49867DE2.quest_subtitle: "Yes, more steel"
 	quest.112C0C7C49867DE2.title: "&8Earth Metal"
 	quest.1168E7B9558D4E8A.quest_desc: ["Reforging is the first step in enhance common armor, weapons or tools.  It will add attributes, sockets for your gems and later it also adds special abilities."]
-	quest.11DA91DFD5909DAD.title: "Knife & Cutting Board"
+	quest.11A11F5125227C37.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.11A11F5125227C37.title: "The Meat Grinder"
+	quest.11DA91DFD5909DAD.quest_subtitle: "Complete the Knife and Cutting Board task."
+	quest.11DA91DFD5909DAD.title: "Knife and Cutting Board"
+	quest.1255A9CCE62B8291.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.1255A9CCE62B8291.title: "The First Cuts"
+	quest.12922AC39F0CAF01.quest_subtitle: "Visit Niflheim."
+	quest.12933FC7B24887BA.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.12933FC7B24887BA.title: "A Butcher's Apron"
+	quest.12DA86A78C49EA20.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.12DA86A78C49EA20.title: "Ground Meat"
+	quest.1339BF1281880A82.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.1339BF1281880A82.title: "Build a Small Butcher Corner"
+	quest.133D266FCD3ABEF2.quest_subtitle: "Complete the Jetpack task."
 	quest.133D266FCD3ABEF2.title: "Jetpack"
 	quest.1384C1D8BD79C6D0.quest_desc: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
 	quest.1384C1D8BD79C6D0.quest_subtitle: "Dish, Desh, Drip"
 	quest.1384C1D8BD79C6D0.title: "Desh Draining"
+	quest.13A202A2253C4E3A.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.13A202A2253C4E3A.title: "Render the Fat"
+	quest.13FDA0B1966670D9.quest_subtitle: "Collect the Naquadah tool set and learn how it fits into the Stargate progression."
 	quest.13FDA0B1966670D9.title: "Naquadah Tools"
+	quest.1428DF26AD3C91F3.quest_desc: [
+		"Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."
+		""
+		"Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."
+	]
+	quest.1428DF26AD3C91F3.title: "Build a Small Butcher Corner"
+	quest.1463FAE9C7425298.quest_subtitle: "Obtain Item Storage Cell 1k."
 	quest.14D42EDBFFCED86E.quest_subtitle: "Increases crop output."
 	quest.14DE762F4663D1C9.quest_subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 	quest.14DE762F4663D1C9.title: "&4Find a Graveyard"
 	quest.14EC4CDD6F712BF1.title: "Apple"
+	quest.150292D1A53A7050.quest_subtitle: "Obtain Fusion Reactor and Fusion Chamber."
+	quest.1515226600DEF84A.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.1515226600DEF84A.title: "Nothing Goes to Waste"
+	quest.15296413EE6935BC.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.15296413EE6935BC.title: "Hang the Carcass"
+	quest.153C69F1119B1310.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.153C69F1119B1310.title: "Casings and Sausages"
+	quest.15DB669464A25CCA.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.15DB669464A25CCA.title: "Cooked Butcher Food"
+	quest.165B2C17E37BA496.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.165B2C17E37BA496.title: "Hang the Carcass"
 	quest.16E50342E12347CF.quest_subtitle: "Defeat Chesed — the fire colossus of Netu."
 	quest.16FED75C44853ECA.quest_subtitle: "Collects eggs laid by chickens."
 	quest.172968A234803DC0.quest_subtitle: "Made from Apple Mash."
 	quest.17E9FFDB849B49EA.title: "Automation machines"
+	quest.1817ADC2AA160613.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.1817ADC2AA160613.title: "Complete Butcher Station"
+	quest.184787879E793720.quest_subtitle: "Obtain Naquadah."
+	quest.191BA13C17A2D25A.quest_subtitle: "Obtain White Kitchen Floor."
 	quest.1941554F8883F5BE.quest_desc: [
 		"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
 		""
@@ -151,15 +244,23 @@
 	]
 	quest.1941554F8883F5BE.quest_subtitle: "Fishing should be fun."
 	quest.1941554F8883F5BE.title: "&bFishes and Crates!"
+	quest.19BF1902E86D5F15.quest_subtitle: "Obtain Plasma Turbine, Plasma Handling Iridium Machine Casing, and Iridium Machine Casing."
 	quest.1A1F70A9F47461C6.quest_subtitle: "Everybody loves ice cream... everybody."
 	quest.1A9711B129426433.quest_desc: ["The Last tier of shelves."]
+	quest.1B21B1B7933FC16D.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.1B21B1B7933FC16D.title: "The First Cuts"
+	quest.1B2EC74BF890C523.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.1B2EC74BF890C523.title: "A Bucket for the Homestead"
 	quest.1C111C9EF632F7DC.quest_desc: ["The most advanced automatization unit, for more details hover over the item in JEI and hold the [G] key."]
+	quest.1C111C9EF632F7DC.quest_subtitle: "Obtain Quantum Core."
 	quest.1C2AAE8F4E119084.quest_desc: [
 		"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
 		""
 		"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
 	]
 	quest.1C2AAE8F4E119084.quest_subtitle: "So *this* is what Walt Disney used.."
+	quest.1C42667E4CDA723F.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.1C42667E4CDA723F.title: "Casings and Sausages"
 	quest.1C711856985D4A81.quest_desc: [
 		"Once you've gathered plenty of desh, you can craft a tier 2 rocket in much the same fashion that you made the tier 1 rocket."
 		""
@@ -167,10 +268,21 @@
 	]
 	quest.1C711856985D4A81.quest_subtitle: "Beat Elon to it!"
 	quest.1C711856985D4A81.title: "To Mars!"
+	quest.1CB6A59F19EF6B0A.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.1CB6A59F19EF6B0A.title: "Bones, Fat, and Scraps"
 	quest.1D903985069CD9BD.quest_desc: ["Enchant a weapon with Capturing to have a chance of obtaining a mob's spawn egg. You can use any spawn egg on a spawner to get those mobs to spawn from the spawner."]
+	quest.1DD17114E9A45325.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.1DD17114E9A45325.title: "A Bucket for the Homestead"
+	quest.1DE5E3D5CA06E580.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.1DE5E3D5CA06E580.title: "A Bucket for the Homestead"
+	quest.1DFCF687F0DDA086.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.1DFCF687F0DDA086.title: "Hooks for Larger Work"
 	quest.1E7492EFCF1404CA.quest_desc: ["Continue in you journey!"]
-	quest.1EBC773ED06E4670.quest_desc: ["Eating various food will grant you extra hearts (health points), but only for &lunique food&r."]
-	quest.1EBC773ED06E4670.title: "Food & Farming"
+	quest.1EA8D8F44D4B0BD2.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.1EA8D8F44D4B0BD2.title: "Bones, Fat, and Scraps"
+	quest.1EBC773ED06E4670.quest_desc: ["Eating different foods grants extra hearts, but only for unique food types."]
+	quest.1EBC773ED06E4670.quest_subtitle: "Establish a stable food loop so survival stops being the main problem."
+	quest.1EBC773ED06E4670.title: "Food and Farming"
 	quest.1F0EB09B3C1F1249.title: "White Wine"
 	quest.1F68089CE40CABC9.quest_desc: [
 		"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
@@ -185,17 +297,43 @@
 	]
 	quest.1F68089CE40CABC9.quest_subtitle: "To the moon!"
 	quest.1F68089CE40CABC9.title: "&9Space Travels"
+	quest.1F9432A7C179B103.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.1F9432A7C179B103.title: "Farm Work Starts with Milk"
+	quest.1FD7BF5EC0B7AB7D.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.1FD7BF5EC0B7AB7D.title: "The Meat Grinder"
 	quest.20B7DEE9C12B2707.quest_subtitle: "Complete all quests to obtain the trophy!"
 	quest.20B7DEE9C12B2707.title: "&cAd Astra 100%"
+	quest.20EB34F4AA31ABD7.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.20EB34F4AA31ABD7.title: "The Butcher's Knife"
+	quest.214881B5384DDA0D.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.214881B5384DDA0D.title: "The Butcher's Knife"
+	quest.21599E3E9C8FE21D.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.21599E3E9C8FE21D.title: "Farm Work Starts with Milk"
+	quest.21C13F4F08A0D5CB.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.21C13F4F08A0D5CB.title: "Farm Work Starts with Milk"
+	quest.21CAD3C106AF7F62.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.21CAD3C106AF7F62.title: "A Bucket for the Homestead"
 	quest.2223D0AFDF5C10FB.quest_desc: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
 	quest.2223D0AFDF5C10FB.quest_subtitle: "Guess we'll never find the hydrogen"
+	quest.229F4F89426977EB.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.229F4F89426977EB.title: "Casings and Sausages"
 	quest.23C3589FAFB40AD5.quest_desc: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
 	quest.23C3589FAFB40AD5.quest_subtitle: "Discover your first Waystone, can be found in villages."
 	quest.23C3589FAFB40AD5.title: "&3Waystones"
 	quest.251028DFC955D65F.quest_desc: ["Well.. does this make you a blockhead?"]
+	quest.2581E4D8E3875EB0.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.2581E4D8E3875EB0.title: "Hide and Skin"
+	quest.25B165150F68AF97.quest_subtitle: "Obtain Processing Array."
+	quest.25EE9D8E2D9074D1.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.25EE9D8E2D9074D1.title: "Nothing Goes to Waste"
 	quest.2607DEA382FF044E.quest_subtitle: "Auto-feeds nearby animals."
 	quest.265EC3535290ECE6.quest_desc: ["On Chulak, the Jaffa have mastered bio-engineering under the Goa'uld. With their schematics, the Tau'ri can replicate this technology — automated agriculture and biomass processing."]
+	quest.265EC3535290ECE6.quest_subtitle: "Obtain Plant Sower."
 	quest.265EC3535290ECE6.title: "Chulak → Jaffa Bio-Tech → Plant Sower"
+	quest.2667A40844853040.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.2667A40844853040.title: "Nothing Goes to Waste"
+	quest.2719A4BA9EFB5F32.quest_subtitle: "Obtain Module Gravitational Modulating Unit."
+	quest.272C3679C3C219F4.quest_subtitle: "Obtain Plant Gatherer."
 	quest.272C3679C3C219F4.title: "Automated Harvest"
 	quest.27595D60CB566E43.quest_desc: [
 		"Now is the time to make it all mobile!"
@@ -204,8 +342,10 @@
 		""
 		"TIP: Remember you can hold more than one backpack."
 	]
+	quest.27595D60CB566E43.quest_subtitle: "Carry more supplies before exploration and early combat begin."
 	quest.27595D60CB566E43.title: "Call me a traveler"
 	quest.27B8C86C8EFD36BF.quest_desc: ["You can further modify items via Augments."]
+	quest.27BBBC04480FF3BB.quest_subtitle: "Complete the PneumaticCraft Armor task."
 	quest.27BBBC04480FF3BB.title: "PneumaticCraft Armor"
 	quest.27F1A55DAFE23346.quest_subtitle: "Descend into the Ancient Factory in the depths of Netu and slay its mechanical guardian."
 	quest.280A292018EA1F2D.quest_desc: ["The PneumaticCraft Printed Circuit Board is required for the MI Basic Machine Hull. Craft it in the PnC Pressure Chamber — the same technology that powers SGC gate dialing computers."]
@@ -215,11 +355,26 @@
 	quest.295F800520044C23.quest_subtitle: "Pies, creates, cider and - of course - apple wine!"
 	quest.295F800520044C23.title: "Apples"
 	quest.29F51CC2D16D55AB.title: "Awakened!"
+	quest.2A620DCF16497BD6.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.2A620DCF16497BD6.title: "Farm Work Starts with Milk"
+	quest.2A7A5C864644153A.quest_subtitle: "Complete the Artifact Trinkets task."
 	quest.2A7A5C864644153A.title: "Artifact Trinkets"
 	quest.2AA8EC70DC03E4EE.title: "Multi-block Machines"
+	quest.2AB36AB1B2E284B2.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.2AB36AB1B2E284B2.title: "Cooked Butcher Food"
+	quest.2ABEBC5F62467785.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.2ABEBC5F62467785.title: "Cooked Butcher Food"
 	quest.2B615789D96C0145.title: "Peanut Butter Chocolates"
+	quest.2BC4BF013C950B65.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.2BC4BF013C950B65.title: "Farm Work Starts with Milk"
 	quest.2BCD50E31293E149.quest_desc: ["You can socket gems into items in the smithing table."]
+	quest.2BDED85C43B4C112.quest_subtitle: "Complete the Quantum Armor (AE2) task."
 	quest.2BDED85C43B4C112.title: "Quantum Armor (AE2)"
+	quest.2BE7BD3015B463EA.quest_subtitle: "Obtain Sim Chamber."
+	quest.2C083EB8CB37F0A7.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.2C083EB8CB37F0A7.title: "Ground Meat"
+	quest.2C31594141DF6BFB.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.2C31594141DF6BFB.title: "A Bucket for the Homestead"
 	quest.2CDAB93BD674197F.quest_desc: [
 		"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
 		""
@@ -229,19 +384,42 @@
 	quest.2CDAB93BD674197F.title: "Space Rover"
 	quest.2CE3871D50730614.quest_desc: ["Higher speeds, more combs, chance on babies, collect comb blocks instead of combs. Some upgrades can be used in machines such as centrifuges."]
 	quest.2CE3871D50730614.title: "Upgrades"
+	quest.2D2180B4E6CAA131.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.2D2180B4E6CAA131.title: "Build a Small Butcher Corner"
 	quest.2D36A0323AAF2D5C.quest_desc: [
 		"Filled &bWinebottles&r can be &6refined&r in a &bBarrel&r by using extra ingredients such as &bSweetberries&r, &bHoney&r and so on."
 		""
 		"Different sort of &bGrapejuice&r and ingredients result in different kinds of &bWines&r."
 	]
 	quest.2D36A0323AAF2D5C.quest_subtitle: "Used to age Grapejuice into Wine or Aples into Cider."
+	quest.2D44D161C058551F.quest_subtitle: "Complete the Deeper Darker Weapons task."
 	quest.2D44D161C058551F.title: "Deeper Darker Weapons"
+	quest.2D58EECF6EB9B619.quest_subtitle: "Obtain Certus Quartz Dust and Certus Quartz Crystal."
 	quest.2D58EECF6EB9B619.title: "Certus Quartz"
+	quest.2D95B976D5F3DFBF.quest_subtitle: "Obtain Requester and Requester Terminal."
+	quest.2D9BF11F455FA513.quest_subtitle: "Obtain Toaster."
+	quest.2DB938D368B4BC31.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.2DB938D368B4BC31.title: "A Butcher's Apron"
 	quest.2DD1E268E40C2508.quest_desc: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
 	quest.2DD1E268E40C2508.quest_subtitle: "Its not hard, just rocket science!"
 	quest.2DEACB9493C491BB.quest_subtitle: "Tastes like everything.. or does everything taste like it?"
+	quest.2E0AB59ED013A176.quest_subtitle: "Obtain Singularity."
 	quest.2E8AFC74EDA4AB31.quest_desc: [""]
+	quest.2E9D34119F3374CE.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.2E9D34119F3374CE.title: "Casings and Sausages"
+	quest.2F4D0177E75BA543.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.2F4D0177E75BA543.title: "A Clean Work Surface"
+	quest.2FBF68122D671CEC.quest_subtitle: "Obtain Cell Component 1m."
+	quest.2FED7A81DF6D6175.quest_subtitle: "Complete the Iron & Diamond Gear task."
 	quest.2FED7A81DF6D6175.title: "Iron & Diamond Gear"
+	quest.3062E7A03A4DBD31.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.3062E7A03A4DBD31.title: "Casings and Sausages"
+	quest.30877432D1026706.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.30877432D1026706.title: "Farm Work Starts with Milk"
+	quest.30CA0C7A59446F52.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.30CA0C7A59446F52.title: "A Bucket for the Homestead"
+	quest.30E69233AE932A7F.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.30E69233AE932A7F.title: "A Butcher's Apron"
 	quest.30F1C5601C3ECEF1.quest_desc: [
 		"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
 		""
@@ -249,7 +427,9 @@
 	]
 	quest.30F1C5601C3ECEF1.quest_subtitle: "Where'd the Hydrogen go???"
 	quest.30F1C5601C3ECEF1.title: "Oxygen Generation"
-	quest.31111F7465926B62.quest_subtitle: "The world is waiting. Leave your spawn and discover what lies beyond the horizon."
+	quest.31111F7465926B62.quest_subtitle: "Explore beyond spawn and start mapping the world around your base."
+	quest.317059E37C83E3D4.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.317059E37C83E3D4.title: "Hooks for Larger Work"
 	quest.3178EF6B62E2D458.quest_desc: [
 		"Ad Astra adds 2 variants of an energy transfering cable and a fluid transfering pipe. The steel variant of the energy cable transfers 64 ⚡/t, which is more than enough to get started."
 		""
@@ -261,7 +441,15 @@
 	quest.3178EF6B62E2D458.title: "Surging Steel"
 	quest.31B4F76F0BF07549.quest_subtitle: "Discover and enter the Malkuth Arena in Oannes."
 	quest.31E04791F797FE20.title: "Pump Water"
-	quest.32210AA090617AB5.quest_subtitle: "The Nether holds unique resources unavailable in the overworld."
+	quest.32210AA090617AB5.quest_subtitle: "Push into the Nether for resources that cannot be found in the Overworld."
+	quest.32278590B9CB638B.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.32278590B9CB638B.title: "Complete Butcher Station"
+	quest.324C8BC16F600A17.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.324C8BC16F600A17.title: "Render the Fat"
+	quest.327E1B3AC303A73C.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.327E1B3AC303A73C.title: "The Butcher's Knife"
+	quest.328906F3BF5738E6.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.328906F3BF5738E6.title: "Nothing Goes to Waste"
 	quest.32910C1041DE2764.quest_desc: [
 		"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
 		""
@@ -272,6 +460,9 @@
 	quest.32910C1041DE2764.quest_subtitle: "Magical items with great power."
 	quest.32910C1041DE2764.title: "&6Artifacts"
 	quest.32C5CD8426D8B39C.quest_desc: ["Buy a map from an Archeologist and find something ... mysterious."]
+	quest.32C5CD8426D8B39C.quest_subtitle: "Obtain Archeology Table."
+	quest.3303B74E3760FD69.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.3303B74E3760FD69.title: "A Clean Work Surface"
 	quest.333A4AEB96CD87C6.quest_desc: ["Whenever you find any enhanced item in chests or from loot from monsters you can destroy it to gain reforging materials."]
 	quest.34216A1573B90BBB.quest_desc: [
 		"What does this mean?"
@@ -280,9 +471,23 @@
 	]
 	quest.34216A1573B90BBB.quest_subtitle: "Unique instanced loot for every player!"
 	quest.34216A1573B90BBB.title: "&6Lootr"
+	quest.344B7BFC78A572D8.quest_subtitle: "Obtain Trinium."
 	quest.34A9AA11322D8734.title: "New Electric Machines"
+	quest.34C581326469C7A6.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.34C581326469C7A6.title: "A Butcher's Apron"
+	quest.350ADAEDF29A008D.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.350ADAEDF29A008D.title: "The Butcher's Knife"
+	quest.35362A559D68A27A.quest_subtitle: "Complete this Cooking task."
 	quest.3560DF7703EDA4B1.quest_desc: ["More than naquadah."]
+	quest.3560DF7703EDA4B1.quest_subtitle: "Obtain Pure Naquadah."
+	quest.35F37EED67F078BD.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.35F37EED67F078BD.title: "Complete Butcher Station"
+	quest.364A1799C5F9A25C.quest_subtitle: "Visit Unitas."
 	quest.364A1799C5F9A25C.title: "A blue crystals"
+	quest.364ECEEE66F9683C.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.364ECEEE66F9683C.title: "First Proper Slaughter"
+	quest.368E3418940FCE37.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.368E3418940FCE37.title: "Hooks for Larger Work"
 	quest.36D37A1AFFC1B369.quest_desc: [
 		"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
 		""
@@ -295,34 +500,61 @@
 		""
 		"The air hung heavy with the dust of millennia as I sought the Cartouche. Legends hinted at its location: a place where the echoes of forgotten travelers still lingered. This tablet, bearing the key to traverse the stars, was not merely a guide but a necessary component, a lock waiting for its intricate tumblers to align. The silent ring before me held the promise of unimaginable journeys, but only the discovery of the Cartouche, with its cryptic address, would set those distant worlds within reach."
 	]
+	quest.375AD5409D8575E0.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.375AD5409D8575E0.title: "First Proper Slaughter"
+	quest.37D0F8D8DBD624BC.quest_subtitle: "Obtain Loot Fabricator."
+	quest.3885409C52D57A01.quest_subtitle: "Obtain Ex Drive."
+	quest.38AC75D170D5C67F.quest_subtitle: "Obtain Blank Data Model."
 	quest.39317045EFEE9C2F.quest_desc: ["Obtain any pickaxe. If you combine the pickaxe with the silk touch enchant you can use it to obtain any spawner."]
 	quest.39317045EFEE9C2F.title: "Pickaxe"
+	quest.3949048D5B08B129.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.3949048D5B08B129.title: "The First Cuts"
 	quest.39553F6B02384BFB.quest_desc: [
 		"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
 		""
 		"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
 	]
 	quest.39553F6B02384BFB.quest_subtitle: "Don't tell California"
+	quest.39F6C544C0EEA3E0.quest_subtitle: "Complete this Cooking task."
 	quest.3AADB6E423767219.quest_desc: ["This bee can be found in the End, but keep in mind to use Anti-teleport upgrade in its hive, because it can randomly teleport for short-range distances like Endermen like do."]
 	quest.3AADB6E423767219.title: "Ender Bee"
 	quest.3AD161D0CDD5BC8D.quest_desc: ["&6More quests coming soon, stay tuned!&r"]
+	quest.3B1CD1D4F7864008.quest_subtitle: "Complete the MekaSuit task."
 	quest.3B1CD1D4F7864008.title: "MekaSuit"
 	quest.3B7F40F8B7731960.quest_subtitle: "Explore the Cursed Pyramid on Abydos."
 	quest.3BCD03ECF406C421.title: "Pipes"
 	quest.3C1680DC5599405E.title: "Jar and Dagger"
+	quest.3C2D9D1D46FB3B49.quest_subtitle: "Obtain Deep Learner."
 	quest.3C550F45E278EEB7.quest_desc: ["You can convert special combs into items(or chance for more rare items)."]
 	quest.3C550F45E278EEB7.title: "Centrifuges"
+	quest.3CB3F880B6C6DE0B.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.3CB3F880B6C6DE0B.title: "A Bucket for the Homestead"
 	quest.3D0BF571379C4765.quest_desc: ["Libraries are a powerful tool. They allow you to store enchanted books. Once you have them stored, you can pull them out at the highest level you added, but only if there are enough stored levels."]
-	quest.3EB974639FE40CA5.quest_subtitle: "Villages hold valuable trades and shelter."
+	quest.3D266F14CA9C3F51.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.3D266F14CA9C3F51.title: "A Butcher's Apron"
+	quest.3DA3259C75858249.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.3DA3259C75858249.title: "Ground Meat"
+	quest.3E534821A07DAB5E.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.3E534821A07DAB5E.title: "The Butcher's Knife"
+	quest.3E606CFBB1D88709.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.3E606CFBB1D88709.title: "Ground Meat"
+	quest.3E934F6F8D1925B7.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.3E934F6F8D1925B7.title: "A Clean Work Surface"
+	quest.3EB974639FE40CA5.quest_subtitle: "Visit villages for early trades, beds, and safer starting supplies."
 	quest.3F3595C5252F467F.quest_desc: ["Craft a cable, Ender gate, Ender cell to connect machines a far away."]
 	quest.3F3595C5252F467F.title: "Transfer energy"
 	quest.3F4E5D6C7B8A9012.quest_desc: ["A practical AE2 utility cell for endless water supply."]
+	quest.3F4E5D6C7B8A9012.quest_subtitle: "Obtain Infinity Water Cell."
 	quest.3F4E5D6C7B8A9012.title: "Infinite Water Cell"
-	quest.3F79D19CD41B9827.quest_subtitle: "Need more space!"
+	quest.3F79D19CD41B9827.quest_subtitle: "Secure storage early so you can keep resources organized."
 	quest.3F79D19CD41B9827.title: "Craft a chest"
 	quest.40330664718B7981.quest_desc: ["To unlock MI Electric Age machines, the Basic Machine Hull requires Refined Naquadah from SGJourney. Travel through the Stargate to Abydos to access Naquadah deposits."]
 	quest.40330664718B7981.quest_subtitle: "SGC Electric Age Gate — Refined Naquadah"
 	quest.40330664718B7981.title: "Naquadah Power Core"
+	quest.403DBBEF3A7BBD6E.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.403DBBEF3A7BBD6E.title: "Hang the Carcass"
+	quest.4069C5FDAA2683A9.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.4069C5FDAA2683A9.title: "Build a Small Butcher Corner"
 	quest.40CB98FD334EB3CE.quest_desc: [
 		"The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight."
 		""
@@ -330,10 +562,18 @@
 	]
 	quest.40CB98FD334EB3CE.quest_subtitle: "Star command, do you read me??"
 	quest.40CB98FD334EB3CE.title: "Jet Suit"
+	quest.40D9A66031A22798.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.40D9A66031A22798.title: "Hooks for Larger Work"
 	quest.410E37C9926724FC.quest_subtitle: "Beyond the stars lies another dimension — Stellarity awaits the boldest explorers."
 	quest.410FB4729B618584.quest_subtitle: "Create your very own wine and cider at home."
+	quest.42302985896F290F.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.42302985896F290F.title: "Casings and Sausages"
 	quest.42378FD2FD0F715F.quest_desc: ["The Jaffa use Goa'uld neural suppression technology to subdue hostile organisms. The Mob Crusher replicates this — no drones required."]
+	quest.42378FD2FD0F715F.quest_subtitle: "Obtain Mob Crusher."
 	quest.42378FD2FD0F715F.title: "Mob Crusher → No Drones Needed"
+	quest.42418D1DA69BD96D.quest_subtitle: "Obtain Cow Jar."
+	quest.4263CAC04DBD1A12.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.4263CAC04DBD1A12.title: "Build a Small Butcher Corner"
 	quest.4288B73FA65D8229.quest_desc: [
 		"Once you have access to Desh, you're able to auotmate a few processes that make your life easier. One of those being energy generation."
 		""
@@ -345,21 +585,28 @@
 		""
 		"When this desert world was under the domain of Ra, he forced the human inhabitants to mine naquadah for him up until his eventual defeat and death."
 	]
+	quest.42930133E46A0A7A.quest_subtitle: "Find Abydos Desert."
 	quest.42930133E46A0A7A.title: "Abydos"
 	quest.42AAD9EE7BC90E8E.quest_desc: ["Quartz fiber only supports energy transfer. Devices or networks connected by fiber can't communicate with each other."]
+	quest.42AAD9EE7BC90E8E.quest_subtitle: "Obtain Quartz Fiber."
 	quest.432B6750035E63F3.quest_desc: ["Charging time! Once powered by FE you can insert a Certus Quartz Crystal and charge it!"]
+	quest.432B6750035E63F3.quest_subtitle: "Obtain Charger."
 	quest.437982DB7BC7780F.quest_subtitle: "Find the Chesed Arena burning in the depths of Netu."
 	quest.438319FC721F0274.quest_desc: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
 	quest.438319FC721F0274.quest_subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
 	quest.438319FC721F0274.title: "&eThe Bumblezone"
 	quest.43CD0B5920CC87E9.quest_subtitle: "Find the Sunken City beneath the Oannes ocean."
 	quest.44D61369427B7CBF.title: "Chocolates"
-	quest.44F48E42AAC344C1.quest_subtitle: "Descend into one of the many generated dungeons scattered through the world."
+	quest.44F48E42AAC344C1.quest_subtitle: "Find a Trial Key and prepare to raid a trial chamber."
 	quest.44FD73D3FCC38DBD.title: "Red Wine"
-	quest.46202D22E2B702CF.quest_subtitle: "Ancient structures hide powerful loot — and dangerous traps."
+	quest.454740100B573C81.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.454740100B573C81.title: "The First Cuts"
+	quest.46202D22E2B702CF.quest_subtitle: "Raid ancient structures carefully; loot is strong, but the traps are real."
 	quest.46202D22E2B702CF.title: "Explore Structures"
 	quest.462400176C496619.title: "Caramel Chocolates"
 	quest.46C75937AC35A417.quest_desc: ["Feed it with anything. Any item inserted into the condenser will be destroyed and matter will be accumulated. If you increase the capacity you can create a singularity!"]
+	quest.46C75937AC35A417.quest_subtitle: "Obtain Condenser."
+	quest.46D29B695C8DF247.quest_subtitle: "Obtain Fluid Storage Cell 1k."
 	quest.479D2D1966C75C85.quest_subtitle: "Storage for Wine Bottles."
 	quest.479D2D1966C75C85.title: "Wine Bottle Storage"
 	quest.47A3FB7F90B01FAA.quest_desc: [
@@ -369,9 +616,13 @@
 	]
 	quest.47A3FB7F90B01FAA.quest_subtitle: "Gather your first grapes and grape seeds."
 	quest.47A3FB7F90B01FAA.title: "Grapes"
+	quest.47CF8BA48135F569.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.47CF8BA48135F569.title: "Render the Fat"
 	quest.47D456E43D42EBC9.quest_desc: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
 	quest.47D456E43D42EBC9.quest_subtitle: "Dish, Desh, Dash"
 	quest.47D456E43D42EBC9.title: "Desh Distribution"
+	quest.4857336736D72714.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.4857336736D72714.title: "Render the Fat"
 	quest.48C157CC1998157A.quest_desc: [""]
 	quest.48FFEB9924643C86.quest_desc: [
 		"&lBees in Nests&r - Those bees will live only in nests, so you can't use them for honey, but breed them with various bees to get new species."
@@ -387,14 +638,34 @@
 		"&lFarmer Bee&r - just flying around and breaking harvestable items, and &lCollector Bee&r is collecting  them."
 	]
 	quest.48FFEB9924643C86.title: "Getting Bees"
+	quest.4970F2DD4D14644F.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.4970F2DD4D14644F.title: "Render the Fat"
 	quest.498C5FC0C852D17C.quest_subtitle: "Squish apples by using the press to get Mashed Apples."
 	quest.49C19563C09343E5.quest_desc: [""]
 	quest.49E2F0E372659287.title: "Electric Enhanced Machines"
+	quest.49FBCFDF2250634F.quest_subtitle: "Obtain Cable Pattern Provider."
+	quest.4A0A82626CA4C6F2.quest_subtitle: "Obtain Quantum Upgrade."
+	quest.4A26970B60FE2717.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.4A26970B60FE2717.title: "Ground Meat"
 	quest.4A3F59112EA01B09.quest_desc: ["Here you can upgrade gems to a higher level."]
+	quest.4A43CCF8198E9D8B.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.4A43CCF8198E9D8B.title: "Nothing Goes to Waste"
+	quest.4A98C8359AC86FF7.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.4A98C8359AC86FF7.title: "Render the Fat"
 	quest.4A9CCB3B3D8B80DE.quest_desc: ["Drop &nNether Quartz&r + &nRedstone Dust&r + &n&lCharged&r&n Certus Quartz Crystal&r into &nwater&r. Wait a while and boom!"]
+	quest.4A9CCB3B3D8B80DE.quest_subtitle: "Obtain Fluix Crystal."
 	quest.4AE1EA3349567401.quest_subtitle: "Speeds up growth."
+	quest.4B38344D94D50347.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.4B38344D94D50347.title: "Build a Small Butcher Corner"
 	quest.4B73D484AE1011A4.title: "Upgrades"
+	quest.4C2C4456A49E10BC.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.4C2C4456A49E10BC.title: "Hooks for Larger Work"
 	quest.4CAC010FC6A3A2ED.quest_desc: ["Science evolution has lead you to quantum physics."]
+	quest.4CAC010FC6A3A2ED.quest_subtitle: "Obtain Cell Component 64k."
+	quest.4CE9B491A8E405C8.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.4CE9B491A8E405C8.title: "Bones, Fat, and Scraps"
+	quest.4D419B1B673BD475.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.4D419B1B673BD475.title: "Nothing Goes to Waste"
 	quest.4D52E1F83E0D482A.quest_desc: [
 		"Glass cable is a basic item for your network."
 		""
@@ -404,15 +675,26 @@
 		""
 		"Channel limit is &oInfinite&r."
 	]
+	quest.4D52E1F83E0D482A.quest_subtitle: "Obtain Fluix Glass Cable."
+	quest.4D52FB7D724899C5.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.4D52FB7D724899C5.title: "Ground Meat"
 	quest.4D5DE6CE8BC8A185.quest_desc: [""]
 	quest.4D5DE6CE8BC8A185.title: "PneumatiCraft"
+	quest.4D605565F429934F.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.4D605565F429934F.title: "Hide and Skin"
+	quest.4D6E3B2D55D01210.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.4D6E3B2D55D01210.title: "The Butcher's Knife"
 	quest.4DA255280F7E1DC4.quest_desc: [
 		"You can craft enhanced material with energizing. "
 		""
 		"Recipes can be found in JEI. When you power up the Energize Rod and insert the proper items to the Energizing Orb it will start energizing by a beam."
 	]
 	quest.4DA255280F7E1DC4.title: "Energizing"
+	quest.4DCFD42435E268EF.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.4DCFD42435E268EF.title: "Casings and Sausages"
 	quest.4E085EE3E8A8BDF5.title: "Tier 2 - 5"
+	quest.4E24E738A5ECB1E0.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.4E24E738A5ECB1E0.title: "First Proper Slaughter"
 	quest.4E68A8AC57DAB8CF.quest_subtitle: "Seek the Acropolis floating above Oannes."
 	quest.4ED4ED6F965C40DE.quest_desc: [
 		"&nEasy Villagers&r \\& &nEasy Piglins &rare nice mods that allow you to manage and trade with your villagers and piglins easier."
@@ -421,7 +703,10 @@
 		""
 		"{image:artifacts:item/villager_hat width:50 height:50 align:center}"
 	]
+	quest.4ED4ED6F965C40DE.quest_subtitle: "Set up villager support tools for trades, breeding, and convenience."
 	quest.4ED4ED6F965C40DE.title: "Easy Villagers"
+	quest.4EFD14144CA015FF.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.4EFD14144CA015FF.title: "Hang the Carcass"
 	quest.4F0886FF37E1101A.quest_desc: [
 		"Once you're on the Moon, there's plenty to do. One of the most important resources to gather while you're here is Desh."
 		""
@@ -434,16 +719,26 @@
 	quest.4F297154AC9975DE.quest_subtitle: "Complete Kitchen Basics to unlock."
 	quest.4F5F490A5E0B0342.quest_subtitle: "Some would say nutella is better than gold."
 	quest.4FA3DEADAEC0DD0A.quest_desc: ["Place for your storage cell."]
+	quest.4FA3DEADAEC0DD0A.quest_subtitle: "Obtain Drive."
+	quest.4FABAAE8C6238BAF.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.4FABAAE8C6238BAF.title: "Work Clothes, Not Armor"
 	quest.4FB11CFF9FCF300D.quest_desc: ["As you can observe campfire in the recipe you don't need to put it under again to safely get honey or combs, with an expansion part you can have 5 bees inside, and use upgrades."]
 	quest.4FB11CFF9FCF300D.title: "Advanced Beehive with an expansion"
 	quest.4FD91B87D0A73D36.quest_desc: ["After harvesting your first &bGrapes&r can either just eat them or put them into a &bPot &rand crush them by &6jumping and walking&r around in it."]
 	quest.4FD91B87D0A73D36.quest_subtitle: "May the crushin begin!"
+	quest.511796BF8A7B19E4.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.511796BF8A7B19E4.title: "The Butcher's Knife"
+	quest.51A8D0E72A78D3BA.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.51A8D0E72A78D3BA.title: "Casings and Sausages"
 	quest.51DED8F7D84CD235.quest_desc: [
 		"Start your journey by finding a Goauld Temple structure. It looks like a zigurat/pyramid and you can find it in jungles or deserts."
 		""
 		"If you are having trouble finding it, you can use Explorer's compass."
 	]
+	quest.51DED8F7D84CD235.quest_subtitle: "Obtain Golden Idol."
+	quest.52011D43895D0620.quest_subtitle: "Complete the Cabinet task."
 	quest.52011D43895D0620.title: "Cabinet"
+	quest.5254327FFDC7A43A.quest_subtitle: "Obtain Prediction Matrix."
 	quest.528AC9572695085A.quest_desc: [
 		"Inferium, Prudentium, Tertium, etc. "
 		""
@@ -451,63 +746,160 @@
 	]
 	quest.528AC9572695085A.title: "Mystical Bees"
 	quest.529FA5C3502DBF4D.quest_subtitle: "Your market of choice for seeds and crops."
+	quest.52E3A362FCEEFF1D.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.52E3A362FCEEFF1D.title: "Build a Small Butcher Corner"
+	quest.533D4E7427E06379.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.533D4E7427E06379.title: "Complete Butcher Station"
+	quest.5558715C88343D38.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.5558715C88343D38.title: "Hooks for Larger Work"
+	quest.56422482FC3F1885.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.56422482FC3F1885.title: "Hang the Carcass"
 	quest.579A9C086CDF34DE.quest_desc: ["Crystals are the core of ancient technology."]
+	quest.579A9C086CDF34DE.quest_subtitle: "Obtain Crystallizer."
 	quest.58132755E921E778.quest_desc: [
 		"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
 		""
 		"When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!)."
 	]
 	quest.58132755E921E778.quest_subtitle: "Seriously though, where's the Hydrogen???"
-	quest.5844CB69B1BD0C35.quest_subtitle: "As a proper minecraft player you should start with an crafting table."
+	quest.5844CB69B1BD0C35.quest_subtitle: "Place the first crafting table and open up basic survival recipes."
+	quest.58DA170D896B0C5C.quest_subtitle: "Visit Chulak."
 	quest.58EC854151BDEA8C.quest_desc: ["You can build a simple cage to move bees in inventory, but once you release a bee, a cage is destroyed."]
-	quest.5A01000000000010.quest_subtitle: "Postav první parní kotel. Začíná průmyslová revoluce Universa."
-	quest.5A01000000000020.quest_subtitle: "Drtič rud. Každá ruda dá dva prášky — zdvojnásob výtěžnost."
-	quest.5A01000000000030.quest_subtitle: "Parní vysoká pec umožní výrobu oceli — základ pro Pressure Age."
-	quest.5A02000000000010.quest_subtitle: "Vzduchový kompresor zahájí éru PneumaticCraft. Tlak je energie."
-	quest.5A02000000000020.quest_subtitle: "Tlaková komora tvoří pokročilé komponenty pro automatizaci výroby."
-	quest.5A02000000000030.quest_subtitle: "Tištěný obvod je klíčový gate pro MI Electric Age. Postavit Assembly System."
+	quest.58EDCB8358B96943.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.58EDCB8358B96943.title: "Hooks for Larger Work"
+	quest.58FC757591252F2C.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.58FC757591252F2C.title: "A Butcher's Apron"
+	quest.595471EC338A6267.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.595471EC338A6267.title: "First Proper Slaughter"
+	quest.5989CED438C72D7A.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.5989CED438C72D7A.title: "A Bucket for the Homestead"
+	quest.5A01000000000001.quest_subtitle: "Obtain Forge Hammer."
+	quest.5A01000000000002.quest_subtitle: "Obtain Ingot Bronze."
+	quest.5A01000000000003.quest_subtitle: "Obtain Fire Clay Brick."
+	quest.5A01000000000004.quest_subtitle: "Obtain Fluid Pipe."
+	quest.5A01000000000005.quest_subtitle: "Obtain Bronze Cutting Machine."
+	quest.5A01000000000006.quest_subtitle: "Obtain Steel Ingot."
+	quest.5A01000000000007.quest_subtitle: "Obtain Steel Wiremill."
+	quest.5A01000000000010.quest_subtitle: "Obtain Bronze Boiler."
+	quest.5A01000000000020.quest_subtitle: "Obtain Bronze Macerator."
+	quest.5A01000000000030.quest_subtitle: "Build the steam blast furnace line and secure enough fire clay to support it."
+	quest.5A01B00000000010.quest_subtitle: "Build the first water pump setup. Use distilled water when you need stronger output or cleaner processing."
+	quest.5A01B00000000020.quest_subtitle: "Set up the Bronze Mixer and Compressor to start real steam-era processing."
+	quest.5A01B00000000030.quest_subtitle: "Collect the bronze hatches needed to move items and fluids through your early factory."
+	quest.5A01B00000000040.quest_subtitle: "Obtain Steel Upgrade and Steel Machine Casing."
+	quest.5A01B00000000050.quest_subtitle: "Obtain Large Steam Boiler."
+	quest.5A01B00000000060.quest_subtitle: "Obtain Coke Oven and Bricks."
+	quest.5A01B00000000070.quest_subtitle: "Upgrade your mining tools from bronze into steel for faster resource gathering."
+	quest.5A01B00000000080.quest_subtitle: "Obtain Steam Quarry."
+	quest.5A02000000000010.quest_subtitle: "Build the air compressor, the heart of PneumaticCraft progression."
+	quest.5A02000000000020.quest_subtitle: "Assemble the pressure chamber parts needed for your first automated processing room."
+	quest.5A02000000000030.quest_subtitle: "Craft the printed circuit board that bridges into mid-game automation."
 	quest.5A020CAB439C824C.quest_desc: [
 		"You can see attributes in bees, that can be enhanced by breeding or gene mutations to work during rain, and night, collect more, have more health, or even be passive so will attack nobody even if attacked."
 		""
 		"&lWater Bee&r, &lObsidian&r, and &lKamikazBee&r - have interesting an attribute, check it out."
 	]
-	quest.5A03000000000010.quest_subtitle: "Refined Naquadah + Printed Circuit Board. Elektrický věk začíná."
-	quest.5A03000000000020.quest_subtitle: "ME Controller — srdce Applied Energistics 2 sítě."
-	quest.5A03000000000030.quest_subtitle: "Metalurgická pec — základní Mekanism stroj pro zpracování kovů."
-	quest.5A03000000000040.quest_subtitle: "LV infrastruktura dokončena. Automatizace a storage připraveny."
-	quest.5A04000000000005.quest_desc: ["A clean early-game solar generator for your first electric grid."]
+	quest.5A02B00000000010.quest_subtitle: "Produce compressed iron and begin the pressure-tech path."
+	quest.5A02B00000000020.quest_subtitle: "Set up pressure tubes so air can move through the factory safely."
+	quest.5A02B00000000030.quest_subtitle: "Create a charging point for tools, armor, and pressure-powered gear."
+	quest.5A02B00000000040.quest_subtitle: "Secure oil as the next major resource for pneumatic production."
+	quest.5A02B00000000050.quest_subtitle: "Turn crude oil into useful fuel and unlock the refinery chain."
+	quest.5A02B00000000060.quest_subtitle: "Refine plastic, a key material for advanced PneumaticCraft parts."
+	quest.5A02B00000000080.quest_subtitle: "Prepare the etching line used for advanced circuit work."
+	quest.5A02B00000000090.quest_subtitle: "Build the UV light box used to cure and process sensitive materials."
+	quest.5A02B000000000A0.quest_subtitle: "Set up the assembly line components that automate high-precision work."
+	quest.5A02B000000000B0.quest_subtitle: "Finish the pressure-tech milestone and unlock the next machine tier."
+	quest.5A02B000000000C0.quest_subtitle: "Upgrade to advanced pressure tubes for higher-capacity routing."
+	quest.5A02B000000000D0.quest_subtitle: "Build the advanced compressor to support the next stage of PneumaticCraft."
+	quest.5A02B000000000E0.quest_subtitle: "Assemble the minigun to turn pneumatic pressure into firepower."
+	quest.5A02B000000000F0.quest_subtitle: "Deploy the sentry turret for base defense and automation support."
+	quest.5A02B00000000100.quest_subtitle: "Create the aerial interface to connect drones and remote control systems."
+	quest.5A03000000000010.quest_subtitle: "Craft the Basic Machine Hull. This now gates the LV age without requiring Naquadah."
+	quest.5A03000000000030.quest_subtitle: "Obtain Metallurgic Infuser."
+	quest.5A03000000000040.quest_subtitle: "Obtain LV Steam Turbine."
+	quest.5A03B00000000010.quest_subtitle: "Assemble the first electric processing trio. These machines unlock efficient bulk production."
+	quest.5A03B00000000020.quest_subtitle: "Obtain Osmium."
+	quest.5A03B00000000030.quest_subtitle: "Build the first Mekanism transport pieces. The last missing item is the Basic Logistical Transporter."
+	quest.5A03B00000000040.quest_subtitle: "Add bulk ore processing and material enrichment to your LV setup."
+	quest.5A03B00000000060.quest_subtitle: "Set up the LV chemical line. These two machines handle separation and fluid processing."
+	quest.5A03B00000000070.quest_subtitle: "Unlock the handling tools for item compression, unpacking, and magnetized processing."
+	quest.5A03B00000000090.quest_subtitle: "Pick up the core Mekanism upgrades for speed, power use, and filtering."
+	quest.5A04000000000001.quest_desc: ["Craft the first photovoltaic cell used by the LV solar panel. Keep the machine setup simple and consistent."]
+	quest.5A04000000000001.quest_subtitle: "Craft the first LV Photovoltaic Cell. Use it as a stepping stone for the solar panel."
+	quest.5A04000000000001.title: "LV Photovoltaic Cell I"
+	quest.5A04000000000002.quest_desc: ["Repeat the photovoltaic cell craft. This is the second step toward the LV solar panel."]
+	quest.5A04000000000002.quest_subtitle: "Craft the second LV Photovoltaic Cell. Keep the same setup and repeat the process."
+	quest.5A04000000000002.title: "LV Photovoltaic Cell II"
+	quest.5A04000000000003.quest_desc: ["Craft the final photovoltaic cell. Once you have all three, the solar panel chain is complete."]
+	quest.5A04000000000003.quest_subtitle: "Craft the third LV Photovoltaic Cell. This completes the solar panel chain requirement."
+	quest.5A04000000000003.title: "LV Photovoltaic Cell III"
+	quest.5A04000000000005.quest_desc: ["Place it in direct sunlight to generate LV power. It needs daylight and an unobstructed sky."]
 	quest.5A04000000000005.title: "LV Solar Panel"
 	quest.5A04000000000006.quest_desc: ["An upgraded solar panel for larger and more stable power networks."]
 	quest.5A04000000000006.title: "MV Solar Panel"
-	quest.5A04000000000010.quest_subtitle: "Pokročilý hull odemkne MV stroje a složitější zpracování materiálů."
-	quest.5A04000000000020.quest_subtitle: "Elektrická vysoká pec zpracuje speciální slitiny nedostupné pro parní verzi."
-	quest.5A04000000000030.quest_subtitle: "Molekulární assembler — AE2 autocraft. Výroba na vyžádání, bez limitů."
-	quest.5A04000000000040.quest_subtitle: "MV infrastruktura dokončena. HV tier a SGJourney dimenze jsou na dosah."
-	quest.5A05000000000010.quest_subtitle: "Turbo hull. HV energie odemkne mezihvězdnou Stargate síť."
+	quest.5A04000000000007.quest_desc: ["A high-tier solar panel for the final stretch of your electric grid."]
+	quest.5A04000000000007.title: "HV Solar Panel"
+	quest.5A04000000000010.quest_subtitle: "The advanced hull unlocks MV machines and more complex material processing."
+	quest.5A04000000000020.quest_subtitle: "The electric blast furnace handles alloys unavailable to the steam version."
+	quest.5A04000000000030.quest_subtitle: "Molecular assembler - AE2 autocrafting with no delivery limits."
+	quest.5A04000000000040.quest_subtitle: "MV infrastructure complete. HV tier and SGJourney dimensions are now within reach."
+	quest.5A05000000000010.quest_subtitle: "Obtain Turbo Machine Hull."
 	quest.5A05000000000020.quest_subtitle: "5 000 000 FE na mezihvězdné spojení. HV generátory jsou nutností."
-	quest.5A05000000000030.quest_subtitle: "Netu — vulkanická dimenze SGJourney. Zdroj Fluoritu a Bismutu."
-	quest.5A05000000000040.quest_subtitle: "Bismut z Netu — klíčová surovina pro Polonium a MekaSuit."
-	quest.5A06000000000010.quest_subtitle: "Highly Advanced hull. EV tier — syntéza exotických materiálů z SGJourney."
-	quest.5A06000000000020.quest_subtitle: "Naquadria — nestabilní izotop Naquadahu. Syntetizovat v MI Implosion Compressoru."
-	quest.5A06000000000030.quest_subtitle: "Základní modul MekaSuitu — platforma pro všechny upgrady."
-	quest.5A06000000000040.quest_subtitle: "MekaSuit helma — Trinium + Naquadria. SV Age a kompletní brnění čekají."
-	quest.5A07000000000010.quest_subtitle: "Quantum hull. Vrchol MI technologie — brána k Endgame."
-	quest.5A07000000000020.quest_subtitle: "Niflheim — ledová dimenze. Zdroj Trinia — nejodolnějšího kovu universa."
-	quest.5A07000000000030.quest_subtitle: "Trinium Ingot — roztavit Raw Trinium v peci. Základ SPS a MekaSuit."
-	quest.5A07000000000040.quest_subtitle: "Kompletní MekaSuit — nejlepší brnění před Endgame. Trinium v každém kusu."
-	quest.5A07000000000050.quest_subtitle: "Superconductor Storage Unit — nejvyšší tier MI energetického úložiště."
-	quest.5A0E000000000010.quest_subtitle: "Naplň Superconductor Storage Unit. Accumulate enough energy for the intergalactic dial."
-	quest.5A0E000000000020.quest_subtitle: "Starověké souřadnice na Lanteu. Pegasuská galaxie. Atlantis čeká."
+	quest.5A05000000000030.quest_subtitle: "Reach Netu, the volcanic dimension that feeds the next industrial tier."
+	quest.5A05000000000040.quest_subtitle: "Refine more Bismuth Dust to keep the industrial chain moving."
+	quest.5A05B00000000010.quest_subtitle: "Obtain MV Steam Turbine, MV Energy Input Hatch, and LV MV Transformer."
+	quest.5A05B00000000020.quest_subtitle: "Obtain Distillation Tower."
+	quest.5A05B00000000030.quest_subtitle: "Obtain Oil Drilling Rig."
+	quest.5A05B00000000040.quest_subtitle: "Obtain Vacuum Freezer."
+	quest.5A05B00000000070.quest_subtitle: "Collect raw Bismuth from Netu to bootstrap the next material chain."
+	quest.5A05B00000000080.quest_subtitle: "Refine Bismuth into usable ingots and dust for downstream processing."
+	quest.5A05B00000000090.quest_subtitle: "Upgrade your drills for late-game mining and tougher ore veins."
+	quest.5A06000000000010.quest_subtitle: "Obtain Highly Advanced Machine Hull."
+	quest.5A06000000000020.quest_subtitle: "Secure Naquadria, the volatile resource that powers EV-era systems."
+	quest.5A06000000000030.quest_subtitle: "Craft the Mekanism module base needed for advanced armor upgrades."
+	quest.5A06000000000040.quest_subtitle: "Assemble the first Mekasuit piece and open the late-game armor path."
+	quest.5A06B00000000010.quest_subtitle: "Travel to Oannes, the ocean world where Naquadria becomes available."
+	quest.5A06B00000000050.quest_subtitle: "Build the module energy unit that powers the next armor upgrade step."
+	quest.5A07000000000010.quest_subtitle: "Obtain Quantum Machine Hull."
+	quest.5A07000000000020.quest_subtitle: "Reach Niflheim, the frozen dimension that supplies Trinium."
+	quest.5A07000000000030.quest_subtitle: "Refine Trinium into ingots so the final tech tier can progress."
+	quest.5A07000000000040.quest_subtitle: "Finish the remaining Mekasuit armor pieces for the final protection tier."
+	quest.5A07000000000050.quest_subtitle: "Build the superconductor storage unit to support ultra-high power systems."
+	quest.5A07000000000060.quest_subtitle: "Unlock the Replicator, the last major machine in the progression line."
+	quest.5A07B00000000010.quest_subtitle: "Gather the coils that bridge the final reactor and processor tiers."
+	quest.5A07B00000000020.quest_subtitle: "Obtain Implosion Compressor."
+	quest.5A07B00000000030.quest_subtitle: "Compress matter into a Singularity for the top-end MI chain."
+	quest.5A07B00000000040.quest_subtitle: "Assemble the core quantum components needed for the final machines."
+	quest.5A07B00000000050.quest_subtitle: "Craft the gravity module needed for endgame mobility and control."
+	quest.5A0E000000000010.quest_subtitle: "Obtain Superconductor Storage Unit."
+	quest.5A0E000000000020.quest_subtitle: "Obtain Quantum Barrel."
 	quest.5A2581CBAB21D071.quest_desc: [
 		"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
 		""
 		"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 	]
 	quest.5A2581CBAB21D071.quest_subtitle: "Electrifying Elements"
+	quest.5B9FCF943E96BD08.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.5B9FCF943E96BD08.title: "First Proper Slaughter"
+	quest.5BE523B5A045D977.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.5BE523B5A045D977.title: "The Butcher's Knife"
+	quest.5C6510707A87A630.quest_subtitle: "Obtain Quantum Sword."
+	quest.5C7D2FCFE51D2ED3.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.5C7D2FCFE51D2ED3.title: "Work Clothes, Not Armor"
+	quest.5C7E5C089069DDAC.quest_subtitle: "Obtain Sps Port, Sps Casing, and Supercharged Coil."
+	quest.5C98C6A34A0FA300.quest_desc: ["Cook one of your butchered products into an actual meal. Raw processing is only half the job; food should be ready to eat."]
+	quest.5C98C6A34A0FA300.title: "Cooked Butcher Food"
 	quest.5CD9CEF75CCCDD0F.quest_desc: ["YES! I can fly!"]
 	quest.5CD9CEF75CCCDD0F.title: "Bumble Bee"
+	quest.5CDBDAB829F61E4C.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.5CDBDAB829F61E4C.title: "Bones, Fat, and Scraps"
+	quest.5D19EFB495C39E67.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.5D19EFB495C39E67.title: "Farm Work Starts with Milk"
+	quest.5D2CCE8038A39D5E.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.5D2CCE8038A39D5E.title: "First Proper Slaughter"
 	quest.5D4A1B4F9474D7BC.quest_subtitle: "Defeat Ignis atop the Acropolis."
 	quest.5DCCB55C5BE6CC4C.quest_desc: ["Liquid Naquadah is a basic material used to craft weapons, but possibly also used to create advanced technology."]
+	quest.5DCCB55C5BE6CC4C.quest_subtitle: "Obtain Naquadah Liquidizer."
 	quest.5DDFDC4C2426CF6F.quest_desc: [
 		"&bThe Archeology System &6introduces the following&r:"
 		""
@@ -523,23 +915,61 @@
 	]
 	quest.5DDFDC4C2426CF6F.quest_subtitle: "Know your prehistory."
 	quest.5DDFDC4C2426CF6F.title: "&dArcheology"
+	quest.5DEF8850D1DB7473.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.5DEF8850D1DB7473.title: "A Bucket for the Homestead"
+	quest.5E3B3AAD899C02D6.quest_subtitle: "Visit Netu."
 	quest.5E64EF691EC1BFD5.quest_desc: ["You can protect yourself with doors against unwanted incoming wormholes. But using them is optional."]
+	quest.5E64EF691EC1BFD5.quest_subtitle: "Obtain GDO and Transceiver."
 	quest.5E64EF691EC1BFD5.title: "Stargate Iris"
+	quest.5EBA8408D826A74F.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.5EBA8408D826A74F.title: "A Clean Work Surface"
 	quest.5F278DBB09E8420E.quest_desc: ["Even if every generator has some storage, you can need some extra universal storage. Build Energy cell as a block with capacity."]
 	quest.5F278DBB09E8420E.title: "Store energy"
 	quest.5F9620B9B3C0CCC2.quest_subtitle: "Good for when it's cold.. or anytime."
+	quest.5F963B7222436671.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.5F963B7222436671.title: "Render the Fat"
+	quest.5FA76DF0F85F50B1.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.5FA76DF0F85F50B1.title: "A Clean Work Surface"
 	quest.5FBE5B1B68C6D8AE.quest_desc: ["Holding Nether Quartz in your off hand and the modifier item in your main hand will cause the opposite to happen, eg. reducing instead of increasing spawn range, etc."]
 	quest.5FBE5B1B68C6D8AE.title: "Decrease"
 	quest.5FF4202C776DC212.quest_desc: ["The smart cable works similarly to the covered/glass cable, but it also shows you network information when looked at."]
+	quest.5FF4202C776DC212.quest_subtitle: "Obtain Fluix Smart Cable."
+	quest.6029E88E3118B423.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.6029E88E3118B423.title: "Complete Butcher Station"
+	quest.604919CCA1879AD7.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.604919CCA1879AD7.title: "A Butcher's Apron"
+	quest.60C569E5962AC840.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.60C569E5962AC840.title: "Work Clothes, Not Armor"
+	quest.60D723AAC51EE4F8.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.60D723AAC51EE4F8.title: "The Butcher's Knife"
 	quest.6114CC6BE5D2627F.quest_desc: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
 	quest.6114CC6BE5D2627F.quest_subtitle: "Pretty red ingot go brrr"
 	quest.6114CC6BE5D2627F.title: "&cMercury Metal"
+	quest.611E3E5B7369C3C9.quest_subtitle: "Obtain Circuit Cutter."
+	quest.61240FD26DFE6559.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.61240FD26DFE6559.title: "Hide and Skin"
+	quest.618C44C1682A6A16.quest_subtitle: "Obtain Stove, Cooking Pot, and Skillet."
+	quest.61DDF151DFBE8531.quest_subtitle: "Complete the Goa'uld Armor task."
 	quest.61DDF151DFBE8531.title: "Goa'uld Armor"
+	quest.629EAE1689D8C1DD.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.629EAE1689D8C1DD.title: "Build a Small Butcher Corner"
+	quest.62B88EBE080FB979.quest_desc: ["Butchering is not only steaks. Collect the less glamorous parts too: bones, fat, scraps, and anything else the animal provides."]
+	quest.62B88EBE080FB979.title: "Bones, Fat, and Scraps"
+	quest.63272ED3E478B0B7.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.63272ED3E478B0B7.title: "Nothing Goes to Waste"
+	quest.6375FF5C5125010D.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.6375FF5C5125010D.title: "Complete Butcher Station"
 	quest.638069E7E0C142D4.quest_subtitle: "Defeat the Leviathan lurking beneath the ocean of Oannes."
+	quest.63A9AB111C9E3C3D.quest_subtitle: "Complete the Building Gadgets task."
 	quest.63A9AB111C9E3C3D.title: "Building Gadgets"
+	quest.63DBF243412836AD.quest_subtitle: "Complete the Goa'uld Weapons task."
 	quest.63DBF243412836AD.title: "Goa'uld Weapons"
 	quest.647FFFA91D970D3C.quest_subtitle: "Defeat Malkuth — the warden of the deep."
 	quest.6491E686F47C9A2B.quest_subtitle: "Goes good anytime."
+	quest.649882BE59BA364D.quest_desc: ["Grind meat into a more flexible ingredient. Ground meat is useful because it can feed several recipes instead of only one meal path."]
+	quest.649882BE59BA364D.title: "Ground Meat"
+	quest.64B858F9A3E247CB.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.64B858F9A3E247CB.title: "The Meat Grinder"
 	quest.6582513D8887DF04.quest_desc: [
 		"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
 		""
@@ -549,8 +979,15 @@
 	]
 	quest.6582513D8887DF04.quest_subtitle: "¡Queso Delicioso!"
 	quest.6582513D8887DF04.title: "Mucho Queso"
+	quest.65B2BD1AD4AC2279.quest_subtitle: "Obtain Market."
 	quest.65DF3DEE8F14CA54.quest_desc: ["The enchanting table used to be a mystery, but now you can see it's inner workings. There are stats that change the outcome - Arcana, Quantana, Eterna and Rectification. These will affect your enchants."]
+	quest.66498FE776FDA8C2.quest_subtitle: "Obtain Chemical Storage Cell 1k."
+	quest.6765689ED52F6D04.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.6765689ED52F6D04.title: "Complete Butcher Station"
+	quest.676F2B510D598B05.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.676F2B510D598B05.title: "First Proper Slaughter"
 	quest.678797941B517892.quest_desc: ["Time to build your storage up. Firstly we have to see something so build a terminal ."]
+	quest.678797941B517892.quest_subtitle: "Obtain Terminal."
 	quest.681BFBC59884DAF3.quest_desc: [
 		"You did it!"
 		""
@@ -561,10 +998,13 @@
 		"* &l/sethome&r to set the location you'll teleport to"
 		"* &l/home&r to teleport to that location when it is needed."
 	]
+	quest.681BFBC59884DAF3.quest_subtitle: "Finish the opening checklist and move into the next layer of progression."
 	quest.68213B32C7BFE139.quest_desc: ["Complete your kitchen to expand your culinary skills"]
 	quest.68213B32C7BFE139.quest_subtitle: "Complete your kitchen. Feed the world."
 	quest.68213B32C7BFE139.title: "Kitchen Basics"
 	quest.687EF4F01CE2AD4C.title: "Fluid Pipes"
+	quest.68B54598DA159A36.quest_subtitle: "Obtain Quantum Chestplate, Quantum Boots, Quantum Helmet, and Quantum Leggings."
+	quest.68F26E498A8540F4.quest_subtitle: "Obtain Naquadria."
 	quest.6A298F887D96C0E8.quest_desc: [
 		"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
 		""
@@ -584,14 +1024,26 @@
 	]
 	quest.6AA8C1349BCC891D.quest_subtitle: "Dive into the story of Dead Cells!"
 	quest.6AA8C1349BCC891D.title: "&6Mine Cells"
+	quest.6B759B3D89F75441.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.6B759B3D89F75441.title: "The Butcher's Knife"
 	quest.6BF628828AD764EF.quest_desc: [""]
+	quest.6C15C0C8E9DF4696.quest_desc: [
+		"Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."
+		""
+		"Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."
+	]
+	quest.6C15C0C8E9DF4696.title: "Work Clothes, Not Armor"
 	quest.6C19FDFF0750F2D5.quest_desc: [
 		"We proudly welcome you on your journey to the stars!"
 		""
 		"REMEMBER! Eat as many unique foods as possible, it will empower you."
 	]
+	quest.6C19FDFF0750F2D5.quest_subtitle: "Start your world with the basic tools needed to survive the opening hours."
 	quest.6C1E3D8B5C8A4F2A.quest_desc: ["A practical AE2 utility cell for endless cobblestone production."]
+	quest.6C1E3D8B5C8A4F2A.quest_subtitle: "Obtain Infinity Cobblestone Cell."
 	quest.6C1E3D8B5C8A4F2A.title: "Infinite Cobblestone Cell"
+	quest.6C32DC4F9C13BAFE.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.6C32DC4F9C13BAFE.title: "Build a Small Butcher Corner"
 	quest.6C566BDD515C2575.quest_desc: [
 		"You can transfer energy to all items you have with yourself wirelessly. "
 		""
@@ -604,8 +1056,12 @@
 		""
 		" &6This will be enhanced by it's quest chapter in the future, stay tuned!&r"
 	]
+	quest.6C7FA1194422F63E.quest_subtitle: "Use Chipped blocks to make the base look intentional, not temporary."
 	quest.6C7FA1194422F63E.title: "Decorating with Chipped"
+	quest.6C8EA28B5D20EE64.quest_subtitle: "Obtain Sentry Turret and Basic Laser Turret."
 	quest.6C8EA28B5D20EE64.title: "Turrets"
+	quest.6CD848EE81A8D39D.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.6CD848EE81A8D39D.title: "The Meat Grinder"
 	quest.6D01C247A8864071.quest_desc: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
 	quest.6D01C247A8864071.quest_subtitle: "Overclocked Ostrum"
 	quest.6DABB3DDA44D6377.quest_desc: [
@@ -615,6 +1071,16 @@
 	]
 	quest.6DABB3DDA44D6377.quest_subtitle: "Buzz Lightyear to Star Command"
 	quest.6DABB3DDA44D6377.title: "Space Suit"
+	quest.6DE21652A1AAE2FA.quest_desc: [
+		"Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."
+		""
+		"Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."
+	]
+	quest.6DE21652A1AAE2FA.title: "The First Cuts"
+	quest.6E0C78A8542A998D.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.6E0C78A8542A998D.title: "Hide and Skin"
+	quest.6E15D5BBBADE84D3.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.6E15D5BBBADE84D3.title: "Render the Fat"
 	quest.6E4D99BBFFDFB961.quest_desc: [
 		"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
 		""
@@ -623,6 +1089,8 @@
 	quest.6E4D99BBFFDFB961.quest_subtitle: "Sizzling Space"
 	quest.6E4D99BBFFDFB961.title: "To the Hotter Planets!"
 	quest.6E695CDB88595C14.title: "Praline Chocolates"
+	quest.6E7979982C2F7773.quest_desc: ["Bring the full setup together: knife, butcher block, meat hook, grinder, and enough storage to keep the process organized."]
+	quest.6E7979982C2F7773.title: "Complete Butcher Station"
 	quest.6E8BF9F8A67D1B66.quest_desc: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
 	quest.6E8BF9F8A67D1B66.quest_subtitle: "Beyond the Milky Way"
 	quest.6E8BF9F8A67D1B66.title: "To ... Beyond?"
@@ -635,18 +1103,37 @@
 	quest.6E9A973B387987F7.title: "Launch Pad Setup"
 	quest.6EC4700B21DB617B.quest_subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
 	quest.6EC4700B21DB617B.title: "Adventures and Mysteries"
+	quest.6EE94626B6E5DD8C.quest_desc: ["Place your knife, block, and hook close together. A compact butcher area makes the whole process much less annoying."]
+	quest.6EE94626B6E5DD8C.title: "Build a Small Butcher Corner"
 	quest.6F1C2DFEB4998541.quest_desc: ["Bottler with empty bottles, push piston against from top of Bottler and have a bee between those. You will kill it, but gain a gene bottle, so you can create an awesome bee."]
 	quest.6F1C2DFEB4998541.title: "Genes"
 	quest.6F8596EF4151F76D.quest_desc: ["Quantum physics are now opened for a new era of computer science."]
+	quest.6F8596EF4151F76D.quest_subtitle: "Obtain Singularity."
+	quest.70127D41C2BABE39.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.70127D41C2BABE39.title: "Hooks for Larger Work"
+	quest.70712383E8482D40.quest_desc: ["Keep a bucket ready. You will use simple containers constantly when working with animals, food, and later processing steps."]
+	quest.70712383E8482D40.title: "A Bucket for the Homestead"
+	quest.70DD744279BC631E.quest_desc: ["Use processed materials to make protective work clothing. A butcher's apron makes the profession feel like a real station in your base."]
+	quest.70DD744279BC631E.title: "A Butcher's Apron"
 	quest.70E2ADBEFB1511FC.quest_desc: [
 		"Build a battery for personal energy, held in hand, and shift-click to space to toggle it. "
 		""
 		"You can craft an Energy hopper connected to the chest and insert the battery or any electric device to charge it."
 	]
 	quest.70E2ADBEFB1511FC.title: "Personal Energy"
+	quest.7104726E1451CEF6.quest_subtitle: "Complete the AE2 Weapons task."
 	quest.7104726E1451CEF6.title: "AE2 Weapons"
+	quest.712792ECBC16D1B1.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.712792ECBC16D1B1.title: "The First Cuts"
+	quest.712DA44D4A1D1459.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.712DA44D4A1D1459.title: "A Clean Work Surface"
+	quest.71983FCDFC5731D9.quest_desc: ["Do not ignore the outside of the animal. Hide, skin, and leather materials can become useful crafting resources."]
+	quest.71983FCDFC5731D9.title: "Hide and Skin"
+	quest.71B94548D090FA19.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.71B94548D090FA19.title: "Hooks for Larger Work"
 	quest.7270165EFFE25593.quest_subtitle: "{count:1,id:\"ae2:16k_crafting_storage\"}"
 	quest.72A55BE18B8270C6.quest_desc: ["The Naquadah Extraction Rig — an Industrial Foregoing Laser Drill repurposed for deep-ore mining. Requires power and time, but mines automatically."]
+	quest.72A55BE18B8270C6.quest_subtitle: "Obtain Laser Drill."
 	quest.72A55BE18B8270C6.title: "Naquadah Extraction Rig"
 	quest.7311ED0FFC4444EB.quest_desc: [
 		"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
@@ -655,23 +1142,69 @@
 	]
 	quest.7311ED0FFC4444EB.quest_subtitle: "Come in star command"
 	quest.7311ED0FFC4444EB.title: "Netherite Space Suit"
+	quest.73C8EB5BB682575E.quest_desc: ["Set up a Butcher Block. This is the basic work surface for cutting, trimming, and processing smaller pieces."]
+	quest.73C8EB5BB682575E.title: "A Clean Work Surface"
+	quest.742DE40B75EB210D.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.742DE40B75EB210D.title: "Hooks for Larger Work"
+	quest.748DB726196148CD.quest_desc: ["Large animals are easier to handle when they are hanging. Prepare a Meat Hook for carcasses and heavier processing."]
+	quest.748DB726196148CD.title: "Hooks for Larger Work"
+	quest.748DE7A00DFFD450.quest_desc: ["Before the butcher's table comes the farm. Milk is a simple daily resource and a good reminder that animals are not only meat."]
+	quest.748DE7A00DFFD450.title: "Farm Work Starts with Milk"
+	quest.74EE049E116FADB1.quest_subtitle: "Obtain Crafting Unit and 1k Crafting Storage."
+	quest.753CD35937E6FD7D.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.753CD35937E6FD7D.title: "Work Clothes, Not Armor"
 	quest.75A6E279852D6BE1.quest_subtitle: "The other white meat"
 	quest.760572711CF727BB.quest_desc: ["A new material exclusive to Mars that you'll need to progress from here is Ostrum. Gather plenty of it, you'll need it for your rocket and to upgrade much of your current machinery"]
 	quest.760572711CF727BB.quest_subtitle: "On goes Ostrum"
 	quest.760572711CF727BB.title: "Mars Metal"
+	quest.7684319E1B429AD5.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.7684319E1B429AD5.title: "Work Clothes, Not Armor"
+	quest.7712A064A87E4E4B.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.7712A064A87E4E4B.title: "Casings and Sausages"
+	quest.778561BEA3FE2475.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.778561BEA3FE2475.title: "The Meat Grinder"
+	quest.789E33366CD8BE6E.quest_subtitle: "Obtain Superconductor Ingot."
+	quest.794781ABF3E3A4CC.quest_subtitle: "Complete the Kitchen Sink task."
 	quest.794781ABF3E3A4CC.title: "Kitchen Sink"
+	quest.7972D33E5901A19B.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.7972D33E5901A19B.title: "The First Cuts"
+	quest.79F66A96F0DC4263.quest_desc: ["Prepare casings and turn ground meat into sausage-style food. This step is where the butcher shop starts to feel complete."]
+	quest.79F66A96F0DC4263.title: "Casings and Sausages"
 	quest.7A54FB158E3A91F9.quest_desc: ["You can craft charms. These charms are filled with potions and when worn grant you the corresponding effect of the potions used to create them. Over time their durability will go down."]
 	quest.7A54FB158E3A91F9.title: "Charms"
 	quest.7AA41E5027A82A90.quest_desc: [""]
 	quest.7AA41E5027A82A90.title: "Mekanism"
+	quest.7AAD764B9E42F3D9.quest_subtitle: "Obtain Pellet Antimatter."
+	quest.7ADDB93909DE3591.quest_desc: ["Heat and process animal fat into a cleaner, more useful material. Rendered fat is a bridge between butchery and crafting."]
+	quest.7ADDB93909DE3591.title: "Render the Fat"
+	quest.7AE1A1D81FF1A4BE.quest_subtitle: "Complete the Warden Armor task."
 	quest.7AE1A1D81FF1A4BE.title: "Warden Armor"
+	quest.7AFA855108C8EDB8.quest_subtitle: "Complete the Fridge task."
 	quest.7AFA855108C8EDB8.title: "Fridge"
+	quest.7B13B0C5D54F0A26.quest_desc: ["Use the Butcher Knife on a farm animal and start the real Butchercraft process instead of treating it like a normal vanilla kill."]
+	quest.7B13B0C5D54F0A26.title: "First Proper Slaughter"
+	quest.7CB632919D374782.quest_subtitle: "Obtain Trinium Ingot."
+	quest.7D1AFCC4F14A3E3E.quest_desc: ["Put the carcass on the Meat Hook. This prepares it for controlled butchering and teaches the main flow of the mod."]
+	quest.7D1AFCC4F14A3E3E.title: "Hang the Carcass"
+	quest.7D49E9D05DFEFA00.quest_subtitle: "Obtain Reaction Chamber."
 	quest.7D7BB64C4F4BA260.title: "LV transfer"
 	quest.7D83C8AEE25B0535.quest_subtitle: "Survive the Frosted Prison in Niflheim."
+	quest.7E0449D236C35FDB.quest_subtitle: "Obtain Heating Unit and Ice Unit."
+	quest.7E394A13CD05E9DE.quest_desc: ["Set up a Meat Grinder. Scraps and smaller pieces can now become ground meat instead of being wasted."]
+	quest.7E394A13CD05E9DE.title: "The Meat Grinder"
+	quest.7E530EC8C9DF8F34.quest_desc: ["Begin breaking the carcass down into usable cuts. The goal is not speed; the goal is learning what each part becomes."]
+	quest.7E530EC8C9DF8F34.title: "The First Cuts"
+	quest.7E7F74710F4BF164.quest_desc: ["A proper butcher needs a proper knife. Craft or obtain a Butcher Knife before you start processing animals the Butchercraft way."]
+	quest.7E7F74710F4BF164.title: "The Butcher's Knife"
+	quest.7EA70677B5820EB0.quest_desc: ["Finish a basic work outfit. This is not battle gear; it is a practical uniform for messy work around the butcher area."]
+	quest.7EA70677B5820EB0.title: "Work Clothes, Not Armor"
 	quest.7F2A11C4D6B8E901.quest_desc: ["Gather the clues needed to solve the final symbol. Bring a spyglass, a book and quill, and a digital circuit to complete the research."]
+	quest.7F2A11C4D6B8E901.quest_subtitle: "Obtain Spyglass, Writable Book, and Digital Circuit."
 	quest.7F2A11C4D6B8E901.title: "Finding the 7th Chevron"
 	quest.7FA54F2D5D3E5D7D.quest_desc: ["Traders offer you a way to improve your beggings, you can trade Emeralds and a Bee Cage for Strudy Bee Cage (not destroyed on release)."]
 	quest.7FA54F2D5D3E5D7D.title: "Villager"
+	quest.7FE5D97F399B576E.quest_desc: ["You now know the full basic chain: milk, tools, slaughter, hanging, cutting, rendering, grinding, cooking, and work clothing."]
+	quest.7FE5D97F399B576E.title: "Nothing Goes to Waste"
 	quest.A1B2C3D4E5F60001.quest_desc: ["With Pure Naquadah and a Classic Stargate operational, you now have the knowledge to build the ultimate gate — the Universe Stargate. It opens paths to far reaches of the galaxy."]
 	quest.A1B2C3D4E5F60001.title: "Universe Stargate"
 	quest.A1B2C3D4E5F60010.quest_desc: ["Netu is a volcanic world of fire and basalt. Rich in Osmium and dangerous enemies — tread carefully."]

@@ -7,15 +7,13 @@
 		id: "pneumaticcraft:air_compressor"
 	}
 	id: "5AA1B2C3D4E5F602"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
-	title: "Pressure Age"
 	quests: [
 		{
 			dependencies: ["5A01000000000030"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000010"
-			subtitle: "Compressed Iron — the foundation of everything in PneumaticCraft. Anvil + explosion."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -25,13 +23,19 @@
 				}
 				{
 					id: "5A02B00000000013"
-					item: { count: 1, id: "pneumaticcraft:compressed_iron_block" }
+					item: {
+						count: 1
+						id: "pneumaticcraft:compressed_iron_block"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "5A02B00000000014"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -49,7 +53,6 @@
 			dependencies: ["5A02B00000000010"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000020"
-			subtitle: "Pressure Tube carries compressed air between machines."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -60,7 +63,10 @@
 				{
 					count: 8
 					id: "5A02B00000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -76,7 +82,6 @@
 			dependencies: ["5A02B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A02000000000010"
-			subtitle: "Air Compressor — the heart of the PnC network. Generates compressed air."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -87,7 +92,10 @@
 				{
 					count: 15
 					id: "5A02000000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -105,7 +113,6 @@
 			dependencies: ["5A02B00000000020"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000030"
-			subtitle: "Charging Station charges pneumatic tools and armor with compressed air."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -116,7 +123,10 @@
 				{
 					count: 8
 					id: "5A02B00000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -132,7 +142,6 @@
 			dependencies: ["5A02B00000000010"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000040"
-			subtitle: "Oil — the key raw material for plastics. Find it underground or in the ocean."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -143,7 +152,10 @@
 				{
 					count: 8
 					id: "5A02B00000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -164,7 +176,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A02B00000000050"
-			subtitle: "The refinery breaks oil into diesel, kerosene and lubricant."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -175,7 +186,10 @@
 				{
 					count: 12
 					id: "5A02B00000000053"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -186,7 +200,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 4L
 					id: "5A02B00000000054"
 					item: { count: 1, id: "pneumaticcraft:refinery_output" }
 					type: "item"
@@ -199,7 +213,6 @@
 			dependencies: ["5A02B00000000050"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000060"
-			subtitle: "Plastic — the basic PnC material for advanced components."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -210,7 +223,10 @@
 				{
 					count: 12
 					id: "5A02B00000000063"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -226,7 +242,6 @@
 			dependencies: ["5A02000000000010"]
 			hide_until_deps_complete: true
 			id: "5A02000000000020"
-			subtitle: "The Pressure Chamber compresses and combines materials at high pressure."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -237,14 +252,17 @@
 				{
 					count: 15
 					id: "5A02000000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
 					id: "5A02000000000021"
-					item: { count: 4, id: "pneumaticcraft:pressure_chamber_wall" }
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
 					type: "item"
 				}
 				{
@@ -253,7 +271,7 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 2L
 					id: "5A02B00000000072"
 					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
 					type: "item"
@@ -274,7 +292,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A02B00000000080"
-			subtitle: "Etching acid and etching tank — prepare circuit blanks for PCB production."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -285,7 +302,10 @@
 				{
 					count: 12
 					id: "5A02B00000000083"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -308,7 +328,6 @@
 			dependencies: ["5A02B00000000080"]
 			hide_until_deps_complete: true
 			id: "5A02B00000000090"
-			subtitle: "UV Light Box cures photopolymer masks for circuit manufacturing."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -319,7 +338,10 @@
 				{
 					count: 12
 					id: "5A02B00000000093"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -338,7 +360,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A02B000000000A0"
-			subtitle: "Assembly System — automated production of PCBs and other components."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -349,7 +370,10 @@
 				{
 					count: 20
 					id: "5A02B000000000A3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -392,7 +416,6 @@
 			dependencies: ["5A02B000000000A0"]
 			hide_until_deps_complete: true
 			id: "5A02B000000000B0"
-			subtitle: "Assembly Programmer tells the system which program to run — drill, laser, or both."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -403,7 +426,10 @@
 				{
 					count: 15
 					id: "5A02B000000000B3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -419,7 +445,6 @@
 			dependencies: ["5A02B000000000A0"]
 			hide_until_deps_complete: true
 			id: "5A02000000000030"
-			subtitle: "Printed Circuit Board — the gate to MI Electric Age. Assembly System complete."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -430,7 +455,10 @@
 				{
 					count: 20
 					id: "5A02000000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -448,7 +476,6 @@
 			dependencies: ["5A02000000000030"]
 			hide_until_deps_complete: true
 			id: "5A02B000000000C0"
-			subtitle: "Advanced Pressure Tube handles higher pressure — needed for late PnC machines."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -459,7 +486,10 @@
 				{
 					count: 15
 					id: "5A02B000000000C3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -475,7 +505,6 @@
 			dependencies: ["5A02B000000000C0"]
 			hide_until_deps_complete: true
 			id: "5A02B000000000D0"
-			subtitle: "Advanced Air Compressor generates much higher pressure for advanced systems."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -486,7 +515,10 @@
 				{
 					count: 18
 					id: "5A02B000000000D3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -502,7 +534,6 @@
 			dependencies: ["5A02B000000000C0"]
 			hide_until_deps_complete: true
 			id: "5A02B000000000E0"
-			subtitle: "Minigun — pneumatic weapon with high fire rate. Requires compressed air ammo."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -513,7 +544,10 @@
 				{
 					count: 15
 					id: "5A02B000000000E3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -536,7 +570,6 @@
 			dependencies: ["5A02B000000000E0"]
 			hide_until_deps_complete: true
 			id: "5A02B000000000F0"
-			subtitle: "Sentry Turret defends your base automatically. Pair with a Minigun for best effect."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -547,7 +580,10 @@
 				{
 					count: 15
 					id: "5A02B000000000F3"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -566,7 +602,6 @@
 			]
 			hide_until_deps_complete: true
 			id: "5A02B00000000100"
-			subtitle: "Aerial Interface — connects your pneumatic network to your inventory from anywhere."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -577,7 +612,10 @@
 				{
 					count: 25
 					id: "5A02B00000000103"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]

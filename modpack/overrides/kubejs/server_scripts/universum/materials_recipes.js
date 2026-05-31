@@ -19,6 +19,30 @@ ServerEvents.recipes(event => {
         item_outputs: [{ amount: 1, item: 'universum:bismuth_dust' }]
     })
 
+    // Flax -> string and straw via MI Macerator / Crusher.
+    event.custom({
+        type: 'modern_industrialization:macerator',
+        eu: 2,
+        duration: 200,
+        item_inputs: [{ amount: 2, item: 'culturaldelights:flax' }],
+        item_outputs: [
+            { amount: 3, item: 'minecraft:string' },
+            { amount: 2, item: 'modern_industrialization:straw' }
+        ]
+    })
+
+    // Crusher variant for the same flax processing path.
+    event.custom({
+        type: 'modern_industrialization:crusher',
+        eu: 2,
+        duration: 200,
+        item_inputs: [{ amount: 2, item: 'culturaldelights:flax' }],
+        item_outputs: [
+            { amount: 3, item: 'minecraft:string' },
+            { amount: 2, item: 'modern_industrialization:straw' }
+        ]
+    })
+
     // --- Trinium ---
 
     // Smelting raw trinium → trinium ingot

@@ -9,13 +9,11 @@
 	id: "5AA1B2C3D4E5F606"
 	order_index: 7
 	quest_links: [ ]
-	title: "EV Age"
 	quests: [
 		{
 			dependencies: ["5A05000000000040"]
 			hide_until_deps_complete: true
 			id: "5A06000000000010"
-			subtitle: "Highly Advanced Machine Hull — EV tier MI. Opens the path to quantum circuits and MekaSuit."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -26,7 +24,10 @@
 				{
 					count: 45
 					id: "5A06000000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -44,7 +45,6 @@
 			dependencies: ["5A06000000000010"]
 			hide_until_deps_complete: true
 			id: "5A06B00000000010"
-			subtitle: "Oannes — an ocean dimension hiding Naquadria deposits. Bring strong armor and a plan."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -55,7 +55,10 @@
 				{
 					count: 45
 					id: "5A06B00000000013"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -74,7 +77,6 @@
 			dependencies: ["5A06B00000000010"]
 			hide_until_deps_complete: true
 			id: "5A06000000000020"
-			subtitle: "Naquadria — exotic ore from Oannes. The energy source behind the MekaSuit power module."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -85,7 +87,10 @@
 				{
 					count: 50
 					id: "5A06000000000023"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -101,7 +106,6 @@
 			dependencies: ["5A06000000000010"]
 			hide_until_deps_complete: true
 			id: "5A06000000000030"
-			subtitle: "Module Base — the foundation of all MekaSuit modules. Craft this first."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -112,7 +116,10 @@
 				{
 					count: 40
 					id: "5A06000000000033"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -125,12 +132,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"5A06000000000030"
-			]
+			dependencies: ["5A06000000000030"]
 			hide_until_deps_complete: true
 			id: "5A06B00000000050"
-			subtitle: "Energy Unit (Naquadria-powered) — the module that makes MekaSuit self-sustaining."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -141,7 +145,10 @@
 				{
 					count: 50
 					id: "5A06B00000000053"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]
@@ -154,12 +161,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"5A06B00000000050"
-			]
+			dependencies: ["5A06B00000000050"]
 			hide_until_deps_complete: true
 			id: "5A06000000000040"
-			subtitle: "MekaSuit Helmet — the first piece of the ultimate exo-armor. EV Age begins in earnest."
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -170,7 +174,10 @@
 				{
 					count: 60
 					id: "5A06000000000043"
-					item: { count: 1, id: "libraryferret:gold_coins_jtl" }
+					item: {
+						count: 1
+						id: "libraryferret:gold_coins_jtl"
+					}
 					type: "item"
 				}
 			]

@@ -6,8 +6,8 @@
 ItemEvents.modifyTooltips(event => {
 
     // MI Electric Age gate — Basic Machine Hull
-    event.add('modern_industrialization:basic_machine_hull', Text.gold('⚠ Requires: Refined Naquadah + PnC Printed Circuit Board'))
-    event.add('modern_industrialization:basic_machine_hull', Text.gray('→ Travel through the Stargate to Abydos, build PnC Pressure Chamber'))
+    event.add('modern_industrialization:basic_machine_hull', Text.gold('⚠ Requires: PnC Printed Circuit Board'))
+    event.add('modern_industrialization:basic_machine_hull', Text.gray('→ Travel through the Stargate to Abydos and build the PnC Pressure Chamber'))
 
     // IF machines — locked behind Chulak
     event.add('industrialforegoing:plant_sower', Text.gold('⚠ Requires: Jaffa Bio-Tech (Chulak)'))

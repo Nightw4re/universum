@@ -7,7 +7,7 @@
 		id: "industrialforegoing:plant_gatherer"
 	}
 	id: "0816AFA71A1B5958"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

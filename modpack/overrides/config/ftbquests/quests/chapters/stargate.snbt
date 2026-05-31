@@ -7,25 +7,15 @@
 		id: "sgjourney:universe_stargate_chevron"
 	}
 	id: "14C03B8DB3D755C6"
-	images: [
-		{
-			height: 2.0d
-			image: "explorerscompass:item/explorerscompass_16"
-			rotation: 0.0d
-			width: 2.0d
-			x: -13.0d
-			y: -8.0d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/spyglass"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: -5.0d
-		}
-	]
-	order_index: 4
+	images: [{
+		height: 2.0d
+		image: "minecraft:item/spyglass"
+		rotation: 0.0d
+		width: 2.0d
+		x: -4.5d
+		y: -5.0d
+	}]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -392,7 +382,7 @@
 				}
 				{
 					id: "79B38825A4281478"
-					item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:copper_iris)item(sgjourney:iron_iris)item(sgjourney:golden_iris)item(sgjourney:diamond_iris)item(sgjourney:netherite_iris)item(sgjourney:naquadah_alloy_iris)item(sgjourney:bronze_iris)item(sgjourney:steel_iris))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(sgjourney:copper_iris)item(sgjourney:iron_iris)item(sgjourney:golden_iris)item(sgjourney:diamond_iris)item(sgjourney:netherite_iris)item(sgjourney:naquadah_alloy_iris)item(sgjourney:bronze_iris)item(sgjourney:steel_iris))", "minecraft:custom_name": "\"Stargate Iris\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -470,46 +460,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0A3FAAEB1285FA7A"
-				"3560DF7703EDA4B1"
-			]
-			hide_until_deps_complete: true
-			icon: {
-				id: "sgjourney:universe_stargate_chevron"
-			}
-			id: "595BB8D572A260FD"
-			rewards: [
-				{
-					id: "0E5D67DC1EBF463C"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					count: 5
-					id: "67E3CA6E22C5FA75"
-					item: {
-						count: 1
-						id: "libraryferret:gold_coins_jtl"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "542C7DF1E93F6C1B"
-				item: { count: 1, id: "sgjourney:universe_stargate" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"595BB8D572A260FD"
-				"42930133E46A0A7A"
-			]
+			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "5E3B3AAD899C02D6"
 			rewards: [
@@ -535,14 +486,11 @@
 				id: "1E5DE144AB12C2F2"
 				type: "dimension"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"595BB8D572A260FD"
-				"42930133E46A0A7A"
-			]
+			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "12922AC39F0CAF01"
 			rewards: [
@@ -569,13 +517,10 @@
 				type: "dimension"
 			}]
 			x: 5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"595BB8D572A260FD"
-				"42930133E46A0A7A"
-			]
+			dependencies: ["42930133E46A0A7A"]
 			hide_until_deps_complete: true
 			id: "0535DD3AE5424DDE"
 			rewards: [
@@ -602,7 +547,7 @@
 				type: "dimension"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["12922AC39F0CAF01"]
@@ -633,7 +578,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0535DD3AE5424DDE"]
@@ -664,7 +609,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
