@@ -116,7 +116,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: universum-modrinth
-          path: build/modrinth/*.zip
+          path: build/modrinth/*.mrpack
           if-no-files-found: error
 
   publish_curseforge:
@@ -172,7 +172,7 @@ jobs:
         with:
           modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: build/*.zip
+          files: build/*.mrpack
           name: Universum v${{ needs.version_check.outputs.current }}
           version: ${{ needs.version_check.outputs.current }}
           version-type: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || 'release' }}

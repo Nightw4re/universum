@@ -7,7 +7,7 @@ import packageJson from '../package.json' with { type: 'json' };
 
 const stagingDir = join(buildDir, 'modrinth-stage');
 const outputDir = join(buildDir, 'modrinth');
-const outputZip = join(outputDir, `Universum-v${packageJson.version}-modrinth.zip`);
+const outputZip = join(outputDir, `Universum-v${packageJson.version}-modrinth.mrpack`);
 
 async function copyDir(src, dst) {
     await fs.mkdir(dst, { recursive: true });
