@@ -25,7 +25,7 @@ async function copyDir(src, dst) {
 
 async function makeIndex() {
     const index = {
-        format_version: 1,
+        formatVersion: 1,
         game: 'minecraft',
         versionId: packageJson.version,
         name: `Universum v${packageJson.version}`,
