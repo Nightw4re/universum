@@ -6,7 +6,6 @@
  * Strategy:
  *   - kubejs/        → full sync (everything is custom)
  *   - config/        → selective sync (only files already tracked in overrides/config)
- *   - resourcepacks/ → full sync
  *
  * Usage:
  *   node scripts/sync.mjs              # dry-run (shows what would change)
@@ -17,6 +16,7 @@
 import { join } from 'path';
 import { exists, transferFull, transferSelective } from './lib/transfer.mjs';
 import { gameInstance, overridesDir } from './cfg.mjs';
+import { generateManifest } from './manifest.mjs';
 
 const args = process.argv.slice(2);
 const opts = { dryRun: !args.includes('--apply'), verbose: args.includes('--verbose') };
@@ -33,7 +33,11 @@ async function main() {
 
     await transferFull(join(gameInstance, 'kubejs'), join(overridesDir, 'kubejs'), 'kubejs', opts);
     await transferSelective(join(gameInstance, 'config'), join(overridesDir, 'config'), 'config', opts, join(overridesDir, 'config'));
-    await transferFull(join(gameInstance, 'resourcepacks'), join(overridesDir, 'resourcepacks'), 'resourcepacks', opts);
+
+    if (!opts.dryRun) {
+        console.log('\n[manifest] refreshing manifest.json and modlist.html from the game instance');
+        await generateManifest();
+    }
 
     console.log(opts.dryRun ? '\n=== DRY RUN complete. Re-run with --apply to copy. ===' : '\n=== Sync complete. ===');
 }

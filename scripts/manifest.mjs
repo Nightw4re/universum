@@ -17,12 +17,13 @@
 
 import { readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
+import { fileURLToPath } from 'url';
 import { gameInstance, manifest, modlist } from './cfg.mjs';
 import packageJson from '../package.json' with { type: 'json' };
 
 const instanceFile = join(gameInstance, 'minecraftinstance.json');
 
-async function generateManifest() {
+export async function generateManifest() {
     let mcdata;
     try {
         mcdata = JSON.parse(await readFile(instanceFile, 'utf8'));
@@ -70,4 +71,6 @@ async function generateManifest() {
     console.log('modlist.html written');
 }
 
-generateManifest().catch(err => { console.error(err); process.exit(1); });
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+    generateManifest().catch(err => { console.error(err); process.exit(1); });
+}
