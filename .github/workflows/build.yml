@@ -63,6 +63,8 @@ jobs:
     needs: version_check
     if: github.event_name == 'workflow_dispatch' || needs.version_check.outputs.changed == 'true'
     runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.content }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -70,6 +72,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Generate changelog
+        id: changelog
+        run: |
+          echo "content<<EOF" >> "$GITHUB_OUTPUT"
+          node scripts/release-notes.mjs >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
       - name: Install
         run: npm ci
       - name: Build ZIP archive
@@ -85,6 +93,8 @@ jobs:
     needs: version_check
     if: github.event_name == 'workflow_dispatch' || needs.version_check.outputs.changed == 'true'
     runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.content }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -92,6 +102,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Generate changelog
+        id: changelog
+        run: |
+          echo "content<<EOF" >> "$GITHUB_OUTPUT"
+          node scripts/release-notes.mjs >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
       - name: Install
         run: npm ci
       - name: Build Modrinth pack
