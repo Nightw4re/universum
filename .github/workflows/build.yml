@@ -17,6 +17,11 @@ on:
           - curseforge
           - modrinth
           - both
+      force_publish:
+        description: Force publish even if version did not change
+        required: true
+        type: boolean
+        default: false
       release_channel:
         description: Release channel
         required: true
@@ -46,7 +51,9 @@ jobs:
           current=$(node -p "require('./package.json').version")
           previous=$(git show HEAD~1:package.json 2>/dev/null | node -p "JSON.parse(require('fs').readFileSync(0, 'utf8')).version" || true)
           echo "current=$current" >> "$GITHUB_OUTPUT"
-          if [ -n "$previous" ] && [ "$current" = "$previous" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force_publish }}" = "true" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          elif [ -n "$previous" ] && [ "$current" = "$previous" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
