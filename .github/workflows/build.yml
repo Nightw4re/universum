@@ -121,11 +121,18 @@ jobs:
           name: universum-zip
           path: build
       - name: Publish to CurseForge
-        env:
-          CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
-          CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
-          RELEASE_CHANNEL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || 'release' }}
-        run: node scripts/upload.mjs
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_API_TOKEN }}
+          files: build/*.zip
+          name: Universum v${{ needs.version_check.outputs.current }}
+          version: ${{ needs.version_check.outputs.current }}
+          version-type: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || 'release' }}
+          changelog: ${{ needs.build.outputs.changelog }}
+          loaders: neoforge
+          game-versions: 1.21.1
+          java: 21
 
   publish_modrinth:
     needs: [version_check, build_modrinth]
@@ -145,44 +152,15 @@ jobs:
           name: universum-modrinth
           path: build
       - name: Publish to Modrinth
-        shell: bash
-        env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
-          VERSION: ${{ needs.version_check.outputs.current }}
-          RELEASE_CHANNEL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || 'release' }}
-        run: |
-          set -euo pipefail
-          zip_file=$(find build -maxdepth 1 -name '*.zip' -print -quit)
-          if [ -z "$zip_file" ]; then
-            echo "No zip artifact found in build/"
-            exit 1
-          fi
-          payload=$(node --input-type=module <<'NODE'
-          import { getReleaseNotes } from './scripts/release-notes.mjs';
-
-          const releaseChannel = process.env.RELEASE_CHANNEL;
-          const featured = releaseChannel === 'release';
-          const status = featured ? 'listed' : 'unlisted';
-
-          process.stdout.write(JSON.stringify({
-            name: `Universum v${process.env.VERSION}`,
-            version_number: process.env.VERSION,
-            changelog: getReleaseNotes(),
-            dependencies: [],
-            game_versions: ['1.21.1'],
-            version_type: releaseChannel,
-            loaders: ['neoforge'],
-            featured,
-            status,
-            requested_status: status,
-            project_id: process.env.MODRINTH_PROJECT_ID,
-            file_parts: ['file'],
-            primary_file: 'file',
-          }));
-NODE
-          )
-          curl -fsS -X POST "https://api.modrinth.com/v2/version" \
-            -H "Authorization: $MODRINTH_TOKEN" \
-            -F "data=$payload;type=application/json" \
-            -F "file=@${zip_file};type=application/zip"
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: build/*.zip
+          name: Universum v${{ needs.version_check.outputs.current }}
+          version: ${{ needs.version_check.outputs.current }}
+          version-type: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.release_channel || 'release' }}
+          changelog: ${{ needs.build_modrinth.outputs.changelog }}
+          loaders: neoforge
+          game-versions: 1.21.1
+          java: 21
