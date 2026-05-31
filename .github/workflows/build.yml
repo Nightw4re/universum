@@ -158,31 +158,29 @@ jobs:
             echo "No zip artifact found in build/"
             exit 1
           fi
-          changelog=$(node --input-type=module -e "import { getReleaseNotes } from './scripts/release-notes.mjs'; process.stdout.write(getReleaseNotes())")
-          if [ "$RELEASE_CHANNEL" = "release" ]; then
-            featured=true
-            status=listed
-          else
-            featured=false
-            status=unlisted
-          fi
-          payload=$(cat <<JSON
-          {
-            "name": "Universum v${VERSION}",
-            "version_number": "${VERSION}",
-            "changelog": ${changelog@Q},
-            "dependencies": [],
-            "game_versions": ["1.21.1"],
-            "version_type": "${RELEASE_CHANNEL}",
-            "loaders": ["neoforge"],
-            "featured": ${featured},
-            "status": "${status}",
-            "requested_status": "${status}",
-            "project_id": "${MODRINTH_PROJECT_ID}",
-            "file_parts": ["file"],
-            "primary_file": "file"
-          }
-          JSON
+          payload=$(node --input-type=module <<'NODE'
+          import { getReleaseNotes } from './scripts/release-notes.mjs';
+
+          const releaseChannel = process.env.RELEASE_CHANNEL;
+          const featured = releaseChannel === 'release';
+          const status = featured ? 'listed' : 'unlisted';
+
+          process.stdout.write(JSON.stringify({
+            name: `Universum v${process.env.VERSION}`,
+            version_number: process.env.VERSION,
+            changelog: getReleaseNotes(),
+            dependencies: [],
+            game_versions: ['1.21.1'],
+            version_type: releaseChannel,
+            loaders: ['neoforge'],
+            featured,
+            status,
+            requested_status: status,
+            project_id: process.env.MODRINTH_PROJECT_ID,
+            file_parts: ['file'],
+            primary_file: 'file',
+          }));
+NODE
           )
           curl -fsS -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: $MODRINTH_TOKEN" \
