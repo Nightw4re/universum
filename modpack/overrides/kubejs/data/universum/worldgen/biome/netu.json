@@ -52,6 +52,10 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
+      "universum:ore_osmium_netu_placed",
+      "universum:ore_osmium_deepslate_netu_placed",
+      "universum:ore_bismuth_netu_placed",
+      "universum:ore_deepslate_bismuth_netu_placed",
       "minecraft:disk_gravel"
     ],
     [],
