@@ -1,0 +1,17 @@
+{
+	"name": "solar_system.universum.niflheim",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"address": [4, 10, 16, 22, 27, 31, 36], "randomizable": true},
+	"addresses":
+	[
+		{"galaxy": "sgjourney:milky_way", "address": {"address": [3, 9, 14, 21, 28, 33], "randomizable": true}}
+	],
+
+	"point_of_origin": "sgjourney:serpent",
+
+	"dimensions":
+	[
+		"universum:niflheim"
+	]
+}
