@@ -1,0 +1,12 @@
+{
+  "structures": [
+    {
+      "structure": "universum:stargate/milky_way/pedestal/oannes_surface_stargate_pedestal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "sgjourney:stargate_placement",
+    "salt": 92837468
+  }
+}
