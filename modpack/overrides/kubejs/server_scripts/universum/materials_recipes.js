@@ -9,6 +9,10 @@ ServerEvents.recipes(event => {
     // Smelting raw bismuth → bismuth ingot
     event.smelting('universum:bismuth_ingot', 'universum:raw_bismuth').xp(0.7).cookingTime(200)
     event.blasting('universum:bismuth_ingot', 'universum:raw_bismuth').xp(0.7).cookingTime(100)
+    event.smelting('universum:bismuth_ingot', 'universum:bismuth_ore').xp(0.7).cookingTime(200)
+    event.blasting('universum:bismuth_ingot', 'universum:bismuth_ore').xp(0.7).cookingTime(100)
+    event.smelting('universum:bismuth_ingot', 'universum:deepslate_bismuth_ore').xp(0.7).cookingTime(200)
+    event.blasting('universum:bismuth_ingot', 'universum:deepslate_bismuth_ore').xp(0.7).cookingTime(100)
 
     // Bismuth ingot → bismuth dust via MI Macerator
     event.custom({
@@ -19,35 +23,15 @@ ServerEvents.recipes(event => {
         item_outputs: [{ amount: 1, item: 'universum:bismuth_dust' }]
     })
 
-    // Flax -> string and straw via MI Macerator / Crusher.
-    event.custom({
-        type: 'modern_industrialization:macerator',
-        eu: 2,
-        duration: 200,
-        item_inputs: [{ amount: 2, item: 'culturaldelights:flax' }],
-        item_outputs: [
-            { amount: 3, item: 'minecraft:string' },
-            { amount: 2, item: 'modern_industrialization:straw' }
-        ]
-    })
-
-    // Crusher variant for the same flax processing path.
-    event.custom({
-        type: 'modern_industrialization:crusher',
-        eu: 2,
-        duration: 200,
-        item_inputs: [{ amount: 2, item: 'culturaldelights:flax' }],
-        item_outputs: [
-            { amount: 3, item: 'minecraft:string' },
-            { amount: 2, item: 'modern_industrialization:straw' }
-        ]
-    })
-
     // --- Trinium ---
 
     // Smelting raw trinium → trinium ingot
     event.smelting('universum:trinium_ingot', 'universum:raw_trinium').xp(1.0).cookingTime(400)
     event.blasting('universum:trinium_ingot', 'universum:raw_trinium').xp(1.0).cookingTime(200)
+    event.smelting('universum:trinium_ingot', 'universum:trinium_ore').xp(1.0).cookingTime(400)
+    event.blasting('universum:trinium_ingot', 'universum:trinium_ore').xp(1.0).cookingTime(200)
+    event.smelting('universum:trinium_ingot', 'universum:deepslate_trinium_ore').xp(1.0).cookingTime(400)
+    event.blasting('universum:trinium_ingot', 'universum:deepslate_trinium_ore').xp(1.0).cookingTime(200)
 
     // Trinium iris — sgjourney has no default recipe for this, so no removal needed
     event.shaped('sgjourney:trinium_iris', [
@@ -61,6 +45,13 @@ ServerEvents.recipes(event => {
     })
 
     // --- Naquadria ---
+
+    event.smelting('universum:naquadria', 'universum:raw_naquadria').xp(1.0).cookingTime(400)
+    event.blasting('universum:naquadria', 'universum:raw_naquadria').xp(1.0).cookingTime(200)
+    event.smelting('universum:naquadria', 'universum:naquadria_ore').xp(1.0).cookingTime(400)
+    event.blasting('universum:naquadria', 'universum:naquadria_ore').xp(1.0).cookingTime(200)
+    event.smelting('universum:naquadria', 'universum:deepslate_naquadria_ore').xp(1.0).cookingTime(400)
+    event.blasting('universum:naquadria', 'universum:deepslate_naquadria_ore').xp(1.0).cookingTime(200)
 
     // Naquadah → Naquadria via MI Implosion Compressor
     // Naquadria is a high-energy unstable isotope of Naquadah — requires extreme pressure to synthesize.
