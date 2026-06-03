@@ -4,7 +4,7 @@
     "rolls": 1,
     "entries": [{
       "type": "minecraft:item",
-      "name": "universum:naquadria"
+      "name": "universum:raw_naquadria"
     }]
   }]
 }
