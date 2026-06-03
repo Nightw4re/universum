@@ -5,6 +5,10 @@ ServerEvents.loaded(event => {
 
   const gates = [
     {
+      key: 'overworld',
+      command: 'execute in minecraft:overworld run place structure sgjourney:stargate/milky_way/terra_stargate -1136 160 182'
+    },
+    {
       key: 'netu',
       command: 'execute in universum:netu run place structure sgjourney:stargate/milky_way/pedestal/stargate_pedestal_cavum_tenebrae 0 80 0'
     },
@@ -19,7 +23,17 @@ ServerEvents.loaded(event => {
   ]
 
   for (const gate of gates) {
-    server.runCommandSilent(`execute unless score #${gate.key} universum_gate_bootstrap matches 1 run ${gate.command}`)
-    server.runCommandSilent(`scoreboard players set #${gate.key} universum_gate_bootstrap 1`)
+    const skipped = server.runCommandSilent(`execute if score #${gate.key} universum_gate_bootstrap matches 1 run say [Universum] Stargate bootstrap already ran for ${gate.key}`)
+    if (skipped > 0) continue
+
+    console.info(`[Universum] Stargate bootstrap running for ${gate.key}: ${gate.command}`)
+    const result = server.runCommand(gate.command)
+    console.info(`[Universum] Stargate bootstrap result for ${gate.key}: ${result}`)
+
+    if (result > 0) {
+      server.runCommandSilent(`scoreboard players set #${gate.key} universum_gate_bootstrap 1`)
+    } else {
+      console.warn(`[Universum] Stargate bootstrap did not place ${gate.key}; it will retry on the next server load.`)
+    }
   }
 })
