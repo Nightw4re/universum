@@ -10,6 +10,8 @@ const outputDir = join(buildDir, 'modrinth');
 const outputZip = join(outputDir, `Universum-v${packageJson.version}-modrinth.mrpack`);
 const instanceManifestPath = join(gameInstance, 'minecraftinstance.json');
 const modrinthUserAgent = 'universum-modrinth-builder/1.0';
+const curseForgeApiToken = process.env.CURSEFORGE_API_TOKEN;
+const curseForgeFilesUrl = 'https://api.curseforge.com/v1/mods/files';
 const modrinthFallbackProjects = {
     261251: 'bad-wither-no-cookie',
     448233: 'entityculling',
@@ -39,10 +41,10 @@ async function readJson(path) {
     return JSON.parse(await fs.readFile(path, 'utf8'));
 }
 
-function getSha1Hash(file) {
-    const sha1 = file.hashes?.find((hash) => hash.type === 1)?.value;
+function getSha1Hash(modFile) {
+    const sha1 = modFile.hashes?.find((hash) => hash.type === 1)?.value;
     if (!sha1) {
-        throw new Error(`Missing SHA-1 hash for CurseForge file ${file.projectId}/${file.id}`);
+        throw new Error(`Missing SHA-1 hash for CurseForge file ${modFile.projectID}/${modFile.fileID}`);
     }
     return sha1;
 }
@@ -93,56 +95,134 @@ function makeModrinthFileFromVersion(version, fileName) {
     };
 }
 
-async function getModrinthFiles(cfManifest, instanceData) {
-    const addons = new Map(
-        instanceData.installedAddons.map((addon) => [
-            `${addon.installedFile.projectId}:${addon.installedFile.id}`,
-            addon,
-        ]),
+function normalizeInstanceFile(addon) {
+    const file = addon.installedFile;
+
+    return {
+        name: addon.name,
+        projectID: file.projectId,
+        fileID: file.id,
+        fileName: file.fileName,
+        downloadUrl: file.downloadUrl,
+        fileLength: file.fileLength,
+        hashes: file.hashes,
+        blocked: addon.exportDisabledReason !== 0 || addon.allowModDistribution === false,
+    };
+}
+
+function normalizeCurseForgeFile(manifestFile, file) {
+    return {
+        name: file.displayName || file.fileName,
+        projectID: manifestFile.projectID,
+        fileID: file.id,
+        fileName: file.fileName,
+        downloadUrl: file.downloadUrl,
+        fileLength: file.fileLength,
+        hashes: file.hashes,
+        blocked: Boolean(modrinthFallbackProjects[manifestFile.projectID]),
+    };
+}
+
+async function getLocalInstanceFiles() {
+    if (!existsSync(instanceManifestPath)) {
+        return null;
+    }
+
+    const instanceData = await readJson(instanceManifestPath);
+    return new Map(
+        instanceData.installedAddons.map((addon) => {
+            const file = normalizeInstanceFile(addon);
+            return [`${file.projectID}:${file.fileID}`, file];
+        }),
     );
+}
+
+async function getCurseForgeFiles(cfManifest) {
+    if (!curseForgeApiToken) {
+        throw new Error(
+            `Missing ${instanceManifestPath} and CURSEFORGE_API_TOKEN is not set. ` +
+            'Set CURSEFORGE_API_TOKEN in CI so Modrinth builds can resolve CurseForge file metadata.'
+        );
+    }
+
+    const response = await fetch(curseForgeFilesUrl, {
+        method: 'POST',
+        headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+            'x-api-key': curseForgeApiToken,
+        },
+        body: JSON.stringify({
+            fileIds: cfManifest.files.map((file) => file.fileID),
+        }),
+    });
+
+    if (!response.ok) {
+        throw new Error(`Failed to retrieve CurseForge file metadata: HTTP ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const filesById = new Map(payload.data.map((file) => [file.id, file]));
+
+    return new Map(
+        cfManifest.files.map((manifestFile) => {
+            const file = filesById.get(manifestFile.fileID);
+            if (!file) {
+                throw new Error(`CurseForge API did not return metadata for file ${manifestFile.fileID}`);
+            }
+
+            const normalized = normalizeCurseForgeFile(manifestFile, file);
+            return [`${normalized.projectID}:${normalized.fileID}`, normalized];
+        }),
+    );
+}
+
+async function getSourceFiles(cfManifest) {
+    return await getLocalInstanceFiles() ?? await getCurseForgeFiles(cfManifest);
+}
+
+async function getModrinthFiles(cfManifest, sourceFiles) {
 
     const files = [];
 
     for (const manifestFile of cfManifest.files) {
         const key = `${manifestFile.projectID}:${manifestFile.fileID}`;
-        const addon = addons.get(key);
+        const modFile = sourceFiles.get(key);
 
-        if (!addon) {
+        if (!modFile) {
             throw new Error(
-                `Mod ${key} is present in modpack/manifest.json but missing from ${instanceManifestPath}. ` +
-                'Run `npm run manifest` after syncing the CurseForge instance.'
+                `Mod ${key} is present in modpack/manifest.json but missing from resolved CurseForge metadata.`
             );
         }
 
-        if (addon.exportDisabledReason !== 0 || addon.allowModDistribution === false) {
+        if (modFile.blocked) {
             const slug = modrinthFallbackProjects[manifestFile.projectID];
             if (!slug) {
                 throw new Error(
-                    `Mod ${addon.name} (${key}) is blocked for CurseForge export and has no Modrinth fallback mapping.`
+                    `Mod ${modFile.name} (${key}) is blocked for CurseForge export and has no Modrinth fallback mapping.`
                 );
             }
 
-            const version = await getModrinthVersion(slug, addon.installedFile.fileName, cfManifest.minecraft.version);
-            files.push(makeModrinthFileFromVersion(version, addon.installedFile.fileName));
+            const version = await getModrinthVersion(slug, modFile.fileName, cfManifest.minecraft.version);
+            files.push(makeModrinthFileFromVersion(version, modFile.fileName));
             continue;
         }
 
-        const file = addon.installedFile;
-        if (!file.downloadUrl) {
-            throw new Error(`Missing download URL for ${addon.name} (${key})`);
+        if (!modFile.downloadUrl) {
+            throw new Error(`Missing download URL for ${modFile.name} (${key})`);
         }
 
         files.push({
-            path: `mods/${file.fileName}`,
+            path: `mods/${modFile.fileName}`,
             hashes: {
-                sha1: getSha1Hash(file),
+                sha1: getSha1Hash(modFile),
             },
             env: {
                 client: 'required',
                 server: 'required',
             },
-            downloads: [file.downloadUrl],
-            fileSize: file.fileLength,
+            downloads: [modFile.downloadUrl],
+            fileSize: modFile.fileLength,
         });
     }
 
@@ -155,7 +235,7 @@ async function getModrinthFiles(cfManifest, instanceData) {
 
 async function makeIndex() {
     const cfManifest = await readJson(manifestPath);
-    const instanceData = await readJson(instanceManifestPath);
+    const sourceFiles = await getSourceFiles(cfManifest);
     const neoforge = cfManifest.minecraft.modLoaders.find((loader) => loader.primary)?.id?.replace(/^neoforge-/, '');
 
     if (!neoforge) {
@@ -168,7 +248,7 @@ async function makeIndex() {
         versionId: packageJson.version,
         name: `Universum v${packageJson.version}`,
         summary: 'Stargate-themed NeoForge modpack.',
-        files: await getModrinthFiles(cfManifest, instanceData),
+        files: await getModrinthFiles(cfManifest, sourceFiles),
         dependencies: {
             minecraft: cfManifest.minecraft.version,
             neoforge,
