@@ -52,6 +52,8 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
+      "universum:ore_trinium_niflheim_placed",
+      "universum:ore_deepslate_trinium_niflheim_placed",
       "minecraft:disk_gravel"
     ],
     [],

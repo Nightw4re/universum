@@ -13,6 +13,7 @@ StartupEvents.registry('item', event => {
     event.create('universum:trinium_ingot').texture('universum:item/trinium_ingot')
 
     // Naquadria
+    event.create('universum:raw_naquadria').texture('universum:item/raw_naquadria')
     event.create('universum:naquadria').texture('universum:item/naquadria')
 
     // Naquadah Plate — compressed naquadah for Turbo Machine Hull
