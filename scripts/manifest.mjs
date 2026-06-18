@@ -18,7 +18,7 @@
 import { readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
-import { gameInstance, manifest, modlist } from './cfg.mjs';
+import { gameInstance, manifest, modlist, modrinthFiles } from './cfg.mjs';
 import packageJson from '../package.json' with { type: 'json' };
 
 const instanceFile = join(gameInstance, 'minecraftinstance.json');
@@ -51,6 +51,7 @@ export async function generateManifest() {
     };
 
     let html = '<ul>';
+    const modrinthFileIndex = {};
 
     const addons = [...mcdata.installedAddons].sort((a, b) =>
         a.installedFile.projectId > b.installedFile.projectId ? 1 : -1
@@ -60,6 +61,16 @@ export async function generateManifest() {
         const file = addon.installedFile;
         html += `\n<li><a href="${addon.webSiteURL}">${addon.name} (by ${addon.primaryAuthor})</a></li>`;
         output.files.push({ projectID: file.projectId, fileID: file.id, required: true });
+        modrinthFileIndex[`${file.projectId}:${file.id}`] = {
+            name: addon.name,
+            projectID: file.projectId,
+            fileID: file.id,
+            fileName: file.fileName,
+            downloadUrl: file.downloadUrl,
+            fileLength: file.fileLength,
+            hashes: file.hashes,
+            blocked: addon.exportDisabledReason !== 0 || addon.allowModDistribution === false,
+        };
     }
 
     html += '\n</ul>';
@@ -69,6 +80,9 @@ export async function generateManifest() {
 
     await writeFile(modlist, html);
     console.log('modlist.html written');
+
+    await writeFile(modrinthFiles, JSON.stringify(modrinthFileIndex, null, 2));
+    console.log('modrinth-files.json written');
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {

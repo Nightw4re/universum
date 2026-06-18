@@ -21,6 +21,7 @@ const modpackDir = join(rootDir, 'modpack');
 const overridesDir = join(modpackDir, 'overrides');
 const manifest = join(modpackDir, 'manifest.json');
 const modlist = join(modpackDir, 'modlist.html');
+const modrinthFiles = join(modpackDir, 'modrinth-files.json');
 const baseURI = 'https://minecraft.curseforge.com/';
 
 export {
@@ -32,6 +33,7 @@ export {
     modpackDir,
     baseURI,
     modlist,
+    modrinthFiles,
     overridesDir,
     manifest,
 };

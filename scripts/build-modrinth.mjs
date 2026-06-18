@@ -2,7 +2,7 @@ import { createWriteStream, existsSync, mkdirSync } from 'fs';
 import { promises as fs } from 'fs';
 import { join, dirname } from 'path';
 import archiver from 'archiver';
-import { buildDir, gameInstance, manifest as manifestPath, modpackDir } from './cfg.mjs';
+import { buildDir, gameInstance, manifest as manifestPath, modpackDir, modrinthFiles as modrinthFilesPath } from './cfg.mjs';
 import packageJson from '../package.json' with { type: 'json' };
 
 const stagingDir = join(buildDir, 'modrinth-stage');
@@ -10,8 +10,6 @@ const outputDir = join(buildDir, 'modrinth');
 const outputZip = join(outputDir, `Universum-v${packageJson.version}-modrinth.mrpack`);
 const instanceManifestPath = join(gameInstance, 'minecraftinstance.json');
 const modrinthUserAgent = 'universum-modrinth-builder/1.0';
-const curseForgeApiToken = process.env.CURSEFORGE_API_TOKEN;
-const curseForgeFilesUrl = 'https://api.curseforge.com/v1/mods/files';
 const modrinthFallbackProjects = {
     261251: 'bad-wither-no-cookie',
     448233: 'entityculling',
@@ -110,17 +108,13 @@ function normalizeInstanceFile(addon) {
     };
 }
 
-function normalizeCurseForgeFile(manifestFile, file) {
-    return {
-        name: file.displayName || file.fileName,
-        projectID: manifestFile.projectID,
-        fileID: file.id,
-        fileName: file.fileName,
-        downloadUrl: file.downloadUrl,
-        fileLength: file.fileLength,
-        hashes: file.hashes,
-        blocked: Boolean(modrinthFallbackProjects[manifestFile.projectID]),
-    };
+async function getRepoSourceFiles() {
+    if (!existsSync(modrinthFilesPath)) {
+        return null;
+    }
+
+    const metadata = await readJson(modrinthFilesPath);
+    return new Map(Object.entries(metadata));
 }
 
 async function getLocalInstanceFiles() {
@@ -137,48 +131,21 @@ async function getLocalInstanceFiles() {
     );
 }
 
-async function getCurseForgeFiles(cfManifest) {
-    if (!curseForgeApiToken) {
-        throw new Error(
-            `Missing ${instanceManifestPath} and CURSEFORGE_API_TOKEN is not set. ` +
-            'Set CURSEFORGE_API_TOKEN in CI so Modrinth builds can resolve CurseForge file metadata.'
-        );
+async function getSourceFiles() {
+    const repoFiles = await getRepoSourceFiles();
+    if (repoFiles) {
+        return repoFiles;
     }
 
-    const response = await fetch(curseForgeFilesUrl, {
-        method: 'POST',
-        headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json',
-            'x-api-key': curseForgeApiToken,
-        },
-        body: JSON.stringify({
-            fileIds: cfManifest.files.map((file) => file.fileID),
-        }),
-    });
-
-    if (!response.ok) {
-        throw new Error(`Failed to retrieve CurseForge file metadata: HTTP ${response.status}`);
+    const localFiles = await getLocalInstanceFiles();
+    if (localFiles) {
+        return localFiles;
     }
 
-    const payload = await response.json();
-    const filesById = new Map(payload.data.map((file) => [file.id, file]));
-
-    return new Map(
-        cfManifest.files.map((manifestFile) => {
-            const file = filesById.get(manifestFile.fileID);
-            if (!file) {
-                throw new Error(`CurseForge API did not return metadata for file ${manifestFile.fileID}`);
-            }
-
-            const normalized = normalizeCurseForgeFile(manifestFile, file);
-            return [`${normalized.projectID}:${normalized.fileID}`, normalized];
-        }),
+    throw new Error(
+        `Missing ${modrinthFilesPath} and ${instanceManifestPath}. ` +
+        'Run `npm run manifest` locally and commit modpack/modrinth-files.json.'
     );
-}
-
-async function getSourceFiles(cfManifest) {
-    return await getLocalInstanceFiles() ?? await getCurseForgeFiles(cfManifest);
 }
 
 async function getModrinthFiles(cfManifest, sourceFiles) {
@@ -235,7 +202,7 @@ async function getModrinthFiles(cfManifest, sourceFiles) {
 
 async function makeIndex() {
     const cfManifest = await readJson(manifestPath);
-    const sourceFiles = await getSourceFiles(cfManifest);
+    const sourceFiles = await getSourceFiles();
     const neoforge = cfManifest.minecraft.modLoaders.find((loader) => loader.primary)?.id?.replace(/^neoforge-/, '');
 
     if (!neoforge) {
