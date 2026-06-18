@@ -18,10 +18,18 @@
 import { readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
-import { gameInstance, manifest, modlist, modrinthFiles } from './cfg.mjs';
+import { gameInstance, manifest, modlist, modrinthFiles, externalMods as externalModsPath } from './cfg.mjs';
 import packageJson from '../package.json' with { type: 'json' };
 
 const instanceFile = join(gameInstance, 'minecraftinstance.json');
+
+async function readExternalMods() {
+    try {
+        return JSON.parse(await readFile(externalModsPath, 'utf8'));
+    } catch {
+        return { replacements: [], exclusions: [] };
+    }
+}
 
 export async function generateManifest() {
     let mcdata;
@@ -50,6 +58,14 @@ export async function generateManifest() {
         files: [],
     };
 
+    const externalMods = await readExternalMods();
+    const excludedProjectIds = new Set(
+        [
+            ...externalMods.replacements.flatMap((entry) => entry.removeCurseForgeProjectIDs ?? []),
+            ...externalMods.exclusions.flatMap((entry) => entry.removeCurseForgeProjectIDs ?? []),
+        ]
+    );
+
     let html = '<ul>';
     const modrinthFileIndex = {};
 
@@ -59,6 +75,9 @@ export async function generateManifest() {
 
     for (const addon of addons) {
         const file = addon.installedFile;
+        if (excludedProjectIds.has(file.projectId)) {
+            continue;
+        }
         html += `\n<li><a href="${addon.webSiteURL}">${addon.name} (by ${addon.primaryAuthor})</a></li>`;
         output.files.push({ projectID: file.projectId, fileID: file.id, required: true });
         modrinthFileIndex[`${file.projectId}:${file.id}`] = {
@@ -71,6 +90,10 @@ export async function generateManifest() {
             hashes: file.hashes,
             blocked: addon.exportDisabledReason !== 0 || addon.allowModDistribution === false,
         };
+    }
+
+    for (const externalMod of externalMods.replacements) {
+        html += `\n<li><a href="${externalMod.url}">${externalMod.name} (by ${externalMod.author})</a></li>`;
     }
 
     html += '\n</ul>';

@@ -3438,25 +3438,6 @@
     ],
     "blocked": false
   },
-  "1091339:8090653": {
-    "name": "AllTheLeaks (Memory Leak Fix)",
-    "projectID": 1091339,
-    "fileID": 8090653,
-    "fileName": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8090/653/alltheleaks-1.1.9%2b1.21.1-neoforge.jar",
-    "fileLength": 536836,
-    "hashes": [
-      {
-        "type": 1,
-        "value": "2e9d1bc9bb9801af070f59a808db232c2a6526dd"
-      },
-      {
-        "type": 2,
-        "value": "68991b14458ffa27319e3be84535f34d"
-      }
-    ],
-    "blocked": false
-  },
   "1092843:5696851": {
     "name": "Building Gadgets AE2 Style",
     "projectID": 1092843,
@@ -3719,25 +3700,6 @@
       {
         "type": 2,
         "value": "c4ab011d48bfa4498df9b515b5852883"
-      }
-    ],
-    "blocked": false
-  },
-  "1174086:6078809": {
-    "name": "Creepers Burn at Daylight",
-    "projectID": 1174086,
-    "fileID": 6078809,
-    "fileName": "creepers_burn_at_daylight_1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6078/809/creepers_burn_at_daylight_1.21.1.jar",
-    "fileLength": 17790,
-    "hashes": [
-      {
-        "type": 1,
-        "value": "4eb84b13d75b2be972f8f359c1babcac35c0fe76"
-      },
-      {
-        "type": 2,
-        "value": "31872e05de81999ca97f3a9d2ee839d6"
       }
     ],
     "blocked": false

@@ -1,0 +1,28 @@
+{
+  "replacements": [
+    {
+      "name": "CreepersBurnReborn",
+      "author": "KSmc's Team Organization",
+      "url": "https://modrinth.com/mod/creepersburn-reborn",
+      "downloadUrl": "https://cdn.modrinth.com/data/MYjjNbx0/versions/SvrmJEiA/cbr-1.0.jar",
+      "fileName": "cbr-1.0.jar",
+      "targetPath": "mods/cbr-1.0.jar",
+      "removeCurseForgeProjectIDs": [
+        1174086
+      ],
+      "removeFileNames": [
+        "creepers_burn_at_daylight_1.21.1.jar"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "removeCurseForgeProjectIDs": [
+        1091339
+      ],
+      "removeFileNames": [
+        "alltheleaks-1.1.9+1.21.1-neoforge.jar"
+      ]
+    }
+  ]
+}
