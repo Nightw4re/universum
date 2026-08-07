@@ -3,9 +3,6 @@
   "biome.universum.niflheim": "Niflheim snow plains",
   "biome.universum.netu": "Netu Plains",
 
-  "item.universum.raw_trinium": "Raw Trinium",
-  "item.universum.trinium_ingot": "Trinium Ingot",
-  "item.universum.trinium_alloy": "Trinium Alloy",
   "item.universum.naquadria": "Naquadria",
   "item.universum.raw_naquadria": "Raw Naquadria",
   "item.universum.liquid_naquadria_bucket": "Liquid Naquadria Bucket",
@@ -13,8 +10,6 @@
   "item.universum.bismuth_ingot": "Bismuth Ingot",
   "item.universum.bismuth_dust": "Bismuth Dust",
 
-  "block.universum.trinium_ore": "Trinium Ore",
-  "block.universum.deepslate_trinium_ore": "Deepslate Trinium Ore",
   "block.universum.naquadria_ore": "Naquadria Ore",
   "block.universum.deepslate_naquadria_ore": "Deepslate Naquadria Ore",
   "block.universum.bismuth_ore": "Bismuth Ore",

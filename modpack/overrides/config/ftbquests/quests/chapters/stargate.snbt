@@ -559,7 +559,7 @@
 					id: "13A79BA19F8CAB39"
 					item: {
 						count: 1
-						id: "universum:trinium_ingot"
+						id: "sgjourney:trinium_ingot"
 					}
 					type: "item"
 				}
@@ -574,7 +574,7 @@
 			]
 			tasks: [{
 				id: "63D4E572ADBA8108"
-				item: { count: 1, id: "universum:raw_trinium" }
+				item: { count: 1, id: "sgjourney:raw_trinium" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -624,7 +624,7 @@
 					id: "18B2D1485C428438"
 					item: {
 						count: 1
-						id: "universum:trinium_ingot"
+						id: "sgjourney:trinium_ingot"
 					}
 					type: "item"
 				}
@@ -642,7 +642,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "10861DCF97C2BBAD"
-				item: { count: 1, id: "universum:trinium_ingot" }
+				item: { count: 1, id: "sgjourney:trinium_ingot" }
 				type: "item"
 			}]
 			x: 3.0d

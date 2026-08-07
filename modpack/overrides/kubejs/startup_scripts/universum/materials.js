@@ -1,5 +1,4 @@
-// Custom SGC materials: Trinium and Naquadria
-// Trinium  — lightweight, extremely strong metal from the SGC universe
+// Custom SGC materials: Naquadria
 // Naquadria — unstable isotope of Naquadah; solid that can be liquefied
 
 StartupEvents.registry('item', event => {
@@ -7,10 +6,6 @@ StartupEvents.registry('item', event => {
     event.create('universum:raw_bismuth').texture('universum:item/raw_bismuth')
     event.create('universum:bismuth_ingot').texture('universum:item/bismuth_ingot')
     event.create('universum:bismuth_dust').texture('universum:item/bismuth_dust')
-
-    // Trinium
-    event.create('universum:raw_trinium').texture('universum:item/raw_trinium')
-    event.create('universum:trinium_ingot').texture('universum:item/trinium_ingot')
 
     // Naquadria
     event.create('universum:raw_naquadria').texture('universum:item/raw_naquadria')
@@ -47,19 +42,6 @@ StartupEvents.registry('block', event => {
         .hardness(4.5)
         .resistance(4.5)
         .texture('universum:block/deepslate_bismuth_ore')
-
-    // Trinium ores
-    event.create('universum:trinium_ore')
-        .requiresTool()
-        .hardness(4.5)
-        .resistance(6.0)
-        .texture('universum:block/trinium_ore')
-
-    event.create('universum:deepslate_trinium_ore')
-        .requiresTool()
-        .hardness(6.0)
-        .resistance(6.0)
-        .texture('universum:block/deepslate_trinium_ore')
 
     // Naquadria ores
     event.create('universum:naquadria_ore')
