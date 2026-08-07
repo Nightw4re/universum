@@ -75,21 +75,21 @@
     ],
     "blocked": false
   },
-  "225738:7943676": {
+  "225738:8510632": {
     "name": "MmmMmmMmmMmm (Target Dummy)",
     "projectID": 225738,
-    "fileID": 7943676,
-    "fileName": "dummmmmmy-1.21-2.0.12-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7943/676/dummmmmmy-1.21-2.0.12-neoforge.jar",
-    "fileLength": 219158,
+    "fileID": 8510632,
+    "fileName": "dummmmmmy-neoforge-1.21-2.1.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8510/632/dummmmmmy-neoforge-1.21-2.1.0.jar",
+    "fileLength": 214030,
     "hashes": [
       {
         "type": 1,
-        "value": "0e69c2a8e4e51df42e45b2d6deb3a855bdf8dce6"
+        "value": "05825b9457466f7f25f929663cbd768aaf5ac308"
       },
       {
         "type": 2,
-        "value": "5fd21edd5c504cf9303fa4ed3efb6310"
+        "value": "ac9b3ac4a46b8f062261106e6b8ee9e5"
       }
     ],
     "blocked": false
@@ -113,40 +113,40 @@
     ],
     "blocked": false
   },
-  "231484:8056595": {
+  "231484:8404453": {
     "name": "Cooking for Blockheads",
     "projectID": 231484,
-    "fileID": 8056595,
-    "fileName": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8056/595/cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
-    "fileLength": 1265987,
+    "fileID": 8404453,
+    "fileName": "cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8404/453/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
+    "fileLength": 1266042,
     "hashes": [
       {
         "type": 1,
-        "value": "2718f450133d921bb8e7772e3e009efe23acc20d"
+        "value": "ddc2b4d7b2d5cc48283c251d39aa03897318be7f"
       },
       {
         "type": 2,
-        "value": "5f528fb41598088c89a7320239e88a3e"
+        "value": "a414d1b3a909657f74c1ae269699aa36"
       }
     ],
     "blocked": false
   },
-  "232131:7966181": {
+  "232131:8498229": {
     "name": "Default Options",
     "projectID": 232131,
-    "fileID": 7966181,
-    "fileName": "defaultoptions-neoforge-1.21.1-21.1.6.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7966/181/defaultoptions-neoforge-1.21.1-21.1.6.jar",
-    "fileLength": 95747,
+    "fileID": 8498229,
+    "fileName": "defaultoptions-neoforge-1.21.1-21.1.8.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8498/229/defaultoptions-neoforge-1.21.1-21.1.8.jar",
+    "fileLength": 105507,
     "hashes": [
       {
         "type": 1,
-        "value": "92c8695dff4b5143919c4e80e4940c6afe873750"
+        "value": "d682687ec41236092c5206a21e2ed34bdb7f6b79"
       },
       {
         "type": 2,
-        "value": "147d76b0a1953805898ed20a7f00de6b"
+        "value": "54c2d449be5555c5dbb2cdb1b20ad81c"
       }
     ],
     "blocked": false
@@ -170,40 +170,40 @@
     ],
     "blocked": false
   },
-  "238222:7391682": {
+  "238222:8569044": {
     "name": "Just Enough Items (JEI)",
     "projectID": 238222,
-    "fileID": 7391682,
-    "fileName": "jei-1.21.1-neoforge-19.27.0.336.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar",
-    "fileLength": 1529192,
+    "fileID": 8569044,
+    "fileName": "jei-1.21.1-neoforge-19.43.0.393.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8569/44/jei-1.21.1-neoforge-19.43.0.393.jar",
+    "fileLength": 1685121,
     "hashes": [
       {
         "type": 1,
-        "value": "d02c849e4e321e7b056a48e0242ec641560c2ab8"
+        "value": "3cb954a19cf5d958f3e83842657bda665f3f4d37"
       },
       {
         "type": 2,
-        "value": "d3da422d1a44e31af8a8d036b3d338f7"
+        "value": "ff4901b8ddf3a4a0ae4e72c6aae2da5d"
       }
     ],
     "blocked": false
   },
-  "238551:8056307": {
+  "238551:8540853": {
     "name": "GraveStone Mod",
     "projectID": 238551,
-    "fileID": 8056307,
-    "fileName": "gravestone-neoforge-1.21.1-1.0.37.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8056/307/gravestone-neoforge-1.21.1-1.0.37.jar",
-    "fileLength": 321955,
+    "fileID": 8540853,
+    "fileName": "gravestone-neoforge-1.21.1-1.0.38.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8540/853/gravestone-neoforge-1.21.1-1.0.38.jar",
+    "fileLength": 321850,
     "hashes": [
       {
         "type": 1,
-        "value": "4120452fb038e7781367774a10093c8767cc4c1b"
+        "value": "2b6d5ff95bb80d811eac78d0556ee384125bca9d"
       },
       {
         "type": 2,
-        "value": "0a71c92949bead5c7e8eeab71aed0be5"
+        "value": "c0e4a3d7182f801b7ba75bf3da0e53fe"
       }
     ],
     "blocked": false
@@ -265,21 +265,21 @@
     ],
     "blocked": false
   },
-  "242818:7281427": {
+  "242818:8491811": {
     "name": "CodeChicken Lib 1.8.+",
     "projectID": 242818,
-    "fileID": 7281427,
-    "fileName": "CodeChickenLib-1.21.1-4.6.1.526.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7281/427/CodeChickenLib-1.21.1-4.6.1.526.jar",
-    "fileLength": 1538347,
+    "fileID": 8491811,
+    "fileName": "CodeChickenLib-1.21.1-4.6.1.529.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8491/811/CodeChickenLib-1.21.1-4.6.1.529.jar",
+    "fileLength": 1538382,
     "hashes": [
       {
         "type": 1,
-        "value": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
+        "value": "354d850ca72568b88d67e3c903efced7e62dc90f"
       },
       {
         "type": 2,
-        "value": "cb6cc54c315e9e11278a0542473d5f2f"
+        "value": "fff9bd2c448638b20cc5b5d4a9e525ab"
       }
     ],
     "blocked": false
@@ -512,40 +512,40 @@
     ],
     "blocked": false
   },
-  "281849:8062194": {
+  "281849:8519226": {
     "name": "PneumaticCraft: Repressurized",
     "projectID": 281849,
-    "fileID": 8062194,
-    "fileName": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8062/194/pneumaticcraft-repressurized-8.2.20%2bmc1.21.1.jar",
-    "fileLength": 11779628,
+    "fileID": 8519226,
+    "fileName": "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8519/226/pneumaticcraft-repressurized-8.2.23%2bmc1.21.1.jar",
+    "fileLength": 11884697,
     "hashes": [
       {
         "type": 1,
-        "value": "19b3bdb7f2aa135b1d638ba2195968c443889ce5"
+        "value": "44ea59cb9ac3abfc343518e50cc19fe7200a592e"
       },
       {
         "type": 2,
-        "value": "0d9278a639debe003e3160fd63ed63c4"
+        "value": "91fd6b1ce29ecfff9526b303e166e737"
       }
     ],
     "blocked": false
   },
-  "283644:6926281": {
+  "283644:8463693": {
     "name": "Placebo",
     "projectID": 283644,
-    "fileID": 6926281,
-    "fileName": "Placebo-1.21.1-9.9.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar",
-    "fileLength": 324056,
+    "fileID": 8463693,
+    "fileName": "Placebo-1.21.1-9.9.2.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8463/693/Placebo-1.21.1-9.9.2.jar",
+    "fileLength": 324058,
     "hashes": [
       {
         "type": 1,
-        "value": "1c2b8c38066d6f36209c5dadee25c184ef65202e"
+        "value": "d44335094cf2db64998cb3ee31e58d8c01e80b4a"
       },
       {
         "type": 2,
-        "value": "cc725fc5406d3af893484cfbba06f6ed"
+        "value": "208b373fb2bdc703cdd2e087753ed859"
       }
     ],
     "blocked": false
@@ -569,21 +569,21 @@
     ],
     "blocked": false
   },
-  "289412:8253474": {
+  "289412:8589821": {
     "name": "FTB Quests (NeoForge)",
     "projectID": 289412,
-    "fileID": 8253474,
-    "fileName": "ftb-quests-neoforge-2101.1.27.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8253/474/ftb-quests-neoforge-2101.1.27.jar",
-    "fileLength": 1470929,
+    "fileID": 8589821,
+    "fileName": "ftb-quests-neoforge-2101.1.30.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8589/821/ftb-quests-neoforge-2101.1.30.jar",
+    "fileLength": 1597057,
     "hashes": [
       {
         "type": 1,
-        "value": "baf3a7f173d09c2b9800626109cf6ca5a52a6c19"
+        "value": "b1b94ae7b01ebb79d43380eaa94773a8dc713016"
       },
       {
         "type": 2,
-        "value": "f8c830e936950af31fa89eb66a8aaffe"
+        "value": "50022715aef5cd78a740ab19ab4fc751"
       }
     ],
     "blocked": false
@@ -665,7 +665,7 @@
     "blocked": false
   },
   "309927:6529130": {
-    "name": "Curios API (Forge/NeoForge)",
+    "name": "Curios API",
     "projectID": 309927,
     "fileID": 6529130,
     "fileName": "curios-neoforge-9.5.1+1.21.1.jar",
@@ -702,21 +702,21 @@
     ],
     "blocked": false
   },
-  "314906:8265333": {
+  "314906:8520252": {
     "name": "FTB Chunks (NeoForge)",
     "projectID": 314906,
-    "fileID": 8265333,
-    "fileName": "ftb-chunks-neoforge-2101.1.19.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8265/333/ftb-chunks-neoforge-2101.1.19.jar",
-    "fileLength": 655918,
+    "fileID": 8520252,
+    "fileName": "ftb-chunks-neoforge-2101.1.21.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8520/252/ftb-chunks-neoforge-2101.1.21.jar",
+    "fileLength": 655753,
     "hashes": [
       {
         "type": 1,
-        "value": "2fd5eeaff04af5096ff1ad6f8df15053c10269ca"
+        "value": "37e1c12393d44d5f3e612cf9a5958dd8f1d77675"
       },
       {
         "type": 2,
-        "value": "b32097f8b5c82a206e1ea8c5bf4344dc"
+        "value": "995501024eef5702baca92c05393138b"
       }
     ],
     "blocked": false
@@ -740,40 +740,40 @@
     ],
     "blocked": false
   },
-  "324717:7545219": {
+  "324717:8591319": {
     "name": "Jade 🔍",
     "projectID": 324717,
-    "fileID": 7545219,
-    "fileName": "Jade-1.21.1-NeoForge-15.10.5.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7545/219/Jade-1.21.1-NeoForge-15.10.5.jar",
-    "fileLength": 725742,
+    "fileID": 8591319,
+    "fileName": "Jade-1.21.1-NeoForge-15.10.6.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8591/319/Jade-1.21.1-NeoForge-15.10.6.jar",
+    "fileLength": 726853,
     "hashes": [
       {
         "type": 1,
-        "value": "d5bf134b3dbde9f5258666823900e21341dc0a50"
+        "value": "88ee316e68900080b017f60c12162e2731924cf8"
       },
       {
         "type": 2,
-        "value": "80f9186d25b02ebbfa5773416f5da410"
+        "value": "67b89f182472859d1e478477716c9462"
       }
     ],
     "blocked": false
   },
-  "326652:8260590": {
+  "326652:8481114": {
     "name": "Cupboard",
     "projectID": 326652,
-    "fileID": 8260590,
-    "fileName": "cupboard-1.21.1-3.8.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8260/590/cupboard-1.21.1-3.8.jar",
-    "fileLength": 28741,
+    "fileID": 8481114,
+    "fileName": "cupboard-1.21.1-3.9.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8481/114/cupboard-1.21.1-3.9.jar",
+    "fileLength": 28829,
     "hashes": [
       {
         "type": 1,
-        "value": "39df849e5a338dfe9ccb7632b1849c20357e597b"
+        "value": "39952f4de65df780cf68ab0fd2f3d44a53d855f2"
       },
       {
         "type": 2,
-        "value": "9fb8634d333bcb2899a78488d85c3d2e"
+        "value": "6edcf9b5d6e6c44cbfbcdc69cf8c98d3"
       }
     ],
     "blocked": false
@@ -797,21 +797,21 @@
     ],
     "blocked": false
   },
-  "342584:8266468": {
+  "342584:8341460": {
     "name": "Collective",
     "projectID": 342584,
-    "fileID": 8266468,
-    "fileName": "collective-1.21.1-8.28.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8266/468/collective-1.21.1-8.28.jar",
-    "fileLength": 1025928,
+    "fileID": 8341460,
+    "fileName": "collective-1.21.1-8.39.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8341/460/collective-1.21.1-8.39.jar",
+    "fileLength": 1061931,
     "hashes": [
       {
         "type": 1,
-        "value": "8a0ce455252434d7a4157cb1627b4f82ec6ab37b"
+        "value": "b1153f03c97bccaa6bc11d6199f07f16ef4318ff"
       },
       {
         "type": 2,
-        "value": "95e49637beae084dccb7c8418eeefe2c"
+        "value": "7ae605279aacf6ae233bb1aafe2775c4"
       }
     ],
     "blocked": false
@@ -854,21 +854,21 @@
     ],
     "blocked": false
   },
-  "351264:7471280": {
+  "351264:8335665": {
     "name": "Kotlin for Forge",
     "projectID": 351264,
-    "fileID": 7471280,
-    "fileName": "kotlinforforge-5.11.0-all.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7471/280/kotlinforforge-5.11.0-all.jar",
-    "fileLength": 6869790,
+    "fileID": 8335665,
+    "fileName": "kotlinforforge-5.12.0-all.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8335/665/kotlinforforge-5.12.0-all.jar",
+    "fileLength": 7279276,
     "hashes": [
       {
         "type": 1,
-        "value": "a8b9f1233336ca9fe4702bc2cc5a6f97ad5e3b65"
+        "value": "a2032c921e93a0ccb0db5d742167e3139c2de01b"
       },
       {
         "type": 2,
-        "value": "ad515a1a34f47bbc17aabab0b99ecee4"
+        "value": "93db4ba2044a6667d7d1e3f592d63dbd"
       }
     ],
     "blocked": false
@@ -892,40 +892,40 @@
     ],
     "blocked": false
   },
-  "360438:7740400": {
+  "360438:8330365": {
     "name": "Lithium (Fabric/NeoForge)",
     "projectID": 360438,
-    "fileID": 7740400,
-    "fileName": "lithium-neoforge-0.15.3+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7740/400/lithium-neoforge-0.15.3%2bmc1.21.1.jar",
-    "fileLength": 774148,
+    "fileID": 8330365,
+    "fileName": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8330/365/lithium-neoforge-0.15.4%2bmc1.21.1.jar",
+    "fileLength": 774220,
     "hashes": [
       {
         "type": 1,
-        "value": "9fd5fa9076044180ae7f51672de74669196ec72e"
+        "value": "97212e45c963730bbfc7c44780df99317814c21b"
       },
       {
         "type": 2,
-        "value": "8207aaae8fea906c7eb2447da40b8c83"
+        "value": "969860e6a6ebe4dc2e2154b56f05483e"
       }
     ],
     "blocked": false
   },
-  "361276:8041234": {
+  "361276:8580031": {
     "name": "Lootr (Forge & NeoForge)",
     "projectID": 361276,
-    "fileID": 8041234,
-    "fileName": "lootr-neoforge-1.21.1-1.11.37.120.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8041/234/lootr-neoforge-1.21.1-1.11.37.120.jar",
-    "fileLength": 976023,
+    "fileID": 8580031,
+    "fileName": "lootr-neoforge-1.21.1-1.11.38.123.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8580/31/lootr-neoforge-1.21.1-1.11.38.123.jar",
+    "fileLength": 994419,
     "hashes": [
       {
         "type": 1,
-        "value": "a8acaf64fb3991526bfe7456189ccde247334265"
+        "value": "0a0cf6475fcd8802de4255dc5046a956899b3081"
       },
       {
         "type": 2,
-        "value": "c854cb36df6947d1a8bc222fec365359"
+        "value": "64c4cc3c9254606f4fd2b21d51559459"
       }
     ],
     "blocked": false
@@ -1044,21 +1044,21 @@
     ],
     "blocked": false
   },
-  "388172:7707149": {
+  "388172:8350073": {
     "name": "GeckoLib",
     "projectID": 388172,
-    "fileID": 7707149,
-    "fileName": "geckolib-neoforge-1.21.1-4.8.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7707/149/geckolib-neoforge-1.21.1-4.8.4.jar",
-    "fileLength": 622582,
+    "fileID": 8350073,
+    "fileName": "geckolib-neoforge-1.21.1-4.9.2.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8350/73/geckolib-neoforge-1.21.1-4.9.2.jar",
+    "fileLength": 630584,
     "hashes": [
       {
         "type": 1,
-        "value": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
+        "value": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
       },
       {
         "type": 2,
-        "value": "f68322025b603faaaaa5a1b3c52dc2ae"
+        "value": "5cf29155ad6071b5dcba2ea24cd27350"
       }
     ],
     "blocked": false
@@ -1082,21 +1082,21 @@
     ],
     "blocked": false
   },
-  "394468:6382651": {
+  "394468:8382328": {
     "name": "Sodium",
     "projectID": 394468,
-    "fileID": 6382651,
-    "fileName": "sodium-neoforge-0.6.13+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6382/651/sodium-neoforge-0.6.13%2bmc1.21.1.jar",
-    "fileLength": 1162994,
+    "fileID": 8382328,
+    "fileName": "sodium-neoforge-0.8.12+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8382/328/sodium-neoforge-0.8.12%2bmc1.21.1.jar",
+    "fileLength": 1291418,
     "hashes": [
       {
         "type": 1,
-        "value": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
+        "value": "762251ab3d6825d5accfd89c3f02f1145376105e"
       },
       {
         "type": 2,
-        "value": "e5018c782d851fea76be0205b7616e5d"
+        "value": "c0d728fccffb8365ba45e6ae4b15e5cc"
       }
     ],
     "blocked": false
@@ -1120,21 +1120,21 @@
     ],
     "blocked": false
   },
-  "395327:5718527": {
-    "name": "AutoFish for (Neo)Forge",
+  "395327:8356310": {
+    "name": "AutoFish for Everyone",
     "projectID": 395327,
-    "fileID": 5718527,
-    "fileName": "forgeautofish-7.1.0-neoforge1.21.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5718/527/forgeautofish-7.1.0-neoforge1.21.jar",
-    "fileLength": 121133,
+    "fileID": 8356310,
+    "fileName": "autofish-8.0.1-1.21.1-neoforge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8356/310/autofish-8.0.1-1.21.1-neoforge.jar",
+    "fileLength": 113843,
     "hashes": [
       {
         "type": 1,
-        "value": "b15eb366b4955427c3759a6ee3495724805954e5"
+        "value": "4f60b20b25ecb00889274a4e0d7ad54d13825d69"
       },
       {
         "type": 2,
-        "value": "67ac813943ec80821bb376bac9258ff1"
+        "value": "bcd1fb305c701a2f5ce04c1f53091601"
       }
     ],
     "blocked": false
@@ -1177,21 +1177,21 @@
     ],
     "blocked": false
   },
-  "404465:8226923": {
+  "404465:8569579": {
     "name": "FTB Library (NeoForge)",
     "projectID": 404465,
-    "fileID": 8226923,
-    "fileName": "ftb-library-neoforge-2101.1.32.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8226/923/ftb-library-neoforge-2101.1.32.jar",
-    "fileLength": 1416263,
+    "fileID": 8569579,
+    "fileName": "ftb-library-neoforge-2101.1.35.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8569/579/ftb-library-neoforge-2101.1.35.jar",
+    "fileLength": 1439018,
     "hashes": [
       {
         "type": 1,
-        "value": "836411988409e166020db2914cab5d4f93466fc4"
+        "value": "9922fa358983120edeed22194bf02bcf9c859fbb"
       },
       {
         "type": 2,
-        "value": "1865abec3429757ebff4b9282447779d"
+        "value": "591ef2ad7c9610689d22b301e0e3a678"
       }
     ],
     "blocked": false
@@ -1215,21 +1215,21 @@
     ],
     "blocked": false
   },
-  "405388:8006957": {
+  "405388:8516475": {
     "name": "Modern Industrialization",
     "projectID": 405388,
-    "fileID": 8006957,
-    "fileName": "Modern-Industrialization-2.4.3.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8006/957/Modern-Industrialization-2.4.3.jar",
-    "fileLength": 7084290,
+    "fileID": 8516475,
+    "fileName": "Modern-Industrialization-2.5.5.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8516/475/Modern-Industrialization-2.5.5.jar",
+    "fileLength": 7127031,
     "hashes": [
       {
         "type": 1,
-        "value": "b41c4d8c02eadc09f8614c4561384b6854245ff4"
+        "value": "5ad80397df3fb950196f40a7ea716bf90eabda16"
       },
       {
         "type": 2,
-        "value": "c23f72dac24ce5a7492a17de350576b2"
+        "value": "80614939da787febc3beaf340fe76e53"
       }
     ],
     "blocked": false
@@ -1253,40 +1253,40 @@
     ],
     "blocked": false
   },
-  "410811:7608733": {
+  "410811:8442866": {
     "name": "FTB Essentials (Forge & Fabric)",
     "projectID": 410811,
-    "fileID": 7608733,
-    "fileName": "ftb-essentials-neoforge-2101.1.9.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7608/733/ftb-essentials-neoforge-2101.1.9.jar",
-    "fileLength": 209459,
+    "fileID": 8442866,
+    "fileName": "ftb-essentials-neoforge-2101.1.10.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8442/866/ftb-essentials-neoforge-2101.1.10.jar",
+    "fileLength": 217288,
     "hashes": [
       {
         "type": 1,
-        "value": "7d6f274b38d767215549ec066246390c49ac7ad8"
+        "value": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726"
       },
       {
         "type": 2,
-        "value": "b406c9fffbb6fc40f3c7073c946617da"
+        "value": "03e617bc55882ae3450422370666b852"
       }
     ],
     "blocked": false
   },
-  "412082:8194573": {
+  "412082:8582162": {
     "name": "Supplementaries",
     "projectID": 412082,
-    "fileID": 8194573,
-    "fileName": "supplementaries-neoforge-1.21.1-3.6.7.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8194/573/supplementaries-neoforge-1.21.1-3.6.7.jar",
-    "fileLength": 13302516,
+    "fileID": 8582162,
+    "fileName": "supplementaries-1.21.1-3.8.8-neoforge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8582/162/supplementaries-1.21.1-3.8.8-neoforge.jar",
+    "fileLength": 13470208,
     "hashes": [
       {
         "type": 1,
-        "value": "a2a0d9bb5170b779863c2743f18c04b0964c9875"
+        "value": "4e66106d496a130f9d37824d30aaa8b494225b8f"
       },
       {
         "type": 2,
-        "value": "e4b8ce1386fde48d3b64de49731da0cd"
+        "value": "1d56b3a616437b093b4dcaacbbd208fe"
       }
     ],
     "blocked": false
@@ -1348,40 +1348,40 @@
     ],
     "blocked": false
   },
-  "419699:5786327": {
+  "419699:8492726": {
     "name": "Architectury API",
     "projectID": 419699,
-    "fileID": 5786327,
-    "fileName": "architectury-13.0.8-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar",
-    "fileLength": 584004,
+    "fileID": 8492726,
+    "fileName": "architectury-13.0.11-neoforge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8492/726/architectury-13.0.11-neoforge.jar",
+    "fileLength": 584734,
     "hashes": [
       {
         "type": 1,
-        "value": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+        "value": "008656a0702801174b8ec245ed7aad1921d6e9f1"
       },
       {
         "type": 2,
-        "value": "7a45a948b525c031ca85d221dfdbed85"
+        "value": "aefbea361809755c331126bcff6e6d3e"
       }
     ],
     "blocked": false
   },
-  "422301:8249848": {
+  "422301:8587644": {
     "name": "Sophisticated Backpacks",
     "projectID": 422301,
-    "fileID": 8249848,
-    "fileName": "sophisticatedbackpacks-1.21.1-3.25.63.1912.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8249/848/sophisticatedbackpacks-1.21.1-3.25.63.1912.jar",
-    "fileLength": 1141190,
+    "fileID": 8587644,
+    "fileName": "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8587/644/sophisticatedbackpacks-1.21.1-3.25.74.2043.jar",
+    "fileLength": 1166426,
     "hashes": [
       {
         "type": 1,
-        "value": "e7e8458e1bf2f52d457e0eb2efcd8c3194a653fa"
+        "value": "bc687ffbc3ca72800ca7f20d97793d500213b1c4"
       },
       {
         "type": 2,
-        "value": "bbd3be4ffa024d906c1d3e94531add6e"
+        "value": "09132a15b94e430b7f1600280836e823"
       }
     ],
     "blocked": false
@@ -1443,40 +1443,40 @@
     ],
     "blocked": false
   },
-  "441647:8139800": {
+  "441647:8349218": {
     "name": "FramedBlocks",
     "projectID": 441647,
-    "fileID": 8139800,
-    "fileName": "FramedBlocks-10.6.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8139/800/FramedBlocks-10.6.0.jar",
-    "fileLength": 4306442,
+    "fileID": 8349218,
+    "fileName": "FramedBlocks-10.6.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8349/218/FramedBlocks-10.6.1.jar",
+    "fileLength": 4306703,
     "hashes": [
       {
         "type": 1,
-        "value": "eb96e6983845daee8d6ac84544ba1df55d4a6fae"
+        "value": "3007be0007d09c0225ca33b647461f342eac0503"
       },
       {
         "type": 2,
-        "value": "d0389f3d426f10e7ea340fa899ca7b08"
+        "value": "50dab232a925ad1165720e1fc8da765e"
       }
     ],
     "blocked": false
   },
-  "448233:8259604": {
+  "448233:8287097": {
     "name": "Entity Culling Fabric/Forge",
     "projectID": 448233,
-    "fileID": 8259604,
-    "fileName": "entityculling-neoforge-1.10.3-mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8259/604/entityculling-neoforge-1.10.3-mc1.21.1.jar",
-    "fileLength": 1584335,
+    "fileID": 8287097,
+    "fileName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8287/97/entityculling-neoforge-1.10.5-mc1.21.1.jar",
+    "fileLength": 1585287,
     "hashes": [
       {
         "type": 1,
-        "value": "0e8e5018b8ca0c881c91bc8fe0ce6a7f16d63854"
+        "value": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf"
       },
       {
         "type": 2,
-        "value": "5a241d50b5ffb0133a9918ffdd71d72a"
+        "value": "efb6e5638cd09578c0aaaa396c9bfa84"
       }
     ],
     "blocked": true
@@ -1500,40 +1500,40 @@
     ],
     "blocked": false
   },
-  "454372:7783425": {
+  "454372:8526794": {
     "name": "SuperMartijn642's Core Lib",
     "projectID": 454372,
-    "fileID": 7783425,
-    "fileName": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7783/425/supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
-    "fileLength": 558371,
+    "fileID": 8526794,
+    "fileName": "supermartijn642corelib-1.1.22-neoforge-mc1.21.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8526/794/supermartijn642corelib-1.1.22-neoforge-mc1.21.jar",
+    "fileLength": 558466,
     "hashes": [
       {
         "type": 1,
-        "value": "84802fbe1645de8caf61ccb07db6cf451e614f68"
+        "value": "ad3d575887d50ab321176b58af4b31166bb67b41"
       },
       {
         "type": 2,
-        "value": "8da575ef57766fd02875b10fccae3aca"
+        "value": "9859c79101d87d91a230bba11cdc9ce8"
       }
     ],
     "blocked": false
   },
-  "455508:6661598": {
+  "455508:8242804": {
     "name": "Iris Shaders",
     "projectID": 455508,
-    "fileID": 6661598,
-    "fileName": "iris-neoforge-1.8.12+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12%2bmc1.21.1.jar",
-    "fileLength": 2438548,
+    "fileID": 8242804,
+    "fileName": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8242/804/iris-neoforge-1.8.14-beta.1%2bmc1.21.1.jar",
+    "fileLength": 2540723,
     "hashes": [
       {
         "type": 1,
-        "value": "a3e6355915c7d3b2bc392724795113e51d289378"
+        "value": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
       },
       {
         "type": 2,
-        "value": "6c1122aa7c2b1a4f24831e394c5b513f"
+        "value": "6b68276a6718656ec476cfac69dfe013"
       }
     ],
     "blocked": false
@@ -1557,21 +1557,21 @@
     ],
     "blocked": false
   },
-  "459929:8048692": {
+  "459929:8450398": {
     "name": "Applied Energistics 2 Wireless Terminals",
     "projectID": 459929,
-    "fileID": 8048692,
-    "fileName": "ae2wtlib-19.5.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8048/692/ae2wtlib-19.5.0.jar",
-    "fileLength": 251969,
+    "fileID": 8450398,
+    "fileName": "ae2wtlib-19.5.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8450/398/ae2wtlib-19.5.1.jar",
+    "fileLength": 252091,
     "hashes": [
       {
         "type": 1,
-        "value": "de72e7f4d8d9d29dbe7f8790644b32f6c5b9655f"
+        "value": "b1bee01393b15f1eb0f46d58862ef99234e1d337"
       },
       {
         "type": 2,
-        "value": "1c9fdb5f8b5fc589cec242aba9ee6935"
+        "value": "f1111868ef2315fcbcc1053f3ea397de"
       }
     ],
     "blocked": false
@@ -1614,40 +1614,40 @@
     ],
     "blocked": false
   },
-  "499980:8261785": {
+  "499980:8578515": {
     "name": "Moonlight Lib",
     "projectID": 499980,
-    "fileID": 8261785,
-    "fileName": "moonlight-neoforge-1.21.1-3.0.18.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8261/785/moonlight-neoforge-1.21.1-3.0.18.jar",
-    "fileLength": 1593129,
+    "fileID": 8578515,
+    "fileName": "moonlight-1.21.1-3.3.2-neoforge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8578/515/moonlight-1.21.1-3.3.2-neoforge.jar",
+    "fileLength": 2143736,
     "hashes": [
       {
         "type": 1,
-        "value": "b4c44b7cdcbbabec325f2d90f1a2efad92a522e8"
+        "value": "066461830cba209098c70fde4c31c74ae8f64aed"
       },
       {
         "type": 2,
-        "value": "c24d3067bced9c8e2eca444f506392db"
+        "value": "876cc1a25dbccf0abb8f5ae5409c707e"
       }
     ],
     "blocked": false
   },
-  "511319:6091021": {
+  "511319:8410876": {
     "name": "Reese's Sodium Options",
     "projectID": 511319,
-    "fileID": 6091021,
-    "fileName": "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6091/21/reeses-sodium-options-neoforge-1.8.3%2bmc1.21.4.jar",
-    "fileLength": 78451,
+    "fileID": 8410876,
+    "fileName": "reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8410/876/reeses-sodium-options-neoforge-2.2.3%2bmc1.21.1.jar",
+    "fileLength": 260876,
     "hashes": [
       {
         "type": 1,
-        "value": "b03d05495be28d8cef7a34872941bb8d703d60e6"
+        "value": "904f815b1f5c48703c354d432fcbc3531022337f"
       },
       {
         "type": 2,
-        "value": "f3a0d7f31993d6f34e90f816f82cbcaf"
+        "value": "ffd2290753f3e5e494d04daca1b4eb13"
       }
     ],
     "blocked": false
@@ -1690,21 +1690,21 @@
     ],
     "blocked": false
   },
-  "521480:7857567": {
+  "521480:8274824": {
     "name": "Skin Layers 3D",
     "projectID": 521480,
-    "fileID": 7857567,
-    "fileName": "skinlayers3d-neoforge-1.11.1-mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7857/567/skinlayers3d-neoforge-1.11.1-mc1.21.1.jar",
-    "fileLength": 1974380,
+    "fileID": 8274824,
+    "fileName": "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8274/824/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+    "fileLength": 1979027,
     "hashes": [
       {
         "type": 1,
-        "value": "8f25b0babc279ee9f5d07f20d9168a7a4ef93dac"
+        "value": "d688d428ba72a5bd57b44d8954793c59d8576838"
       },
       {
         "type": 2,
-        "value": "d8640bfde4a3591868175c38c6ef36ec"
+        "value": "3dcd70a8c73100efefc23167bf6c1000"
       }
     ],
     "blocked": true
@@ -1785,21 +1785,21 @@
     ],
     "blocked": false
   },
-  "531761:8252588": {
+  "531761:8545422": {
     "name": "Balm",
     "projectID": 531761,
-    "fileID": 8252588,
-    "fileName": "balm-neoforge-1.21.1-21.0.59.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8252/588/balm-neoforge-1.21.1-21.0.59.jar",
-    "fileLength": 735066,
+    "fileID": 8545422,
+    "fileName": "balm-neoforge-1.21.1-21.0.64.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8545/422/balm-neoforge-1.21.1-21.0.64.jar",
+    "fileLength": 783793,
     "hashes": [
       {
         "type": 1,
-        "value": "b0bf4bed336237bfbe35879c33f30357b53e8664"
+        "value": "db544a4fb95f7847cd4b1de9479c39cfa31fd529"
       },
       {
         "type": 2,
-        "value": "bc4a8aa45731f636e71795465a14663b"
+        "value": "c833ed1fce8ca18adbf9733ca3ce5362"
       }
     ],
     "blocked": false
@@ -1861,78 +1861,78 @@
     ],
     "blocked": false
   },
-  "551586:8246034": {
+  "551586:8364209": {
     "name": "L_Ender 's Cataclysm",
     "projectID": 551586,
-    "fileID": 8246034,
-    "fileName": "L_Ender's Cataclysm 1.21.1-3.31.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8246/34/L_Ender%27s%20Cataclysm%201.21.1-3.31.jar",
-    "fileLength": 73346531,
+    "fileID": 8364209,
+    "fileName": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8364/209/L_Ender%27s%20Cataclysm%201.21.1-3.32.jar",
+    "fileLength": 73362730,
     "hashes": [
       {
         "type": 1,
-        "value": "0bbc8a16e061c8d186186f387f0f159f4c13bf63"
+        "value": "f16c6bf69232ebdf85cc861450a8dd5def310e5b"
       },
       {
         "type": 2,
-        "value": "5150d0ede90631f7806d0b18d279cf03"
+        "value": "89c2a14bcc9aebf4c5cb287628f7b994"
       }
     ],
     "blocked": false
   },
-  "551763:6266285": {
+  "551763:8288925": {
     "name": "Chisel Reborn [Forge/Fabric/NeoForge]",
     "projectID": 551763,
-    "fileID": 6266285,
-    "fileName": "chisel-neoforge-2.0.0+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6266/285/chisel-neoforge-2.0.0%2bmc1.21.1.jar",
-    "fileLength": 8268409,
+    "fileID": 8288925,
+    "fileName": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8288/925/chisel-neoforge-2.0.1%2bmc1.21.1.jar",
+    "fileLength": 8268524,
     "hashes": [
       {
         "type": 1,
-        "value": "44e432ddc1f6fa9cf05201a9aef3ae4c5784cc9d"
+        "value": "def703bf88cb3bb2960260418e8b36fe47a53dfd"
       },
       {
         "type": 2,
-        "value": "ae2148963fe95d6f3eaf3eaf7277aa35"
+        "value": "908c1b0c35d8abb97d0fac63cf2bad8d"
       }
     ],
     "blocked": false
   },
-  "552574:6751495": {
+  "552574:8525006": {
     "name": "Hostile Neural Networks",
     "projectID": 552574,
-    "fileID": 6751495,
-    "fileName": "HostileNeuralNetworks-1.21.1-6.3.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6751/495/HostileNeuralNetworks-1.21.1-6.3.0.jar",
-    "fileLength": 323604,
+    "fileID": 8525006,
+    "fileName": "HostileNeuralNetworks-1.21.1-6.5.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8525/6/HostileNeuralNetworks-1.21.1-6.5.1.jar",
+    "fileLength": 490546,
     "hashes": [
       {
         "type": 1,
-        "value": "7e026e8d78bb40bc52ff0857d25ebb5b1a05714b"
+        "value": "5e5db7d37f1b0244183613cf7e594bd69a1b31b4"
       },
       {
         "type": 2,
-        "value": "230b125af4b44b0e3260d81e17a3bd51"
+        "value": "4e3cbed0d2b4ea6e65144cbf25c1a0a8"
       }
     ],
     "blocked": false
   },
-  "559313:7402808": {
+  "559313:8377914": {
     "name": "AEInfinityBooster",
     "projectID": 559313,
-    "fileID": 7402808,
-    "fileName": "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7402/808/aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar",
-    "fileLength": 30409,
+    "fileID": 8377914,
+    "fileName": "aeinfinitybooster-neoforge-1.21.1-1.0.0.58.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8377/914/aeinfinitybooster-neoforge-1.21.1-1.0.0.58.jar",
+    "fileLength": 30454,
     "hashes": [
       {
         "type": 1,
-        "value": "d00daf281a852358022b936a21ae272578f00afd"
+        "value": "61756becbab62dd376378ceb74a3daa45b70562a"
       },
       {
         "type": 2,
-        "value": "3732dd9a978443b5c85366a74e482c15"
+        "value": "76afd04c90cdfe5547e103ae07e99e08"
       }
     ],
     "blocked": false
@@ -2013,21 +2013,21 @@
     ],
     "blocked": false
   },
-  "579484:8127023": {
+  "579484:8406272": {
     "name": "Cognition (Experience Obelisk)",
     "projectID": 579484,
-    "fileID": 8127023,
-    "fileName": "Cognition-v2.4.12-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8127/23/Cognition-v2.4.12-1.21.1.jar",
-    "fileLength": 658259,
+    "fileID": 8406272,
+    "fileName": "Cognition-v2.4.13-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8406/272/Cognition-v2.4.13-1.21.1.jar",
+    "fileLength": 658793,
     "hashes": [
       {
         "type": 1,
-        "value": "6869b17def70718196844db8c5b1724894e4751a"
+        "value": "81e5779939a5b3df87ea1166b7eccf87b68b40f3"
       },
       {
         "type": 2,
-        "value": "cd45ee5526934d4be625d7f127f86eba"
+        "value": "b650db0e6dd37d5d4e2a187951ee31a3"
       }
     ],
     "blocked": false
@@ -2052,7 +2052,7 @@
     "blocked": false
   },
   "582327:6296628": {
-    "name": "Server Performance - Smooth Chunk Save[Forge/Fabric]",
+    "name": "Server Performance - Smooth Chunk Save",
     "projectID": 582327,
     "fileID": 6296628,
     "fileName": "smoothchunk-1.21-4.1.jar",
@@ -2070,40 +2070,40 @@
     ],
     "blocked": false
   },
-  "618298:8249811": {
+  "618298:8587619": {
     "name": "Sophisticated Core",
     "projectID": 618298,
-    "fileID": 8249811,
-    "fileName": "sophisticatedcore-1.21.1-1.4.58.2026.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8249/811/sophisticatedcore-1.21.1-1.4.58.2026.jar",
-    "fileLength": 1648596,
+    "fileID": 8587619,
+    "fileName": "sophisticatedcore-1.21.1-1.4.81.2206.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8587/619/sophisticatedcore-1.21.1-1.4.81.2206.jar",
+    "fileLength": 1675477,
     "hashes": [
       {
         "type": 1,
-        "value": "da2706b73728f935502a51752484c11117c06037"
+        "value": "6dfff90580ebce6f90d1e196072a46ad28ef59bf"
       },
       {
         "type": 2,
-        "value": "7ffdc233e9769bb4a4d0f281595665d0"
+        "value": "1cbc56994bc4cde9e1cb6b1256b6ae53"
       }
     ],
     "blocked": false
   },
-  "619320:8249877": {
+  "619320:8587662": {
     "name": "Sophisticated Storage",
     "projectID": 619320,
-    "fileID": 8249877,
-    "fileName": "sophisticatedstorage-1.21.1-1.5.60.1851.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8249/877/sophisticatedstorage-1.21.1-1.5.60.1851.jar",
-    "fileLength": 1716175,
+    "fileID": 8587662,
+    "fileName": "sophisticatedstorage-1.21.1-1.5.85.2054.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8587/662/sophisticatedstorage-1.21.1-1.5.85.2054.jar",
+    "fileLength": 1863450,
     "hashes": [
       {
         "type": 1,
-        "value": "f57483944090eb847d8e9af00f6dd4dae72dc276"
+        "value": "965f5e45cd35fd8954097009b8fa10964048cd11"
       },
       {
         "type": 2,
-        "value": "e15ac83d2f3f0ecb651b5f71a67d51b4"
+        "value": "f960fa06c09a0b0d12264eba88d6506f"
       }
     ],
     "blocked": false
@@ -2260,21 +2260,21 @@
     ],
     "blocked": false
   },
-  "662675:8175167": {
+  "662675:8335027": {
     "name": "End's Delight",
     "projectID": 662675,
-    "fileID": 8175167,
-    "fileName": "ends_delight-2.6+neoforge.1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8175/167/ends_delight-2.6%2bneoforge.1.21.1.jar",
-    "fileLength": 258138,
+    "fileID": 8335027,
+    "fileName": "ends_delight-2.6.1+neoforge.1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8335/27/ends_delight-2.6.1%2bneoforge.1.21.1.jar",
+    "fileLength": 258124,
     "hashes": [
       {
         "type": 1,
-        "value": "be12ea8ec050d47e1774392354cd363ca4ed60fe"
+        "value": "0613a535d82b7a3d51d0caf0e04b082cb4c062e9"
       },
       {
         "type": 2,
-        "value": "18b5bf85dbe99be4970ce0c043116d54"
+        "value": "b6bcdd7a6fb58041d068a1f5752c4bbe"
       }
     ],
     "blocked": false
@@ -2355,59 +2355,59 @@
     ],
     "blocked": false
   },
-  "686911:7537795": {
+  "686911:8348515": {
     "name": "ImmediatelyFast",
     "projectID": 686911,
-    "fileID": 7537795,
-    "fileName": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7537/795/ImmediatelyFast-NeoForge-1.6.10%2b1.21.1.jar",
-    "fileLength": 368598,
+    "fileID": 8348515,
+    "fileName": "ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8348/515/ImmediatelyFast-NeoForge-1.6.11%2b1.21.1.jar",
+    "fileLength": 361795,
     "hashes": [
       {
         "type": 1,
-        "value": "f1f5cccd7cb59d875f44566b2e557ccecc8c33fb"
+        "value": "6594ea2759455f4e135b9479f807bacf4b4b0b43"
       },
       {
         "type": 2,
-        "value": "567bb6d9155070ad858740af12450c63"
+        "value": "f432a12463accb05290ea7de52fccc43"
       }
     ],
     "blocked": false
   },
-  "688367:7844592": {
+  "688367:8285803": {
     "name": "ME Requester",
     "projectID": 688367,
-    "fileID": 7844592,
-    "fileName": "merequester-neoforge-1.21.1-1.4.2.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7844/592/merequester-neoforge-1.21.1-1.4.2.jar",
-    "fileLength": 184487,
+    "fileID": 8285803,
+    "fileName": "merequester-neoforge-1.21.1-1.4.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8285/803/merequester-neoforge-1.21.1-1.4.3.jar",
+    "fileLength": 184517,
     "hashes": [
       {
         "type": 1,
-        "value": "22c87905f348dc4cbe6ef69d1d877d4e6ebcadee"
+        "value": "b0a801e9b7af930da5f58176156d58c26f6232b1"
       },
       {
         "type": 2,
-        "value": "1831d6567cb455539c761bc637b8a0a1"
+        "value": "8891ea99a02569f2f9dbfdab816c8b48"
       }
     ],
     "blocked": false
   },
-  "689083:7173640": {
+  "689083:8557371": {
     "name": "Stargate Journey",
     "projectID": 689083,
-    "fileID": 7173640,
-    "fileName": "Stargate Journey-1.21.1-0.6.44.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7173/640/Stargate%20Journey-1.21.1-0.6.44.jar",
-    "fileLength": 6407904,
+    "fileID": 8557371,
+    "fileName": "Stargate.Journey-1.21.1-0.6.46.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8557/371/Stargate.Journey-1.21.1-0.6.46.jar",
+    "fileLength": 10523587,
     "hashes": [
       {
         "type": 1,
-        "value": "d834bf5946d58fe77d7bef7672d1682a028c7d8e"
+        "value": "63ee023576ff34ce00e0e91fb84a44a6b79c4fe8"
       },
       {
         "type": 2,
-        "value": "8599e8451da40429c4b3e1c9d05dd7fa"
+        "value": "7756fe2e0f1833500395bb1e37acede6"
       }
     ],
     "blocked": false
@@ -2469,21 +2469,21 @@
     ],
     "blocked": false
   },
-  "790626:8255560": {
+  "790626:8459650": {
     "name": "ModernFix",
     "projectID": 790626,
-    "fileID": 8255560,
-    "fileName": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8255/560/modernfix-neoforge-5.27.14%2bmc1.21.1.jar",
-    "fileLength": 589839,
+    "fileID": 8459650,
+    "fileName": "modernfix-neoforge-5.27.20+mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8459/650/modernfix-neoforge-5.27.20%2bmc1.21.1.jar",
+    "fileLength": 599474,
     "hashes": [
       {
         "type": 1,
-        "value": "b8cebae6ea55ed472d5fa55e428a894e296523f1"
+        "value": "bc1a70e72e7dba8a3ff41404765fdd03a7ac6575"
       },
       {
         "type": 2,
-        "value": "29a4f5a367e671d08c0c7e2ec75b2224"
+        "value": "b488341cd5172f6bb16b5ec6d0856c4d"
       }
     ],
     "blocked": false
@@ -2507,21 +2507,21 @@
     ],
     "blocked": false
   },
-  "835687:7756575": {
+  "835687:8577242": {
     "name": "Better Archeology",
     "projectID": 835687,
-    "fileID": 7756575,
-    "fileName": "betterarcheology-neoforge-1.21.1-1.3.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7756/575/betterarcheology-neoforge-1.21.1-1.3.4.jar",
-    "fileLength": 3106705,
+    "fileID": 8577242,
+    "fileName": "betterarcheology-neoforge-1.21.1-1.3.8.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8577/242/betterarcheology-neoforge-1.21.1-1.3.8.jar",
+    "fileLength": 3106762,
     "hashes": [
       {
         "type": 1,
-        "value": "7bc67495d5d5ae9410189d94a5235c0ddc9a12f6"
+        "value": "fb2d3f41d2973911e84c5a99dfd1da8a8a9edbb2"
       },
       {
         "type": 2,
-        "value": "fc3cac9b88dc81004a8d5ee3c545b932"
+        "value": "94ba3812cfa281355b43d2101073e37b"
       }
     ],
     "blocked": false
@@ -2583,21 +2583,21 @@
     ],
     "blocked": false
   },
-  "854949:7471474": {
+  "854949:8536618": {
     "name": "Fusion (Connected Textures)",
     "projectID": 854949,
-    "fileID": 7471474,
-    "fileName": "fusion-1.2.12-neoforge-mc1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7471/474/fusion-1.2.12-neoforge-mc1.21.1.jar",
-    "fileLength": 532912,
+    "fileID": 8536618,
+    "fileName": "fusion-1.3.12-neoforge-mc1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8536/618/fusion-1.3.12-neoforge-mc1.21.1.jar",
+    "fileLength": 923270,
     "hashes": [
       {
         "type": 1,
-        "value": "d86f641b67d4b01d99da8424ba2a3edc0e6690b6"
+        "value": "79c0c6b6a2d9c9a04298df9a88bb71a93e885235"
       },
       {
         "type": 2,
-        "value": "222533487d6b22b6ba685535f8166584"
+        "value": "c63bacf66d5c9be511125f86a067c742"
       }
     ],
     "blocked": false
@@ -2735,40 +2735,40 @@
     ],
     "blocked": false
   },
-  "889915:7715134": {
+  "889915:8520191": {
     "name": "FTB XMod Compat",
     "projectID": 889915,
-    "fileID": 7715134,
-    "fileName": "ftb-xmod-compat-neoforge-21.1.8.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7715/134/ftb-xmod-compat-neoforge-21.1.8.jar",
-    "fileLength": 141328,
+    "fileID": 8520191,
+    "fileName": "ftb-xmod-compat-neoforge-21.1.10.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8520/191/ftb-xmod-compat-neoforge-21.1.10.jar",
+    "fileLength": 152024,
     "hashes": [
       {
         "type": 1,
-        "value": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6"
+        "value": "ff362fe86acd5ec471eeac97651e2b8f2e9fdd8e"
       },
       {
         "type": 2,
-        "value": "2dcc73135a4345e39eda8119094d45d2"
+        "value": "3be3b11c40b8083b83e4334e8e1e6d36"
       }
     ],
     "blocked": false
   },
-  "892005:8025439": {
+  "892005:8511901": {
     "name": "ExtendedAE",
     "projectID": 892005,
-    "fileID": 8025439,
-    "fileName": "ExtendedAE-1.21-2.2.32-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8025/439/ExtendedAE-1.21-2.2.32-neoforge.jar",
-    "fileLength": 5562253,
+    "fileID": 8511901,
+    "fileName": "ExtendedAE-1.21-2.2.35-neoforge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8511/901/ExtendedAE-1.21-2.2.35-neoforge.jar",
+    "fileLength": 5578031,
     "hashes": [
       {
         "type": 1,
-        "value": "b2bba835132d10dabd8f03dd89c9f3892056dfc6"
+        "value": "e3521ca2567fabe0f0131cc923ec94dd99d6fa7b"
       },
       {
         "type": 2,
-        "value": "0e857f4b68d5e73ca0a2ab155c1e6ba6"
+        "value": "5cb0d81cb4286598a3bf430784ea5d7d"
       }
     ],
     "blocked": false
@@ -2792,21 +2792,21 @@
     ],
     "blocked": false
   },
-  "896746:7461027": {
+  "896746:8415430": {
     "name": "Amendments",
     "projectID": 896746,
-    "fileID": 7461027,
-    "fileName": "amendments-1.21-2.0.15-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7461/27/amendments-1.21-2.0.15-neoforge.jar",
-    "fileLength": 1143659,
+    "fileID": 8415430,
+    "fileName": "amendments-neoforge-1.21-2.1.7.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8415/430/amendments-neoforge-1.21-2.1.7.jar",
+    "fileLength": 1154863,
     "hashes": [
       {
         "type": 1,
-        "value": "00056f29646f3bf86116b281c2362c0dabdb4533"
+        "value": "69b9a6243a1513f7e40780367c40d23a4d687439"
       },
       {
         "type": 2,
-        "value": "72d35a860a4a113249ade7342f0600ed"
+        "value": "dd03b5610387258eb727827a7002423c"
       }
     ],
     "blocked": false
@@ -2944,21 +2944,21 @@
     ],
     "blocked": false
   },
-  "941573:6117186": {
+  "941573:8448640": {
     "name": "Bosses of Mass Destruction [Forge | NeoForge]",
     "projectID": 941573,
-    "fileID": 6117186,
-    "fileName": "BOMD-NeoForge-1.21-1.3.2.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6117/186/BOMD-NeoForge-1.21-1.3.2.jar",
-    "fileLength": 1951866,
+    "fileID": 8448640,
+    "fileName": "BOMD-NeoForge-1.21-1.3.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8448/640/BOMD-NeoForge-1.21-1.3.3.jar",
+    "fileLength": 1952017,
     "hashes": [
       {
         "type": 1,
-        "value": "e88b07125236065f278c36b3a7051548ee104944"
+        "value": "446ff63afb858ad49149d24b72541739de83d38d"
       },
       {
         "type": 2,
-        "value": "9ab6428427d2db1f27fba0feaf7a884d"
+        "value": "310a26dae421c83a0a02606d70047913"
       }
     ],
     "blocked": false
@@ -3153,21 +3153,21 @@
     ],
     "blocked": false
   },
-  "1001614:8230518": {
+  "1001614:8345326": {
     "name": "Lionfish API",
     "projectID": 1001614,
-    "fileID": 8230518,
-    "fileName": "lionfishapi-3.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8230/518/lionfishapi-3.0.jar",
-    "fileLength": 91414,
+    "fileID": 8345326,
+    "fileName": "lionfishapi-3.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8345/326/lionfishapi-3.1.jar",
+    "fileLength": 91596,
     "hashes": [
       {
         "type": 1,
-        "value": "934336ca431f40be60c98ea4efb9512e3abd83a8"
+        "value": "353ca00ed118eb67cf11085abbbd699884722326"
       },
       {
         "type": 2,
-        "value": "f89eba58b8ac15be1971e1c40c0bb019"
+        "value": "6103fe4848d0f8289431a0b307efc444"
       }
     ],
     "blocked": false
@@ -3211,7 +3211,7 @@
     "blocked": false
   },
   "1015100:6715463": {
-    "name": "YUNG's API (NeoForge)",
+    "name": "YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]",
     "projectID": 1015100,
     "fileID": 6715463,
     "fileName": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
@@ -3230,7 +3230,7 @@
     "blocked": false
   },
   "1015112:5954804": {
-    "name": "YUNG's Better Dungeons (NeoForge)",
+    "name": "YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]",
     "projectID": 1015112,
     "fileID": 5954804,
     "fileName": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
@@ -3249,7 +3249,7 @@
     "blocked": false
   },
   "1015115:5924487": {
-    "name": "YUNG's Better Ocean Monuments (NeoForge)",
+    "name": "YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY]",
     "projectID": 1015115,
     "fileID": 5924487,
     "fileName": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
@@ -3343,40 +3343,40 @@
     ],
     "blocked": false
   },
-  "1067672:8234568": {
+  "1067672:8489885": {
     "name": "Tesseract API (NeoForge)",
     "projectID": 1067672,
-    "fileID": 8234568,
-    "fileName": "tesseract-api-neoforge-1.12.2-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8234/568/tesseract-api-neoforge-1.12.2-1.21.1.jar",
-    "fileLength": 735103,
+    "fileID": 8489885,
+    "fileName": "tesseract-api-neoforge-1.12.13-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8489/885/tesseract-api-neoforge-1.12.13-1.21.1.jar",
+    "fileLength": 745189,
     "hashes": [
       {
         "type": 1,
-        "value": "daf12e2e4cedd7d3cc066cb809bff810af863d9e"
+        "value": "b91a7915bdd4def97aaa1040b690e71858a766b3"
       },
       {
         "type": 2,
-        "value": "31f100e53284c87b3afc4401acb9f529"
+        "value": "230c774845924ab3bb254b87f761ea48"
       }
     ],
     "blocked": false
   },
-  "1068418:8234611": {
+  "1068418:8406699": {
     "name": "Extended Industrialization",
     "projectID": 1068418,
-    "fileID": 8234611,
-    "fileName": "extended-industrialization-1.15.40-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8234/611/extended-industrialization-1.15.40-1.21.1.jar",
-    "fileLength": 2251682,
+    "fileID": 8406699,
+    "fileName": "extended-industrialization-1.15.45-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8406/699/extended-industrialization-1.15.45-1.21.1.jar",
+    "fileLength": 2099995,
     "hashes": [
       {
         "type": 1,
-        "value": "134b633dfb309b0e59f2bf6e6f18e320741c38b5"
+        "value": "f8f2f4b51066b600b5cf7c0ba980386a834c2ef7"
       },
       {
         "type": 2,
-        "value": "95b25309713a373446a3b681d4128cc4"
+        "value": "9f9fe0f90dc2bcea9256f79f03343bfa"
       }
     ],
     "blocked": false
@@ -3400,21 +3400,21 @@
     ],
     "blocked": false
   },
-  "1084104:7849217": {
+  "1084104:8564177": {
     "name": "AdvancedAE",
     "projectID": 1084104,
-    "fileID": 7849217,
-    "fileName": "AdvancedAE-1.6.11-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7849/217/AdvancedAE-1.6.11-1.21.1.jar",
-    "fileLength": 4797100,
+    "fileID": 8564177,
+    "fileName": "AdvancedAE-1.6.12-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8564/177/AdvancedAE-1.6.12-1.21.1.jar",
+    "fileLength": 4791255,
     "hashes": [
       {
         "type": 1,
-        "value": "0af8033f7291b9f5062b229053e16b439a906db9"
+        "value": "9358ccfa5477c7ab1c5ffab6c831e105fe46ecc3"
       },
       {
         "type": 2,
-        "value": "bc655692d4ec327555d7a1f42af12024"
+        "value": "633012a5572a196b91d689a66cf458bb"
       }
     ],
     "blocked": false
@@ -3472,25 +3472,6 @@
       {
         "type": 2,
         "value": "56810e55221b890bf7197a5850c45c38"
-      }
-    ],
-    "blocked": false
-  },
-  "1119874:6071684": {
-    "name": "Mekanism Covers",
-    "projectID": 1119874,
-    "fileID": 6071684,
-    "fileName": "mekanismcovers-1.3-BETA+1.21.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6071/684/mekanismcovers-1.3-BETA%2b1.21.jar",
-    "fileLength": 136513,
-    "hashes": [
-      {
-        "type": 1,
-        "value": "1cfb68fcc9b833af7b992024943dc1e8d45799af"
-      },
-      {
-        "type": 2,
-        "value": "c05aeea91f08f10c7c2f0a3512dc03e0"
       }
     ],
     "blocked": false
@@ -3685,21 +3666,21 @@
     ],
     "blocked": false
   },
-  "1173950:8129788": {
+  "1173950:8420861": {
     "name": "GuideME",
     "projectID": 1173950,
-    "fileID": 8129788,
-    "fileName": "guideme-21.1.16.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8129/788/guideme-21.1.16.jar",
-    "fileLength": 9309277,
+    "fileID": 8420861,
+    "fileName": "guideme-21.1.17.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8420/861/guideme-21.1.17.jar",
+    "fileLength": 9309396,
     "hashes": [
       {
         "type": 1,
-        "value": "6c89cb18fd426a5dd851dd30ec72f02cb8bbcce7"
+        "value": "060e374f578db694a0b8f3ad409bd424cae86359"
       },
       {
         "type": 2,
-        "value": "c4ab011d48bfa4498df9b515b5852883"
+        "value": "4fae423576e04c1a3c834189054a4486"
       }
     ],
     "blocked": false
@@ -3723,21 +3704,21 @@
     ],
     "blocked": false
   },
-  "1206582:8011106": {
+  "1206582:8414532": {
     "name": "Oracle Index",
     "projectID": 1206582,
-    "fileID": 8011106,
-    "fileName": "oracle_index-neoforge-1.2.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8011/106/oracle_index-neoforge-1.2.0.jar",
-    "fileLength": 29575359,
+    "fileID": 8414532,
+    "fileName": "oracle_index-neoforge-1.3.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8414/532/oracle_index-neoforge-1.3.1.jar",
+    "fileLength": 29601678,
     "hashes": [
       {
         "type": 1,
-        "value": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
+        "value": "7fb52eefd2923a2caa2b0ee55389465bb0f84bcc"
       },
       {
         "type": 2,
-        "value": "ea20aaa4360e0e3802a58607d66156d8"
+        "value": "c166fbb2b78f30673e00cca59d827b78"
       }
     ],
     "blocked": false
@@ -3799,21 +3780,21 @@
     ],
     "blocked": false
   },
-  "1271707:7653113": {
+  "1271707:8373639": {
     "name": "Qliphoth Awakening",
     "projectID": 1271707,
-    "fileID": 7653113,
-    "fileName": "fdbosses-3.1.0.3-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/7653/113/fdbosses-3.1.0.3-1.21.1.jar",
-    "fileLength": 25643812,
+    "fileID": 8373639,
+    "fileName": "fdbosses-3.2-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8373/639/fdbosses-3.2-1.21.1.jar",
+    "fileLength": 25979434,
     "hashes": [
       {
         "type": 1,
-        "value": "3f4f903838cc2080ffd6b3a4baebc5c172f585dd"
+        "value": "e42079e55eb25ba1fc0b16ce86c627b7a3d36fdb"
       },
       {
         "type": 2,
-        "value": "7e27c8b0578ab39fa3396b312f1194e1"
+        "value": "7ba83ba4c67a055cf97ae00584787875"
       }
     ],
     "blocked": false
@@ -3894,21 +3875,21 @@
     ],
     "blocked": false
   },
-  "1357603:8258523": {
+  "1357603:8431589": {
     "name": "Starcatcher",
     "projectID": 1357603,
-    "fileID": 8258523,
-    "fileName": "starcatcher-2.3.16-NEOFORGE-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8258/523/starcatcher-2.3.16-NEOFORGE-1.21.1.jar",
-    "fileLength": 3610875,
+    "fileID": 8431589,
+    "fileName": "starcatcher-3.0.6-NEOFORGE-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8431/589/starcatcher-3.0.6-NEOFORGE-1.21.1.jar",
+    "fileLength": 3880369,
     "hashes": [
       {
         "type": 1,
-        "value": "6466fe68f8fa742c7cf4141405590e690f0ee870"
+        "value": "52c83ec5675fa8dca0664c5fb33c871b570ec082"
       },
       {
         "type": 2,
-        "value": "a66f675dbf5453b3174f43a7918caf59"
+        "value": "b3ed8de934f562b6a1398217130bd195"
       }
     ],
     "blocked": false
@@ -3932,40 +3913,40 @@
     ],
     "blocked": false
   },
-  "1450970:8079105": {
+  "1450970:8431671": {
     "name": "Starcatcher's Delight",
     "projectID": 1450970,
-    "fileID": 8079105,
-    "fileName": "starcatcher_delight-1.0-NEOFORGE-1.21.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8079/105/starcatcher_delight-1.0-NEOFORGE-1.21.1.jar",
-    "fileLength": 310940,
+    "fileID": 8431671,
+    "fileName": "starcatcher_delight-3.0.1-NEOFORGE-1.21.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8431/671/starcatcher_delight-3.0.1-NEOFORGE-1.21.1.jar",
+    "fileLength": 840452,
     "hashes": [
       {
         "type": 1,
-        "value": "a896c05c38848ec9d5add0fce63bcb374e86cb92"
+        "value": "4fe380166e623f3af9ffc6a1d2891cb498438c24"
       },
       {
         "type": 2,
-        "value": "17046941a179bede782dbeb6678aed1b"
+        "value": "b807a3402b72c70829d7b3b7bae063ad"
       }
     ],
     "blocked": false
   },
-  "1502648:8036390": {
+  "1502648:8417883": {
     "name": "AudioLayer",
     "projectID": 1502648,
-    "fileID": 8036390,
-    "fileName": "audiolayer-neoforge-1.21.1-0.6.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/8036/390/audiolayer-neoforge-1.21.1-0.6.0.jar",
-    "fileLength": 338403,
+    "fileID": 8417883,
+    "fileName": "audiolayer-neoforge-1.21.1-0.6.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/8417/883/audiolayer-neoforge-1.21.1-0.6.1.jar",
+    "fileLength": 339598,
     "hashes": [
       {
         "type": 1,
-        "value": "6052ff208122e9e76b9a3dc9a5cb5beea4435056"
+        "value": "c852ce8f83b9863c9be09989f55d035a7ed7f20c"
       },
       {
         "type": 2,
-        "value": "18f34e0c276aafe72715ff8d1d1112f5"
+        "value": "9231778ff92924bba0f57186069961c5"
       }
     ],
     "blocked": false
