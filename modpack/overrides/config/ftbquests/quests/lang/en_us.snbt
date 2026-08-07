@@ -861,7 +861,7 @@
 	quest.5A06B00000000010.quest_subtitle: "Travel to Oannes, the ocean world where Naquadria becomes available."
 	quest.5A06B00000000050.quest_subtitle: "Build the module energy unit that powers the next armor upgrade step."
 	quest.5A07000000000010.quest_subtitle: "Obtain Quantum Machine Hull."
-	quest.5A07000000000020.quest_subtitle: "Reach Niflheim, the frozen dimension that supplies Trinium."
+	quest.5A07000000000020.quest_subtitle: "Reach Niflheim, where Stargate Journey Trinium can be found."
 	quest.5A07000000000030.quest_subtitle: "Refine Trinium into ingots so the final tech tier can progress."
 	quest.5A07000000000040.quest_subtitle: "Finish the remaining Mekasuit armor pieces for the final protection tier."
 	quest.5A07000000000050.quest_subtitle: "Build the superconductor storage unit to support ultra-high power systems."
@@ -1209,16 +1209,16 @@
 	quest.A1B2C3D4E5F60001.title: "Universe Stargate"
 	quest.A1B2C3D4E5F60010.quest_desc: ["Netu is a volcanic world of fire and basalt. Rich in Osmium and dangerous enemies — tread carefully."]
 	quest.A1B2C3D4E5F60010.title: "Through Fire — Netu"
-	quest.A1B2C3D4E5F60020.quest_desc: ["Niflheim is a frozen world of snow and ice. Hidden beneath its surface lies Trinium, an incredibly strong lightweight metal."]
+	quest.A1B2C3D4E5F60020.quest_desc: ["Niflheim is a frozen world of snow and ice. Hidden beneath its surface lies Stargate Journey Trinium, an incredibly strong lightweight metal."]
 	quest.A1B2C3D4E5F60020.title: "Into the Frost — Niflheim"
 	quest.A1B2C3D4E5F60030.quest_desc: ["Oannes is a vast ocean world. Its depths conceal Naquadria ore — an unstable isotope of Naquadah that must be liquefied before use."]
 	quest.A1B2C3D4E5F60030.title: "Below the Waves — Oannes"
-	quest.A1B2C3D4E5F60040.quest_desc: ["Mine Trinium ore in Niflheim. Smelt the raw ore into ingots, then alloy it with Naquadah for the ultimate lightweight material."]
+	quest.A1B2C3D4E5F60040.quest_desc: ["Mine Stargate Journey Trinium ore in Niflheim and smelt the raw ore into ingots."]
 	quest.A1B2C3D4E5F60040.title: "Raw Trinium"
 	quest.A1B2C3D4E5F60050.quest_desc: ["Naquadria is a rare, unstable isotope of Naquadah found only in Oannes. Unlike Naquadah, it exists as a solid but must be liquefied in a Chemical Reactor for advanced use."]
 	quest.A1B2C3D4E5F60050.title: "Naquadria"
-	quest.A1B2C3D4E5F60060.quest_desc: ["Combine Trinium Ingots with Naquadah and Naquadah Alloy to create Trinium Alloy — the material of choice for advanced Stargate equipment including the Trinium Iris."]
-	quest.A1B2C3D4E5F60060.title: "Trinium Alloy"
+	quest.A1B2C3D4E5F60060.quest_desc: ["Use Trinium Ingots to create the Trinium Iris, the ultimate Stargate defense."]
+	quest.A1B2C3D4E5F60060.title: "Trinium Iris"
 	quest.B0550002B0550002.title: "Altar of Fire"
 	quest.B0550010B0550010.title: "Ignited Berserker"
 	quest.B0550020B0550020.title: "Ancient Factory"

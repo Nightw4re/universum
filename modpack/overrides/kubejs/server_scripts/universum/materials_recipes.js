@@ -1,8 +1,6 @@
-// Recipes for custom SGC materials: Trinium and Naquadria
+// Recipes for custom SGC materials: Naquadria
 
 ServerEvents.recipes(event => {
-
-    // --- Trinium ---
 
     // --- Bismuth ---
 
@@ -21,27 +19,6 @@ ServerEvents.recipes(event => {
         duration: 200,
         item_inputs: [{ amount: 1, item: 'universum:bismuth_ingot' }],
         item_outputs: [{ amount: 1, item: 'universum:bismuth_dust' }]
-    })
-
-    // --- Trinium ---
-
-    // Smelting raw trinium → trinium ingot
-    event.smelting('universum:trinium_ingot', 'universum:raw_trinium').xp(1.0).cookingTime(400)
-    event.blasting('universum:trinium_ingot', 'universum:raw_trinium').xp(1.0).cookingTime(200)
-    event.smelting('universum:trinium_ingot', 'universum:trinium_ore').xp(1.0).cookingTime(400)
-    event.blasting('universum:trinium_ingot', 'universum:trinium_ore').xp(1.0).cookingTime(200)
-    event.smelting('universum:trinium_ingot', 'universum:deepslate_trinium_ore').xp(1.0).cookingTime(400)
-    event.blasting('universum:trinium_ingot', 'universum:deepslate_trinium_ore').xp(1.0).cookingTime(200)
-
-    // Trinium iris — sgjourney has no default recipe for this, so no removal needed
-    event.shaped('sgjourney:trinium_iris', [
-        'TAT',
-        'AXA',
-        'TAT'
-    ], {
-        T: 'universum:trinium_ingot',
-        A: 'sgjourney:naquadah_alloy',
-        X: 'sgjourney:classic_stargate_chevron_block'
     })
 
     // --- Naquadria ---

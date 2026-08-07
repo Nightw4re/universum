@@ -96,7 +96,7 @@
 			]
 			tasks: [{
 				id: "5A07000000000031"
-				item: { count: 1, id: "universum:trinium_ingot" }
+				item: { count: 1, id: "sgjourney:trinium_ingot" }
 				type: "item"
 			}]
 			x: -1.5d
