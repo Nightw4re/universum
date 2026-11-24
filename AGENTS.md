@@ -9,10 +9,10 @@ Minecraft modpack for **NeoForge 1.21.1**, Stargate-themed. Managed via CurseFor
 
 ## Working on Universum
 
-- Check the active branch and working tree before editing, committing, or pushing. Continue in the checkout assigned to the task and preserve existing changes. The current migration uses `release/migration-foundation` and integrates into `main` through reviewed pull requests.
+- Check the active branch and working tree before editing, committing, or pushing. Use separate working branches and preserve existing changes in the assigned checkout. Use reviewed pull requests to integrate work into `main`, which is the integration branch and the push target watched by the existing build workflow. The current migration foundation uses `release/migration-foundation`.
 - Review the diff before finishing. If committing, stage only the files or hunks owned by the task and review the staged diff. Preserve shared work and history.
 - Record the starting commit for changes that affect builds or gameplay. In the completion report, state what changed, what was verified, and whether a commit or push was made.
-- Finish verified changes on the assigned migration branch with a local commit and a normal push to the matching branch on `origin`. Inspect the remote branch before pushing and verify that it contains the commit afterwards. Read-only tasks need neither a commit nor a push. Follow any task-specific limits on commits or pushes.
+- Finish verified changes on the assigned working branch with a local commit and a normal push to the matching branch on `origin`. Inspect the remote branch before pushing and verify that it contains the commit afterwards. Read-only tasks need neither a commit nor a push. Follow any task-specific limits on commits or pushes.
 
 ## Verification and releases
 
