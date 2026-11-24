@@ -1,0 +1,17 @@
+{
+  "id": "universum_horizon_dev",
+  "version": "0.1.0-dev.1",
+  "description": "Internal Universum client profile for testing the Horizon 26.3 package and maps.",
+  "game": "26.3",
+  "runtime": {
+    "horizon": "f1bb66f353cf67f2aa4665293fc75c8d91186fc7",
+    "mixins": "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
+  },
+  "mods": [
+    {
+      "id": "trailgrid_maps",
+      "version": "0.1.17",
+      "sha256": "53ac3e7f20d9475c4544eee1e127e2f2d7b120e56312841c3ddf505409295e96"
+    }
+  ]
+}

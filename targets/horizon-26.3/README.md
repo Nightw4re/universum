@@ -2,6 +2,24 @@
 
 Universum bude sestavovat tři cíle ze společných dat. První implementační cíl je Horizon 26.3 s Rust runtime. Vydaný Universum pro Minecraft 1.21.1 NeoForge slouží jako reference pro herní postup a chování. Před převodem zaznamenáme konkrétní distribuovaný build a porovnáme jej s pracovním checkoutem. Java NeoForge 26.3 bude další profil téhož jádra.
 
+## Interní sestava 0.1.0-dev.1
+
+Z kořene repozitáře spusť `npm ci` a `npm run build:horizon`. Výstup je
+`build/horizon-26.3/universum-horizon-0.1.0-dev.1.hpack`. Příkaz porovná pin
+každého modu s aktuálním registrem a vypíše SHA-256 výsledku.
+
+Sestava obsahuje klientský profil s minimapou a celou mapou Kadir’s Map
+(`trailgrid_maps` 0.1.17). [Profil sestavy](profile.json) drží přesné revize hry a
+Mixins a hash modu. Pro spuštění připni profil v launcheru na Horizon Nightly
+22. listopadu 2026 (`f1bb66f`). Formát `.hpack` obsahuje verzi Minecraftu
+a piny modů. Revize runtime je součástí zdrojového profilu.
+
+Import balíčku a instalace připnuté mapy prošly v izolovaném profilu Horizon
+Launcher 0.2.107. Ověření běhu mapy ve hře, výkonu a claimů zůstává součástí
+kvalifikace alfy. Místní cache obsahuje vývojovou kopii `stargatejourney_dev`
+pro starší revizi Horizonu `2b77287`. Dohledání zdrojového commitu a sestavení
+portu pro společný pin zůstává otevřené.
+
 ## Společná data a vazby na Horizon
 
 - Jádro drží stabilní ID questů, předpoklady, odměny, materiály, překlady a pravidla odemykání. Profil určuje rozsah sestavy a mapuje pravidla na konkrétní předměty, recepty, stroje a serverové události.
