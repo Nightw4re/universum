@@ -2,6 +2,25 @@
 
 Minecraft modpack for **NeoForge 1.21.1**, Stargate-themed. Managed via CurseForge.
 
+## Documentation entry points
+
+- [Local build and deploy commands](docs/scripts.md)
+- [Horizon 26.3 migration plan](targets/horizon-26.3/README.md)
+
+## Working on Universum
+
+- Check the active branch and working tree before editing, committing, or pushing. Continue in the checkout assigned to the task and preserve existing changes. The current migration uses `release/migration-foundation` and integrates into `main` through reviewed pull requests.
+- Review the diff before finishing. If committing, stage only the files or hunks owned by the task and review the staged diff. Preserve shared work and history.
+- Record the starting commit for changes that affect builds or gameplay. In the completion report, state what changed, what was verified, and whether a commit or push was made.
+- Finish verified changes on the assigned migration branch with a local commit and a normal push to the matching branch on `origin`. Inspect the remote branch before pushing and verify that it contains the commit afterwards. Read-only tasks need neither a commit nor a push. Follow any task-specific limits on commits or pushes.
+
+## Verification and releases
+
+- Choose checks by the affected gameplay and build targets. For quest or recipe changes, check both the edited rule and the steps that depend on it. Shared progression, registry, world data, persistence, or packaging changes require integration checks for the affected targets.
+- Record the tested source, target, commands and results. Record any skipped or blocked checks explicitly. Markdown-only changes need a content and diff review.
+- Keep private worlds, player state and raw diagnostics out of Git and release archives. Use synthetic fixtures or disposable test worlds for reproducible checks.
+- Keep published release tags immutable. Qualify the Java 26.3 and Horizon 26.3 alphas independently and publish the exact artifact verified for each target. Follow the active Universum release workflow for existing releases.
+
 ## Repository Structure
 
 ```
